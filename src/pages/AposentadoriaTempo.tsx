@@ -5,7 +5,7 @@ import { Phone } from "lucide-react";
 
 const AposentadoriaTempo = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Tenho dúvidas sobre Aposentadoria por Tempo de Contribuição.", "_blank");
+    window.open("https://wa.link/hdn70i", "_blank");
   };
 
   return (

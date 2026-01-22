@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const FloatingWhatsApp = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de falar com um advogado.", "_blank");
+    window.open("https://wa.link/hdn70i", "_blank");
   };
 
   return (

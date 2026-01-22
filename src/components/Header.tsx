@@ -28,7 +28,7 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma consulta.", "_blank");
+    window.open("https://wa.link/hdn70i", "_blank");
   };
 
   return (
