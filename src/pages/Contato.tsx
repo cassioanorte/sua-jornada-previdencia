@@ -35,7 +35,7 @@ const Contato = () => {
       contactSchema.parse(formData);
       
       const message = `Olá! Meu nome é ${formData.name}.%0A%0A${formData.message}%0A%0AE-mail: ${formData.email}%0ATelefone: ${formData.phone}`;
-      window.open(`https://wa.me/5511999999999?text=${message}`, "_blank");
+      window.open("https://wa.link/hdn70i", "_blank");
       
       setFormData({ name: "", email: "", phone: "", message: "" });
       toast.success("Redirecionando para o WhatsApp...");

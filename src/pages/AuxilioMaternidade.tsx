@@ -5,7 +5,7 @@ import { Phone } from "lucide-react";
 
 const AuxilioMaternidade = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Tenho dúvidas sobre Auxílio Maternidade.", "_blank");
+    window.open("https://wa.link/hdn70i", "_blank");
   };
 
   return (

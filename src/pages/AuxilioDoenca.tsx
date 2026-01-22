@@ -5,7 +5,7 @@ import { CheckCircle, Phone, FileText, Calendar, Shield } from "lucide-react";
 
 const AuxilioDoenca = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Tenho dúvidas sobre Auxílio Doença.", "_blank");
+    window.open("https://wa.link/hdn70i", "_blank");
   };
 
   const requirements = [

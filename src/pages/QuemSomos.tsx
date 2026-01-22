@@ -6,7 +6,7 @@ import teamImage from "@/assets/team.jpg";
 
 const QuemSomos = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de conhecer melhor o escritório.", "_blank");
+    window.open("https://wa.link/hdn70i", "_blank");
   };
 
   const values = [

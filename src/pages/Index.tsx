@@ -21,7 +21,7 @@ import heroImage from "@/assets/hero-law.jpg";
 
 const Index = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma consulta gratuita.", "_blank");
+    window.open("https://wa.link/hdn70i", "_blank");
   };
 
   const services = [
