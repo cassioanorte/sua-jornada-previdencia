@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Phone, Mail, MapPin, Scale } from "lucide-react";
 import logo from "@/assets/logo-spier-anorte.jpeg";
 
 const Footer = () => {
@@ -18,17 +18,6 @@ const Footer = () => {
               Especialistas em Direito Previdenciário há mais de 13 anos, 
               ajudando brasileiros a conquistar seus benefícios do INSS com transparência e dedicação.
             </p>
-            <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground rounded-full flex items-center justify-center transition-all duration-300" aria-label="Facebook">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground rounded-full flex items-center justify-center transition-all duration-300" aria-label="Instagram">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground rounded-full flex items-center justify-center transition-all duration-300" aria-label="LinkedIn">
-                <Linkedin className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -107,7 +96,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-bold mb-6 text-foreground font-display">Contato</h3>
+            <h3 className="text-lg font-bold mb-6 text-foreground font-display">Contato e Informações</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -115,7 +104,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">Telefone</p>
-                  <button onClick={handleWhatsApp} className="text-sm font-medium text-foreground hover:text-primary transition-colors">(11) 99999-9999</button>
+                  <button onClick={handleWhatsApp} className="text-sm font-medium text-foreground hover:text-primary transition-colors">(54) 99987-0786</button>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -124,7 +113,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">E-mail</p>
-                  <a href="mailto:contato@direitoprevidenciario.com.br" className="text-sm font-medium text-foreground hover:text-primary transition-colors break-all">contato@direitoprevidenciario.com.br</a>
+                  <a href="mailto:cassio@spiereanorte.adv.br" className="text-sm font-medium text-foreground hover:text-primary transition-colors break-all">cassio@spiereanorte.adv.br</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -134,6 +123,18 @@ const Footer = () => {
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">Atendimento</p>
                   <p className="text-sm font-medium text-foreground">100% online em todo o Brasil</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Scale className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <p className="text-xs text-muted-foreground mb-1">Advogados</p>
+                  <p className="text-sm font-medium text-foreground">Cassio Fraga Anorte</p>
+                  <p className="text-xs text-muted-foreground">OAB/RS 73.679</p>
+                  <p className="text-sm font-medium text-foreground mt-1">Rodrigo Fernando Shoeler Spier</p>
+                  <p className="text-xs text-muted-foreground">OAB/RS 70.421</p>
                 </div>
               </li>
             </ul>
@@ -147,7 +148,6 @@ const Footer = () => {
               © {new Date().getFullYear()} Spier & Anorte Advogados. Todos os direitos reservados.
             </p>
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <span className="px-3 py-1 bg-primary/5 rounded-full border border-primary/10">OAB/SP 123.456</span>
               <span className="px-3 py-1 bg-primary/5 rounded-full border border-primary/10">🔒 Dados Protegidos</span>
             </div>
           </div>

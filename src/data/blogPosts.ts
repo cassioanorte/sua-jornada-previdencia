@@ -1,0 +1,486 @@
+export interface BlogPost {
+  id: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  date: string;
+  category: string;
+  author: string;
+}
+
+export const blogPosts: BlogPost[] = [
+  {
+    id: "aposentadoria-especial-direito",
+    title: "Como saber se tenho direito à aposentadoria especial?",
+    excerpt: "Entenda os requisitos e como comprovar que você trabalhou exposto a agentes nocivos à saúde.",
+    content: `
+A aposentadoria especial é um benefício previdenciário destinado aos trabalhadores que exerceram atividades em condições prejudiciais à saúde ou à integridade física. Se você trabalhou exposto a agentes nocivos, pode ter direito a se aposentar mais cedo.
+
+## O que é a Aposentadoria Especial?
+
+A aposentadoria especial é uma modalidade de aposentadoria que permite ao trabalhador se aposentar após 15, 20 ou 25 anos de trabalho, dependendo do grau de exposição aos agentes nocivos. Esse benefício existe porque o trabalho em condições especiais pode causar danos à saúde do trabalhador ao longo do tempo.
+
+## Quem tem direito?
+
+Têm direito à aposentadoria especial os trabalhadores que:
+
+1. **Trabalharam expostos a agentes nocivos**: Podem ser agentes físicos (como ruído, calor, frio), químicos (como poeiras minerais, produtos químicos) ou biológicos (como vírus e bactérias).
+
+2. **Comprovam o tempo de exposição**: É necessário comprovar que a exposição foi habitual e permanente, não ocasional nem intermitente.
+
+3. **Possuem o tempo mínimo de contribuição**: O tempo varia de acordo com o agente nocivo:
+   - 15 anos para trabalho em mineração subterrânea
+   - 20 anos para exposição ao asbesto ou trabalho em mineração em superfície
+   - 25 anos para a maioria das atividades especiais
+
+## Como comprovar o direito?
+
+A comprovação da atividade especial é feita principalmente através do **PPP (Perfil Profissiográfico Previdenciário)**, documento que a empresa é obrigada a fornecer ao trabalhador. Além disso, podem ser utilizados:
+
+- LTCAT (Laudo Técnico das Condições Ambientais de Trabalho)
+- Laudos de insalubridade ou periculosidade
+- Testemunhas
+- Documentos que comprovem a função exercida
+
+## Mudanças após a Reforma da Previdência
+
+Com a Reforma da Previdência de 2019, foram incluídas algumas exigências adicionais:
+
+- **Idade mínima**: 55 anos para atividades de 15 anos, 58 anos para 20 anos e 60 anos para 25 anos
+- **Regra de transição**: Para quem já estava contribuindo antes da reforma, existem regras de transição que podem ser mais vantajosas
+
+## Conclusão
+
+Se você trabalhou ou trabalha em condições especiais, é fundamental buscar orientação jurídica especializada para analisar seu caso. Cada situação é única e merece uma análise detalhada para garantir que você receba o benefício a que tem direito.
+
+Entre em contato conosco para uma consulta gratuita e descubra se você tem direito à aposentadoria especial.
+    `,
+    date: "15 de março de 2025",
+    category: "Guia de Benefícios",
+    author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "bpc-loas-como-solicitar",
+    title: "BPC LOAS: quem tem direito e como solicitar",
+    excerpt: "Tudo o que você precisa saber sobre o Benefício de Prestação Continuada para idosos e pessoas com deficiência.",
+    content: `
+O Benefício de Prestação Continuada (BPC), também conhecido como LOAS, é um benefício assistencial garantido pela Constituição Federal que assegura um salário mínimo mensal a idosos e pessoas com deficiência que comprovem não possuir meios de prover a própria manutenção.
+
+## O que é o BPC/LOAS?
+
+O BPC é um benefício da assistência social, não sendo necessário ter contribuído para o INSS para recebê-lo. Ele garante um salário mínimo por mês para:
+
+- **Idosos** com 65 anos ou mais
+- **Pessoas com deficiência** de qualquer idade que comprove impedimento de longo prazo
+
+## Requisitos para o BPC
+
+### Para Idosos:
+1. Ter 65 anos ou mais
+2. Comprovar renda familiar per capita inferior a 1/4 do salário mínimo
+3. Não receber outro benefício previdenciário
+4. Estar inscrito no CadÚnico
+
+### Para Pessoas com Deficiência:
+1. Possuir impedimento de longo prazo (mínimo 2 anos) de natureza física, mental, intelectual ou sensorial
+2. Comprovar renda familiar per capita inferior a 1/4 do salário mínimo
+3. Passar por avaliação social e médica do INSS
+4. Estar inscrito no CadÚnico
+
+## Como calcular a renda familiar?
+
+A renda familiar é a soma de todos os rendimentos dos membros da família que vivem na mesma casa. Para calcular a renda per capita:
+
+**Renda per capita = Renda total da família ÷ Número de pessoas**
+
+São considerados membros da família: o requerente, cônjuge ou companheiro, pais, filhos e irmãos não emancipados menores de 21 anos ou inválidos.
+
+## Como solicitar o BPC?
+
+### Passo 1: Inscrição no CadÚnico
+Procure o CRAS (Centro de Referência de Assistência Social) do seu município para fazer a inscrição no Cadastro Único.
+
+### Passo 2: Agendar o requerimento
+Agende o requerimento pelo telefone 135 ou pelo site/app Meu INSS.
+
+### Passo 3: Comparecer à perícia (para pessoas com deficiência)
+Pessoas com deficiência precisam passar por avaliação médica e social no INSS.
+
+### Passo 4: Acompanhar o pedido
+Acompanhe o andamento do seu pedido pelo Meu INSS ou telefone 135.
+
+## Documentos necessários
+
+- Documento de identificação com foto
+- CPF
+- Comprovante de residência
+- Certidão de nascimento ou casamento
+- Documentos que comprovem a deficiência (laudos, exames, etc.)
+- Comprovantes de renda de todos os membros da família
+
+## Dicas importantes
+
+1. **Mantenha o CadÚnico atualizado**: A cada 2 anos é necessário atualizar o cadastro
+2. **Guarde todos os documentos médicos**: Eles são essenciais para comprovar a deficiência
+3. **Não desista em caso de negativa**: Muitos benefícios são concedidos após recurso ou ação judicial
+
+## Conclusão
+
+O BPC é um direito garantido por lei a quem preenche os requisitos. Se você ou algum familiar se enquadra nos critérios, busque orientação jurídica para garantir que o benefício seja concedido corretamente.
+
+Agende uma consulta gratuita e tire todas as suas dúvidas sobre o BPC/LOAS.
+    `,
+    date: "10 de março de 2025",
+    category: "Guia de Benefícios",
+    author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "erros-auxilio-doenca",
+    title: "5 erros que fazem o INSS negar o auxílio-doença",
+    excerpt: "Conheça os erros mais comuns e saiba como evitá-los na hora de solicitar seu benefício.",
+    content: `
+O auxílio-doença (hoje chamado de auxílio por incapacidade temporária) é um dos benefícios mais solicitados no INSS, mas também é um dos que mais sofrem negativas. Conhecer os erros mais comuns pode ajudá-lo a evitar problemas e garantir a concessão do seu benefício.
+
+## Erro 1: Documentação médica insuficiente
+
+O erro mais comum é apresentar documentação médica incompleta ou pouco detalhada. O perito do INSS precisa de informações claras sobre:
+
+- Diagnóstico preciso da doença
+- Tempo de tratamento necessário
+- Limitações causadas pela doença
+- Prognóstico de recuperação
+
+**Como evitar**: Solicite ao seu médico um laudo detalhado, contendo CID (Código Internacional de Doenças), descrição da doença, limitações funcionais e tempo estimado de afastamento.
+
+## Erro 2: Não ter qualidade de segurado
+
+Para ter direito ao auxílio-doença, é necessário manter a qualidade de segurado, ou seja, estar contribuindo para o INSS ou estar no período de graça. Muitas pessoas perdem o benefício por:
+
+- Ter parado de contribuir há muito tempo
+- Não conhecer o período de graça a que têm direito
+- Não ter completado a carência mínima de 12 meses
+
+**Como evitar**: Verifique seu CNIS (extrato de contribuições) antes de fazer o pedido e certifique-se de que está dentro do período de graça ou contribuindo regularmente.
+
+## Erro 3: Não comparecer à perícia
+
+Pode parecer óbvio, mas muitas pessoas perdem o benefício por não comparecerem à perícia médica agendada. Isso pode acontecer por:
+
+- Não verificar a data agendada
+- Problemas de deslocamento
+- Esquecimento
+
+**Como evitar**: Anote a data da perícia assim que receber o agendamento e organize-se com antecedência para comparecer.
+
+## Erro 4: Minimizar os sintomas na perícia
+
+Alguns segurados, por vergonha ou por acharem que não devem "exagerar", acabam minimizando seus sintomas durante a perícia. Isso pode levar o perito a entender que a incapacidade não é real.
+
+**Como evitar**: Seja honesto e descreva exatamente como a doença afeta sua capacidade de trabalho. Não exagere, mas também não minimize suas limitações.
+
+## Erro 5: Não levar todos os documentos
+
+Chegar à perícia sem a documentação completa é um erro grave. O perito pode negar o benefício por falta de comprovação da doença ou da incapacidade.
+
+**Como evitar**: Leve todos os documentos médicos que possui:
+- Laudos e atestados
+- Exames de imagem (raio-X, ressonância, tomografia)
+- Exames laboratoriais
+- Receitas médicas
+- Comprovante de internações
+- Carteira de trabalho
+
+## Bônus: O que fazer em caso de negativa?
+
+Se seu auxílio-doença foi negado, você tem opções:
+
+1. **Recurso administrativo**: Pode ser feito em até 30 dias após a negativa
+2. **Novo pedido**: Se houver novos documentos ou piora do quadro
+3. **Ação judicial**: Quando as opções administrativas se esgotam
+
+## Conclusão
+
+A preparação é fundamental para conseguir o auxílio-doença. Organize sua documentação, conheça seus direitos e, se necessário, busque orientação jurídica especializada.
+
+Entre em contato conosco para uma análise gratuita do seu caso.
+    `,
+    date: "5 de março de 2025",
+    category: "Dicas Práticas",
+    author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aumentar-valor-aposentadoria",
+    title: "Como aumentar o valor da sua aposentadoria",
+    excerpt: "Estratégias legais para maximizar o valor do seu benefício previdenciário.",
+    content: `
+Muitos trabalhadores se surpreendem ao descobrir que o valor da aposentadoria pode ser significativamente diferente dependendo de como é feito o planejamento previdenciário. Existem estratégias legais que podem ajudar a maximizar o valor do seu benefício.
+
+## Por que planejar a aposentadoria?
+
+O valor da aposentadoria é calculado com base em:
+- Tempo de contribuição
+- Valores das contribuições
+- Idade no momento da aposentadoria
+- Regra de cálculo aplicável
+
+Pequenas mudanças em cada um desses fatores podem resultar em diferenças significativas no valor final do benefício.
+
+## Estratégia 1: Revisar o CNIS
+
+O CNIS (Cadastro Nacional de Informações Sociais) é o documento que contém todo o seu histórico de contribuições. Erros no CNIS são mais comuns do que se imagina:
+
+- Períodos não registrados
+- Valores de contribuição incorretos
+- Vínculos empregatícios não reconhecidos
+
+**Ação**: Solicite seu CNIS e verifique se todos os períodos trabalhados estão corretamente registrados.
+
+## Estratégia 2: Incluir tempo de atividade especial
+
+Se você trabalhou em condições especiais (exposição a agentes nocivos), esse tempo pode ser convertido para tempo comum com acréscimo:
+
+- Homem: multiplicador de 1,4
+- Mulher: multiplicador de 1,2
+
+**Exemplo**: 5 anos de atividade especial para um homem equivalem a 7 anos de tempo comum.
+
+## Estratégia 3: Reconhecer tempo rural
+
+Muitas pessoas trabalharam na zona rural na juventude e não sabem que esse tempo pode ser reconhecido para fins de aposentadoria, mesmo sem contribuições formais.
+
+**Documentos úteis**:
+- Certidão de nascimento com profissão rural dos pais
+- Histórico escolar de escola rural
+- Fichas de associações rurais
+- Testemunhas
+
+## Estratégia 4: Planejar a data de aposentadoria
+
+O momento exato da aposentadoria pode impactar significativamente o valor do benefício. Às vezes, esperar alguns meses pode:
+
+- Completar mais tempo de contribuição
+- Alcançar uma idade mais favorável
+- Entrar em uma regra de cálculo mais vantajosa
+
+## Estratégia 5: Descartar contribuições baixas
+
+Após a Reforma da Previdência, é possível descartar contribuições que reduzem a média salarial. Se você teve períodos com salários muito baixos, pode ser vantajoso excluí-los do cálculo.
+
+**Atenção**: É necessário manter o tempo mínimo de contribuição exigido.
+
+## Estratégia 6: Simular diferentes cenários
+
+Antes de pedir a aposentadoria, faça simulações considerando:
+
+- Diferentes datas de aposentadoria
+- Diferentes regras de transição
+- Inclusão ou exclusão de períodos específicos
+
+## A importância do planejamento previdenciário
+
+O planejamento previdenciário é uma análise completa da sua vida contributiva que permite:
+
+1. Identificar o melhor momento para se aposentar
+2. Descobrir períodos não computados
+3. Verificar a possibilidade de atividade especial
+4. Simular valores com diferentes estratégias
+
+## Conclusão
+
+Não deixe sua aposentadoria ao acaso. Um bom planejamento pode significar centenas de reais a mais todo mês pelo resto da sua vida.
+
+Agende uma consulta gratuita e descubra como podemos ajudar a maximizar sua aposentadoria.
+    `,
+    date: "28 de fevereiro de 2025",
+    category: "Dicas Práticas",
+    author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "diferenca-aposentadoria-tempo-idade",
+    title: "Diferença entre aposentadoria por tempo e por idade",
+    excerpt: "Entenda as diferenças entre esses dois tipos de aposentadoria e qual é melhor para você.",
+    content: `
+Uma das dúvidas mais comuns entre os trabalhadores brasileiros é sobre a diferença entre aposentadoria por tempo de contribuição e aposentadoria por idade. Após a Reforma da Previdência de 2019, essas regras mudaram significativamente.
+
+## Aposentadoria por Idade
+
+### Antes da Reforma (até 13/11/2019):
+- **Homens**: 65 anos de idade + 180 meses de carência
+- **Mulheres**: 60 anos de idade + 180 meses de carência
+
+### Após a Reforma:
+- **Homens**: 65 anos de idade + 20 anos de contribuição
+- **Mulheres**: 62 anos de idade + 15 anos de contribuição
+
+### Cálculo do benefício:
+60% da média de todas as contribuições + 2% por ano que exceder 20 anos (homem) ou 15 anos (mulher) de contribuição.
+
+## Aposentadoria por Tempo de Contribuição
+
+### Antes da Reforma (até 13/11/2019):
+- **Homens**: 35 anos de contribuição
+- **Mulheres**: 30 anos de contribuição
+- Não exigia idade mínima
+
+### Após a Reforma:
+A aposentadoria por tempo de contribuição foi **extinta** para novos segurados. Quem começou a contribuir após a reforma só pode se aposentar por idade.
+
+### Regras de transição:
+Para quem já contribuía antes da reforma, existem regras de transição que permitem aposentar-se por tempo de contribuição:
+
+1. **Pontos**: Soma de idade + tempo de contribuição
+2. **Idade mínima progressiva**: Idade mínima que aumenta gradualmente
+3. **Pedágio de 50%**: Para quem estava a 2 anos ou menos de se aposentar
+4. **Pedágio de 100%**: Idade mínima + pedágio de 100% do tempo faltante
+
+## Qual é melhor para você?
+
+A resposta depende de vários fatores:
+
+### Aposentadoria por idade pode ser melhor se:
+- Você começou a trabalhar tarde
+- Teve muitos períodos sem contribuição
+- Não tem tempo suficiente para as regras de transição
+
+### Regras de transição podem ser melhores se:
+- Você começou a trabalhar cedo
+- Tem longo tempo de contribuição
+- Estava próximo de se aposentar na data da reforma
+
+## Exemplo comparativo
+
+**Maria**, 58 anos, 32 anos de contribuição:
+
+| Opção | Quando pode aposentar | Valor estimado |
+|-------|----------------------|----------------|
+| Por idade | Aos 62 anos | 82% da média |
+| Regra de pontos | Quando atingir 90 pontos | 92% da média |
+| Pedágio 100% | Aos 60 anos | 100% da média |
+
+## Fatores a considerar
+
+1. **Urgência**: Você precisa do benefício agora?
+2. **Saúde**: Sua condição de saúde permite continuar trabalhando?
+3. **Valor**: Qual regra oferece o melhor valor?
+4. **Emprego**: Você tem estabilidade no emprego atual?
+
+## A importância da análise individualizada
+
+Cada caso é único. O que é melhor para uma pessoa pode não ser para outra. Por isso, é fundamental fazer uma análise completa considerando:
+
+- Todo o histórico contributivo
+- Possibilidade de tempo especial
+- Tempo rural ou outros períodos não computados
+- Simulação em todas as regras disponíveis
+
+## Conclusão
+
+A escolha entre as diferentes formas de aposentadoria requer análise cuidadosa. Não tome essa decisão baseado apenas em informações gerais.
+
+Entre em contato para uma análise gratuita e personalizada do seu caso.
+    `,
+    date: "20 de fevereiro de 2025",
+    category: "Guia de Benefícios",
+    author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "reforma-previdencia-mudancas",
+    title: "Reforma da Previdência: o que mudou?",
+    excerpt: "Principais mudanças trazidas pela Reforma da Previdência e como elas afetam seus direitos.",
+    content: `
+A Reforma da Previdência, aprovada pela Emenda Constitucional nº 103 em novembro de 2019, trouxe mudanças significativas nas regras de aposentadoria e outros benefícios do INSS. Entender essas mudanças é fundamental para planejar seu futuro.
+
+## Principais mudanças
+
+### 1. Idade mínima obrigatória
+
+Antes da reforma, era possível se aposentar apenas por tempo de contribuição, sem idade mínima. Agora:
+
+- **Homens**: 65 anos
+- **Mulheres**: 62 anos
+
+### 2. Tempo de contribuição
+
+- **Homens**: mínimo de 20 anos
+- **Mulheres**: mínimo de 15 anos
+
+### 3. Nova forma de cálculo
+
+**Antes**: Média dos 80% maiores salários de contribuição
+**Depois**: Média de 100% dos salários de contribuição
+
+O valor do benefício:
+- 60% da média + 2% por ano que exceder o tempo mínimo
+
+**Exemplo**: Mulher com 30 anos de contribuição
+- 60% + (15 × 2%) = 60% + 30% = 90% da média
+
+### 4. Fim da aposentadoria por tempo de contribuição
+
+Para novos segurados, não existe mais aposentadoria apenas por tempo de contribuição. É obrigatório atingir a idade mínima.
+
+### 5. Regras de transição
+
+Para quem já contribuía antes da reforma, foram criadas 5 regras de transição:
+
+#### Regra 1: Sistema de Pontos
+- Soma idade + tempo de contribuição
+- 2019: 86 pontos (mulher) / 96 pontos (homem)
+- Aumenta 1 ponto por ano até 100/105 pontos
+
+#### Regra 2: Idade Mínima Progressiva
+- 2019: 56 anos (mulher) / 61 anos (homem)
+- Aumenta 6 meses por ano até 62/65 anos
+
+#### Regra 3: Pedágio de 50%
+- Para quem faltava 2 anos ou menos para aposentar
+- Cumprir tempo faltante + 50% de pedágio
+
+#### Regra 4: Pedágio de 100%
+- Idade mínima: 57 anos (mulher) / 60 anos (homem)
+- Cumprir tempo faltante + 100% de pedágio
+
+#### Regra 5: Aposentadoria por Idade
+- Mulher: 60 anos + 6 meses por ano até 62 anos
+- Homem: 65 anos (mantida)
+
+## Mudanças em outros benefícios
+
+### Pensão por morte
+- Valor base: 50% + 10% por dependente
+- Não acumula mais integralmente com aposentadoria
+
+### Aposentadoria por invalidez
+- Agora chamada "aposentadoria por incapacidade permanente"
+- Valor: 60% + 2% por ano excedente (exceção para acidente de trabalho: 100%)
+
+### BPC/LOAS
+- Mantido sem alterações significativas
+- Continua sendo 1 salário mínimo
+
+## Direito adquirido
+
+Quem já tinha direito a se aposentar antes da reforma (mesmo sem ter pedido) mantém esse direito pelas regras antigas. Isso é o chamado **direito adquirido**.
+
+## O que verificar no seu caso
+
+1. **Data do direito**: Você completou os requisitos antes de 13/11/2019?
+2. **Tempo de contribuição**: Quanto tempo você já tinha na data da reforma?
+3. **Idade**: Qual era sua idade na data da reforma?
+4. **Melhor regra**: Qual regra de transição é mais vantajosa para você?
+
+## Conclusão
+
+A Reforma da Previdência tornou as regras mais complexas, mas também criou várias opções de transição. O mais importante é fazer uma análise cuidadosa para escolher a melhor estratégia.
+
+Agende uma consulta gratuita e descubra qual é a melhor opção para o seu caso.
+    `,
+    date: "15 de fevereiro de 2025",
+    category: "Atualizações do INSS",
+    author: "Equipe Spier & Anorte"
+  }
+];
+
+export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
+  return blogPosts.find(post => post.id === slug);
+};
