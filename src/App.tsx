@@ -15,6 +15,7 @@ import AposentadoriaRural from "./pages/AposentadoriaRural";
 import BpcLoas from "./pages/BpcLoas";
 import PensaoMorte from "./pages/PensaoMorte";
 import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import Contato from "./pages/Contato";
 import NotFound from "./pages/NotFound";
 
@@ -39,6 +40,7 @@ const App = () => (
           <Route path="/bpc-loas" element={<BpcLoas />} />
           <Route path="/pensao-morte" element={<PensaoMorte />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contato" element={<Contato />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
