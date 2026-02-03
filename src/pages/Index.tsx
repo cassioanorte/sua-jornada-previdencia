@@ -32,6 +32,18 @@ const Index = () => {
       href: "/auxilio-doenca"
     },
     {
+      title: "Auxílio Maternidade",
+      description: "Proteção para mães trabalhadoras. Garantimos seu salário-maternidade com segurança e agilidade.",
+      icon: <Heart className="w-6 h-6" />,
+      href: "/auxilio-maternidade"
+    },
+    {
+      title: "Auxílio Acidente",
+      description: "Indenização para quem sofreu acidente de trabalho. Defesa dos seus direitos com experiência.",
+      icon: <Shield className="w-6 h-6" />,
+      href: "/auxilio-acidente"
+    },
+    {
       title: "Aposentadoria por Idade",
       description: "Conquiste sua aposentadoria com segurança. Análise completa do seu caso e documentação.",
       icon: <Users className="w-6 h-6" />,
