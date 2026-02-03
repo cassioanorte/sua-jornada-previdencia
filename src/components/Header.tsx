@@ -72,7 +72,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <Button variant="cta" size="sm" onClick={handleWhatsApp} className="shadow-sm hover:shadow-md">
               <Phone className="w-4 h-4" />
-              Consulta Gratuita
+              Consulte Agora
             </Button>
           </div>
 
@@ -105,7 +105,7 @@ const Header = () => {
               ))}
               <Button variant="cta" size="lg" onClick={handleWhatsApp} className="w-full mt-4">
                 <Phone className="w-4 h-4" />
-                Consulta Gratuita
+                Consulte Agora
               </Button>
             </nav>
           </div>
