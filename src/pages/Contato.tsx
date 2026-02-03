@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
 
@@ -85,7 +85,7 @@ const Contato = () => {
                       onClick={handleWhatsApp}
                       className="text-muted-foreground hover:text-primary transition-smooth"
                     >
-                      (11) 99999-9999
+                      (54) 99987-0786
                     </button>
                   </div>
                 </div>
@@ -97,10 +97,10 @@ const Contato = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">E-mail</h3>
                     <a 
-                      href="mailto:contato@direitoprevidenciario.com.br"
+                      href="mailto:cassio@spiereanorte.adv.br"
                       className="text-muted-foreground hover:text-primary transition-smooth"
                     >
-                      contato@direitoprevidenciario.com.br
+                      cassio@spiereanorte.adv.br
                     </a>
                   </div>
                 </div>
@@ -126,6 +126,19 @@ const Contato = () => {
                     <p className="text-muted-foreground">
                       Segunda a Sexta: 9h às 18h<br />
                       Sábado: 9h às 13h
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent flex-shrink-0">
+                    <Shield className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Advogados Responsáveis</h3>
+                    <p className="text-muted-foreground">
+                      Cassio Fraga Anorte – OAB/RS 73.679<br />
+                      Rodrigo Fernando Shoeler Spier – OAB/RS 70.421
                     </p>
                   </div>
                 </div>
