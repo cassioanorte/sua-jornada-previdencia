@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Phone, FileText, Calendar, Shield } from "lucide-react";
+import { CheckCircle, Phone, FileText, Calendar, Shield, ClipboardList } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AuxilioDoenca = () => {
   const handleWhatsApp = () => {
@@ -47,10 +48,18 @@ const AuxilioDoenca = () => {
             <p className="text-xl text-primary-foreground/90 mb-8">
               Garantimos seu direito ao benefício quando você mais precisa
             </p>
-            <Button variant="hero" size="xl" onClick={handleWhatsApp}>
-              <Phone className="w-5 h-5" />
-              Descubra se Você Tem Direito
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button variant="hero" size="xl" onClick={handleWhatsApp}>
+                <Phone className="w-5 h-5" />
+                Fale com Especialista
+              </Button>
+              <Button variant="hero" size="xl" asChild className="bg-accent hover:bg-accent-hover">
+                <Link to="/quiz-auxilio-doenca">
+                  <ClipboardList className="w-5 h-5" />
+                  Faça o Quiz Gratuito
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
