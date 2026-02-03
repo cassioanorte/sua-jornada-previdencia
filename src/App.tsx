@@ -8,6 +8,8 @@ import QuemSomos from "./pages/QuemSomos";
 import AreasDeAtuacao from "./pages/AreasDeAtuacao";
 import AuxilioDoenca from "./pages/AuxilioDoenca";
 import AuxilioMaternidade from "./pages/AuxilioMaternidade";
+import QuizAuxilioDoenca from "./pages/QuizAuxilioDoenca";
+import QuizAuxilioMaternidade from "./pages/QuizAuxilioMaternidade";
 import AuxilioAcidente from "./pages/AuxilioAcidente";
 import AposentadoriaIdade from "./pages/AposentadoriaIdade";
 import AposentadoriaTempo from "./pages/AposentadoriaTempo";
@@ -34,6 +36,8 @@ const App = () => (
           <Route path="/areas-de-atuacao" element={<AreasDeAtuacao />} />
           <Route path="/auxilio-doenca" element={<AuxilioDoenca />} />
           <Route path="/auxilio-maternidade" element={<AuxilioMaternidade />} />
+          <Route path="/quiz-auxilio-doenca" element={<QuizAuxilioDoenca />} />
+          <Route path="/quiz-auxilio-maternidade" element={<QuizAuxilioMaternidade />} />
           <Route path="/auxilio-acidente" element={<AuxilioAcidente />} />
           <Route path="/aposentadoria-idade" element={<AposentadoriaIdade />} />
           <Route path="/aposentadoria-tempo" element={<AposentadoriaTempo />} />

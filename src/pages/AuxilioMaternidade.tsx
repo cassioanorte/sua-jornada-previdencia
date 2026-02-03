@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Phone } from "lucide-react";
+import { Phone, ClipboardList } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AuxilioMaternidade = () => {
   const handleWhatsApp = () => {
@@ -21,10 +22,18 @@ const AuxilioMaternidade = () => {
             <p className="text-xl text-primary-foreground/90 mb-8">
               Garantia dos direitos das mães trabalhadoras
             </p>
-            <Button variant="hero" size="xl" onClick={handleWhatsApp}>
-              <Phone className="w-5 h-5" />
-              Saiba Mais
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button variant="hero" size="xl" onClick={handleWhatsApp}>
+                <Phone className="w-5 h-5" />
+                Fale com Especialista
+              </Button>
+              <Button variant="hero" size="xl" asChild className="bg-accent hover:bg-accent-hover">
+                <Link to="/quiz-auxilio-maternidade">
+                  <ClipboardList className="w-5 h-5" />
+                  Faça o Quiz Gratuito
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
