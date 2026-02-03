@@ -1,123 +1,180 @@
 
-## Plano de Atualizações do Site
 
-### Resumo das Alterações
-Este plano implementa 5 alterações principais: favicon, atualizações do rodapé, e sistema de páginas de leitura para o blog.
+## Plano: Sistema de Quiz de Qualificação
 
----
-
-### 1. Favicon do Site
-**Arquivo:** `index.html` e `public/favicon.png`
-
-- Copiar a imagem enviada (`user-uploads://1.png`) para `public/favicon.png`
-- Atualizar o `index.html` para referenciar o novo favicon:
-```html
-<link rel="icon" href="/favicon.png" type="image/png">
-```
+Vou criar um sistema de quiz interativo com landing pages dedicadas para Auxílio Doença e Auxílio Maternidade, permitindo que clientes descubram se têm direito ao benefício.
 
 ---
 
-### 2. Remover Redes Sociais do Rodapé
-**Arquivo:** `src/components/Footer.tsx`
-
-- Remover os ícones e links de Facebook, Instagram e LinkedIn (linhas 21-31)
-- Remover as importações não utilizadas de `Facebook`, `Instagram`, `Linkedin` do lucide-react
-
----
-
-### 3. Atualizar Seção de Contato no Rodapé
-**Arquivo:** `src/components/Footer.tsx`
-
-Alterar o título de "Contato" para "Contato e Informações" e atualizar os dados:
-
-| Campo | Valor Atual | Novo Valor |
-|-------|-------------|------------|
-| Título | Contato | Contato e Informações |
-| Telefone | (11) 99999-9999 | (54) 99987-0786 |
-| E-mail | contato@direitoprevidenciario.com.br | cassio@spiereanorte.adv.br |
-
-Adicionar os registros OAB dos advogados:
-- **Cassio Fraga Anorte** : OAB/RS 73.679
-- **Rodrigo Fernando Shoeler Spier** : OAB/RS 70.421
-
----
-
-### 4. Remover OAB Antigo do Rodapé
-**Arquivo:** `src/components/Footer.tsx`
-
-- Remover o badge "OAB/SP 123.456" da barra inferior do rodapé (linha 150)
-- Manter apenas o badge "Dados Protegidos"
-
----
-
-### 5. Sistema de Páginas de Leitura do Blog
-
-#### 5.1 Criar Arquivo de Dados dos Posts
-**Novo arquivo:** `src/data/blogPosts.ts`
-
-Centralizar os dados dos posts do blog com campos completos:
-- `id` (slug para URL)
-- `title`
-- `excerpt`
-- `content` (texto completo do artigo)
-- `date`
-- `category`
-- `author`
-
-#### 5.2 Criar Página de Leitura Individual
-**Novo arquivo:** `src/pages/BlogPost.tsx`
-
-Página dedicada para leitura de cada artigo contendo:
-- Título do post
-- Data e categoria
-- Conteúdo completo formatado
-- Botão de CTA para WhatsApp
-- Link para voltar ao blog
-
-#### 5.3 Atualizar Página do Blog
-**Arquivo:** `src/pages/Blog.tsx`
-
-- Importar dados do novo arquivo centralizado
-- Adicionar links (`<Link>`) nos cards para navegar até a página de leitura
-
-#### 5.4 Adicionar Rota no App
-**Arquivo:** `src/App.tsx`
-
-```tsx
-import BlogPost from "./pages/BlogPost";
-// ...
-<Route path="/blog/:slug" element={<BlogPost />} />
-```
-
----
-
-### Estrutura Final de Navegação do Blog
+### Estrutura do Sistema
 
 ```text
-/blog               --> Lista de todos os posts (Blog.tsx)
-/blog/:slug         --> Página de leitura individual (BlogPost.tsx)
+/quiz-auxilio-doenca        --> Quiz Auxílio Doença
+/quiz-auxilio-maternidade   --> Quiz Auxílio Maternidade
+```
 
-Exemplos:
-/blog/aposentadoria-especial-direito
-/blog/bpc-loas-como-solicitar
-/blog/erros-auxilio-doenca
+Cada quiz terá:
+- Barra de progresso visual
+- Perguntas com opções de múltipla escolha
+- Resultado personalizado baseado nas respostas
+- CTA para WhatsApp ao final
+
+---
+
+### 1. Componente Reutilizável de Quiz
+**Novo arquivo:** `src/components/Quiz.tsx`
+
+Componente genérico que recebe:
+- Lista de perguntas com opções
+- Lógica de pontuação
+- Mensagens de resultado personalizadas
+
+Funcionalidades:
+- Navegação entre perguntas (próximo/anterior)
+- Barra de progresso animada
+- Transições suaves entre etapas
+- Tela de resultado com qualificação
+
+---
+
+### 2. Landing Page - Quiz Auxílio Doença
+**Novo arquivo:** `src/pages/QuizAuxilioDoenca.tsx`
+
+Perguntas do quiz:
+
+| # | Pergunta | Opções |
+|---|----------|--------|
+| 1 | Você contribui ou já contribuiu para o INSS? | Sim, atualmente / Sim, mas parei / Nunca contribuí |
+| 2 | Há quanto tempo você contribui/contribuiu? | Menos de 1 ano / 1 a 5 anos / Mais de 5 anos |
+| 3 | Você está impossibilitado de trabalhar por doença ou acidente? | Sim, totalmente / Parcialmente / Não |
+| 4 | Há quanto tempo está afastado ou com dificuldade para trabalhar? | Menos de 15 dias / 15 a 30 dias / Mais de 30 dias |
+| 5 | Possui laudos ou atestados médicos? | Sim, atualizados / Sim, antigos / Não tenho |
+
+Resultados possíveis:
+- **Alta probabilidade**: Você atende aos requisitos principais!
+- **Média probabilidade**: Alguns pontos precisam ser avaliados
+- **Necessita análise**: Recomendamos uma consulta para avaliar seu caso
+
+---
+
+### 3. Landing Page - Quiz Auxílio Maternidade
+**Novo arquivo:** `src/pages/QuizAuxilioMaternidade.tsx`
+
+Perguntas do quiz:
+
+| # | Pergunta | Opções |
+|---|----------|--------|
+| 1 | Qual sua situação de trabalho atual? | CLT / Autônoma/MEI / Desempregada / Trabalhadora rural |
+| 2 | Você contribui ou já contribuiu para o INSS? | Sim, atualmente / Sim, mas parei / Nunca contribuí |
+| 3 | Há quanto tempo contribui/contribuiu? | Menos de 10 meses / 10 meses a 2 anos / Mais de 2 anos |
+| 4 | Qual o motivo do benefício? | Nascimento de filho / Adoção / Guarda judicial |
+| 5 | Já deu entrada no pedido do benefício? | Não ainda / Sim, aguardando / Sim, foi negado |
+
+Resultados possíveis:
+- **Alta probabilidade**: Você provavelmente tem direito!
+- **Média probabilidade**: Vamos analisar alguns detalhes
+- **Necessita análise**: Seu caso precisa de avaliação especializada
+
+---
+
+### 4. Atualizar Rotas
+**Arquivo:** `src/App.tsx`
+
+Adicionar novas rotas:
+```tsx
+<Route path="/quiz-auxilio-doenca" element={<QuizAuxilioDoenca />} />
+<Route path="/quiz-auxilio-maternidade" element={<QuizAuxilioMaternidade />} />
 ```
 
 ---
 
-### Arquivos a Serem Modificados/Criados
+### 5. Links nas Páginas de Serviço
+**Arquivos:** `AuxilioDoenca.tsx` e `AuxilioMaternidade.tsx`
+
+Adicionar botão "Faça o Quiz" que direciona para as landing pages do quiz.
+
+---
+
+### Design Visual do Quiz
+
+```text
+┌────────────────────────────────────────┐
+│           HEADER DO SITE               │
+├────────────────────────────────────────┤
+│                                        │
+│   🩺 Quiz: Você tem direito ao         │
+│      Auxílio Doença?                   │
+│                                        │
+│   ████████░░░░░░░░░░░░  40%           │
+│                                        │
+│   Pergunta 2 de 5                      │
+│                                        │
+│   Há quanto tempo você contribui       │
+│   ou já contribuiu para o INSS?        │
+│                                        │
+│   ┌──────────────────────────┐        │
+│   │ ○ Menos de 1 ano         │        │
+│   └──────────────────────────┘        │
+│   ┌──────────────────────────┐        │
+│   │ ○ 1 a 5 anos             │        │
+│   └──────────────────────────┘        │
+│   ┌──────────────────────────┐        │
+│   │ ● Mais de 5 anos         │  ✓     │
+│   └──────────────────────────┘        │
+│                                        │
+│   [ ← Anterior ]     [ Próximo → ]    │
+│                                        │
+├────────────────────────────────────────┤
+│              FOOTER                    │
+└────────────────────────────────────────┘
+```
+
+---
+
+### Tela de Resultado
+
+```text
+┌────────────────────────────────────────┐
+│                                        │
+│   ✅ Boa notícia!                      │
+│                                        │
+│   Você tem ALTA PROBABILIDADE          │
+│   de ter direito ao Auxílio Doença!    │
+│                                        │
+│   Baseado nas suas respostas:          │
+│   • Contribuinte ativo                 │
+│   • Tempo de contribuição adequado     │
+│   • Incapacidade comprovada            │
+│                                        │
+│   ┌──────────────────────────┐        │
+│   │ 📱 Falar com Advogado    │        │
+│   │    pelo WhatsApp         │        │
+│   └──────────────────────────┘        │
+│                                        │
+│   [ Refazer Quiz ]                     │
+│                                        │
+└────────────────────────────────────────┘
+```
+
+---
+
+### Arquivos a Serem Criados/Modificados
 
 | Arquivo | Ação |
 |---------|------|
-| `public/favicon.png` | Criar (copiar imagem) |
-| `index.html` | Modificar (adicionar link favicon) |
-| `src/components/Footer.tsx` | Modificar (várias alterações) |
-| `src/data/blogPosts.ts` | Criar (dados centralizados) |
-| `src/pages/BlogPost.tsx` | Criar (página de leitura) |
-| `src/pages/Blog.tsx` | Modificar (adicionar links) |
-| `src/App.tsx` | Modificar (nova rota) |
+| `src/components/Quiz.tsx` | Criar (componente reutilizável) |
+| `src/pages/QuizAuxilioDoenca.tsx` | Criar |
+| `src/pages/QuizAuxilioMaternidade.tsx` | Criar |
+| `src/pages/AuxilioDoenca.tsx` | Modificar (adicionar link) |
+| `src/pages/AuxilioMaternidade.tsx` | Modificar (adicionar link) |
+| `src/App.tsx` | Modificar (novas rotas) |
 
 ---
 
-### Sobre Links do WhatsApp
-O link `https://api.whatsapp.com/send?phone=5554999870786` **não existe** no código atual. Todos os botões já estão usando o link correto: `https://wa.link/hdn70i`
+### Benefícios do Sistema
+
+- **Qualificação automática**: Filtra leads antes do contato
+- **Experiência interativa**: Engaja o visitante
+- **Conversão otimizada**: CTA no momento certo
+- **Reutilizável**: O componente Quiz pode ser usado para outros benefícios no futuro
+
