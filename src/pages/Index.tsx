@@ -136,7 +136,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="xl" onClick={handleWhatsApp} className="shadow-xl hover:shadow-2xl">
                 <Phone className="w-5 h-5" />
-                Agende sua Consulta Gratuita
+                Agende sua Consulta
               </Button>
               <Button variant="outline" size="xl" asChild className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 border-2 shadow-lg">
                 <a href="#servicos">Conheça Nossos Serviços</a>
