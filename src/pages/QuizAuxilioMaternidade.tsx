@@ -5,49 +5,44 @@ import { Heart } from "lucide-react";
 
 const questions: QuizQuestion[] = [
   {
-    id: "situacao_trabalho",
-    question: "Qual sua situação de trabalho atual?",
+    id: "situacao_atual",
+    question: "Qual é sua situação atual?",
     options: [
-      { label: "Empregada CLT", value: "clt", points: 3 },
-      { label: "Autônoma / MEI", value: "autonoma", points: 2 },
-      { label: "Desempregada", value: "desempregada", points: 1 },
-      { label: "Trabalhadora rural", value: "rural", points: 2 }
+      { label: "Estou grávida", value: "gravida", points: 3 },
+      { label: "Adotei uma criança ou obtive guarda judicial", value: "adocao", points: 3 },
+      { label: "Tive aborto não criminoso", value: "aborto", points: 2 },
+      { label: "Sou pai solteiro", value: "pai_solteiro", points: 3 }
     ]
   },
   {
-    id: "contribuicao",
-    question: "Você contribui ou já contribuiu para o INSS?",
+    id: "situacao_trabalhista",
+    question: "Qual é sua situação trabalhista?",
     options: [
-      { label: "Sim, atualmente contribuo", value: "sim_atual", points: 3 },
-      { label: "Sim, mas parei de contribuir", value: "sim_parou", points: 2 },
-      { label: "Nunca contribuí", value: "nunca", points: 0 }
+      { label: "Trabalhadora com carteira assinada (CLT)", value: "clt", points: 3 },
+      { label: "Trabalhador autônomo/contribuinte individual", value: "autonomo", points: 2 },
+      { label: "Estou desempregado(a)", value: "desempregado", points: 1 },
+      { label: "Microempreendedor Individual (MEI)", value: "mei", points: 2 },
+      { label: "Trabalhador(a) doméstico(a)", value: "domestico", points: 3 }
+    ]
+  },
+  {
+    id: "contribuicoes",
+    question: "Você está em dia com as contribuições ao INSS?",
+    options: [
+      { label: "Sim, estou em dia", value: "em_dia", points: 3 },
+      { label: "Estou com algumas contribuições em atraso", value: "algumas_atraso", points: 2 },
+      { label: "Não, estou com muitas contribuições em atraso", value: "muitas_atraso", points: 1 },
+      { label: "Não tenho certeza", value: "incerto", points: 1 }
     ]
   },
   {
     id: "tempo_contribuicao",
-    question: "Há quanto tempo você contribui ou contribuiu para o INSS?",
+    question: "Há quanto tempo você contribui para o INSS?",
     options: [
-      { label: "Menos de 10 meses", value: "menos_10", points: 1 },
-      { label: "10 meses a 2 anos", value: "10_24", points: 2 },
-      { label: "Mais de 2 anos", value: "mais_24", points: 3 }
-    ]
-  },
-  {
-    id: "motivo",
-    question: "Qual o motivo do benefício?",
-    options: [
-      { label: "Nascimento de filho", value: "nascimento", points: 3 },
-      { label: "Adoção", value: "adocao", points: 3 },
-      { label: "Guarda judicial para fins de adoção", value: "guarda", points: 3 }
-    ]
-  },
-  {
-    id: "status_pedido",
-    question: "Já deu entrada no pedido do benefício?",
-    options: [
-      { label: "Não, ainda não solicitei", value: "nao", points: 2 },
-      { label: "Sim, estou aguardando resposta", value: "aguardando", points: 2 },
-      { label: "Sim, mas foi negado", value: "negado", points: 3 }
+      { label: "Menos de 3 meses", value: "menos_3", points: 0 },
+      { label: "De 3 a 12 meses", value: "3_12", points: 2 },
+      { label: "Mais de 12 meses", value: "mais_12", points: 3 },
+      { label: "Não tenho certeza", value: "incerto", points: 1 }
     ]
   }
 ];
@@ -55,56 +50,59 @@ const questions: QuizQuestion[] = [
 const getResult = (answers: Record<string, string>, totalPoints: number): QuizResult => {
   const highlights: string[] = [];
   
-  if (answers.situacao_trabalho === "clt") {
-    highlights.push("Empregada com carteira assinada");
-  } else if (answers.situacao_trabalho === "autonoma") {
-    highlights.push("Contribuinte individual/MEI");
-  } else if (answers.situacao_trabalho === "rural") {
-    highlights.push("Trabalhadora rural (segurada especial)");
+  // Situação atual
+  const situacaoLabels: Record<string, string> = {
+    gravida: "Gestante",
+    adocao: "Adoção ou guarda judicial",
+    aborto: "Aborto não criminoso",
+    pai_solteiro: "Pai solteiro"
+  };
+  if (answers.situacao_atual) {
+    highlights.push(situacaoLabels[answers.situacao_atual] || "");
   }
   
-  if (answers.contribuicao === "sim_atual") {
-    highlights.push("Contribuinte ativa do INSS");
-  } else if (answers.contribuicao === "sim_parou") {
-    highlights.push("Possui histórico de contribuição");
+  // Situação trabalhista
+  const trabalhoLabels: Record<string, string> = {
+    clt: "Trabalhadora CLT",
+    autonomo: "Contribuinte individual",
+    mei: "MEI",
+    domestico: "Trabalhador(a) doméstico(a)"
+  };
+  if (answers.situacao_trabalhista && answers.situacao_trabalhista !== "desempregado") {
+    highlights.push(trabalhoLabels[answers.situacao_trabalhista] || "");
   }
   
-  if (answers.tempo_contribuicao === "mais_24" || answers.tempo_contribuicao === "10_24") {
-    highlights.push("Carência de contribuição atendida");
+  // Contribuições
+  if (answers.contribuicoes === "em_dia") {
+    highlights.push("Contribuições em dia");
   }
   
-  if (answers.motivo) {
-    const motivoLabels: Record<string, string> = {
-      nascimento: "Nascimento de filho",
-      adocao: "Adoção",
-      guarda: "Guarda judicial"
-    };
-    highlights.push(motivoLabels[answers.motivo] || "");
-  }
-  
-  if (answers.status_pedido === "negado") {
-    highlights.push("Possibilidade de recurso/revisão");
+  // Tempo de contribuição
+  if (answers.tempo_contribuicao === "mais_12") {
+    highlights.push("Mais de 12 meses de contribuição");
+  } else if (answers.tempo_contribuicao === "3_12") {
+    highlights.push("Carência em análise");
   }
 
-  if (totalPoints >= 12) {
+  if (totalPoints >= 10) {
     return {
       level: "high",
-      title: "Ótima notícia!",
-      description: `Você tem ALTA PROBABILIDADE de ter direito ao Salário-Maternidade! Suas respostas indicam que você atende aos principais requisitos do benefício.`,
+      title: "Parabéns! Você tem grandes chances de receber o auxílio maternidade!",
+      description: "Com base nas suas respostas, você atende aos principais requisitos para solicitar o benefício. Entre em contato conosco para uma análise detalhada do seu caso.",
       highlights
     };
-  } else if (totalPoints >= 8) {
+  } else if (totalPoints >= 6) {
     return {
       level: "medium",
-      title: "Caso promissor!",
-      description: `Você tem MÉDIA PROBABILIDADE de ter direito ao benefício. Vamos analisar alguns detalhes para confirmar sua elegibilidade.`,
+      title: "Seu caso merece atenção!",
+      description: "Suas respostas indicam que você pode ter direito ao benefício, mas alguns pontos precisam ser analisados por um especialista.",
       highlights
     };
   } else {
     return {
       level: "low",
-      title: "Vamos analisar seu caso",
-      description: `Seu caso NECESSITA DE AVALIAÇÃO especializada. Existem situações especiais que podem garantir seu direito ao benefício.`,
+      title: "Vamos analisar seu caso com cuidado",
+      description: "Seu caso requer uma avaliação especializada. Existem situações e exceções que podem garantir seu direito ao benefício.",
       highlights
     };
   }
@@ -126,7 +124,7 @@ const QuizAuxilioMaternidade = () => {
               Descubra se Você Tem Direito ao Salário-Maternidade
             </h1>
             <p className="text-lg text-primary-foreground/90">
-              Responda 5 perguntas rápidas e saiba se você pode solicitar o benefício
+              Responda algumas perguntas simples e descubra se você pode receber o benefício
             </p>
           </div>
         </div>
