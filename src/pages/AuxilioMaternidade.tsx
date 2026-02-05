@@ -30,7 +30,7 @@ const AuxilioMaternidade = () => {
               <Button variant="hero" size="xl" asChild className="bg-accent hover:bg-accent-hover">
                 <Link to="/quiz-auxilio-maternidade">
                   <ClipboardList className="w-5 h-5" />
-                  Faça o Quiz Gratuito
+                  Faça o Quiz Gratuito e Descubra Agora Mesmo Se Você Tem Direito
                 </Link>
               </Button>
             </div>
