@@ -28,10 +28,9 @@ const AuxilioMaternidade = () => {
                 Fale com Especialista
               </Button>
               <Button variant="hero" size="xl" asChild className="bg-accent hover:bg-accent-hover">
-                <Link to="/quiz-auxilio-maternidade" className="flex-col h-auto py-4 max-w-xs text-center leading-tight">
+                <Link to="/quiz-auxilio-maternidade">
                   <ClipboardList className="w-5 h-5" />
-                  <span>Faça o Quiz Gratuito</span>
-                  <span className="text-sm font-normal">e Descubra Se Você Tem Direito</span>
+                  Descubra Agora Mesmo Se Você Tem Direito
                 </Link>
               </Button>
             </div>
