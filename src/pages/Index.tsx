@@ -50,7 +50,7 @@ const Index = () => {
       href: "/aposentadoria-idade"
     },
     {
-      title: "Aposentadoria por Tempo",
+      title: "Aposentadoria por Tempo de Contribuição",
       description: "Maximize o valor do seu benefício. Revisão completa do tempo de contribuição.",
       icon: <Clock className="w-6 h-6" />,
       href: "/aposentadoria-tempo"
