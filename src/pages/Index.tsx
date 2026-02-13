@@ -15,7 +15,9 @@ import {
   CheckCircle,
   Award,
   Target,
-  TrendingUp
+  TrendingUp,
+  Home,
+  Baby
 } from "lucide-react";
 import heroImage from "@/assets/hero-law.jpg";
 
@@ -72,6 +74,12 @@ const Index = () => {
       description: "Assistência para idosos e pessoas com deficiência. Dignidade e respeito em todo o atendimento.",
       icon: <FileText className="w-6 h-6" />,
       href: "/bpc-loas"
+    },
+    {
+      title: "Pensão por Morte",
+      description: "Suporte jurídico para dependentes que têm direito ao benefício após o falecimento do segurado.",
+      icon: <Home className="w-6 h-6" />,
+      href: "/pensao-morte"
     }
   ];
 
