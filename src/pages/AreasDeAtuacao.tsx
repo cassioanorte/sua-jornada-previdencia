@@ -42,6 +42,12 @@ const AreasDeAtuacao = () => {
       href: "/aposentadoria-rural"
     },
     {
+      title: "Auxílio Acidente",
+      description: "Indenização para quem sofreu acidente e ficou com sequelas que reduzem a capacidade de trabalho.",
+      icon: <Shield className="w-6 h-6" />,
+      href: "/auxilio-acidente"
+    },
+    {
       title: "BPC/LOAS",
       description: "Assistência para garantir o benefício de prestação continuada para idosos e pessoas com deficiência.",
       icon: <FileText className="w-6 h-6" />,
