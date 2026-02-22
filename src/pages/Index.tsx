@@ -133,7 +133,7 @@ const Index = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in leading-tight">
               Seu direito previdenciário garantido com rapidez, honestidade e experiência
             </h1>
-            <p className="text-xl md:text-2xl mb-6 text-primary-foreground/95 leading-relaxed animate-fade-in-up font-body">
+            <p className="text-xl md:text-2xl mb-4 text-primary-foreground leading-relaxed animate-fade-in-up font-body font-medium">
               Há mais de 13 anos ajudando brasileiros a conquistar seus benefícios do INSS com segurança e transparência
             </p>
             
