@@ -709,6 +709,67 @@ Por isso, conhecer os requisitos e reunir provas médicas adequadas pode fazer t
     date: "9 de março de 2026",
     category: "Guia de Benefícios",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "stj-beneficio-lesao-minima",
+    title: "STJ reconhece direito a benefício mesmo com lesão mínima",
+    excerpt: "O Superior Tribunal de Justiça decidiu que basta a existência de lesão que reduza a capacidade para o trabalho habitual, mesmo que mínima, para a concessão do auxílio-acidente.",
+    content: `
+## STJ reconhece direito a benefício mesmo com lesão mínima
+
+Muita gente acredita que só tem direito a benefício do INSS quando a lesão é grave ou incapacitante. Mas o **Superior Tribunal de Justiça (STJ)** já decidiu exatamente o contrário.
+
+No julgamento do **Tema 416 (REsp 1.109.591/SC)**, o STJ fixou a seguinte tese:
+
+**"Para a concessão do auxílio-acidente, basta a existência de lesão que reduza a capacidade para o trabalho habitual, sendo devido o benefício ainda que mínima a lesão."**
+
+Ou seja:
+
+- Não precisa incapacidade total
+- Não precisa lesão grave
+- Não precisa ficar afastado do trabalho
+
+Se a sequela exigir **maior esforço para trabalhar**, o direito ao benefício existe.
+
+## O que é o auxílio-acidente?
+
+O auxílio-acidente é um **benefício indenizatório**, previsto no **art. 86 da Lei 8.213/91**, pago ao trabalhador que sofre acidente e fica com alguma sequela permanente que reduza sua capacidade laboral.
+
+Na prática, o STJ entendeu que **a lei não exige grau mínimo de redução da capacidade**. Basta existir qualquer diminuição da aptidão para o trabalho habitual.
+
+## Quem pode ter direito?
+
+Trabalhadores com sequelas consideradas "pequenas" podem ter direito ao auxílio-acidente. Alguns exemplos incluem:
+
+- Fraturas consolidadas com limitação residual
+- Limitações de movimento em membros
+- Dores residuais permanentes
+- Redução parcial de força ou mobilidade
+- Problemas auditivos ou visuais decorrentes de acidente
+
+## Qual o valor do benefício?
+
+O benefício corresponde a **50% do salário de benefício** e pode ser pago **até a aposentadoria**.
+
+Além disso, o auxílio-acidente pode ser recebido junto com o salário, pois tem natureza indenizatória.
+
+## O que isso significa na prática?
+
+Isso significa que trabalhadores que sofreram acidentes e ficaram com sequelas — mesmo que consideradas pequenas — **podem ter direito a um benefício mensal do INSS**.
+
+Muitas pessoas deixam de buscar esse direito por acreditarem que sua lesão não é "grave o suficiente". Mas a decisão do STJ deixou claro que **qualquer redução da capacidade laboral já é suficiente**.
+
+## Conclusão
+
+Se você sofreu um acidente e ficou com alguma sequela, **mesmo pequena**, pode ter direito a receber um benefício do INSS.
+
+Procure orientação jurídica e analise seu caso. Um advogado especialista em Direito Previdenciário pode avaliar sua situação e verificar se você tem direito ao auxílio-acidente.
+
+**Não deixe de buscar seus direitos. A lei está do seu lado.**
+    `,
+    date: "9 de março de 2026",
+    category: "Jurisprudência",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
