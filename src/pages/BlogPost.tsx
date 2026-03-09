@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Calendar, Tag, MessageCircle } from "lucide-react";
 import { getBlogPostBySlug } from "@/data/blogPosts";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
