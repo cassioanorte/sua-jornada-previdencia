@@ -478,6 +478,237 @@ Agende uma consulta gratuita e descubra qual é a melhor opção para o seu caso
     date: "15 de fevereiro de 2025",
     category: "Atualizações do INSS",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "auxilio-acidente-inss-quem-tem-direito",
+    title: "Auxílio-Acidente: Quem Tem Direito, Valor do Benefício e Como Solicitar no INSS em 2026",
+    excerpt: "Saiba o que é o auxílio-acidente, quem tem direito, valor do benefício e como solicitar no INSS. Guia completo atualizado para trabalhadores e segurados.",
+    content: `
+O auxílio-acidente é um benefício previdenciário pago pelo INSS aos trabalhadores que sofreram um acidente ou doença que deixou sequelas permanentes, reduzindo sua capacidade para o trabalho.
+
+Muitas pessoas acreditam que precisam estar totalmente incapacitadas para receber algum benefício do INSS. Porém, no caso do auxílio-acidente, não é necessário ficar totalmente incapaz de trabalhar.
+
+Na verdade, o benefício funciona como uma **indenização mensal**, paga mesmo que o trabalhador continue exercendo suas atividades profissionais.
+
+Neste guia completo, você vai entender:
+
+- O que é o auxílio-acidente
+- Quem tem direito ao benefício
+- Qual o valor pago pelo INSS
+- Como solicitar
+- Quais documentos são necessários
+- Principais dúvidas sobre o tema
+
+Se você sofreu um acidente ou ficou com sequelas após uma doença, este artigo pode ajudar você a garantir um direito previdenciário importante.
+
+## O que é o auxílio-acidente?
+
+O auxílio-acidente é um benefício previdenciário concedido pelo INSS como forma de indenização ao trabalhador que sofreu um acidente e ficou com sequelas permanentes que reduzem sua capacidade de trabalho.
+
+Esse benefício está previsto na **Lei nº 8.213/91**, que regula os benefícios da Previdência Social.
+
+Diferente de outros benefícios previdenciários, o auxílio-acidente:
+
+- Não exige incapacidade total para o trabalho
+- Pode ser recebido junto com o salário
+- É pago até a aposentadoria
+
+Ou seja, o trabalhador pode continuar trabalhando normalmente e ainda assim receber o benefício.
+
+## Quem tem direito ao auxílio-acidente?
+
+O auxílio-acidente é destinado ao segurado do INSS que sofre um acidente e fica com redução permanente da capacidade de trabalho.
+
+Para ter direito ao benefício, normalmente é necessário cumprir três requisitos principais.
+
+### 1. Ser segurado do INSS
+
+O trabalhador precisa estar contribuindo para a Previdência Social ou estar no chamado período de graça.
+
+Os segurados que podem receber o benefício incluem:
+
+- Trabalhadores com carteira assinada
+- Empregados domésticos
+- Trabalhadores avulsos
+- Segurados especiais (como trabalhadores rurais)
+
+**Importante:** contribuintes individuais e facultativos não têm direito ao auxílio-acidente.
+
+### 2. Ter sofrido um acidente ou doença
+
+O acidente pode ser:
+
+- Acidente de trabalho
+- Acidente doméstico
+- Acidente de trânsito
+- Doença ocupacional
+- Doença que gere sequelas
+
+Ou seja, **não precisa ser acidente de trabalho**.
+
+### 3. Existir sequela permanente
+
+Para o INSS conceder o auxílio-acidente, é necessário que o trabalhador tenha sequelas permanentes que reduzam sua capacidade laboral.
+
+Alguns exemplos incluem:
+
+- Perda parcial de movimento
+- Diminuição de força em um membro
+- Limitação funcional
+- Redução da mobilidade
+- Problemas auditivos ou visuais decorrentes de acidente
+
+Essa avaliação é feita através de **perícia médica do INSS**.
+
+## Diferença entre auxílio-acidente e auxílio-doença
+
+Muitas pessoas confundem os dois benefícios. Veja a diferença principal:
+
+- **Auxílio-doença**: Incapacidade temporária para o trabalho
+- **Auxílio-acidente**: Sequela permanente com redução da capacidade
+
+**Exemplo prático:**
+
+Uma pessoa sofre um acidente e quebra a perna. Durante a recuperação, ela recebe auxílio-doença. Após a recuperação, ela volta ao trabalho, mas fica com limitação permanente de movimento. Nesse caso, pode passar a receber auxílio-acidente.
+
+## Qual é o valor do auxílio-acidente?
+
+O valor do auxílio-acidente corresponde a **50% do valor do benefício por incapacidade permanente** ao qual o trabalhador teria direito.
+
+De forma simplificada:
+
+**Auxílio-acidente = 50% do salário de benefício**
+
+Esse valor:
+
+- Não substitui o salário
+- Funciona como uma indenização
+- Pode ser recebido junto com o trabalho
+
+**Exemplo:** Se o salário de benefício calculado pelo INSS for R$ 2.000, o auxílio-acidente será R$ 1.000 por mês.
+
+## Por quanto tempo o auxílio-acidente é pago?
+
+O benefício é pago **até a aposentadoria** do segurado. Ou seja, o trabalhador recebe enquanto estiver trabalhando, até se aposentar. Quando ocorre a aposentadoria, o auxílio-acidente é encerrado automaticamente.
+
+## Quais acidentes podem gerar auxílio-acidente?
+
+O benefício pode ser concedido em diversos tipos de acidentes. Alguns exemplos comuns incluem:
+
+### Acidente de trabalho
+- Quedas no trabalho
+- Lesões por esforço repetitivo
+- Cortes e fraturas
+- Acidentes com máquinas
+
+### Acidente de trânsito
+- Colisões
+- Atropelamentos
+- Acidentes de moto
+
+### Acidentes domésticos
+- Quedas em casa
+- Cortes
+- Queimaduras
+
+### Doenças ocupacionais
+- Lesões por esforço repetitivo (LER/DORT)
+- Problemas na coluna
+- Doenças causadas pela atividade profissional
+
+O mais importante é que **exista sequela permanente**.
+
+## Como solicitar o auxílio-acidente no INSS
+
+O pedido do benefício pode ser feito diretamente ao INSS. Veja o passo a passo:
+
+### 1. Agendar atendimento
+
+O agendamento pode ser feito pelo aplicativo Meu INSS, pelo site do INSS ou pelo telefone 135.
+
+### 2. Solicitar benefício por incapacidade
+
+Normalmente o pedido começa como benefício por incapacidade. Durante o processo, o perito pode identificar a sequela permanente.
+
+### 3. Realizar perícia médica
+
+A perícia médica do INSS é responsável por avaliar a existência da sequela, a redução da capacidade de trabalho e o nexo entre acidente e sequela.
+
+### 4. Aguardar análise
+
+Após a perícia, o INSS analisará o pedido e informará a decisão.
+
+## Documentos necessários para pedir o auxílio-acidente
+
+Ter documentação médica adequada é fundamental. Os principais documentos incluem:
+
+- Documento de identidade
+- CPF
+- Carteira de trabalho
+- Laudos médicos
+- Exames
+- Receitas médicas
+- Relatórios médicos detalhados
+- Comunicação de Acidente de Trabalho (CAT), se houver
+
+**Quanto mais provas médicas, maiores são as chances de aprovação.**
+
+## O INSS pode negar o auxílio-acidente?
+
+Sim. O INSS pode negar o benefício em algumas situações. Os motivos mais comuns incluem:
+
+- Falta de comprovação da sequela
+- Entendimento de que não houve redução da capacidade
+- Falta de qualidade de segurado
+- Documentação médica insuficiente
+
+Quando isso acontece, o segurado pode fazer recurso administrativo ou entrar com ação judicial. **Muitos benefícios negados acabam sendo concedidos pela Justiça.**
+
+## É possível trabalhar recebendo auxílio-acidente?
+
+**Sim.** Essa é uma das principais características do benefício. O trabalhador pode continuar trabalhando, receber salário e receber auxílio-acidente ao mesmo tempo. Isso acontece porque o benefício não substitui o salário, sendo considerado uma indenização.
+
+## O auxílio-acidente conta para aposentadoria?
+
+**Sim.** O período em que o trabalhador recebe o benefício continua contando para aposentadoria, desde que ele continue contribuindo. Além disso, o valor do auxílio-acidente pode influenciar no cálculo da aposentadoria em alguns casos. Por isso, é importante ter orientação previdenciária adequada.
+
+## Perguntas Frequentes sobre Auxílio-Acidente
+
+#### Quem recebe auxílio-acidente pode ser demitido?
+
+Sim. O recebimento do benefício não impede demissão. Porém, se o acidente for de trabalho, pode existir estabilidade temporária após o retorno.
+
+#### Auxílio-acidente precisa de carência?
+
+Não. O benefício não exige número mínimo de contribuições. Basta que o trabalhador tenha qualidade de segurado.
+
+#### Auxílio-acidente pode ser acumulado com aposentadoria?
+
+Não. Quando o segurado se aposenta, o auxílio-acidente é encerrado automaticamente.
+
+#### Quem nunca contribuiu pode receber auxílio-acidente?
+
+Não. É necessário ser segurado do INSS.
+
+#### Auxílio-acidente é vitalício?
+
+Não exatamente. Ele é pago até a aposentadoria do segurado.
+
+## Conclusão
+
+O auxílio-acidente é um benefício importante para trabalhadores que sofreram acidentes e ficaram com sequelas permanentes que reduzem sua capacidade de trabalho.
+
+Mesmo que o trabalhador continue exercendo sua atividade profissional, ele pode ter direito a uma indenização mensal paga pelo INSS.
+
+Infelizmente, muitos segurados deixam de solicitar o benefício por falta de informação ou têm o pedido negado por problemas na documentação médica.
+
+Por isso, conhecer os requisitos e reunir provas médicas adequadas pode fazer toda a diferença para garantir esse direito previdenciário.
+
+**Se você sofreu um acidente e ficou com alguma limitação permanente, vale a pena verificar se tem direito ao auxílio-acidente.**
+    `,
+    date: "9 de março de 2026",
+    category: "Guia de Benefícios",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
