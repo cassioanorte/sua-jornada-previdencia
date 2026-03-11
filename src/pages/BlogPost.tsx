@@ -80,6 +80,11 @@ const BlogPost = () => {
               {post.content.split('\n').map((paragraph, index) => {
                 const trimmed = paragraph.trim();
                 if (!trimmed) return null;
+
+                const renderInline = (text: string) =>
+                  text.split('**').map((part, i) =>
+                    i % 2 === 1 ? <strong key={i} className="text-foreground">{part}</strong> : part
+                  );
                 
                 if (trimmed.startsWith('## ')) {
                   return (
@@ -100,15 +105,15 @@ const BlogPost = () => {
                 if (trimmed.startsWith('#### ')) {
                   return (
                     <h4 key={index} className="text-lg font-bold mt-4 mb-2 text-foreground">
-                      {trimmed.replace('#### ', '')}
+                      {renderInline(trimmed.replace('#### ', ''))}
                     </h4>
                   );
                 }
                 
                 if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
                   return (
-                    <li key={index} className="ml-6 text-muted-foreground">
-                      {trimmed.replace(/^[-*] /, '')}
+                    <li key={index} className="ml-6 text-muted-foreground list-disc">
+                      {renderInline(trimmed.replace(/^[-*] /, ''))}
                     </li>
                   );
                 }
@@ -116,7 +121,7 @@ const BlogPost = () => {
                 if (trimmed.match(/^\d+\. /)) {
                   return (
                     <li key={index} className="ml-6 text-muted-foreground list-decimal">
-                      {trimmed.replace(/^\d+\. /, '')}
+                      {renderInline(trimmed.replace(/^\d+\. /, ''))}
                     </li>
                   );
                 }
@@ -130,14 +135,12 @@ const BlogPost = () => {
                 }
                 
                 if (trimmed.startsWith('|')) {
-                  return null; // Skip table rows for now
+                  return null;
                 }
                 
                 return (
                   <p key={index} className="text-muted-foreground my-4 leading-relaxed">
-                    {trimmed.split('**').map((part, i) => 
-                      i % 2 === 1 ? <strong key={i} className="text-foreground">{part}</strong> : part
-                    )}
+                    {renderInline(trimmed)}
                   </p>
                 );
               })}
