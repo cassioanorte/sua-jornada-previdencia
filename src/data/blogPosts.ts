@@ -770,6 +770,91 @@ Procure orientação jurídica e analise seu caso. Um advogado especialista em D
     date: "9 de março de 2026",
     category: "Jurisprudência",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "auxilio-acidente",
+    title: "Auxílio-Acidente: Você Sabia que Placas e Próteses Podem Dar Direito a um Benefício?",
+    excerpt: "Você com placa, prótese ou limitação após acidente pode ter direito ao auxílio-acidente do INSS. Saiba como comprovar e pedir o benefício.",
+    content: `
+Você que tem placa, parafuso, prótese, cicatriz grande ou qualquer limitação permanente após um acidente: sabia que pode ter direito a um **benefício indenizatório pago pelo INSS** — e que ele não impede você de trabalhar? Neste texto direto e prático você vai descobrir quais casos costumam dar direito, o que levar à perícia, como provar a sequela e os passos imediatos para solicitar o benefício.
+
+## O que é o auxílio-acidente?
+
+O auxílio-acidente é um benefício previdenciário de caráter **indenizatório**, destinado a segurados que, após um acidente (de qualquer natureza), ficam com **sequela permanente** que reduz parte da capacidade para o trabalho habitual. Não é aposentadoria; pode ser recebido junto com salário, em regra.
+
+## Casos práticos que costumam gerar direito ao auxílio-acidente
+
+- Você tem **placa e parafuso** por fratura e sente limitação para caminhar ou carregar peso? **Pode ter direito.**
+- Você usa **prótese ou órtese** que alterou sua capacidade de trabalho? **Pode ter direito.**
+- **Perda parcial de dedos** ou redução de destreza manual que comprometa tarefas específicas? **Pode ter direito.**
+- **Lesão na coluna** com dor crônica que limita funções, sem torná-lo totalmente incapaz? **Pode ter direito.**
+- **Lesão nervosa** demonstrada por eletroneuromiografia que diminui força/sensibilidade? **Pode ter direito.**
+- **Cicatriz extensa ou deformidade** que atrapalhe atividades profissionais? **Pode ter direito.**
+- **Sequelas psicológicas** (TEPT, ansiedade crônica) que reduzem rendimento laboral comprovadamente? Em muitos casos, **pode ter direito.**
+- Recebeu **auxílio-doença** após o acidente e, ao estabilizar o quadro, ficou com sequelas permanentes? **Perfil clássico para pedir o auxílio-acidente.**
+
+## Por que mesmo "coisas pequenas" podem ter valor?
+
+O que importa não é a aparência da lesão, mas o **impacto funcional no seu trabalho habitual**. Um dedo "menor" pode impedir um músico, um cirurgião ou um artesão de exercer plenamente. Por isso, registros funcionais são decisivos.
+
+## O que levar para a perícia: checklist prático
+
+- Relatórios e laudos médicos (ortopedista, neurologista, fisiatra, psiquiatra quando aplicável)
+- Exames de imagem: RX, ressonância, tomografia
+- Eletroneuromiografia (se houver queixa neurológica)
+- Receitas e registros de tratamentos e fisioterapia
+- Boletim de ocorrência (se aplicável) e fotos do acidente/local
+- Atestados e comunicações de afastamento do trabalho
+- Declaração do empregador sobre mudanças de função ou limitações observadas
+- Relato por escrito das atividades que você passou a não conseguir executar ou que ficaram mais difíceis
+
+## Como provar a redução da capacidade?
+
+- Documentação cronológica do tratamento e da estabilização do quadro
+- Laudos que descrevam **limitações funcionais** (não apenas diagnóstico)
+- Exames complementares que objetivem a lesão
+- Relatórios ocupacionais e testemunhos sobre dificuldade em tarefas específicas
+
+## Passos imediatos para pedir o benefício
+
+1. Reunir a documentação médica e os registros do acidente.
+2. Se já esteve em auxílio-doença, verificar o histórico administrativo no Meu INSS.
+3. Solicitar o benefício no Meu INSS ou numa agência e agendar perícia.
+4. Comparecer à perícia com dossiê organizado por datas.
+5. Se indeferido, protocolar recurso administrativo com novas provas; se necessário, avaliar ação judicial.
+
+## O que o auxílio-acidente paga e sua compatibilidade com trabalho
+
+O valor é calculado conforme regras do INSS, a partir do salário-de-benefício. Em regra, o **auxílio-acidente é cumulável com salário de emprego**, ou seja, você pode trabalhar e receber o benefício. Há situações específicas em que ele deixa de ser devido (por exemplo, em algumas aposentadorias), então consulte um especialista.
+
+## Erros comuns que reduzem suas chances
+
+- Ir sem exames ou laudos atualizados para a perícia
+- Não demonstrar funcionalmente as limitações (descrever apenas dor ou incômodo não é suficiente)
+- Perder prazos de recurso administrativo
+- Não organizar documentos por datas e tipos
+
+## Perguntas frequentes
+
+#### O que caracteriza a sequela que dá direito ao auxílio-acidente?
+Sequela é a redução permanente da capacidade para o trabalho habitual, comprovada por perícia e documentação médica.
+
+#### Posso trabalhar e receber esse benefício?
+Sim. Na maioria dos casos o auxílio-acidente é cumulável com salário.
+
+#### Perdi o prazo para recorrer administrativamente. Ainda tenho chance?
+Depende do caso; verifique prazo e razões para solicitar reconsideração ou via judicial.
+
+#### Quanto tempo demora a análise?
+Varia: agendamento de perícia pode levar semanas; recursos e processos podem levar meses. Organizar tudo antes acelera.
+
+## Quer saber se o seu caso se encaixa?
+
+Conte em poucas linhas qual acidente você sofreu e quais sequelas ficaram (ex.: placa no joelho + dificuldade para subir escadas; perda parcial de sensibilidade no punho; prótese no tornozelo; TCE com problemas de concentração). **Nós te orientamos** sobre documentos essenciais, o argumento funcional a reforçar na perícia e os próximos passos práticos.
+    `,
+    date: "11 de março de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
