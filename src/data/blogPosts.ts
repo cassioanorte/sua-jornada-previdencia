@@ -855,6 +855,93 @@ Conte em poucas linhas qual acidente você sofreu e quais sequelas ficaram (ex.:
     date: "11 de março de 2026",
     category: "Auxílio-Acidente",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "auxilio-maternidade",
+    title: "Auxílio-maternidade: como garantir seu direito ao benefício do INSS",
+    excerpt: "Auxílio-maternidade: entenda quem tem direito, como pedir ao INSS e documentos necessários para garantir o benefício.",
+    content: `
+O auxílio-maternidade é um direito importante para gestantes e mães recentes que precisam de suporte financeiro no período da licença. Seja você trabalhadora com carteira assinada, contribuinte individual, segurada especial ou desempregada, é fundamental saber quem tem direito, como requerer o benefício e quais documentos apresentar. Neste artigo você encontrará orientações práticas, exemplos reais e passos para aumentar suas chances de aprovação no INSS.
+
+## O que é o auxílio-maternidade?
+
+O auxílio-maternidade (ou salário-maternidade) é um benefício previdenciário pago pela Previdência Social (INSS) para a segurada gestante, adotante ou que obtém guarda judicial para fins de adoção. Tem caráter indenizatório: substitui a remuneração durante o período em que a mulher se afasta das atividades laborais para cuidar do recém-nascido ou da criança adotada.
+
+## Quem tem direito ao auxílio-maternidade?
+
+- Trabalhadoras com carteira assinada (regime CLT): direito garantido pelo contrato de trabalho e pago pelo INSS; geralmente a empresa antecipa o pagamento.
+- Contribuintes individuais e facultativas: têm direito se estiverem em dia com as contribuições e cumprirem o período de carência quando exigido.
+- Seguradas especiais (trabalhadoras rurais, em regime familiar): podem ter direito conforme regras específicas e comprovação de atividade.
+- Desempregadas que estão no período de qualidade de segurada (tempo após o último vínculo com cobertura previdenciária).
+- Adotantes: após a adoção, a segurada tem direito ao benefício por período equivalente ao da licença-maternidade, dependendo do tempo de filiação e da idade da criança.
+
+## Períodos e duração do benefício
+
+- Período básico: 120 dias (aproximadamente 4 meses) na maioria dos casos.
+- Possibilidade de extensão: empresas podem conceder 180 dias (6 meses) em programas como o "empresa cidadã".
+- Adoção: varia conforme a idade da criança adotada e tem prazos legais específicos.
+
+## Como calcular o valor do auxílio-maternidade
+
+O valor do benefício é calculado com base na remuneração-de-benefício ou no salário-de-contribuição da segurada. Para trabalhadoras CLT, normalmente corresponde ao salário integral. Para contribuinte individual e facultativas, observa-se a média dos salários de contribuição conforme regras do INSS. Atenção: regras específicas podem mudar conforme legislação vigente — confira sempre no Meu INSS ou com um especialista.
+
+## Documentos necessários para solicitar o auxílio-maternidade
+
+- Documento de identificação com foto (RG, CNH, etc.)
+- CPF
+- Carteira de trabalho ou comprovantes de vínculo empregatício (se houver)
+- Certidão de nascimento do bebê (apresentada depois do parto) ou documento de adoção/guarda judicial
+- Declaração ou atestado médico de gravidez (pré-parto) quando solicitado para antecipação
+- Comprovantes de recolhimento para contribuintes individuais e facultativas
+- Para trabalhadoras rurais: documentos que comprovem atividade agrícola e qualidade de segurada
+
+## Como solicitar: passo a passo prático
+
+1. Reúna documentos pessoais e comprovações de vínculo ou contribuição.
+2. Acesse o portal Meu INSS (site ou app) e faça o login com gov.br; se preferir, procure uma agência do INSS.
+3. No Meu INSS, selecione "Novo Requerimento" ou "Solicitar benefício" e escolha "Salário-maternidade".
+4. Anexe os documentos solicitados (atenção para a certidão de nascimento após o parto).
+5. Acompanhe o andamento pelo Meu INSS e responda a quaisquer exigências em prazo indicado.
+6. Em caso de recusa, avalie recurso administrativo ou orientação jurídica.
+
+## Casos práticos: quem pode se beneficiar
+
+- Você está empregada e entra de licença: a empresa geralmente encaminha o pedido ao INSS; você recebe o benefício e garante estabilidade no emprego por 5 meses após o parto.
+- Contribuinte individual (autônoma): se contribuiu corretamente, pode requerer o auxílio-maternidade e receber equivalente à média dos últimos salários de contribuição.
+- Trabalhadora rural: comprovação de atividade e qualidade de segurada permitem requerer o benefício; prazos e documentação variam.
+- Adoção: desde a formalização da guarda, a adotante pode pedir o benefício; prazos dependem da idade da criança.
+
+## Erros comuns que prejudicam o pedido
+
+- Não anexar certidão de nascimento no prazo
+- Falta de comprovante de contribuição para autônomas
+- Pedir antes de reunir documentação mínima exigida (atestados médicos, contrato de trabalho)
+- Não atualizar cadastro gov.br/Meu INSS com informações de contato
+
+## Direitos relacionados à licença-maternidade
+
+- Estabilidade provisória no emprego por, no mínimo, cinco meses após o parto
+- Garantia de retorno à função anterior ou equivalente
+- Possibilidade de fruição de licença-paternidade para o pai (regime varia por empresa e legislação)
+
+## Perguntas frequentes
+
+#### Quem antecipa o pagamento do salário-maternidade: a empresa ou o INSS?
+Em regra, a empresa antecipa o pagamento à empregada contratada, sendo ressarcida pelo INSS. Contribuintes individuais recebem direto do INSS.
+
+#### E se eu for demitida antes de saber que estou grávida? Tenho direito à estabilidade?
+Se a demissão ocorrer no período em que a trabalhadora tem estabilidade garantida por lei, pode haver direito à reintegração ou indenização; casos variam e exigem análise detalhada.
+
+#### Posso trabalhar durante a gestação e ainda assim pedir o benefício?
+Sim. O benefício é referente ao período de afastamento. Enquanto trabalha, não receberá o auxílio; ele é iniciado a partir do início da licença.
+
+## Quer avaliar seu caso agora?
+
+Conte rapidamente: você é empregada registrada, contribuinte individual, trabalhadora rural ou adotante? Informe também a data prevista do parto ou da adoção, e nós orientaremos os próximos passos e documentos prioritários para solicitar o auxílio-maternidade.
+    `,
+    date: "11 de março de 2026",
+    category: "Auxílio-Maternidade",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
