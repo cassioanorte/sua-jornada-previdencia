@@ -123,6 +123,11 @@ const Footer = () => {
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">Atendimento</p>
                   <p className="text-sm font-medium text-foreground">100% online em todo o Brasil</p>
+                  <p className="text-xs text-muted-foreground mt-2 mb-1">Unidades Físicas</p>
+                  <p className="text-sm font-medium text-foreground">Gramado - RS</p>
+                  <p className="text-xs text-muted-foreground">R. Berna, 715 - Vila Suíça, CEP 95670-554</p>
+                  <p className="text-sm font-medium text-foreground mt-1">Nova Petrópolis - RS</p>
+                  <p className="text-xs text-muted-foreground">Av. 15 de Novembro, 1924, Sala 304, Centro, CEP 95150-000</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
