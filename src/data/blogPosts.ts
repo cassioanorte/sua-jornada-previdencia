@@ -942,6 +942,109 @@ Conte rapidamente: você é empregada registrada, contribuinte individual, traba
     date: "11 de março de 2026",
     category: "Auxílio-Maternidade",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "auxilio-acidente-e-dpvat",
+    title: "Auxílio-acidente e DPVAT: 7 passos para garantir seus direitos",
+    excerpt: "Entenda auxílio-acidente e DPVAT: quem tem direito, como pedir indenização DPVAT e solicitar o benefício do INSS.",
+    content: `
+Sofrer um acidente pode trazer não só lesões físicas, mas também dúvidas sobre direitos e meios de compensação. Dois instrumentos importantes são o **auxílio-acidente** (benefício previdenciário do INSS) e o **DPVAT** (seguro obrigatório que indeniza danos pessoais em acidentes de trânsito). Embora distintos, eles podem ser complementares. Neste post, você encontrará orientações práticas, documentos necessários, prazos e dicas para aumentar suas chances de receber ambos os benefícios quando tiver direito.
+
+## O que é auxílio-acidente e como funciona?
+
+O auxílio-acidente é um benefício pago pelo INSS à pessoa segurada que, após acidente (de qualquer natureza), ficou com **sequela permanente** que reduz sua capacidade para o trabalho habitual. Tem caráter indenizatório e é pago de forma mensal enquanto a pessoa permanecer segurada. Para requerer, é necessária perícia médica que comprove o nexo entre o acidente e a sequela.
+
+## O que é DPVAT e quando ele se aplica?
+
+O DPVAT é o seguro obrigatório que indeniza vítimas de acidentes envolvendo veículos automotores. Cobre três hipóteses principais: **morte**, **despesas médicas e hospitalares** (reembolso) e **invalidez permanente**. O pagamento independe de culpa: basta comprovar que o dano decorreu do acidente de trânsito.
+
+## Principais diferenças entre auxílio-acidente e DPVAT
+
+- **Natureza:** auxílio-acidente = benefício previdenciário; DPVAT = seguro civil obrigatório.
+- **Finalidade:** auxílio-acidente = compensar redução da capacidade laboral; DPVAT = indenizar morte, despesas médicas e invalidez.
+- **Prazo e procedimento:** pedidos e documentos podem ser diferentes; cada regime tem seus prazos próprios.
+- **Acúmulo:** em muitos casos é possível receber ambos, pois visam reparações distintas.
+
+## Quem pode solicitar cada benefício?
+
+**Auxílio-acidente:** segurados do INSS (empregados CLT, contribuintes individuais, seguradas especiais etc.) com sequela permanente que reduza a capacidade para o trabalho.
+
+**DPVAT:** qualquer vítima de acidente de trânsito (motorista, passageiro, pedestre) que comprove morte, despesas médicas ou invalidez permanente.
+
+## Documentos essenciais para pleitear DPVAT e auxílio-acidente
+
+- Documento de identificação com foto (RG/CNH) e CPF.
+- Boletim de ocorrência (se houver) ou outro registro do acidente.
+- Relatórios e laudos médicos que descrevam lesões e sequelas.
+- Exames complementares (radiografia, ressonância, eletroneuromiografia).
+- Notas fiscais e recibos de despesas médicas/hospitalares (para reembolso DPVAT).
+- Comunicação ao empregador, atestados e registros de afastamento (auxílio-acidente).
+
+Procure organizar tudo em **ordem cronológica** para facilitar análise.
+
+## Passo a passo prático para requerer o DPVAT
+
+1. Reúna documentos: BO, laudos, recibos e RG/CPF.
+2. Informe-se sobre o canal de atendimento local para DPVAT (em alguns estados há postos físicos ou atendimento online).
+3. Preencha o requerimento e anexe provas do acidente e das despesas médicas.
+4. Aguarde a análise e, se necessário, perícia.
+5. Em caso de indeferimento, verifique o procedimento de recurso administrativo ou considere assistência jurídica.
+
+## Passo a passo prático para requerer auxílio-acidente (INSS)
+
+1. Organize seu dossiê médico com laudos e exames.
+2. Acesse o Meu INSS (app ou site) e faça o requerimento de auxílio-acidente ou compareça a uma agência.
+3. Agende perícia médica e leve todos os documentos e relatórios.
+4. Acompanhe o processo e responda a exigências dentro do prazo.
+5. Em caso de negativa, avalie recurso administrativo ou judicial com apoio de advogado.
+
+## Dicas para fortalecer seu pedido (tanto DPVAT quanto auxílio-acidente)
+
+- Tenha laudos assinados por especialistas que descrevam **limitações funcionais**.
+- Junte fotos do acidente e imagens das lesões quando possível.
+- Mantenha cópias físicas e digitais de todos os documentos.
+- Registre todas as despesas médicas com notas fiscais e recibos.
+- Testemunhas e declaração do empregador podem ajudar a comprovar impacto no trabalho.
+- Procure orientação jurídica quando houver indeferimento ou complexidade no caso.
+
+## Prazos importantes e observações práticas
+
+- DPVAT costuma ter prazos para requerimento e documentação; é recomendável agir **logo após o acidente**.
+- Auxílio-acidente depende do agendamento de perícia no INSS, que pode ter espera — protocole logo que tiver a documentação mínima.
+- Receber um benefício **não impede** o pedido do outro, mas cada processo exige comprovação própria do dano e nexo causal.
+
+## Perguntas frequentes (FAQs)
+
+#### O DPVAT paga despesas médicas mesmo se eu receber auxílio-acidente?
+Sim. O DPVAT pode reembolsar despesas médicas (DAMS) independentemente do auxílio-acidente, desde que as despesas sejam comprovadas e relacionadas ao acidente de trânsito.
+
+#### Posso receber auxílio-acidente e DPVAT ao mesmo tempo?
+Sim, na maioria dos casos ambos podem ser recebidos, pois têm naturezas distintas. Ainda assim, cada pedido será analisado separadamente.
+
+#### Quanto tempo demora para sair o pagamento do DPVAT e do auxílio-acidente?
+Os prazos variam: DPVAT pode ser mais rápido se a documentação estiver completa; auxílio-acidente depende do agendamento de perícia no INSS. Acompanhe os processos pelos canais oficiais.
+
+#### E se meu pedido for negado?
+Você pode apresentar recurso administrativo. Se o recurso for negado, é possível buscar a via judicial com apoio de advogado especialista em direito previdenciário ou de trânsito.
+
+## Checklist para anexar ao pedido
+
+- Documento de identificação (RG/CNH) e CPF.
+- Boletim de ocorrência.
+- Laudos médicos (ortopedista, neurologista, fisiatra).
+- Exames complementares (RX, ressonância, EMG).
+- Notas fiscais e recibos de despesas médicas.
+- Atestados médicos e relatórios de acompanhamento.
+- Declaração do empregador (se aplicável).
+- Fotos do acidente e das lesões (se tiver).
+
+## Conclusão
+
+Auxílio-acidente e DPVAT são recursos importantes para quem sofreu um acidente e ficou com sequelas ou despesas médicas. A principal chave para o sucesso é a **organização**: junte laudos médicos claros, comprovantes de gastos e provas do acidente. Agende perícia no INSS sem demora e peça o DPVAT assim que possível. Se houver negativa, não desista — recorra administrativamente e, se necessário, procure assessoria especializada.
+    `,
+    date: "12 de março de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
