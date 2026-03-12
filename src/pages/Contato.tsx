@@ -114,6 +114,13 @@ const Contato = () => {
                     <p className="text-muted-foreground">
                       100% online em todo o Brasil
                     </p>
+                    <p className="text-muted-foreground mt-2 font-semibold text-foreground text-sm">Unidades Físicas:</p>
+                    <p className="text-muted-foreground text-sm">
+                      <strong>Gramado - RS:</strong> R. Berna, 715 - Vila Suíça, CEP 95670-554
+                    </p>
+                    <p className="text-muted-foreground text-sm mt-1">
+                      <strong>Nova Petrópolis - RS:</strong> Av. 15 de Novembro, 1924, Sala 304, Centro, CEP 95150-000
+                    </p>
                   </div>
                 </div>
 
