@@ -176,7 +176,7 @@ const BlogPost = () => {
         </div>
       </section>
 
-      <FloatingWhatsApp />
+      
       <Footer />
     </div>
   );
