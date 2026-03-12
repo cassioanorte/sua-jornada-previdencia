@@ -944,6 +944,93 @@ Conte rapidamente: você é empregada registrada, contribuinte individual, traba
     author: "Equipe Spier & Anorte"
   },
   {
+    id: "documentos-auxilio-acidente-checklist",
+    title: "Documentos essenciais para pedir auxílio-acidente: checklist completo",
+    excerpt: "Confira o checklist completo de documentos para pedir auxílio-acidente ao INSS e aumente suas chances de aprovação na perícia.",
+    content: `
+Pedir auxílio-acidente ao INSS exige mais do que vontade: exige **organização documental**. Um dossiê bem estruturado aumenta muito as chances de sucesso na perícia e acelera a análise administrativa. A seguir você confere quais são os documentos essenciais, quais documentos complementares fortalecem o pedido, como organizá-los, um modelo de checklist pronto para imprimir e dicas práticas para evitar recusas ou exigências.
+
+## Por que a documentação é tão importante?
+
+O auxílio-acidente é concedido com base em perícia médica do INSS que verifica se houve sequela permanente decorrente de acidente e se essa sequela reduz a capacidade para o trabalho habitual. Sem provas médicas claras e documentos que demonstrem o **nexo causal**, a avaliação pode negar o benefício. Além disso, o setor administrativo costuma fazer exigências formais; ter tudo organizado evita prazos perdidos e recursos indevidos.
+
+## Checklist principal — documentos obrigatórios e essenciais
+
+- Documento de identificação com foto (RG, CNH) e CPF.
+- Carteira de trabalho (CTPS) ou outros documentos que comprovem vínculo empregatício (quando aplicável).
+- Número de NIT/PIS/PASEP ou cartão do INSS (quando já for segurado).
+- Boletim de ocorrência (BO) ou registro do acidente (se aplicável, especialmente em acidentes de trânsito).
+- Relatório médico inicial que atenda ao atendimento de emergência (se houver).
+- Laudos médicos conclusivos que descrevam a lesão e a sequela (ortopedista, neurologista, fisiatra etc.).
+- Exames complementares que comprovem a lesão e a sequela (radiografias, tomografia, ressonância magnética, eletroneuromiografia, exames laboratoriais relevantes).
+- Atestados médicos com datas de início e término de tratamentos e afastamentos.
+- Receitas, prescrições e relatórios de tratamentos (fisioterapia, cirurgias, uso de próteses/órteses).
+- Declaração do empregador sobre as alterações de função, afastamentos e desempenho laboral (quando aplicável).
+- Comprovantes de pagamento e recibos de tratamentos importantes (para demonstrar continuidade e custos, se necessário).
+- Procuração e documentos do representante, se o requerimento for feito por terceiro.
+
+## Documentos complementares que fortalecem o pedido
+
+- Relatórios de profissionais de reabilitação profissional (quando houver).
+- Laudos ocupacionais e de médico do trabalho.
+- Fotografias das lesões ou do acidente (quando relevantes).
+- Declarações de testemunhas ou colegas de trabalho descrevendo limitações e impacto nas atividades.
+- Histórico funcional do trabalhador explicando atividades habituais e tarefas que foram afetadas.
+- Relatórios de avaliações de capacidade funcional (se houver) e questionários funcionais preenchidos.
+- Documentos relacionados a acidentes de trabalho (CAT — Comunicação de Acidente de Trabalho) ou comunicação interna do empregador.
+
+## Como organizar o dossiê (sugestão prática)
+
+- Use uma pasta com divisórias ou um arquivo digital organizado em pastas.
+- **Ordem sugerida** (da frente para trás ou na pasta digital): identificação; comprovantes de vínculo; documentos do acidente (BO/CAT); relatórios e laudos médicos em ordem cronológica; exames (nomeados e datados); atestados e receitas; comprovantes de despesas; declarações do empregador; testemunhas; procurações.
+- Numere as páginas e inclua um índice no início com a listagem dos documentos e as respectivas páginas — isso facilita a perícia e o protocolo.
+
+## Modelos e exemplos práticos
+
+**Modelo de sumário do dossiê:** 1. RG/CPF; 2. CTPS; 3. BO; 4. Laudo Ortopedia 01/2025; 5. Ressonância 02/2025; etc.
+
+**Exemplo de declaração do empregador (curta):** "Declaramos que o Sr(a). X, portador do CPF Y, atuava como [função]. Após acidente em [data], houve redução de produtividade e adaptações nas funções descritas em anexo." Assinatura, carimbo e CNPJ.
+
+**Exemplo de declaração de testemunha:** nome, documento, relação com a vítima, relato objetivo das mudanças observadas após o acidente e assinatura.
+
+## Dicas para a perícia médica do INSS
+
+- Leve o dossiê organizado em cópias físicas e cópia digital (pen drive ou anexos no Meu INSS).
+- Chegue com antecedência e com todos os exames originais e laudos assinados.
+- Se o laudo for técnico, peça ao médico que descreva claramente a **limitação funcional** e como ela afeta o trabalho habitual. Termos como "redução de capacidade para atividades habituais" ajudam a vincular o laudo ao critério do INSS.
+- Evite contradições entre os relatos: alinhe informações entre atestados, laudos e depoimentos do empregador.
+- Se usar prótese ou órtese, leve fotos e relatórios que comprovem o uso contínuo.
+
+## Erros comuns que levam ao indeferimento
+
+- Laudos genéricos sem descrição da limitação funcional.
+- Falta de exames que comprovem a sequela.
+- Ausência de documentação do acidente quando relevante (por exemplo, acidente de trânsito sem BO).
+- Laudos desatualizados ou sem assinatura/carimbo do especialista.
+- Falta de comprovação da qualidade de segurado (NIT/PIS/PASEP ou contribuições) quando aplicável.
+
+## Prazos e procedimentos administrativos importantes
+
+- **Requerimento:** preferencialmente protocole no Meu INSS (app/site) ou agende atendimento presencial quando necessário. Anexe o máximo de documentos no momento do requerimento.
+- **Perícia:** agende e compareça com toda a documentação; a falta de documentos pode gerar exigência e atrasar o benefício.
+- **Recurso:** se houver indeferimento, é possível apresentar recurso administrativo dentro do prazo indicado pela decisão. Em muitos casos, o apoio de advogado aumenta as chances de reversão.
+
+## Quando buscar ajuda jurídica ou especializada
+
+- Casos complexos com sequelas difíceis de comprovar (lesões neurológicas sutis, transtorno psíquico pós-acidente).
+- Indeferimento com fundamento técnico que você considera injusto.
+- Acidentes com múltiplos responsáveis, necessidade de acúmulo de benefícios ou discussão sobre retroativos.
+- Quando houver dúvida sobre qualidade de segurado e carência de contribuições.
+
+## Conclusão
+
+Um pedido de auxílio-acidente bem-sucedido começa com um dossiê bem organizado. Reúna identificação, comprovantes de vínculo, documentação do acidente, laudos especializados, exames complementares e declarações que demonstrem o impacto funcional na sua rotina de trabalho. Ordene essas provas, numere-as e anexe ao requerimento no Meu INSS ou leve-as à perícia. Quando em dúvida, busque orientação técnica ou jurídica para evitar perdas de prazo ou indeferimentos.
+    `,
+    date: "12 de março de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-acidente-e-dpvat",
     title: "Auxílio-acidente e DPVAT: 7 passos para garantir seus direitos",
     excerpt: "Entenda auxílio-acidente e DPVAT: quem tem direito, como pedir indenização DPVAT e solicitar o benefício do INSS.",
