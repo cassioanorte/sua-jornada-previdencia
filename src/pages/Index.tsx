@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+
 import { Button } from "@/components/ui/button";
 import { 
   Heart, 
@@ -111,7 +111,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <FloatingWhatsApp />
+      
       
       {/* Hero Section */}
       <section className="relative hero-gradient text-primary-foreground pt-32 pb-24 overflow-hidden">
