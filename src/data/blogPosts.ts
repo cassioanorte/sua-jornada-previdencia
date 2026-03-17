@@ -1132,6 +1132,101 @@ Auxílio-acidente e DPVAT são recursos importantes para quem sofreu um acidente
     date: "12 de março de 2026",
     category: "Auxílio-Acidente",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "plano-de-reabilitacao-profissional",
+    title: "Plano de Reabilitação Profissional e o Papel no Pedido de Benefício: Obrigatoriedade do INSS antes da Aposentadoria por Invalidez",
+    excerpt: "Plano de reabilitação profissional: entenda a obrigatoriedade do INSS em oferecer PRP antes da aposentadoria por invalidez e os efeitos da omissão.",
+    content: `
+## Introdução
+
+O plano de reabilitação profissional é ferramenta essencial para preservar a vida laboral do segurado. Quando um trabalhador sofre incapacidade para sua função habitual, o INSS deve avaliar a possibilidade de reabilitação antes de conceder aposentadoria por invalidez. Neste artigo você encontrará explicações sobre o que é o plano de reabilitação profissional, quando o INSS é obrigado a oferecê‑lo, as consequências da omissão, como agir administrativamente e judicialmente e recomendações práticas para proteger seus direitos.
+
+## O que é o plano de reabilitação profissional?
+
+O plano de reabilitação profissional (PRP) consiste em um conjunto individualizado de ações — avaliações médicas e funcionais, tratamentos, terapias, adaptações de postos de trabalho, treinamentos e qualificação profissional — com o objetivo de recuperar, readaptar ou direcionar o segurado para uma nova atividade compatível com suas limitações. O foco é restituir, na medida do possível, a capacidade de trabalho e evitar que a aposentadoria por invalidez seja a primeira e imediata solução.
+
+## Base legal e princípio protetivo
+
+A obrigação de priorizar a reabilitação nasce da própria lógica do sistema previdenciário, que busca conservar a capacidade laboral sempre que for viável. Normas, manuais e orientações do INSS, bem como decisões da Justiça e da Previdência Social, reforçam que a aposentadoria por invalidez é medida de caráter excepcional, cabível quando esgotadas as possibilidades de reabilitação.
+
+## Quando o INSS deve oferecer o PRP antes da aposentadoria por invalidez?
+
+- **Avaliação inicial favorável à reabilitação:** se a perícia médica identificar limitação, mas também apontar potencial de recuperação ou readaptação, o INSS deve encaminhar o segurado ao PRP.
+- **Sequência de atos administrativos:** a perícia não deve simplesmente reconhecer incapacidade definitiva sem verificar e documentar a possibilidade de reabilitação.
+- **Exceções justificadas:** somente quando a incapacidade for comprovadamente irreversível ou quando não existirem alternativas razoáveis de reabilitação é legítimo o deferimento imediato da aposentadoria por invalidez.
+
+## Como o INSS implementa o PRP
+
+- **Perícia e encaminhamento:** o perito analisa se há viabilidade de reabilitação e, quando cabível, formaliza o encaminhamento ao programa de reabilitação.
+- **Plano individualizado:** equipe multidisciplinar elabora o plano com metas, intervenções (fisioterapia, terapia ocupacional, cursos) e prazo para ação.
+- **Acompanhamento e avaliação final:** durante o processo há monitoramento e, ao término, reavaliação da capacidade para retorno ao trabalho.
+
+## Consequências da omissão do PRP pelo INSS
+
+- **Vício do ato administrativo:** conceder aposentadoria por invalidez sem que tenha sido analisada ou oferecida reabilitação pode configurar ilegalidade ou nulidade do ato.
+- **Possibilidade de anulação ou revisão:** decisões judiciais e administrativas já reconheceram, em casos concretos, a necessidade de anular concessões que desconsideraram possibilidade de reabilitação. Nesses casos, o processo pode ser remetido para reanálise e encaminhamento ao PRP.
+- **Efeitos práticos para o segurado:** a ausência de reabilitação pode privar o segurado de oportunidades de reinserção, além de gerar discussões sobre retroatividade, continuidade do benefício e reenquadramento funcional.
+
+## Provas e documentos relevantes para demonstrar omissão
+
+- Relatórios e laudos médicos (perícia, especialistas, reabilitação).
+- Comunicações do INSS e decisões administrativas.
+- Histórico de tratamentos, exames e avaliações funcionais.
+- Pareceres de profissionais de reabilitação, terapeuta ocupacional, médico do trabalho.
+- Registro de tentativas de encaminhamento ou solicitação de PRP pelo segurado.
+
+## Como proceder administrativamente
+
+- **Solicitação formal:** protocole requerimento no Meu INSS solicitando encaminhamento ao PRP ou revisão da concessão, juntando documentos que provem a possibilidade de reabilitação.
+- **Pedido de informações:** peça cópia integral do processo administrativo e dos laudos periciais.
+- **Recurso administrativo:** se o pedido for negado, apresente recurso fundamentado, apontando a omissão e juntando prova técnica de viabilidade de reabilitação.
+
+## Quando buscar a via judicial
+
+- Esgotados os recursos administrativos ou diante de omissão reiterada, a ação judicial pode ser necessária para anular a concessão e obter determinação de encaminhamento ao PRP.
+- **Pedido de tutela de urgência:** em hipóteses de dano irreparável ou risco de perecimento de direito, é possível pleitear tutela antecipada que determine o encaminhamento imediato.
+- **Importância de prova técnica:** laudos e pareceres de especialistas aumentam as chances de sucesso judicial.
+
+## Casos práticos e jurisprudência
+
+Tribunais têm decidido que a falta de encaminhamento ao PRP, quando comprovada a viabilidade de reabilitação, configura nulidade do ato administrativo. Cada decisão, contudo, é casuística: o juiz analisa documentos médicos, perícias e a existência de registro do não encaminhamento. Assim, o sucesso do pleito depende de demonstração robusta da possibilidade de reabilitação e da omissão do INSS.
+
+## Recomendações para segurados e familiares
+
+- **Exija transparência:** peça acesso ao processo administrativo e cópia dos laudos periciais.
+- **Documente tudo:** protocolos, comunicações, laudos, exames e contatos com o INSS.
+- **Busque pareceres técnicos:** profissionais de reabilitação ocupacional, médico do trabalho e fisiatra podem produzir pareceres que demonstram viabilidade de reabilitação.
+- **Considere suporte jurídico:** um advogado previdenciário orienta sobre prazos, recursos e medidas judiciais adequadas.
+- **Pense na reabilitação como oportunidade:** quando viável, o PRP pode possibilitar formação para nova função, mantendo renda e autonomia.
+
+## Perguntas frequentes (FAQs)
+
+#### O INSS é sempre obrigado a oferecer PRP antes de conceder aposentadoria por invalidez?
+Não sempre. A obrigação existe quando há possibilidade razoável de reabilitação. Se a incapacidade for irreversível, a aposentadoria por invalidez pode ser concedida sem PRP.
+
+#### Como eu sei se havia possibilidade de reabilitação no meu caso?
+Reúna laudos, descreva suas limitações funcionais e peça pareceres de especialistas (fisiatra, médico do trabalho, terapeuta ocupacional). Esses documentos ajudam a demonstrar viabilidade técnica de reabilitação.
+
+#### O que faço se a aposentadoria por invalidez foi concedida sem oferta de PRP?
+Protocole pedido de reavaliação no Meu INSS, solicite cópia do processo, junte pareceres técnicos e, se necessário, ingresse com recurso administrativo ou ação judicial.
+
+#### Quanto tempo leva um plano de reabilitação profissional?
+O tempo varia conforme a complexidade do caso e das intervenções propostas. Pode durar meses, com avaliações periódicas.
+
+#### O PRP garante emprego no final do processo?
+O PRP visa qualificar e readaptar o segurado, mas não garante vaga específica. Em alguns casos há parcerias para recolocação, mas o resultado depende do mercado e das condições individuais.
+
+#### A anulação da aposentadoria por invalidez pode obrigar o segurado a voltar a trabalhar?
+A anulação do ato administrativo significa que o processo voltará para reavaliação. Isso não implica retorno imediato ao trabalho; cada caso será reavaliado conforme a capacidade ao final do PRP.
+
+## Conclusão
+
+O plano de reabilitação profissional é peça-chave do sistema previdenciário para preservar a capacidade laboral e evitar medidas extremas como a aposentadoria por invalidez quando existirem alternativas viáveis. O INSS deve avaliar e, quando cabível, oferecer o PRP antes de conceder aposentadoria por invalidez. A omissão dessa etapa pode gerar nulidade da concessão e abrir caminho para revisão administrativa ou judicial. Para proteger seus direitos, documente tudo, busque pareceres técnicos e, se necessário, procure orientação jurídica especializada.
+    `,
+    date: "17 de março de 2026",
+    category: "Reabilitação Profissional",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
