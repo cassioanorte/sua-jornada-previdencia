@@ -142,7 +142,8 @@ const Footer = () => {
                   <p className="text-sm font-medium text-foreground">Cassio Fraga Anorte</p>
                   <p className="text-xs text-muted-foreground">OAB/RS 73.679</p>
                   <p className="text-sm font-medium text-foreground mt-1">Rodrigo Fernando Shoeler Spier</p>
-                  <p className="text-xs text-muted-foreground">OAB/RS 70.421</p>
+                  <p className="text-sm font-medium text-foreground mt-1">Paloma Nicole Schabarum</p>
+                  <p className="text-xs text-muted-foreground">OAB/RS 125.105</p>
                 </div>
               </li>
             </ul>
