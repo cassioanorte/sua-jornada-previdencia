@@ -1227,6 +1227,117 @@ O plano de reabilitação profissional é peça-chave do sistema previdenciário
     date: "17 de março de 2026",
     category: "Reabilitação Profissional",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-do-professor",
+    title: "Aposentadoria do Professor: Guia Completo das Regras e Opções",
+    excerpt: "Aposentadoria do professor: entenda regras, requisitos e opções para docentes da rede pública e privada.",
+    content: `
+## Introdução
+
+A aposentadoria do professor é um tema essencial para profissionais da educação que planejam o futuro financeiro e a transição da carreira. As regras variam conforme vinculação ao regime próprio (RPPS) ou ao Regime Geral de Previdência Social (RGPS), tempo de contribuição, idade, modalidade de magistério e mudanças legislativas recentes. Neste artigo objetivo, explico de forma clara os principais caminhos, requisitos, benefícios e cuidados para professores da educação básica e superior, ajudando a tomar decisões informadas.
+
+## Entendendo os regimes de previdência: RPPS x RGPS
+
+Professores que trabalham para a administração pública podem estar vinculados a um Regime Próprio de Previdência Social (RPPS), enquanto docentes da rede privada contribuem ao Regime Geral (RGPS) pelo INSS. Cada regime tem regras próprias sobre aposentadoria, cálculos de benefício e possibilidades de paridade ou integralidade. É fundamental verificar qual regime se aplica ao seu caso antes de planejar a aposentadoria.
+
+## Aposentadoria especial para professores no RGPS
+
+No RGPS, existe uma regra diferenciada para professores da educação infantil, ensino fundamental e médio que exerçam atividades de magistério. Tradicionalmente, esses profissionais têm direito a aposentadoria com requisitos reduzidos de tempo de contribuição:
+
+- **Tempo de contribuição reduzido:** Em geral, 25 anos de contribuição exclusivamente em atividade de magistério para mulheres e 30 anos para homens.
+- **Regra de transição:** Com as reformas previdenciárias, surgiram regras de transição que combinam idade mínima, pontos (idade + tempo) e pedágio sobre o tempo faltante. Professores devem avaliar qual regra de transição é mais vantajosa no seu caso.
+- **Cálculo do benefício:** Após a reforma de 2019, o cálculo do benefício no RGPS passou a considerar média de contribuições e fatores que podem reduzir o valor final. É recomendado simular o benefício com base nas contribuições efetivas.
+
+## Aposentadoria dos professores no RPPS (servidores públicos)
+
+Para professores estatutários vinculados a RPPS (municipal, estadual ou federal), as regras podem contemplar:
+
+- **Requisitos legais próprios:** muitos RPPS mantêm regras que preservam critérios de natureza remuneratória, como integralidade e paridade, especialmente para servidores que ingressaram antes de determinadas datas.
+- **Idade e tempo de serviço:** alguns regimes exigem idade mínima combinada com tempo de contribuição ou tempo em cargo de magistério.
+- **Regimes de transição:** estados e municípios implementaram regras de transição após a reforma, com cálculos específicos.
+
+É essencial consultar a legislação local e o setor de recursos humanos da instituição pública para obter informações precisas.
+
+## Modalidades e diferenças: integralidade, paridade e regra geral
+
+- **Integralidade:** em alguns RPPS, o servidor aposentado recebe o valor integral da última remuneração (ou parcela definida pela norma) se cumprir determinados requisitos de ingresso antes de cortes.
+- **Paridade:** garante que reajustes concedidos aos servidores ativos sejam estendidos aos inativos. Nem todos os segurados têm direito a paridade; depende do regime e da data de ingresso.
+
+No RGPS, não há integralidade e paridade nos mesmos termos; o cálculo segue regras de média e fatores previdenciários.
+
+## Regras de transição mais comuns após reformas
+
+As reformas previdenciárias trouxeram alternativas de transição que afetam professores:
+
+- **Regra dos pontos (idade + tempo de contribuição):** exige atingir um somatório mínimo.
+- **Idade mínima progressiva:** aumento gradual da idade mínima exigida.
+- **Pedágio:** porcentagem do tempo que faltava para a aposentadoria na data da vigência da reforma, pago como "pedágio" para se aposentar sem a idade mínima.
+
+Cada alternativa tem impacto distinto no tempo de contribuição e no valor do benefício; a escolha ideal depende da situação individual.
+
+## Cálculo do benefício: o que muda para professores
+
+O valor do benefício depende do regime e da regra aplicada:
+
+- No RGPS, utiliza-se a média aritmética simples de 100% das contribuições desde 1994, aplicando‑se porcentagens conforme tempo de contribuição e regras vigentes.
+- No RPPS, o cálculo pode envolver integralidade ou média, conforme legislação local e data de ingresso.
+
+Fazer simulações com um especialista ou por meio de ferramentas oficiais ajuda a tomar decisões melhores sobre o momento de se aposentar.
+
+## Contribuições e aposentadoria parcial (atividade concomitante)
+
+Professores que acumulam vínculos (por exemplo, tempo no setor privado e público) ou que trabalham em outras funções devem observar como cada período será contado. É possível somar tempos em regimes distintos, mas o cálculo pode variar e exigir pedidos específicos de contagem de tempo.
+
+## Procedimentos práticos para solicitar aposentadoria
+
+- Reúna documentação: carteira de trabalho, comprovantes de contribuição, certificados de tempo de serviço, contracheques e declaração de tempo de serviço para atividades de magistério.
+- Consulte o setor de RH (servidores públicos) ou o INSS (contribuintes RGPS) para orientações e agendamento.
+- Faça simulações antes de solicitar para escolher a melhor regra de transição disponível.
+- Considere o auxílio de advogado especialista em direito previdenciário ou de contador experiente em cálculos de benefício.
+
+## Impactos financeiros e planejamento
+
+Planejar a aposentadoria envolve avaliar renda prevista, despesas, saúde e expectativas de carreira. Para muitos professores, a aposentadoria pode coincidir com redução de renda, por isso recomendo:
+
+- Simular diferentes cenários de benefício.
+- Avaliar complementos de renda (aposentadoria complementar, previdência privada ou investimentos).
+- Considerar o momento ideal para não reduzir excessivamente o valor final do benefício.
+
+## Dicas para professores que estão próximos da aposentadoria
+
+- Verifique o tempo efetivo dedicado ao magistério e organize comprovantes.
+- Considere optar pela regra de transição mais vantajosa após simulação.
+- Avalie a necessidade e o impacto de continuar trabalhando para aumentar a média contributiva.
+- Busque orientação especializada para evitar perda de direitos por erro de cálculo ou interpretação.
+
+## Perguntas frequentes (FAQs)
+
+#### Quem tem direito à aposentadoria especial como professor?
+Professores da educação infantil, ensino fundamental e médio que comprovarem exercício de magistério têm regras diferenciadas de tempo de contribuição no RGPS; servidores públicos seguem normas do RPPS local.
+
+#### Qual o tempo de contribuição necessário para professor no RGPS?
+Tradicionalmente, 25 anos para mulheres e 30 anos para homens em atividade exclusiva de magistério. Contudo, regras de transição podem alterar requisitos; verifique a situação atual e simule.
+
+#### O professor que fez carreira no serviço público tem direito à integralidade?
+Depende do RPPS e da data de ingresso. Muitos regimes prevêem integralidade e paridade para ingresso até determinada data; verifique a legislação local.
+
+#### Como calcular o valor da aposentadoria do professor?
+No RGPS usa‑se a média das contribuições desde 1994; no RPPS, depende da legislação do ente federativo (média ou integralidade). Recomenda‑se simulação com base em contracheques e histórico contributivo.
+
+#### Posso continuar trabalhando e receber aposentadoria como professor?
+Há possibilidades de acúmulo ou de acumular renda, mas isso depende do regime (por exemplo, servir no setor público e receber inatividade pode ter restrições em alguns casos). Verifique regras de acumulação e compatibilidade.
+
+#### Quando é vantajoso pedir aposentadoria ou esperar mais tempo?
+Depende do impacto no valor do benefício, saúde, expectativa de mercado e regras de transição. Em geral, esperar mais tempo aumenta a média contributiva e pode elevar o benefício, mas cada caso é distinto.
+
+## Conclusão
+
+A aposentadoria do professor exige atenção à legislação aplicável, ao regime previdenciário e às opções de transição disponíveis. Planejamento, organização documental e simulações são passos essenciais para garantir uma aposentadoria tranquila e financeiramente adequada. Procure orientação especializada para avaliar a melhor estratégia para seu caso.
+    `,
+    date: "17 de março de 2026",
+    category: "Aposentadoria",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
