@@ -1338,6 +1338,116 @@ A aposentadoria do professor exige atenção à legislação aplicável, ao regi
     date: "17 de março de 2026",
     category: "Aposentadoria",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "pensao-por-morte",
+    title: "Pensão por Morte: Guia Completo para Entender Direitos e Como Solicitar",
+    excerpt: "Entenda quem tem direito à pensão por morte, requisitos, valor do benefício, documentação necessária e como solicitar no INSS. Guia completo e atualizado.",
+    content: `## Introdução
+
+A **pensão por morte** é um benefício previdenciário essencial para amparar dependentes do segurado que faleceu ou que teve sua morte declarada judicialmente. Entre dúvidas sobre quem tem direito, como é calculado o valor, prazos e procedimentos, é comum que famílias sintam insegurança no momento difícil. Este artigo explica de maneira clara e prática os requisitos legais, os tipos de dependentes, o cálculo do benefício, o prazo de duração, documentação necessária e o passo a passo para solicitar a **pensão por morte no INSS**, tanto no Regime Geral (RGPS) quanto em regimes próprios.
+
+## Quem Tem Direito à Pensão por Morte?
+
+A **pensão por morte** é destinada aos dependentes do segurado falecido. Os dependentes são divididos por classes:
+
+- **Cônjuge ou companheiro(a)**, e pessoa em **união estável**
+- **Filhos** até 21 anos, ou inválidos/permanentemente incapacitados independentemente da idade
+- **Pais**, se comprovarem dependência econômica
+- **Irmãos** não emancipados até 21 anos, ou inválidos/permanentemente incapacitados, se comprovarem dependência econômica
+
+A prioridade na habilitação do **benefício pensão por morte** segue a ordem das classes: cônjuge/companheiro e filhos, depois pais e irmãos. A comprovação de dependência econômica é necessária para pais e irmãos.
+
+## Requisitos para Concessão
+
+Para a concessão da **pensão por morte** no RGPS (INSS) é preciso, em regra:
+
+- Que o falecido tenha **qualidade de segurado** na data do óbito (estar contribuindo ou manter o período de graça)
+- Ou que tenha cumprido **carência**, quando aplicável em casos específicos
+
+**Observações:**
+
+Para trabalhadores formais, a condição de segurado normalmente existe; para contribuintes facultativos, microempreendedores e outros, é necessário verificar se havia contribuições regulares. Em regimes próprios (servidores públicos), regras específicas do ente federativo podem alterar requisitos e cálculo.
+
+## Valor do Benefício: Como é Calculado?
+
+O valor da **pensão por morte** pode variar conforme o regime e a data de óbito do segurado. No RGPS, o cálculo segue, de forma simplificada:
+
+- A partir de 2015 e com alterações posteriores, o valor baseia‑se em uma **porcentagem do valor que o segurado recebia** como aposentadoria na data do óbito ou da média dos salários de contribuição
+- Atualmente, a regra prevê uma **cota familiar** (uma parte destinada à família) acrescida de **cotas individuais** por dependente
+- Em geral, existe um percentual mínimo garantido para o cônjuge/companheiro(a), que pode ser complementado por cotas para filhos e demais dependentes
+- Há um **teto máximo**: o benefício não ultrapassa o teto do INSS
+
+Recomenda‑se simular o cálculo com base nos dados exatos do segurado ou consultar um especialista, pois regras transitórias e mudanças legislativas podem afetar os percentuais aplicáveis.
+
+## Duração do Benefício: Por Quanto Tempo os Dependentes Recebem?
+
+A duração da **pensão por morte** depende do tipo de dependente e de critérios como idade e tempo de contribuição do segurado:
+
+- **Cônjuge/companheiro(a):** pode ter direito vitalício em alguns casos (quando tem idade mínima, é inválido ou tem filhos menores) ou por período determinado se jovens e com pouco tempo de casamento/união
+- **Filhos e demais dependentes com incapacidade:** enquanto durar a incapacidade
+- **Filhos menores:** até 21 anos (salvo outras condições legais)
+
+As regras exatas dependem das normas vigentes e das alterações legislativas; verifique sempre a legislação atual e orientações do INSS.
+
+## Documentos Necessários para Solicitar
+
+Documentos básicos costumam incluir:
+
+- **Certidão de óbito** do segurado
+- **Documento de identidade e CPF** do requerente
+- **Comprovação do vínculo** com o segurado: certidão de casamento, declaração de união estável, certidão de nascimento dos filhos, declaração de dependência econômica (para pais/irmãos)
+- **Documentos do segurado falecido:** CPF, carteira de trabalho, carteira de identidade, número do NIT/PIS/PASEP, últimos contracheques ou comprovantes de contribuição
+- **Documentos que comprovem a condição de dependente** (quando necessário): laudos médicos (para incapacidade), declarações de dependência econômica, certidões diversas
+
+## Passo a Passo para Solicitar a Pensão por Morte no INSS
+
+1. Reunir os documentos listados acima
+2. Acessar o portal **Meu INSS** (site ou aplicativo) e agendar o requerimento de pensão por morte, ou ir a uma agência do INSS com a documentação
+3. Preencher o formulário e anexar (digitalmente pelo Meu INSS) os documentos solicitados
+4. Acompanhar o andamento do processo pelo próprio portal ou por meio de protocolo
+5. Se o pedido for indeferido, apresentar **recurso administrativo** ou procurar orientação jurídica para avaliar medidas judiciais cabíveis
+
+## Prazos e Pagamento Retroativo
+
+Após o pedido, o INSS tem prazo para análise. Se o benefício for concedido, o pagamento é **retroativo à data do óbito** ou ao requerimento, conforme regras aplicáveis (verifique prazos legais). Em caso de indeferimento, é possível recorrer administrativamente ou judicialmente, especialmente se existir prova robusta da condição de dependência e qualidade de segurado.
+
+## Casos Especiais e Dúvidas Frequentes
+
+- **União estável:** é aceito como prova de dependência o registro em cartório, escritura pública, declaração de imposto de renda em conjunto, contas conjuntas e outros documentos que demonstrem a convivência pública e contínua
+- **Pensão por morte de segurado sem qualidade de segurado:** quando o segurado não era contribuinte ou estava fora do período de graça, o benefício pode ser negado; porém, cada caso exige verificação documental e jurídica
+- **Acúmulo de pensões:** existem regras sobre acumulação com outros benefícios; é necessário verificar compatibilidades
+
+## Perguntas Frequentes (FAQs)
+
+#### Quem tem direito automático à pensão por morte?
+
+Não há "automático": o dependente precisa requerer o benefício e comprovar a qualidade de segurado do falecido e o vínculo de dependência. A prioridade para habilitação segue a ordem das classes de dependentes.
+
+#### Quanto tempo demora a concessão da pensão por morte?
+
+O prazo varia conforme a análise documental e possíveis exigências. Pela via administrativa, pode levar semanas a meses; casos de contestação podem se estender. Acompanhe pelo Meu INSS e, se necessário, busque assistência jurídica.
+
+#### Posso receber pensão por morte e continuar trabalhando?
+
+Sim, em geral o recebimento de **pensão por morte** não impede o trabalho, mas há regras específicas para acúmulo com outros benefícios e remunerações de servidor público. Verifique seu caso.
+
+#### E se houver disputa entre dependentes sobre o benefício?
+
+Conflitos entre dependentes podem exigir análise judicial para reconhecimento de dependência ou partilha de cotas. É importante buscar orientação jurídica rapidamente.
+
+#### A pensão por morte pode ser cancelada?
+
+Sim, se ficar comprovado que a dependência era fraudulenta, que houve erro na concessão ou mudança na situação do beneficiário (por exemplo, cessação da incapacidade), o benefício pode ser cessado após processo administrativo. Procedimentos legais de defesa são cabíveis.
+
+## Conclusão
+
+A **pensão por morte** é um direito relevante para proteção de dependentes do segurado, mas sua concessão depende de regras formais sobre qualidade de segurado, comprovação de dependência e documentação apropriada. Planejamento, organização documental e busca de orientação (no INSS ou com advogado previdenciário) aumentam as chances de obter o benefício de forma ágil e correta. Em caso de negativa, é possível recorrer administrativamente ou judicialmente.
+
+**#PensãoPorMorte #BenefícioINSS #DireitoPrevidenciário #QuemTemDireito #PensãoPorMorteINSS #DependentesINSS #BenefícioPrevidenciário #AdvogadoPrevidenciário #DireitosDosDepententes #INSS #PensãoMorte #SeguroSocial #UnidoEstável #ReformaDaPrevidência #SpierAnorte**`,
+    date: "17 de Março de 2026",
+    category: "Pensão por Morte",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
