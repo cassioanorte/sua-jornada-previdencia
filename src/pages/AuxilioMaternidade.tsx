@@ -40,7 +40,7 @@ const AuxilioMaternidade = () => {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto space-y-6">
+          <div className="max-w-4xl mx-auto space-y-6" style={{ textAlign: 'justify' }}>
             <h2 className="text-3xl font-bold mb-6 text-foreground">
               Entenda o Auxílio Maternidade
             </h2>

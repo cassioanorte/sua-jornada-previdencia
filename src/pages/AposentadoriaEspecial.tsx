@@ -50,7 +50,7 @@ const AposentadoriaEspecial = () => {
 
       <section className="py-16 section-gradient">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto" style={{ textAlign: 'justify' }}>
             <h2 className="text-3xl font-bold mb-6 text-center text-foreground">
               Comprovação da Atividade Especial
             </h2>

@@ -83,7 +83,7 @@ const AreasDeAtuacao = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="mb-12 max-w-3xl mx-auto text-center">
-            <p className="text-lg text-foreground/80">
+            <p className="text-lg text-foreground/80" style={{ textAlign: 'justify' }}>
               Com mais de 13 anos de experiência exclusiva em Direito Previdenciário, 
               nossa equipe está preparada para atender todas as suas necessidades relacionadas 
               aos benefícios do INSS. Cada área é tratada com o máximo de profissionalismo, 
