@@ -135,7 +135,10 @@ const Footer = () => {
                   <Scale className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-xs text-muted-foreground mb-1">Advogados</p>
+                  <p className="text-xs text-muted-foreground mb-2">Sociedade</p>
+                  <p className="text-sm font-medium text-foreground">Spier e Anorte Advogados Associados</p>
+                  <p className="text-xs text-muted-foreground">OAB/RS nº 4.809</p>
+                  <p className="text-xs text-muted-foreground mt-3 mb-1">Advogados</p>
                   <p className="text-sm font-medium text-foreground">Cassio Fraga Anorte</p>
                   <p className="text-xs text-muted-foreground">OAB/RS 73.679</p>
                   <p className="text-sm font-medium text-foreground mt-1">Rodrigo Fernando Shoeler Spier</p>
