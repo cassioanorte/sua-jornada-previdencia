@@ -1448,6 +1448,88 @@ A **pensão por morte** é um direito relevante para proteção de dependentes d
     date: "17 de Março de 2026",
     category: "Pensão por Morte",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "conferir-cnis-antes-de-solicitar-aposentadoria",
+    title: "Conferir o CNIS Antes de Pedir Aposentadoria: Por Que é Essencial",
+    excerpt: "Importância de conferir o CNIS antes de solicitar aposentadoria: evite erros, garanta tempo de contribuição e maximize seu benefício.",
+    content: `
+O Cadastro Nacional de Informações Sociais (CNIS) é a base de dados que reúne o histórico contributivo do trabalhador no Regime Geral de Previdência Social (INSS). Conferir o CNIS antes de solicitar a aposentadoria é um passo fundamental para evitar surpresas, garantir a contagem correta do tempo de contribuição e maximizar o valor do benefício. Neste artigo explico por que revisar o CNIS, como fazê‑lo, quais erros são mais comuns, consequências de omissões e medidas práticas para corrigir problemas antes do pedido.
+
+## Por que conferir o CNIS é imprescindível?
+
+- **Validação do tempo de contribuição:** o CNIS consolida registros de vínculos formais, contribuições como contribuinte individual ou facultativo e períodos de atividade especial. Erros podem reduzir o tempo computável.
+- **Cálculo do benefício:** valores e médias usados no cálculo da aposentadoria dependem das contribuições registradas no CNIS. Lançamentos incorretos podem resultar em benefício menor.
+- **Evitar retrabalho:** corrigir divergências antes de pedir o benefício reduz a chance de indeferimento, exigências e processos administrativos demorados.
+- **Base para requerimentos judiciais:** documentos e provas robustas do CNIS atualizado fortalecem pedidos, recursos e ações judiciais, caso necessário.
+
+## Principais tipos de inconsistências no CNIS
+
+- **Falta de vínculos formais:** períodos trabalhados que não foram informados pelo empregador (CTPS, registro em carteira).
+- **Contribuições não lançadas:** pagamento de contribuições como MEI, contribuinte individual ou facultativo que não constam.
+- **Erros na remuneração ou códigos:** salários de contribuição lançados incorretamente que impactam a média.
+- **Duplicidade ou sobreposição de períodos:** registros redundantes ou conflitantes entre regimes.
+- **Períodos em atividades especiais não reconhecidos:** falta de enquadramento de trabalho com exposição a agentes nocivos que permitem aposentadoria especial.
+
+## Como consultar o CNIS passo a passo
+
+1. Acesse o Meu INSS (site ou aplicativo) com login gov.br.
+2. No menu, escolha "Extrato do CNIS" ou "Cadastro Nacional de Informações Sociais".
+3. Baixe o extrato em PDF e revise todos os vínculos, remunerações e contribuições.
+4. Identifique lacunas, valores divergentes e códigos que não correspondam ao seu histórico.
+5. Anote os números de competência, CNPJ/CPF do empregador e períodos afetados.
+
+## O que fazer ao identificar divergências
+
+- **Reúna documentos comprobatórios:** contratos, carteira de trabalho, holerites, recibos de contribuição (GPS), guias DAS (MEI), declarações de empregadores, contratos de prestação de serviço e comprovantes de pagamento.
+- **Faça o pedido de correção no Meu INSS:** protocole requerimento administrativo apontando as inconsistências e anexando provas.
+- **Procure atendimento nas agências do INSS** caso o erro seja complexo; leve documentos originais para instrução do processo.
+- Quando se tratar de vínculo com órgão público ou RPPS, solicite certidões ao setor de recursos humanos ou à previdência do ente público.
+- Se o INSS negar a correção ou demorar excessivamente, avalie recurso administrativo ou ação judicial com apoio de advogado previdenciário.
+
+## Impactos de não conferir o CNIS antes do pedido
+
+- Aposentadoria com valor menor por conta de contribuições não computadas.
+- Indeferimento ou exigência por documentação complementar, atrasando o benefício.
+- Perda de prazos para contestação administrativa ou solicitações de revisão com efeitos retroativos.
+- Dificuldade de comprovar períodos trabalhados em eventuais ações judiciais sem a documentação organizada previamente.
+
+## Dicas práticas para uma revisão eficiente do CNIS
+
+- Reserve tempo para revisar com calma e anotar discrepâncias.
+- Comece a conferência antes de faltar poucos meses para cumprir requisito (idade ou tempo).
+- Organize comprovantes em ordem cronológica e digitalize documentos essenciais.
+- Use planilha simples para confrontar o extrato CNIS com sua documentação pessoal.
+- Conte com orientação especializada quando houver décadas de vínculos, atividades especiais ou contribuições complexas.
+
+## Casos comuns e soluções rápidas
+
+- **Falta de registro do último emprego:** apresente contracheque, recibo de pagamento e declaração do empregador.
+- **Contribuições como autônomo não computadas:** junte GPS ou comprovantes de recolhimento e protocolo no Meu INSS.
+- **Tempo especial não reconhecido:** apresente PPP (Perfil Profissiográfico Previdenciário) e LTCAT, e solicite reanálise.
+
+## Perguntas frequentes (FAQs)
+
+#### O que é CNIS e por que ele importa?
+O CNIS é o extrato oficial do INSS com o histórico de vínculos e contribuições. Importa porque serve de base para verificar tempo de contribuição e calcular a aposentadoria.
+
+#### Posso corrigir o CNIS após pedir a aposentadoria?
+Sim, é possível pedir revisão, mas é mais seguro corrigir antes do requerimento para evitar atrasos no benefício e garantir pagamento retroativo correto.
+
+#### Quanto tempo leva para o INSS corrigir o CNIS?
+Os prazos variam; correções podem levar semanas ou meses, dependendo da complexidade. Por isso é recomendado antecipar a conferência.
+
+#### Preciso de advogado para corrigir o CNIS?
+Nem sempre. Muitos ajustes são resolvidos administrativamente. Contudo, quando há negativa do INSS ou questões complexas (RPPS, tempo especial), a orientação de um advogado previdenciário é recomendada.
+
+## Conclusão
+
+Conferir o CNIS antes de solicitar aposentadoria é um passo simples, mas estratégico. Uma verificação cuidadosa evita perda de tempo de contribuição, garante cálculo correto do benefício e reduz a probabilidade de recusas e recursos demorados. Organize sua documentação, revise o extrato do CNIS com antecedência e, quando necessário, busque apoio técnico ou jurídico para corrigir divergências. Assim você aumenta suas chances de obter a aposentadoria adequada, com o valor justo e com menos estresse.
+
+**#CNIS #AposentadoriaINSS #DireitoPrevidenciário #ConferirCNIS #TempoDeContribuição #MeuINSS #BenefícioPrevidenciário #AdvogadoPrevidenciário #RevisãoCNIS #INSS #SpierAnorte**`,
+    date: "18 de Março de 2026",
+    category: "Aposentadoria",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
