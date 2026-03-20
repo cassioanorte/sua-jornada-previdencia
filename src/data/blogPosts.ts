@@ -1661,6 +1661,105 @@ A aposentadoria rural é um direito construído sobre provas de trabalho e vínc
     date: "18 de Março de 2026",
     category: "Aposentadoria Rural",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-por-idade",
+    title: "Aposentadoria por Idade: Guia Prático para Garantir Seu Benefício",
+    excerpt: "Saiba requisitos, prazos, cálculo e como solicitar a aposentadoria por idade no INSS de forma prática.",
+    content: `
+## O que é aposentadoria por idade?
+
+A aposentadoria por idade é um benefício previdenciário concedido ao trabalhador que atingiu a idade mínima prevista em lei e cumpriu os requisitos de contribuição quando aplicáveis. Ela está prevista no Regime Geral de Previdência Social (RGPS) administrado pelo INSS e pode ser requerida por trabalhadores urbanos, rurais e segurados especiais, cada grupo com regras específicas.
+
+## Quem tem direito à aposentadoria por idade?
+
+- **Trabalhadores urbanos:** geralmente é exigida idade mínima e tempo mínimo de contribuição dependendo da regra vigente (verifique regras de transição aplicáveis).
+- **Trabalhadores rurais e segurados especiais:** costumam ter idades mínimas reduzidas em comparação aos urbanos (por exemplo, 55 anos para mulheres e 60 para homens em regras típicas), além de requisitos específicos de comprovação da atividade no meio rural.
+- **Pessoas com deficiência:** existem regras específicas que consideram o grau de deficiência para reduzir o tempo de contribuição necessário.
+
+É importante checar a legislação atual e eventuais regras de transição que possam alterar prazos, idades e exigências.
+
+## Idade mínima e tempo de contribuição: regras gerais
+
+- **Idade mínima:** varia por grupo e por mudanças legislativas. Historicamente, as regras pós-reforma passaram a exigir idades maiores e/ou tempo de contribuição mínimo; entretanto, existem regras de transição para quem já estava no mercado de trabalho.
+- **Tempo de contribuição:** em muitas situações é exigido um tempo mínimo (por exemplo, 15 anos de contribuição para trabalhadores urbanos em determinados períodos), enquanto segurados especiais podem não precisar comprovar contribuições da mesma forma, mas sim a atividade rural por determinado período.
+
+Como as regras podem mudar, recomenda-se sempre conferir o texto atualizado da legislação e utilizar as ferramentas oficiais do INSS para simulação.
+
+## Como é feito o cálculo do benefício?
+
+O cálculo da aposentadoria por idade depende de:
+
+- **Média dos salários de contribuição:** o INSS calcula uma média aritmética dos salários de contribuição a partir de um período base definido por lei (aplica-se regra de descarte de maiores ou menores salários conforme legislação vigente).
+- **Fator previdenciário e regras específicas:** dependendo da data de concessão e da opção do segurado, pode haver aplicação de fatores (como o fator previdenciário) ou regras de transição que alterem o percentual aplicado sobre a média.
+- **Teto do INSS:** o valor final não pode exceder o teto previdenciário vigente.
+
+Para evitar surpresas, faz sentido simular o benefício com base no extrato do CNIS e, se necessário, buscar orientação especializada.
+
+## Documentos necessários para solicitar
+
+- Documento de identificação com foto (RG, CNH, carteira profissional) e CPF.
+- Comprovante de residência.
+- Carteira de Trabalho (CTPS), contracheques, carnês de contribuição (GPS), informes de rendimentos e demais comprovantes de vínculos e recolhimentos.
+- Extrato CNIS (Cadastro Nacional de Informações Sociais) — é essencial conferir e corrigir eventuais inconsistências antes do pedido.
+- Para segurados rurais: documentos que comprovem atividade rural (DAP, notas fiscais de venda da produção, declarações de sindicato, testemunhas).
+- Para pessoas com deficiência: laudos médicos e documentação que ateste o grau de incapacidade.
+
+Sempre mantenha cópias digitais organizadas para anexar pelo Meu INSS.
+
+## Passo a passo para solicitar pelo INSS
+
+1. Reúna toda a documentação necessária e verifique o CNIS no Meu INSS.
+2. Acesse o Meu INSS (site ou aplicativo) com login gov.br; caso não tenha, faça o cadastro.
+3. Escolha o serviço "Aposentadoria por idade" e preencha o requerimento, anexando documentos digitalizados.
+4. Agende perícias ou atendimentos presenciais, se exigidos.
+5. Acompanhe o pedido pelo Meu INSS e responda a eventuais exigências dentro dos prazos.
+6. Se o pedido for indeferido, veja a motivação e, se for o caso, apresente recurso administrativo ou busque orientação jurídica.
+
+**Dica:** conferir e corrigir o CNIS antes de solicitar pode evitar exigências e atrasos.
+
+## Erros comuns e como evitá-los
+
+- **Não checar o CNIS antes de pedir:** revisar o extrato evita perda de contribuições no cálculo.
+- **Falta de documentos que comprovem períodos contributivos ou de atividade rural:** organize e digitalize documentos antigos.
+- **Não considerar regras de transição:** isso pode levar à escolha equivocada do momento do pedido.
+- **Deixar de somar períodos como contribuinte individual ou facultativo:** todas as contribuições contam, desde que devidamente comprovadas.
+
+## Diferenças entre aposentadoria por idade urbana e rural
+
+- **Idade mínima:** frequentemente menor para trabalhadores rurais/segurados especiais.
+- **Forma de comprovação:** segurados rurais dependem mais de documentos como DAP, notas fiscais da produção e testemunhas, enquanto urbanos dependem de carteira de trabalho e carnês.
+- **Cálculo:** pode variar conforme contribuições registradas no CNIS.
+
+## Regras de transição e mudanças recentes
+
+As reformas da previdência costumam criar regras de transição para quem já contribuía antes das mudanças. Essas regras determinam critérios híbridos (idade + tempo de contribuição + pontos) que podem ser mais vantajosos para alguns segurados. Consulte sempre fontes oficiais ou um especialista para verificar em qual regime você se encaixa.
+
+## Perguntas Frequentes (FAQs)
+
+#### Quem tem direito à aposentadoria por idade?
+Qualquer segurado que atenda à idade mínima exigida e cumpra os requisitos de contribuição ou comprovação de atividade, conforme a sua categoria (urbano, rural, pessoa com deficiência).
+
+#### Posso continuar trabalhando após pedir a aposentadoria por idade?
+Sim. Em geral, o recebimento do benefício não impede o trabalho. Entretanto, para servidores públicos ou cargos com regras próprias, verifique regras de acúmulo e aposentadoria do regime próprio.
+
+#### É preciso carência para aposentadoria por idade?
+Sim, normalmente há exigência de carência (número mínimo de contribuições) em determinados casos. Para segurado especial, as regras são diferentes e muitas vezes a condição de atividade rural substitui a carência contributiva.
+
+#### Como corrigir o CNIS se encontrar erros?
+Reúna comprovantes (CTPS, contracheques, GPS, DAP) e protocole pedido de correção no Meu INSS anexando as provas. Em casos de negativa, avalie recurso ou ação judicial.
+
+#### Quanto tempo demora a concessão do benefício?
+O prazo varia conforme a análise documental e a necessidade de perícia. Pode levar semanas a meses.
+
+## Conclusão
+
+A aposentadoria por idade é um direito que exige atenção ao momento do requerimento, à documentação e à conferência do histórico contributivo. Planejar, revisar o CNIS, organizar provas e, quando necessário, buscar orientação especializada, são passos que aumentam as chances de concessão correta e célere do benefício. Consulte sempre as orientações oficiais do INSS e, se tiver dúvidas complexas, procure um advogado previdenciário.
+
+**#AposentadoriaPorIdade #INSS #DireitoPrevidenciário #AposentadoriaIdade #BenefícioINSS #AdvogadoPrevidenciário #SpierAnorte**`,
+    date: "20 de Março de 2026",
+    category: "Aposentadoria por Idade",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
