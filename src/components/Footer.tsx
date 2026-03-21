@@ -159,7 +159,7 @@ const Footer = () => {
             {cityPages.map((city) => (
               <Link
                 key={city.slug}
-                to={`/advogado-previdenciario-${city.slug}`}
+                to={`/advogado-previdenciario/${city.slug}`}
                 className="px-3 py-1.5 rounded-full bg-secondary border border-border text-xs text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors"
               >
                 {city.name}

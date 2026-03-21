@@ -282,7 +282,7 @@ const CityLandingPage = () => {
               {otherCities.map((c) => (
                 <Link
                   key={c.slug}
-                  to={`/advogado-previdenciario-${c.slug}`}
+                  to={`/advogado-previdenciario/${c.slug}`}
                   className="px-4 py-2 rounded-full bg-secondary border border-border text-sm text-foreground hover:border-primary/30 hover:text-primary transition-colors"
                 >
                   {c.name}
