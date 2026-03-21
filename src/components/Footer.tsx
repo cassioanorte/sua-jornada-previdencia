@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Scale } from "lucide-react";
 import logo from "@/assets/logo-spier-anorte.jpeg";
+import { cityPages } from "@/data/cityPages";
 
 const Footer = () => {
   const handleWhatsApp = () => {
