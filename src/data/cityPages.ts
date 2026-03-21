@@ -244,6 +244,30 @@ export const cityPages: CityData[] = [
     localInfo: "Porto Alegre é a capital do Rio Grande do Sul e o maior centro econômico do estado, com economia diversificada em serviços, comércio, indústria, tecnologia e setor público. Atendemos trabalhadores de todos os setores — servidores públicos em transição para o RGPS, profissionais da saúde, indústria, comércio, transporte e serviços — em aposentadorias, auxílios, BPC/LOAS e pensão por morte.",
     proximity: "120 km do nosso escritório em Gramado (atendimento online disponível)",
   },
+  {
+    name: "Canoas",
+    slug: "canoas",
+    title: "Advogado Previdenciário em Canoas - Spier & Anorte",
+    metaDescription: "Advogado previdenciário em Canoas/RS. Aposentadorias, auxílios, BPC/LOAS e pensão por morte. Atendimento presencial e online. Consulta gratuita.",
+    keywords: "advogado previdenciário canoas, advogado INSS canoas, aposentadoria canoas",
+    hasOffice: false,
+    heroSubtitle: "Atendimento especializado em Direito Previdenciário para moradores de Canoas e região metropolitana.",
+    intro: "Moradores de Canoas contam com a Spier & Anorte Advogados para questões previdenciárias. Com mais de 13 anos de experiência exclusiva em Direito Previdenciário, oferecemos atendimento 100% online e presencial em nossos escritórios na Serra Gaúcha.",
+    localInfo: "Canoas é a segunda maior cidade da região metropolitana de Porto Alegre, com forte presença nos setores industrial, comercial e de serviços, além de abrigar a Base Aérea de Canoas. Atendemos trabalhadores da indústria, comércio, militares em transição e profissionais de todos os setores em aposentadorias, auxílios, BPC/LOAS e pensão por morte.",
+    proximity: "110 km do nosso escritório em Gramado (atendimento online disponível)",
+  },
+  {
+    name: "Gravataí",
+    slug: "gravatai",
+    title: "Advogado Previdenciário em Gravataí - Spier & Anorte",
+    metaDescription: "Advogado previdenciário em Gravataí/RS. Aposentadorias, auxílios, BPC/LOAS e pensão por morte. Atendimento presencial e online. Consulta gratuita.",
+    keywords: "advogado previdenciário gravataí, advogado INSS gravataí, aposentadoria gravataí",
+    hasOffice: false,
+    heroSubtitle: "Especialistas em Direito Previdenciário atendendo moradores de Gravataí com dedicação e proximidade.",
+    intro: "A Spier & Anorte Advogados oferece atendimento especializado em Direito Previdenciário para moradores de Gravataí. Com atendimento 100% online e escritórios na Serra Gaúcha, ajudamos trabalhadores a garantir seus direitos junto ao INSS.",
+    localInfo: "Gravataí é um importante polo industrial da região metropolitana, com destaque para o complexo automotivo da General Motors e indústrias de autopeças. Atendemos trabalhadores da indústria automotiva, metalúrgica, comércio e serviços em aposentadorias especiais por insalubridade, aposentadoria por tempo de contribuição, auxílios e demais benefícios previdenciários.",
+    proximity: "100 km do nosso escritório em Gramado (atendimento online disponível)",
+  },
 ];
 
 export const getCityBySlug = (slug: string): CityData | undefined => {
