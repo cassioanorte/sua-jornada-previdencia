@@ -2072,6 +2072,83 @@ Frentistas podem ter direitos previdenciários específicos em razão da exposi�
     category: "Aposentadoria Especial",
     author: "Equipe Spier & Anorte"
   }
+  ,
+  {
+    id: "aposentadoria-vigilante",
+    image: "/blog/aposentadoria-vigilante.jpg",
+    title: "Aposentadoria Vigilante: Direitos e Como Solicitar",
+    excerpt: "Entenda regras, reconhecimento de atividade especial, documentação e como pedir o benefício no INSS sendo vigilante.",
+    content: `
+Vigilantes desempenham funções com risco aumentado e exposição contínua a situações de perigo. No Brasil, essa realidade pode refletir em regras previdenciárias específicas, especialmente quanto ao reconhecimento de atividade especial. Este artigo detalha requisitos, documentação necessária, passo a passo para requerer aposentadoria e orientações para evitar negativas.
+
+## Por que vigilantes podem ter regras diferenciadas?
+
+A atividade de vigilante envolve **risco físico, contato com armas, plantões noturnos e estresse contínuo**. Para fins previdenciários, o que importa é a exposição a agentes ou condições que justifiquem redução do tempo de contribuição via reconhecimento de trabalho especial.
+
+## Aposentadoria especial e vigilantes: é possível?
+
+Sim. Vigilantes podem pleitear aposentadoria especial quando comprovada exposição a agentes perigosos ou condições que caracterizem insalubridade ou periculosidade de forma habitual e permanente. A comprovação exige **documentação técnica e registros ocupacionais**.
+
+## Documentos chave para vigilantes
+
+- **PPP** emitido pelo empregador com descrição das atividades
+- **LTCAT** e laudos técnicos de condições ambientais de trabalho
+- **Anotações na Carteira de Trabalho**, contratos, holerites e escalas de serviço
+- **Boletins de ocorrência** e comunicações internas quando relevantes para demonstrar risco
+- **Exames médicos ocupacionais** e relatórios de saúde
+
+## Como comprovar tempo especial para vigilantes
+
+A prova se dá por documentos formais (PPP, LTCAT) e, quando inexistentes, por **prova testemunhal, declarações sindicais e registros** que demonstrem habitualidade. É crucial reunir escalas e documentos que comprovem jornada de risco, sobretudo noturna e armada.
+
+## Impacto das mudanças legislativas e de perícia
+
+Reforma da previdência e atualizações em normas de periculosidade e insalubridade podem influenciar reconhecimento de especialidade. Além disso, a perícia do INSS avalia documentação com critérios técnicos; **laudos sólidos aumentam chances de reconhecimento**.
+
+## Passo a passo para requerer a aposentadoria sendo vigilante
+
+1. Verifique **CNIS** e registre inconsistências no Meu INSS
+2. Reúna **PPP, LTCAT, CTPS, escalas e provas de carga horária/armamento**
+3. **Digitalize documentos** e anexe ao requerimento no Meu INSS
+4. Acompanhe exigências e **compareça a perícia**, levando todos os originais
+5. Em caso de indeferimento, protocole **recurso administrativo** e considere assessoria jurídica
+
+## Principais dificuldades e como superá-las
+
+- **Falta de PPP/LTCAT:** buscar documentos complementares, testemunhas e declarações sindicais
+- **Registros incompletos no CNIS:** solicitar correção com documentos comprobatórios
+- **Perícia negativa:** apresentar recursos com provas técnicas e, se necessário, ação judicial
+
+## Perguntas frequentes (FAQs)
+
+**Vigilante tem direito automático à aposentadoria especial?**
+Não automaticamente. É preciso comprovar condições especiais de trabalho e cumprir o tempo mínimo correspondente à legislação aplicável.
+
+**Que documentos têm maior peso na análise do INSS?**
+PPP, LTCAT, CTPS com anotações e escalas que demonstrem habitualidade da exposição a riscos.
+
+**Como proceder se o empregador não emitir PPP?**
+Reúna outros documentos (escalas, holerites, contratos, testemunhas) e considere ação judicial para compelir produção de provas ou obter reconhecimento administrativo/judicial.
+
+**Qual o papel das escalas e boletas de serviço?**
+São provas importantes de habitualidade e jornada; ajudam a demonstrar exposição regular ao risco, especialmente em plantões noturnos.
+
+**Devo contratar advogado para recorrer de negativa?**
+A contratação é recomendada quando há falta de documentos-chave, baixa probabilidade de reforma administrativa ou disputa sobre interpretação de provas.
+
+## Conclusão
+
+Vigilantes podem ter direito a aposentadoria diferenciada quando a atividade é comprovadamente especial. **Organização documental, atenção ao CNIS, obtenção de PPP/LTCAT** e, quando necessário, apoio jurídico são passos fundamentais para aumentar as chances de concessão.
+
+### Links úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento, consulta CNIS e serviços
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais e normativos
+`,
+    date: "21 de Março de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
+  }
 ];
 
 export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
