@@ -19,7 +19,7 @@ import {
   Home,
   Baby
 } from "lucide-react";
-import heroImage from "@/assets/hero-law.jpg";
+import heroImage from "@/assets/hero-law.webp";
 
 const Index = () => {
   const handleWhatsApp = () => {
