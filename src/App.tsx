@@ -49,6 +49,7 @@ const Blog = lazy(pageImports.Blog);
 const BlogPost = lazy(pageImports.BlogPost);
 const Contato = lazy(pageImports.Contato);
 const NotFound = lazy(pageImports.NotFound);
+const CityLandingPage = lazy(pageImports.CityLandingPage);
 
 const queryClient = new QueryClient();
 
