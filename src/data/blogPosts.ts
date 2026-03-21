@@ -1991,6 +1991,86 @@ A Aposentadoria PCD existe para oferecer tratamento mais justo a pessoas cuja de
     date: "21 de Março de 2026",
     category: "Aposentadoria PCD",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-frentista",
+    image: "/blog/aposentadoria-frentista.jpg",
+    title: "Aposentadoria Frentista: Guia Completo para Garantir Seus Direitos",
+    excerpt: "Saiba as regras, tempo de contribuição, riscos ocupacionais e como solicitar a aposentadoria de frentista no INSS.",
+    content: `
+Trabalhar como frentista envolve exposição a agentes nocivos como combustíveis, solventes e movimentos repetitivos. Essas características podem afetar o tempo de trabalho e influenciar o enquadramento previdenciário. Este artigo explica quem tem direito, quais são as regras mais comuns, como comprovar atividade especial quando aplicável, o passo a passo para solicitar aposentadoria junto ao INSS e dicas para organizar a documentação.
+
+## O que caracteriza a atividade de frentista para fins previdenciários?
+
+Frentistas atuam diretamente no abastecimento de veículos, manuseio de combustíveis e lubrificantes, atendimento ao público e, muitas vezes, exposição a vapores e hidrocarbonetos. Para o INSS, o que importa é a **exposição a agentes químicos, físicos ou a condições que justifiquem reconhecimento de atividade especial**, além do registro correto em Carteira de Trabalho e relatórios ocupacionais.
+
+## Tipos de aposentadoria relevantes para frentistas
+
+- **Aposentadoria por tempo de contribuição** (regras antigas ou de transição)
+- **Aposentadoria por idade** (quando o requisito de tempo for cumprido)
+- **Aposentadoria especial** (quando comprovada exposição a agentes nocivos por período mínimo)
+
+## Aposentadoria especial: quando frentista tem direito?
+
+A aposentadoria especial exige comprovação de exposição a agentes nocivos por meio de documentação técnica, como **Perfil Profissiográfico Previdenciário (PPP)** e **LTCAT**. Para frentistas, a exposição a hidrocarbonetos e vapores derivados de combustíveis pode configurar atividade especial, desde que comprovada e conforme limites de tolerância e critérios legais vigentes.
+
+## Como comprovar atividade especial sendo frentista
+
+- Solicitar ao empregador o **PPP corretamente preenchido**
+- Reunir **laudos ambientais e LTCAT** se disponíveis
+- Guardar **contratos, holerites e registros de jornada**
+- **Testemunhas e declarações sindicais** podem ajudar em situações sem documentação técnica
+- Para períodos antigos, **documentos retroativos, CTPS com anotações e contracheques** são essenciais
+
+## Cálculo do benefício e diferenças importantes
+
+O valor da aposentadoria depende da **média salarial** e das regras vigentes no momento do pedido (reforma da previdência e regras de transição podem afetar cálculo). Aposentadoria especial pode ter regras próprias de cálculo e carências reduzidas, mas é comum haver necessidade de revisão quando há erros no reconhecimento da especialidade.
+
+## Passo a passo para solicitar a aposentadoria (dicas práticas)
+
+1. Consulte o **extrato CNIS** no Meu INSS e verifique registros de vínculos e contribuições
+2. Reúna **CTPS, PPP, holerites, contratos e laudos ambientais**
+3. Se houver inconsistências no CNIS, **peça correção antes do requerimento**
+4. Acesse **Meu INSS** e escolha o tipo de aposentadoria adequado; anexe documentos
+5. Aguarde análise e, se for o caso, **perícia ou exigência de documentos complementares**
+6. Se negado, avalie **recurso administrativo ou orientação jurídica especializada**
+
+## Erros comuns a evitar
+
+- Não atualizar o CNIS antes do pedido
+- Aceitar PPP ou laudo incompletos sem buscar correção
+- Não guardar comprovantes de pagamento e jornadas
+- Não consultar especialista quando a atividade for claramente nociva
+
+## Perguntas frequentes (FAQs)
+
+**Quem é considerado frentista pelo INSS?**
+Aquele que exerce atividades típicas de posto de combustíveis, abastecimento, manuseio de combustíveis e serviços correlatos; o enquadramento depende de descrição de função e provas de exposição.
+
+**Todo frentista tem direito à aposentadoria especial?**
+Não necessariamente. É preciso comprovar exposição a agentes nocivos e ter documentação técnica que ateste tempo e condições. Cada caso é avaliado individualmente.
+
+**Quais documentos são mais importantes para provar atividade especial?**
+PPP, LTCAT, laudos ambientais, anotações na CTPS, holerites, contratos de trabalho e testemunhos.
+
+**Quanto tempo demora para o INSS analisar um pedido?**
+O prazo varia; pode ser semanas a meses, dependendo da complexidade e necessidade de perícia.
+
+**Vale a pena contratar advogado para reconhecimento da especialidade?**
+Quando há ausência de documentos robustos ou negativa do INSS, a orientação jurídica aumenta as chances de êxito.
+
+## Conclusão
+
+Frentistas podem ter direitos previdenciários específicos em razão da exposição a agentes nocivos. **Organização documental, conferência do CNIS, solicitação de PPP/LTCAT** e, quando necessário, assistência especializada são passos essenciais para garantir o reconhecimento correto do tempo especial ou a melhor aposentadoria possível.
+
+### Links úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento, consulta CNIS e serviços
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais e normativos
+`,
+    date: "21 de Março de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
