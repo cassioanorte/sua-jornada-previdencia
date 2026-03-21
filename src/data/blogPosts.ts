@@ -6,11 +6,13 @@ export interface BlogPost {
   date: string;
   category: string;
   author: string;
+  image?: string;
 }
 
 export const blogPosts: BlogPost[] = [
   {
     id: "aposentadoria-especial-direito",
+    image: "/blog/aposentadoria-especial-direito.jpg",
     title: "Como saber se tenho direito à aposentadoria especial?",
     excerpt: "Entenda os requisitos e como comprovar que você trabalhou exposto a agentes nocivos à saúde.",
     content: `
@@ -61,6 +63,7 @@ Entre em contato conosco para uma consulta gratuita e descubra se você tem dire
   },
   {
     id: "bpc-loas-como-solicitar",
+    image: "/blog/bpc-loas-como-solicitar.jpg",
     title: "BPC LOAS: quem tem direito e como solicitar",
     excerpt: "Tudo o que você precisa saber sobre o Benefício de Prestação Continuada para idosos e pessoas com deficiência.",
     content: `
@@ -136,6 +139,7 @@ Agende uma consulta gratuita e tire todas as suas dúvidas sobre o BPC/LOAS.
   },
   {
     id: "erros-auxilio-doenca",
+    image: "/blog/erros-auxilio-doenca.jpg",
     title: "5 erros que fazem o INSS negar o auxílio-doença",
     excerpt: "Conheça os erros mais comuns e saiba como evitá-los na hora de solicitar seu benefício.",
     content: `
@@ -210,6 +214,7 @@ Entre em contato conosco para uma análise gratuita do seu caso.
   },
   {
     id: "aumentar-valor-aposentadoria",
+    image: "/blog/aumentar-valor-aposentadoria.jpg",
     title: "Como aumentar o valor da sua aposentadoria",
     excerpt: "Estratégias legais para maximizar o valor do seu benefício previdenciário.",
     content: `
@@ -297,6 +302,7 @@ Agende uma consulta gratuita e descubra como podemos ajudar a maximizar sua apos
   },
   {
     id: "diferenca-aposentadoria-tempo-idade",
+    image: "/blog/diferenca-aposentadoria-tempo-idade.jpg",
     title: "Diferença entre aposentadoria por tempo e por idade",
     excerpt: "Entenda as diferenças entre esses dois tipos de aposentadoria e qual é melhor para você.",
     content: `
@@ -385,6 +391,7 @@ Entre em contato para uma análise gratuita e personalizada do seu caso.
   },
   {
     id: "reforma-previdencia-mudancas",
+    image: "/blog/reforma-previdencia-mudancas.jpg",
     title: "Reforma da Previdência: o que mudou?",
     excerpt: "Principais mudanças trazidas pela Reforma da Previdência e como elas afetam seus direitos.",
     content: `
@@ -481,6 +488,7 @@ Agende uma consulta gratuita e descubra qual é a melhor opção para o seu caso
   },
   {
     id: "auxilio-acidente-inss-quem-tem-direito",
+    image: "/blog/auxilio-acidente-inss-quem-tem-direito.jpg",
     title: "Auxílio-Acidente: Quem Tem Direito, Valor do Benefício e Como Solicitar no INSS em 2026",
     excerpt: "Saiba o que é o auxílio-acidente, quem tem direito, valor do benefício e como solicitar no INSS. Guia completo atualizado para trabalhadores e segurados.",
     content: `
@@ -712,6 +720,7 @@ Por isso, conhecer os requisitos e reunir provas médicas adequadas pode fazer t
   },
   {
     id: "stj-beneficio-lesao-minima",
+    image: "/blog/stj-beneficio-lesao-minima.jpg",
     title: "STJ reconhece direito a benefício mesmo com lesão mínima",
     excerpt: "O Superior Tribunal de Justiça decidiu que basta a existência de lesão que reduza a capacidade para o trabalho habitual, mesmo que mínima, para a concessão do auxílio-acidente.",
     content: `
@@ -773,6 +782,7 @@ Procure orientação jurídica e analise seu caso. Um advogado especialista em D
   },
   {
     id: "auxilio-acidente",
+    image: "/blog/auxilio-acidente.jpg",
     title: "Auxílio-Acidente: Você Sabia que Placas e Próteses Podem Dar Direito a um Benefício?",
     excerpt: "Você com placa, prótese ou limitação após acidente pode ter direito ao auxílio-acidente do INSS. Saiba como comprovar e pedir o benefício.",
     content: `
@@ -858,6 +868,7 @@ Conte em poucas linhas qual acidente você sofreu e quais sequelas ficaram (ex.:
   },
   {
     id: "auxilio-maternidade",
+    image: "/blog/auxilio-maternidade.jpg",
     title: "Auxílio-maternidade: como garantir seu direito ao benefício do INSS",
     excerpt: "Auxílio-maternidade: entenda quem tem direito, como pedir ao INSS e documentos necessários para garantir o benefício.",
     content: `
@@ -945,6 +956,7 @@ Conte rapidamente: você é empregada registrada, contribuinte individual, traba
   },
   {
     id: "documentos-auxilio-acidente-checklist",
+    image: "/blog/documentos-auxilio-acidente-checklist.jpg",
     title: "Documentos essenciais para pedir auxílio-acidente: checklist completo",
     excerpt: "Confira o checklist completo de documentos para pedir auxílio-acidente ao INSS e aumente suas chances de aprovação na perícia.",
     content: `
@@ -1032,6 +1044,7 @@ Um pedido de auxílio-acidente bem-sucedido começa com um dossiê bem organizad
   },
   {
     id: "auxilio-acidente-e-dpvat",
+    image: "/blog/auxilio-acidente-e-dpvat.jpg",
     title: "Auxílio-acidente e DPVAT: 7 passos para garantir seus direitos",
     excerpt: "Entenda auxílio-acidente e DPVAT: quem tem direito, como pedir indenização DPVAT e solicitar o benefício do INSS.",
     content: `
@@ -1135,6 +1148,7 @@ Auxílio-acidente e DPVAT são recursos importantes para quem sofreu um acidente
   },
   {
     id: "plano-de-reabilitacao-profissional",
+    image: "/blog/plano-de-reabilitacao-profissional.jpg",
     title: "Plano de Reabilitação Profissional e o Papel no Pedido de Benefício: Obrigatoriedade do INSS antes da Aposentadoria por Invalidez",
     excerpt: "Plano de reabilitação profissional: entenda a obrigatoriedade do INSS em oferecer PRP antes da aposentadoria por invalidez e os efeitos da omissão.",
     content: `
@@ -1230,6 +1244,7 @@ O plano de reabilitação profissional é peça-chave do sistema previdenciário
   },
   {
     id: "aposentadoria-do-professor",
+    image: "/blog/aposentadoria-do-professor.jpg",
     title: "Aposentadoria do Professor: Guia Completo das Regras e Opções",
     excerpt: "Aposentadoria do professor: entenda regras, requisitos e opções para docentes da rede pública e privada.",
     content: `
@@ -1341,6 +1356,7 @@ A aposentadoria do professor exige atenção à legislação aplicável, ao regi
   },
   {
     id: "pensao-por-morte",
+    image: "/blog/pensao-por-morte.jpg",
     title: "Pensão por Morte: Guia Completo para Entender Direitos e Como Solicitar",
     excerpt: "Entenda quem tem direito à pensão por morte, requisitos, valor do benefício, documentação necessária e como solicitar no INSS. Guia completo e atualizado.",
     content: `## Introdução
@@ -1451,6 +1467,7 @@ A **pensão por morte** é um direito relevante para proteção de dependentes d
   },
   {
     id: "conferir-cnis-antes-de-solicitar-aposentadoria",
+    image: "/blog/conferir-cnis-antes-de-solicitar-aposentadoria.jpg",
     title: "Conferir o CNIS Antes de Pedir Aposentadoria: Por Que é Essencial",
     excerpt: "Importância de conferir o CNIS antes de solicitar aposentadoria: evite erros, garanta tempo de contribuição e maximize seu benefício.",
     content: `
@@ -1533,6 +1550,7 @@ Conferir o CNIS antes de solicitar aposentadoria é um passo simples, mas estrat
   },
   {
     id: "aposentadoria-rural",
+    image: "/blog/aposentadoria-rural.jpg",
     title: "Aposentadoria Rural: Guia Completo para Trabalhadores do Campo",
     excerpt: "Aposentadoria rural: saiba requisitos, tipos, documentos e como solicitar o benefício do INSS para trabalhadores do campo.",
     content: `
@@ -1664,6 +1682,7 @@ A aposentadoria rural é um direito construído sobre provas de trabalho e vínc
   },
   {
     id: "aposentadoria-por-idade",
+    image: "/blog/aposentadoria-por-idade.jpg",
     title: "Aposentadoria por Idade: Guia Prático para Garantir Seu Benefício",
     excerpt: "Saiba requisitos, prazos, cálculo e como solicitar a aposentadoria por idade no INSS de forma prática.",
     content: `
@@ -1763,6 +1782,7 @@ A aposentadoria por idade é um direito que exige atenção ao momento do requer
   },
   {
     id: "consultar-profissional-antes-pedir-beneficio-previdenciario",
+    image: "/blog/consultar-profissional-antes-pedir-beneficio-previdenciario.jpg",
     title: "10 Razões para Consultar um Profissional Antes de Pedir um Benefício Previdenciário",
     excerpt: "Descubra por que buscar orientação especializada antes de solicitar um benefício previdenciário pode aumentar suas chances de sucesso e evitar prejuízos.",
     content: `
@@ -1858,6 +1878,7 @@ Consultar um profissional antes de encaminhar um pedido de benefício previdenci
   },
   {
     id: "aposentadoria-pcd",
+    image: "/blog/aposentadoria-pcd.jpg",
     title: "Aposentadoria PCD: Guia Prático para Garantir Seus Direitos",
     excerpt: "Aposentadoria PCD: entenda requisitos, tipos, comprovação da deficiência e como solicitar o benefício no INSS.",
     content: `
