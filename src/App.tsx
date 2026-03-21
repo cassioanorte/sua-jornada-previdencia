@@ -64,13 +64,26 @@ const PageLoader = () => (
   </div>
 );
 
-// Prefetch all pages after initial load
+// Prefetch critical pages on idle, defer the rest
 const usePrefetchPages = () => {
   useEffect(() => {
-    const timer = setTimeout(() => {
-      Object.values(pageImports).forEach(fn => fn());
-    }, 1500);
-    return () => clearTimeout(timer);
+    const critical = [pageImports.AreasDeAtuacao, pageImports.QuemSomos, pageImports.Contato];
+    const rest = Object.values(pageImports).filter(fn => !critical.includes(fn));
+
+    const loadWhenIdle = (fns: Array<() => Promise<unknown>>, delay: number) => {
+      const timer = setTimeout(() => {
+        if ('requestIdleCallback' in window) {
+          (window as any).requestIdleCallback(() => fns.forEach(fn => fn()));
+        } else {
+          fns.forEach(fn => fn());
+        }
+      }, delay);
+      return timer;
+    };
+
+    const t1 = loadWhenIdle(critical, 2000);
+    const t2 = loadWhenIdle(rest, 5000);
+    return () => { clearTimeout(t1); clearTimeout(t2); };
   }, []);
 };
 
