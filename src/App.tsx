@@ -29,6 +29,7 @@ const pageImports = {
   Contato: () => import("./pages/Contato"),
   NotFound: () => import("./pages/NotFound"),
   CityLandingPage: () => import("./pages/CityLandingPage"),
+  EstadoRS: () => import("./pages/EstadoRS"),
 };
 
 const QuemSomos = lazy(pageImports.QuemSomos);
