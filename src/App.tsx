@@ -100,6 +100,7 @@ const App = () => {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/contato" element={<Contato />} />
+            <Route path="/advogado-previdenciario-:city" element={<CityLandingPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
