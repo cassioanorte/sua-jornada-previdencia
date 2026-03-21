@@ -154,7 +154,11 @@ const Footer = () => {
 
         {/* Cities */}
         <div className="border-t border-border mt-12 pt-8 pb-8">
-          <h3 className="text-lg font-bold mb-4 text-foreground font-display text-center">Atendemos na Serra Gaúcha</h3>
+          <h3 className="text-lg font-bold mb-4 text-foreground font-display text-center">
+            <Link to="/advogado-previdenciario-rs" className="hover:text-primary transition-colors">
+              Atendemos no Rio Grande do Sul
+            </Link>
+          </h3>
           <div className="flex flex-wrap justify-center gap-2">
             {cityPages.map((city) => (
               <Link
