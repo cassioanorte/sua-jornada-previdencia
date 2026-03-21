@@ -1,46 +1,30 @@
 
 
-## Plano: Landing Pages por Cidade — Serra Gaúcha (10 cidades)
+## Plano: Criar sitemap.xml completo
 
-### Objetivo
-Criar 10 landing pages otimizadas para SEO, uma para cada cidade da Serra Gaúcha, para ranquear em buscas como "advogado previdenciário em [cidade]".
+### O que será feito
+Criar um arquivo `public/sitemap.xml` estático com todas as URLs do site, incluindo:
+- Página inicial e páginas institucionais (6 URLs)
+- Páginas de serviços previdenciários (9 URLs)
+- Páginas de quiz (3 URLs)
+- 21 landing pages de cidades
+- Página do blog + 14 posts individuais
+- **Total: ~53 URLs**
 
-### Cidades
-Gramado, Canela, Nova Petrópolis, Caxias do Sul, Bento Gonçalves, São Francisco de Paula, Carlos Barbosa, Garibaldi, Farroupilha, Flores da Cunha.
+### Detalhes técnicos
 
-### Estrutura de cada página
+**Arquivo:** `public/sitemap.xml`
+- Base URL: `https://direitoprevidenciario.com.br`
+- Páginas principais com `priority` 1.0 e `changefreq` monthly
+- Páginas de serviços com `priority` 0.8
+- Landing pages de cidades com `priority` 0.7
+- Blog posts com `priority` 0.6
+- Data `lastmod` definida como a data atual
 
-Cada página seguirá o mesmo layout das páginas de serviço existentes (Header, Hero, conteúdo, CTA, Footer) com conteúdo personalizado por cidade:
+**Arquivo:** `public/robots.txt` (atualizar)
+- Adicionar linha `Sitemap: https://direitoprevidenciario.com.br/sitemap.xml`
 
-- **URL:** `/advogado-previdenciario-[cidade]` (ex: `/advogado-previdenciario-gramado`)
-- **Hero:** "Advogado Previdenciário em [Cidade] - Spier & Anorte"
-- **Seções:**
-  1. Apresentação do escritório e atuação na cidade
-  2. Lista de serviços oferecidos (aposentadorias, auxílios, BPC/LOAS, pensão)
-  3. Diferenciais (13+ anos de experiência, atendimento presencial/online, equipe com OABs)
-  4. Para cidades com escritório físico (Gramado, Nova Petrópolis): endereço destacado
-  5. Para demais cidades: menção de proximidade e atendimento presencial/online
-  6. CTA WhatsApp
-- **Meta tags SEO:** title, description e keywords personalizados por cidade
-
-### Implementação técnica
-
-1. **Criar arquivo de dados das cidades** (`src/data/cityPages.ts`) com informações de cada cidade (nome, slug, descrição personalizada, se tem escritório físico, distância aproximada)
-
-2. **Criar componente de template** (`src/pages/CityLandingPage.tsx`) — uma única página que recebe os dados da cidade via parâmetro de rota e renderiza conteúdo personalizado
-
-3. **Adicionar rota dinâmica** no `App.tsx`: `/advogado-previdenciario/:city`
-
-4. **Adicionar links no Footer** — seção "Atendemos na Serra Gaúcha" com links para todas as cidades
-
-5. **Meta tags dinâmicas** — usar `document.title` e meta description por cidade via `useEffect`
-
-### Nota sobre abordagem
-Usaremos uma **página dinâmica com dados estáticos por cidade** — cada cidade tem conteúdo único no arquivo de dados (não é conteúdo duplicado), mas usa um único componente React. Isso dá o melhor equilíbrio entre SEO (conteúdo único por cidade) e manutenibilidade (um só template).
-
-### Arquivos a criar/modificar
-- **Criar:** `src/data/cityPages.ts` (dados das 10 cidades)
-- **Criar:** `src/pages/CityLandingPage.tsx` (template da landing page)
-- **Modificar:** `src/App.tsx` (adicionar rota)
-- **Modificar:** `src/components/Footer.tsx` (adicionar seção de cidades)
+### Arquivos
+- **Criar:** `public/sitemap.xml`
+- **Modificar:** `public/robots.txt` (adicionar referência ao sitemap)
 
