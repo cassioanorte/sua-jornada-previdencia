@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -6,28 +6,48 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
-// Eagerly load the homepage for fastest initial render
 import Index from "./pages/Index";
 
-// Lazy load all other pages for code splitting
-const QuemSomos = lazy(() => import("./pages/QuemSomos"));
-const AreasDeAtuacao = lazy(() => import("./pages/AreasDeAtuacao"));
-const AuxilioDoenca = lazy(() => import("./pages/AuxilioDoenca"));
-const AuxilioMaternidade = lazy(() => import("./pages/AuxilioMaternidade"));
-const QuizAuxilioDoenca = lazy(() => import("./pages/QuizAuxilioDoenca"));
-const QuizAuxilioMaternidade = lazy(() => import("./pages/QuizAuxilioMaternidade"));
-const QuizAuxilioAcidente = lazy(() => import("./pages/QuizAuxilioAcidente"));
-const AuxilioAcidente = lazy(() => import("./pages/AuxilioAcidente"));
-const AposentadoriaIdade = lazy(() => import("./pages/AposentadoriaIdade"));
-const AposentadoriaTempo = lazy(() => import("./pages/AposentadoriaTempo"));
-const AposentadoriaEspecial = lazy(() => import("./pages/AposentadoriaEspecial"));
-const AposentadoriaRural = lazy(() => import("./pages/AposentadoriaRural"));
-const BpcLoas = lazy(() => import("./pages/BpcLoas"));
-const PensaoMorte = lazy(() => import("./pages/PensaoMorte"));
-const Blog = lazy(() => import("./pages/Blog"));
-const BlogPost = lazy(() => import("./pages/BlogPost"));
-const Contato = lazy(() => import("./pages/Contato"));
-const NotFound = lazy(() => import("./pages/NotFound"));
+// Lazy load other pages
+const pageImports = {
+  QuemSomos: () => import("./pages/QuemSomos"),
+  AreasDeAtuacao: () => import("./pages/AreasDeAtuacao"),
+  AuxilioDoenca: () => import("./pages/AuxilioDoenca"),
+  AuxilioMaternidade: () => import("./pages/AuxilioMaternidade"),
+  QuizAuxilioDoenca: () => import("./pages/QuizAuxilioDoenca"),
+  QuizAuxilioMaternidade: () => import("./pages/QuizAuxilioMaternidade"),
+  QuizAuxilioAcidente: () => import("./pages/QuizAuxilioAcidente"),
+  AuxilioAcidente: () => import("./pages/AuxilioAcidente"),
+  AposentadoriaIdade: () => import("./pages/AposentadoriaIdade"),
+  AposentadoriaTempo: () => import("./pages/AposentadoriaTempo"),
+  AposentadoriaEspecial: () => import("./pages/AposentadoriaEspecial"),
+  AposentadoriaRural: () => import("./pages/AposentadoriaRural"),
+  BpcLoas: () => import("./pages/BpcLoas"),
+  PensaoMorte: () => import("./pages/PensaoMorte"),
+  Blog: () => import("./pages/Blog"),
+  BlogPost: () => import("./pages/BlogPost"),
+  Contato: () => import("./pages/Contato"),
+  NotFound: () => import("./pages/NotFound"),
+};
+
+const QuemSomos = lazy(pageImports.QuemSomos);
+const AreasDeAtuacao = lazy(pageImports.AreasDeAtuacao);
+const AuxilioDoenca = lazy(pageImports.AuxilioDoenca);
+const AuxilioMaternidade = lazy(pageImports.AuxilioMaternidade);
+const QuizAuxilioDoenca = lazy(pageImports.QuizAuxilioDoenca);
+const QuizAuxilioMaternidade = lazy(pageImports.QuizAuxilioMaternidade);
+const QuizAuxilioAcidente = lazy(pageImports.QuizAuxilioAcidente);
+const AuxilioAcidente = lazy(pageImports.AuxilioAcidente);
+const AposentadoriaIdade = lazy(pageImports.AposentadoriaIdade);
+const AposentadoriaTempo = lazy(pageImports.AposentadoriaTempo);
+const AposentadoriaEspecial = lazy(pageImports.AposentadoriaEspecial);
+const AposentadoriaRural = lazy(pageImports.AposentadoriaRural);
+const BpcLoas = lazy(pageImports.BpcLoas);
+const PensaoMorte = lazy(pageImports.PensaoMorte);
+const Blog = lazy(pageImports.Blog);
+const BlogPost = lazy(pageImports.BlogPost);
+const Contato = lazy(pageImports.Contato);
+const NotFound = lazy(pageImports.NotFound);
 
 const queryClient = new QueryClient();
 
@@ -40,7 +60,19 @@ const PageLoader = () => (
   </div>
 );
 
-const App = () => (
+// Prefetch all pages after initial load
+const usePrefetchPages = () => {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      Object.values(pageImports).forEach(fn => fn());
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, []);
+};
+
+const App = () => {
+  usePrefetchPages();
+  return (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
@@ -73,6 +105,7 @@ const App = () => (
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
-);
+  );
+};
 
 export default App;
