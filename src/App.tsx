@@ -28,6 +28,7 @@ const pageImports = {
   BlogPost: () => import("./pages/BlogPost"),
   Contato: () => import("./pages/Contato"),
   NotFound: () => import("./pages/NotFound"),
+  CityLandingPage: () => import("./pages/CityLandingPage"),
 };
 
 const QuemSomos = lazy(pageImports.QuemSomos);
@@ -48,6 +49,7 @@ const Blog = lazy(pageImports.Blog);
 const BlogPost = lazy(pageImports.BlogPost);
 const Contato = lazy(pageImports.Contato);
 const NotFound = lazy(pageImports.NotFound);
+const CityLandingPage = lazy(pageImports.CityLandingPage);
 
 const queryClient = new QueryClient();
 
@@ -98,6 +100,7 @@ const App = () => {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/contato" element={<Contato />} />
+            <Route path="/advogado-previdenciario-:city" element={<CityLandingPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

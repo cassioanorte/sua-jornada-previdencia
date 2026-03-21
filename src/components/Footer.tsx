@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Scale } from "lucide-react";
 import logo from "@/assets/logo-spier-anorte.jpeg";
+import { cityPages } from "@/data/cityPages";
 
 const Footer = () => {
   const handleWhatsApp = () => {
@@ -151,8 +152,24 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Cities */}
+        <div className="border-t border-border mt-12 pt-8 pb-8">
+          <h3 className="text-lg font-bold mb-4 text-foreground font-display text-center">Atendemos na Serra Gaúcha</h3>
+          <div className="flex flex-wrap justify-center gap-2">
+            {cityPages.map((city) => (
+              <Link
+                key={city.slug}
+                to={`/advogado-previdenciario-${city.slug}`}
+                className="px-3 py-1.5 rounded-full bg-secondary border border-border text-xs text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors"
+              >
+                {city.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {/* Bottom Bar */}
-        <div className="border-t border-border mt-12 pt-8">
+        <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} Spier & Anorte Advogados. Todos os direitos reservados.
