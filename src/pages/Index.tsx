@@ -116,7 +116,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative hero-gradient text-primary-foreground pt-32 pb-24 overflow-hidden">
         <div className="absolute inset-0 opacity-[0.15]">
-          <img src={heroImage} alt="Equipe de advogados" className="w-full h-full object-cover" />
+          <img src={heroImage} alt="Equipe de advogados" className="w-full h-full object-cover" loading="eager" fetchPriority="high" decoding="async" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-primary/90"></div>
         </div>
         
