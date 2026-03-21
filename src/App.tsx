@@ -60,7 +60,19 @@ const PageLoader = () => (
   </div>
 );
 
-const App = () => (
+// Prefetch all pages after initial load
+const usePrefetchPages = () => {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      Object.values(pageImports).forEach(fn => fn());
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, []);
+};
+
+const App = () => {
+  usePrefetchPages();
+  return (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
