@@ -1855,6 +1855,121 @@ Consultar um profissional antes de encaminhar um pedido de benefício previdenci
     date: "20 de Março de 2026",
     category: "Orientação Previdenciária",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-pcd",
+    title: "Aposentadoria PCD: Guia Prático para Garantir Seus Direitos",
+    excerpt: "Aposentadoria PCD: entenda requisitos, tipos, comprovação da deficiência e como solicitar o benefício no INSS.",
+    content: `
+A **Aposentadoria PCD** é o benefício previdenciário destinado às pessoas com deficiência que cumprem requisitos específicos de tempo de contribuição ou de idade. O tema envolve conceitos médicos, jurídicos e administrativos que afetam diretamente o tempo exigido para concessão do benefício e o cálculo do valor. Este artigo explica de forma clara e prática os tipos de aposentadoria para pessoas com deficiência, os critérios de enquadramento, documentos necessários, o passo a passo para solicitar no INSS e dicas para aumentar suas chances de sucesso.
+
+## O que é a Aposentadoria PCD?
+
+A Aposentadoria PCD é uma modalidade prevista no **Regime Geral de Previdência Social (RGPS)** que concede condições diferenciadas a segurados com deficiência. Em linhas gerais, reconhece-se que a deficiência pode reduzir a capacidade de geração de renda e, por isso, são previstos critérios mais favoráveis quanto ao tempo de contribuição ou à idade.
+
+## Quem tem direito à Aposentadoria PCD?
+
+Têm direito os segurados que comprovem condição de pessoa com deficiência segundo critérios do INSS e a frequência contributiva ou tempo de atividade exigida pela regra aplicável. O benefício alcança trabalhadores com deficiência que contribuíram como:
+
+- **Empregados**
+- **Contribuintes individuais**
+- **Facultativos**
+- **Segurados especiais** (sujeito a regras próprias)
+
+## Classificação do grau de deficiência
+
+O INSS classifica a deficiência em **três graus** para efeitos previdenciários:
+
+1. **Leve**
+2. **Moderado**
+3. **Grave**
+
+Essa classificação influencia o tempo mínimo de contribuição exigido para aposentadoria por tempo de contribuição ou por idade. A avaliação é feita por **perícia médica** e, quando necessário, por junta médica e equipe multiprofissional.
+
+## Requisitos gerais e diferenças por grau de deficiência
+
+- **Tempo de contribuição reduzido:** pessoas com deficiência podem ter exigência de tempo de contribuição menor conforme o grau (por exemplo, prazos progressivamente menores para grau grave).
+- **Aposentadoria por idade:** há regras diferenciadas que combinam idade e tempo de contribuição reduzido.
+- **Comprovação contínua:** a condição de deficiência deve ser comprovada na data do requerimento e, em alguns casos, ao longo de períodos antecedentes, conforme a legislação vigente e regras de transição.
+
+## Documentos necessários para comprovação da deficiência
+
+- **Laudos e relatórios médicos recentes** (com CID, data, assinatura e identificação do profissional)
+- **Exames complementares** que sustentem o diagnóstico (imagem, exames laboratoriais, atestados específicos)
+- **Histórico clínico e prontuário**, quando disponíveis
+- **Relatórios de reabilitação ou tratamentos**, laudos de equipe multiprofissional (fisioterapeuta, terapeuta ocupacional, psicólogo), quando houver
+- **Documentos pessoais** (RG, CPF), carteira de trabalho, comprovantes de contribuição (GPS, carnês, extrato CNIS)
+
+**Importante:** a perícia do INSS pode exigir documentos adicionais e agendar avaliação presencial para verificar grau funcional da deficiência.
+
+## Como comprovar tempo de contribuição e períodos especiais
+
+- **Extrato CNIS atualizado:** verifique e corrija eventuais inconsistências antes do pedido
+- **Carteira de trabalho, contracheques, contratos e guias de recolhimento (GPS)** para contribuintes individuais
+- **PPP, laudos ocupacionais e LTCAT**, quando a deficiência estiver relacionada a atividade especial
+- Para **segurados especiais (rurais)**, usar DAP, notas de comercialização e declarações do sindicato
+
+## Passo a passo para solicitar a Aposentadoria PCD pelo INSS
+
+1. **Reúna documentos** pessoais, médicos e comprovantes de contribuição
+2. **Atualize e confira o CNIS** pelo Meu INSS
+3. **Acesse Meu INSS** (site/app) com login gov.br e selecione o serviço apropriado (aposentadoria por tempo de contribuição com condição de deficiência ou aposentadoria por idade para pessoa com deficiência)
+4. **Anexe documentos digitalizados** e aguarde a análise; o INSS pode agendar perícia
+5. **Compareça à perícia** com todos os exames e relatórios
+6. **Acompanhe o processo** pelo Meu INSS e responda prontamente a exigências
+7. Em caso de **indeferimento**, avalie recurso administrativo ou orientação jurídica
+
+## Dicas para aumentar a chance de sucesso
+
+- **Organize e digitalize** todos os documentos antes de iniciar o pedido
+- **Atualize e corrija o CNIS** antecipadamente para que todas as contribuições sejam consideradas
+- **Leve relatórios médicos detalhados** e exames complementares recentes para a perícia
+- Busque orientação de **médico especialista** ou equipe multiprofissional para relatórios mais completos
+- Considere consultar um **advogado previdenciário** se houver histórico contributivo complexo ou risco de indeferimento
+
+## Erros comuns a evitar
+
+- Não atualizar o CNIS antes do pedido
+- Apresentar laudos genéricos sem detalhamento funcional
+- Deixar de anexar comprovantes de contribuição importantes (carnês, GPS)
+- Ignorar prazos para apresentação de documentos em recursos
+
+## Comparação com aposentadoria comum
+
+A principal diferença é a **redução de tempo de contribuição** e as regras específicas de avaliação da condição de deficiência. O cálculo do benefício também pode variar conforme as contribuições efetivas e regras aplicáveis na data do pedido.
+
+## Perguntas frequentes (FAQs)
+
+**Quem pode requerer a Aposentadoria PCD?**
+Qualquer segurado do INSS que comprove deficiência segundo critérios médicos e o tempo de contribuição/idade exigidos pela legislação para pessoas com deficiência.
+
+**Como o INSS avalia o grau da deficiência?**
+Por meio de perícia médica e, quando necessário, avaliação multiprofissional que considera limitações funcionais e impacto na vida laboral.
+
+**Quais prazos para recorrer em caso de indeferimento?**
+O prazo administrativo para recurso costuma ser informado na decisão e deve ser observado rigorosamente; procure orientação imediata para não perder prazos.
+
+**A Aposentadoria PCD exige contribuição mínima?**
+Sim, há exigência de tempo de contribuição, mas em patamares reduzidos conforme grau da deficiência; além disso, o segurado deve comprovar qualidade de segurado quando aplicável.
+
+**Posso juntar novos laudos após o indeferimento?**
+Sim. Em recurso administrativo ou ação judicial é possível apresentar novas provas e laudos que comprovem a condição.
+
+**Vale a pena contratar um advogado?**
+Em casos complexos, com histórico contributivo irregular, deficiência de difícil comprovação ou negativa, a orientação jurídica aumenta as chances de êxito.
+
+## Conclusão
+
+A Aposentadoria PCD existe para oferecer tratamento mais justo a pessoas cuja deficiência afeta sua capacidade laboral. **Planejamento documental, atualização do CNIS, laudos médicos consistentes e acompanhamento durante a perícia** são passos decisivos. Em caso de dúvidas ou situações complexas, buscar orientação especializada (médica, multiprofissional e jurídica) aumenta as chances de concessão e de um benefício adequado.
+
+### Links úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento, consulta CNIS e serviços
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais e normativos
+`,
+    date: "21 de Março de 2026",
+    category: "Aposentadoria PCD",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
