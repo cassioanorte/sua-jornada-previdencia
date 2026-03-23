@@ -2148,6 +2148,156 @@ Vigilantes podem ter direito a aposentadoria diferenciada quando a atividade é 
     date: "21 de Março de 2026",
     category: "Aposentadoria Especial",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-caminhoneiro",
+    image: "/blog/aposentadoria-caminhoneiro.jpg",
+    title: "Aposentadoria do Caminhoneiro: Entenda Seus Direitos",
+    excerpt: "Guia completo sobre aposentadoria para caminhoneiros: requisitos, cálculos, documentação e dicas para garantir seu benefício no INSS.",
+    content: `
+A aposentadoria é um direito fundamental para todos os trabalhadores, e com os caminhoneiros não é diferente. Após anos de dedicação nas estradas, é hora de planejar e garantir um futuro tranquilo e seguro. Neste artigo, vamos abordar todos os aspectos relevantes da aposentadoria do caminhoneiro, desde os requisitos e cálculos até as dicas para um planejamento eficiente.
+
+Se você é caminhoneiro, sabe que essa profissão envolve desafios únicos, como longas jornadas, exposição a riscos e a distância da família. Por isso, é essencial conhecer seus direitos e como se preparar para a aposentadoria.
+
+## O que define a profissão de caminhoneiro para o INSS?
+
+Para o INSS, a profissão de caminhoneiro é definida pelas atividades de transporte de cargas realizadas em veículos automotores. No entanto, para fins de aposentadoria, é crucial entender como o INSS enquadra essa profissão, especialmente em relação às atividades consideradas insalubres ou perigosas.
+
+A legislação trabalhista brasileira reconhece que algumas profissões, incluindo a de caminhoneiro, podem envolver a exposição a agentes nocivos à saúde, como **ruído, vibração, produtos químicos e riscos de acidentes**. Essas atividades são chamadas de atividades especiais e garantem ao trabalhador o direito à aposentadoria especial, com requisitos diferenciados.
+
+## Panorama geral da aposentadoria para caminhoneiros no Brasil
+
+No Brasil, os caminhoneiros têm direito a diferentes tipos de aposentadoria:
+
+- **Aposentadoria por tempo de contribuição**
+- **Aposentadoria por idade**
+- **Aposentadoria especial**
+
+Cada uma dessas modalidades possui requisitos específicos e regras de cálculo distintas. Com a Reforma da Previdência de 2019, as regras mudaram significativamente, impactando também os caminhoneiros.
+
+## Requisitos para Aposentadoria Especial do Caminhoneiro
+
+A aposentadoria especial é concedida aos trabalhadores que exercem atividades consideradas prejudiciais à saúde ou à integridade física. Para ter direito, o caminhoneiro precisa comprovar o exercício de **atividade especial durante 25 anos**, além de apresentar documentos e laudos técnicos que atestem a exposição aos agentes nocivos.
+
+### Como comprovar a atividade especial
+
+A comprovação exige documentação técnica robusta:
+
+- **Perfil Profissiográfico Previdenciário (PPP)** — formulário preenchido pela empresa descrevendo as atividades e agentes nocivos
+- **Laudo Técnico das Condições Ambientais de Trabalho (LTCAT)** — laudo elaborado por engenheiro de segurança avaliando condições ambientais
+- **Carteira de Trabalho** com registros da função
+- **Contracheques e comprovantes de contribuição**
+
+## Aposentadoria por tempo de contribuição para caminhoneiros
+
+Além da aposentadoria especial, os caminhoneiros podem se aposentar por tempo de contribuição:
+
+- **Homens:** 35 anos de contribuição
+- **Mulheres:** 30 anos de contribuição
+
+A Reforma da Previdência criou um **sistema de pontos** que considera a idade e o tempo de contribuição do trabalhador.
+
+## Como Calcular Sua Aposentadoria
+
+### Cálculo da aposentadoria especial
+
+No caso da aposentadoria especial, **não há incidência do fator previdenciário**. O valor é calculado com base na média dos 80% maiores salários de contribuição:
+
+1. Reúna todos os salários de contribuição desde julho de 1994
+2. Descarte os 20% menores salários
+3. Some os 80% maiores salários
+4. Divida pelo número de salários considerados
+
+### Cálculo da aposentadoria por tempo de contribuição
+
+Neste caso, o cálculo envolve o **fator previdenciário**, que considera idade, tempo de contribuição e expectativa de vida.
+
+## Documentação Necessária
+
+### Para caminhoneiros CLT
+
+- Carteira de Trabalho e Previdência Social (CTPS)
+- CPF e RG
+- Comprovante de residência
+- Número de Identificação Social (NIS)
+- Perfil Profissiográfico Previdenciário (PPP)
+- LTCAT
+- Comprovantes de pagamento (holerites)
+
+### Para caminhoneiros autônomos
+
+- Carnê do INSS
+- Declaração de Imposto de Renda
+- Notas fiscais de prestação de serviços
+- Contratos de frete
+- Comprovantes de pagamento de tributos
+
+## Passo a Passo para Solicitar no INSS
+
+1. Acesse o **Meu INSS** (meu.inss.gov.br) e faça login
+2. Clique em "Agendamentos/Solicitações"
+3. Selecione "Novo Requerimento"
+4. Escolha o tipo de aposentadoria
+5. Preencha o formulário com seus dados
+6. Anexe os documentos solicitados
+7. Escolha a agência do INSS
+8. Confirme o agendamento
+
+## Aposentadoria Após a Reforma da Previdência
+
+### Regras de transição
+
+- **Sistema de pontos:** pontuação mínima que aumenta gradualmente a cada ano
+- **Idade mínima:** exigência de idade que também aumenta progressivamente
+- **Tempo de contribuição + idade:** combinação dos dois critérios
+
+### Impacto no cálculo
+
+A Reforma alterou a forma de cálculo com **novas alíquotas** e a extinção do fator previdenciário em algumas modalidades.
+
+## Dicas Essenciais para Planejar Sua Aposentadoria
+
+- **Comece cedo:** quanto mais cedo planejar, maiores as chances de um benefício adequado
+- **Organize finanças:** calcule seu tempo de contribuição e simule cenários
+- **Contribuições facultativas:** mesmo sem trabalhar, você pode contribuir para o INSS
+- **Atualize o CNIS:** verifique e corrija inconsistências antes do pedido
+- **Guarde todos os documentos:** PPP, holerites, contratos e laudos
+
+## O que fazer se o INSS negar sua aposentadoria?
+
+Se o INSS negar seu pedido, você tem direito de **recorrer da decisão**:
+
+1. Apresente recurso administrativo ao próprio INSS
+2. Conteste os motivos da negativa com documentação complementar
+3. Se necessário, busque orientação jurídica especializada
+4. Em último caso, ingresse com ação judicial
+
+## Perguntas Frequentes
+
+#### Qual o tempo mínimo de contribuição para caminhoneiro se aposentar?
+Depende da modalidade: 25 anos para aposentadoria especial, 35 anos (homens) ou 30 anos (mulheres) para aposentadoria por tempo de contribuição.
+
+#### Como comprovar atividade especial de caminhoneiro?
+Através do PPP, LTCAT, CTPS com anotações da função, holerites e laudos ambientais.
+
+#### Caminhoneiro pode se aposentar mais cedo?
+Sim, pela aposentadoria especial, que exige 25 anos de atividade com exposição a agentes nocivos comprovada.
+
+#### Como funciona a aposentadoria especial para caminhoneiro?
+Exige 25 anos de trabalho com exposição a agentes nocivos, comprovada por PPP e LTCAT, sem incidência do fator previdenciário.
+
+## Conclusão
+
+A aposentadoria do caminhoneiro é um direito que precisa ser conquistado com **planejamento, organização e conhecimento**. Documentação completa, atualização do CNIS e orientação especializada são passos decisivos para garantir o melhor benefício possível.
+
+### Links úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento, consulta CNIS e serviços
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais e normativos
+`,
+    date: "23 de Março de 2026",
+    category: "Aposentadoria",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
