@@ -30,9 +30,9 @@ const Blog = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {[...blogPosts].reverse().map((post) => (
               <Link key={post.id} to={`/blog/${post.id}`}>
-                <Card className="card-shadow hover:card-shadow-hover transition-smooth cursor-pointer group h-full overflow-hidden">
+                <Card className="card-shadow hover:card-shadow-hover transition-smooth cursor-pointer group h-full flex flex-col overflow-hidden">
                   {post.image && (
-                    <div className="aspect-[16/9] overflow-hidden">
+                    <div className="aspect-[16/9] overflow-hidden flex-shrink-0">
                       <img 
                         src={post.image} 
                         alt={post.title}
@@ -41,7 +41,7 @@ const Blog = () => {
                       />
                     </div>
                   )}
-                  <CardContent className="p-6 flex flex-col h-full">
+                  <CardContent className="p-6 flex flex-col flex-grow">
                     <div className="mb-4">
                       <span className="inline-block px-3 py-1 bg-accent/10 text-accent text-sm font-medium rounded-full">
                         {post.category}
