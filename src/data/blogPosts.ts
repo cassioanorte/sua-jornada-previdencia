@@ -2660,6 +2660,78 @@ A **aposentadoria do operador de máquinas pesadas** é um direito que precisa s
     date: "25 de Março de 2026",
     category: "Aposentadoria",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "atestmed-auxilio-doenca",
+    image: "/blog/atestmed-auxilio-doenca.jpg",
+    title: "Atestmed Agora Concede Auxílio-Doença por Até 3 Meses: Entenda as Mudanças",
+    excerpt: "O INSS ampliou o prazo do Atestmed para até 90 dias. Saiba como solicitar o auxílio-doença sem perícia presencial e o que fazer se for negado.",
+    content: `
+## O Que É o Atestmed?
+
+O **Atestmed** é o sistema do INSS que permite a concessão do auxílio-doença (auxílio por incapacidade temporária) sem perícia presencial, apenas com o envio de atestado médico pelo aplicativo **Meu INSS**. Criado para desburocratizar o processo, o sistema tem passado por atualizações importantes que beneficiam diretamente os trabalhadores.
+
+## A Nova Mudança: Prazo Ampliado para 3 Meses
+
+Até recentemente, o Atestmed concedia o benefício por no máximo 30 dias, exigindo nova solicitação caso o trabalhador continuasse incapacitado. Agora, com as novas regras do INSS, o sistema passou a permitir a concessão do auxílio-doença por **até 90 dias (3 meses)**, com base em um único atestado médico.
+
+Isso representa uma mudança significativa para quem precisa de afastamento prolongado, evitando a burocracia de renovações frequentes.
+
+## Quem Pode Se Beneficiar?
+
+Para ter direito ao auxílio-doença pelo Atestmed, é necessário:
+
+- Ser segurado do INSS (CLT, MEI, contribuinte individual, facultativo, entre outros)
+- Ter cumprido a **carência de 12 contribuições mensais** (salvo em casos de acidente ou doenças específicas isentas de carência)
+- Apresentar atestado médico com CID, assinatura e registro do médico
+- Estar impossibilitado de trabalhar por mais de 15 dias consecutivos
+
+## Como Solicitar pelo Atestmed
+
+1. Acesse o aplicativo ou site **Meu INSS** (gov.br/meu-inss)
+2. Clique em "Pedir Benefício por Incapacidade"
+3. Selecione a opção **Atestmed**
+4. Anexe o atestado médico digitalizado
+5. Aguarde a análise — o prazo é de até **7 dias úteis**
+
+O INSS analisará o documento e, se aprovado, o benefício poderá ser concedido por até 3 meses sem necessidade de perícia presencial.
+
+## Prorrogação e Situações Especiais
+
+Caso a incapacidade persista após os 3 meses, o segurado deverá solicitar **prorrogação**, que pode exigir perícia médica presencial pelo INSS. Nesses casos, é fundamental contar com orientação jurídica para garantir que todos os documentos estejam corretos e que o benefício não seja interrompido indevidamente.
+
+Algumas situações que podem complicar o processo incluem:
+
+- Atestados com informações incompletas ou ilegíveis
+- CID não reconhecido pelo sistema como incapacitante
+- Divergências no cadastro do segurado
+- Benefício negado mesmo com atestado válido
+
+## Benefício Negado? Você Tem Direitos
+
+A negativa do Atestmed **não significa o fim da linha**. É possível recorrer administrativamente ou ingressar com ação judicial para garantir o pagamento. Muitos segurados perdem o benefício por falhas técnicas no sistema ou por não conhecerem seus direitos.
+
+Se o seu pedido foi negado ou você está com dificuldades para dar entrada no benefício, procure um **advogado especialista em direito previdenciário**. O acompanhamento profissional aumenta significativamente as chances de sucesso.
+
+## Perguntas Frequentes
+
+### O Atestmed substitui a perícia médica?
+Sim, para benefícios de até 90 dias. Após esse prazo, pode ser necessária perícia presencial para prorrogação.
+
+### Qualquer atestado médico serve para o Atestmed?
+Não. O atestado deve conter CID, tempo de afastamento recomendado, assinatura e CRM do médico.
+
+### MEI pode usar o Atestmed?
+Sim, desde que esteja em dia com as contribuições e tenha cumprido a carência exigida.
+
+### Links úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — solicite seu benefício online
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais sobre o Atestmed
+`,
+    date: "26 de Março de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
