@@ -2830,6 +2830,112 @@ Nosso escritório é especializado em direito previdenciário e já ajudou denti
     date: "27 de Março de 2026",
     category: "Aposentadoria Especial",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "reconhecimento-atividade-especial-dentista",
+    image: "/blog/atividade-especial-dentista.jpg",
+    title: "Reconhecimento de Atividade Especial para Dentista Contribuinte Individual: O Que a Justiça Já Decidiu",
+    excerpt: "O INSS nega administrativamente a aposentadoria especial do dentista autônomo — mas a Justiça garante esse direito. Entenda os precedentes, o Tema 1291 do STJ e como um advogado pode te ajudar.",
+    content: `
+## O Problema Central: O INSS Nega, Mas a Justiça Garante
+
+Se você é dentista autônomo e já tentou dar entrada na aposentadoria especial pelo INSS, provavelmente recebeu uma negativa. Isso não é acidente — é política institucional. **Entre 80% e 90% dos dentistas contribuintes individuais têm seus pedidos negados na via administrativa**. O fundamento usado pelo INSS é a suposta ausência de previsão legal para o reconhecimento de atividade especial exercida por trabalhadores autônomos não cooperados.
+
+O problema é que esse argumento não resiste a uma análise jurídica séria. Ao longo dos últimos anos, os Tribunais Regionais Federais e o próprio Superior Tribunal de Justiça (STJ) têm decidido de forma consistente e crescente **em favor dos dentistas contribuintes individuais**.
+
+## O Marco Jurídico: O Que Diz a Lei
+
+O fundamento legal para o reconhecimento da atividade especial do dentista autônomo está no **art. 57, §3º, da Lei 8.213/1991**, que garante aposentadoria especial ao segurado que trabalhou durante 25 anos em atividades sujeitas a condições especiais que prejudiquem a saúde ou a integridade física.
+
+O ponto de discussão jurídica sempre girou em torno da categoria do trabalhador: a legislação previdenciária, ao tratar do custeio da aposentadoria especial, menciona expressamente o empregado e o avulso, mas é omissa quanto ao contribuinte individual. Essa omissão foi usada pelo INSS como justificativa para negar o direito — mas os tribunais entenderam de forma diferente.
+
+## A Virada: O Tema 1291 do STJ
+
+Em setembro de 2025, o STJ firmou tese histórica ao julgar o **Tema 1291**, definindo expressamente que:
+
+**"É possível o reconhecimento, como especial, da atividade exercida pelo contribuinte individual não cooperado após 29 de abril de 1995."**
+
+Essa decisão é um divisor de águas porque vincula todos os tribunais do país, impedindo que o INSS continue usando a omissão legislativa como escudo para negar o direito dos trabalhadores autônomos. Para os dentistas, isso significa que **a negativa administrativa passou a ser ainda mais frágil juridicamente**, e a via judicial se tornou o caminho natural e com altíssima taxa de sucesso.
+
+## O Agente Nocivo: Por Que o Dentista Tem Direito
+
+A insalubridade da atividade odontológica é reconhecida desde os primeiros regulamentos previdenciários brasileiros. Os dentistas estão expostos de forma **habitual e permanente** a agentes biológicos — vírus, bactérias e fungos — em contato direto com a mucosa bucal e as vias respiratórias dos pacientes.
+
+Esse enquadramento está previsto no **item 3.0.1 do Anexo IV do Decreto 3.048/1999**, que lista os agentes biológicos como geradores de direito à aposentadoria especial. Dois pontos técnicos fundamentais reforçam esse direito:
+
+- **A exposição não precisa durar 100% da jornada:** basta que o risco seja permanente, conforme o **Tema 211 da TNU** (Turma Nacional de Uniformização)
+- **O uso de EPI não elimina o direito:** os tribunais reconhecem que, na atividade odontológica, é impossível neutralizar completamente o risco de contaminação biológica, mesmo com luvas, máscaras e óculos de proteção
+
+## O Que os Tribunais Já Decidiram
+
+A jurisprudência favorável ao dentista contribuinte individual é vasta e crescente em todo o país:
+
+- **STJ – Tema 1291:** Reconheceu atividade especial de contribuinte individual não cooperado após 1995, com base no art. 57, §3º, Lei 8.213/91
+- **TRF2 – 9ª Turma:** Garantiu aposentadoria especial a dentista autônoma por unanimidade, com base na exposição a agentes biológicos (item 3.0.1, Anexo IV, Dec. 3.048/99)
+- **TRF3 – 10ª Turma:** Confirmou aposentadoria especial com 26 anos, 7 meses e 22 dias reconhecidos, utilizando PPP e ARE 664.335 STF
+- **TRF4:** Reconheceu atividade especial de dentista contribuinte individual (AC 5015469-12.2016.4.04.7107)
+- **TRF6 – 1ª Turma Suplementar:** Manteve sentença favorável a auxiliar de dentista por unanimidade, com PPP demonstrando exposição a agentes biológicos
+
+## Como Se Comprova a Atividade Especial para o Autônomo
+
+Aqui está o ponto mais delicado para o contribuinte individual: **ele não tem empregador que emita o PPP (Perfil Profissiográfico Previdenciário)**. Isso não inviabiliza o direito — mas exige uma estratégia probatória mais robusta. Os principais instrumentos de prova são:
+
+- **LTCAT próprio** (Laudo Técnico das Condições Ambientais do Trabalho), elaborado por engenheiro de segurança do trabalho ou médico do trabalho para o consultório
+- **PPP emitido pelo próprio profissional** ou pela clínica onde atuou, atestando as condições de trabalho
+- **Registros no CNIS** comprovando o período de atividade
+- **Recibos de ISS, notas fiscais e contratos** que demonstrem o exercício contínuo da profissão
+- **Fichas clínicas, agendas e registros de atendimento** como prova complementar do volume e da habitualidade da atividade
+- **Prova testemunhal** de colegas, funcionários e pacientes, especialmente útil em ação judicial
+
+O STJ deixou claro em setembro de 2025 que **o dentista autônomo não precisa de formulário emitido por empresa** — basta provar a exposição a agentes nocivos por qualquer meio de prova admitido em direito.
+
+## Por Que a Taxa de Sucesso Judicial É Alta
+
+A taxa de sucesso para dentistas em ações judiciais de reconhecimento de atividade especial chega a **75-85%**, por razões concretas:
+
+- A jurisprudência consolidada — especialmente após o Tema 1291 do STJ — vincula os juízes federais
+- A perícia judicial analisa as condições reais de trabalho, sem os filtros administrativos do INSS
+- O argumento do EPI já foi amplamente rejeitado pelos tribunais para atividades com agentes biológicos
+- O Tema 211 da TNU elimina a exigência de exposição durante 100% da jornada
+
+Quando comparado ao caminho administrativo — com 80 a 90% de negativas —, a via judicial representa uma inversão completa das chances.
+
+## O Risco de Não Agir: Prescrição e Perda de Direitos
+
+Um alerta importante: **o tempo trabalha contra o dentista que posterga o pedido**. A cada mês que passa sem o recolhimento correto ou sem o reconhecimento da atividade especial, o segurado pode perder competências já pagas e não computadas. Além disso, a demora em ajuizar a ação pode resultar em:
+
+- Perda dos **efeitos financeiros retroativos** além dos cinco anos anteriores ao ajuizamento (prescrição quinquenal)
+- Impossibilidade de aproveitar **regras de transição mais vantajosas** que já foram cumpridas, mas que serão substituídas por regras mais rígidas com o passar do tempo
+
+## Perguntas Frequentes
+
+#### O INSS reconhece a aposentadoria especial do dentista autônomo?
+Não administrativamente. O INSS nega sistematicamente, mas a Justiça Federal tem reconhecido o direito com base no art. 57, §3º, da Lei 8.213/91 e no Tema 1291 do STJ.
+
+#### O que é o Tema 1291 do STJ?
+É a tese firmada pelo Superior Tribunal de Justiça em setembro de 2025 que reconhece expressamente o direito à atividade especial do contribuinte individual não cooperado após abril de 1995.
+
+#### O uso de EPI elimina o direito à aposentadoria especial do dentista?
+Não. Os tribunais reconhecem que EPIs não neutralizam completamente o risco biológico na atividade odontológica.
+
+#### Qual a taxa de sucesso judicial para dentistas?
+Entre 75% e 85% dos casos judiciais resultam em reconhecimento da atividade especial, contra apenas 10-20% na via administrativa.
+
+## Conclusão
+
+A negativa do INSS não é o fim. É o começo de um processo que, com a orientação certa, tem altíssima chance de sucesso. **Nosso escritório é especializado em direito previdenciário** e atua exatamente nesses casos: dentistas contribuintes individuais que tiveram seu pedido negado administrativamente ou que ainda nem sabem que têm esse direito.
+
+Fazemos a análise completa da sua carreira contributiva, identificamos os períodos de atividade especial, estruturamos a documentação e conduzimos a ação judicial do início ao fim.
+
+### Links Úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento e consulta de benefícios
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais
+- [CFO — Conselho Federal de Odontologia](https://website.cfo.org.br) — orientações sobre aposentadoria especial
+`,
+    date: "27 de Março de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
