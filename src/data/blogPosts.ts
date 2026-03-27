@@ -2732,6 +2732,104 @@ Sim, desde que esteja em dia com as contribuições e tenha cumprido a carência
     date: "26 de Março de 2026",
     category: "Auxílio-Doença",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-dentista-contribuinte-individual",
+    image: "/blog/aposentadoria-dentista.jpg",
+    title: "Aposentadoria do Dentista Contribuinte Individual: Guia Completo para Garantir Seus Direitos",
+    excerpt: "Dentista autônomo ou dono de clínica? Saiba como funciona a aposentadoria do contribuinte individual dentista, quais são as regras, valores e como um advogado previdenciário pode te ajudar.",
+    content: `
+Se você é dentista autônomo ou sócio de clínica odontológica, provavelmente já se perguntou: **"Como funciona minha aposentadoria pelo INSS?"**. A resposta não é simples — e entender as regras certas pode significar a diferença de anos a mais de trabalho ou até dezenas de milhares de reais no seu bolso.
+
+Neste artigo, explicamos tudo sobre a aposentadoria do dentista contribuinte individual: modalidades disponíveis, requisitos, valores e como não perder seus direitos.
+
+## O Que é o Contribuinte Individual Dentista?
+
+Os dentistas que exercem sua profissão sem vínculo empregatício — como autônomos em consultório próprio ou sócios de clínica — são enquadrados pelo INSS na categoria de **contribuintes individuais**. Isso inclui tanto quem atende como pessoa física quanto quem possui CNPJ e emite nota fiscal.
+
+Como contribuinte individual, o dentista é responsável por recolher sua própria contribuição previdenciária, ao contrário do empregado CLT, cujo INSS é descontado em folha.
+
+## Modalidades de Aposentadoria Disponíveis
+
+O dentista contribuinte individual pode se aposentar por três caminhos principais:
+
+- **Aposentadoria por Idade:** 65 anos (homens) ou 62 anos (mulheres) + mínimo de 15 anos de contribuição
+- **Aposentadoria por Tempo de Contribuição (Regra de Transição):** 35 anos de contribuição para homens e 30 para mulheres, com cumprimento de pontuação progressiva após a Reforma da Previdência (EC 103/2019)
+- **Aposentadoria Especial:** a modalidade mais vantajosa para dentistas, com apenas **25 anos de atividade especial**
+
+## A Aposentadoria Especial Vale a Pena?
+
+Sim — e muito. A aposentadoria especial é considerada a opção mais vantajosa para dentistas porque oferece três benefícios fundamentais:
+
+- **Menor tempo de contribuição:** apenas 25 anos de atividade especial, contra 35 anos (homens) ou 30 anos (mulheres) na regra comum
+- **Sem idade mínima obrigatória** para quem adquiriu o direito antes de novembro de 2019 (direito adquirido)
+- **Sem fator previdenciário:** o benefício é calculado sem o desconto que pode reduzir em até 40% o valor de outras aposentadorias
+
+Após a Reforma da Previdência, para quem ainda não completou os 25 anos especiais até novembro de 2019, exige-se **60 anos de idade** ou o atingimento de **86 pontos** (soma de idade + tempo de contribuição especial + contribuição comum).
+
+## O Dentista Autônomo Tem Direito à Aposentadoria Especial?
+
+Esse é o ponto mais crítico — e onde muitos dentistas perdem seu direito por falta de orientação adequada.
+
+**Administrativamente, o INSS não reconhece atividades especiais de contribuintes individuais**. Ou seja, se você entrar com pedido direto no INSS como autônomo, a tendência é receber uma negativa.
+
+No entanto, **a Justiça Federal tem reconhecido esse direito** em inúmeros casos. A 9ª Turma do TRF2, por exemplo, manteve por unanimidade a concessão de aposentadoria especial a uma dentista contribuinte individual exposta habitual e permanentemente a agentes biológicos (vírus, bactérias e contato direto com mucosa bucal de pacientes). O fundamento legal está no **art. 57, §3º, da Lei 8.213/1991**.
+
+**Em resumo:** a negativa administrativa do INSS não é o fim do caminho. Com um advogado previdenciário, é possível judicializar o pedido e obter o reconhecimento da atividade especial.
+
+## Como Comprovar a Atividade Especial?
+
+Para ter o direito reconhecido — especialmente na via judicial — o dentista contribuinte individual precisa apresentar:
+
+- **Laudos técnicos (LTCAT)** que atestem a exposição a agentes biológicos nocivos
+- **Registros no CNIS** (Cadastro Nacional de Informações Sociais) demonstrando o período de atividade
+- **Documentos da clínica/consultório** como contratos, notas fiscais, registros no CRO e declarações
+- **Prontuários e registros de atendimento** que evidenciem o contato habitual com pacientes
+
+## Quanto Vale a Aposentadoria?
+
+O valor depende diretamente de **como e quanto você contribuiu** ao longo dos anos. No Plano Simplificado (11% sobre o salário mínimo), o benefício será de 1 salário mínimo. Na contribuição padrão de 20% sobre a remuneração, o valor ficará entre 1 salário mínimo e o teto do INSS. Para sócios de clínica, a alíquota de 20% incide sobre o pró-labore declarado.
+
+O cálculo do benefício considera **100% da média de todas as remunerações desde julho de 1994**, com acréscimo de 2% ao ano que exceder 20 anos de contribuição para homens e 15 anos para mulheres. Por isso, quanto maior e mais consistente for a contribuição ao longo da carreira, maior será o benefício final.
+
+## Por Que Contratar um Advogado Previdenciário?
+
+Dentistas contribuintes individuais enfrentam barreiras específicas que tornam a assessoria jurídica especializada essencial:
+
+- O INSS **nega administrativamente** a aposentadoria especial para autônomos, exigindo ação judicial
+- O cálculo do benefício é complexo: descartar os 20% menores salários de contribuição de forma incorreta pode **reduzir significativamente** o valor recebido
+- A escolha da modalidade de aposentadoria errada pode custar **mais de R$ 224 mil em retorno acumulado** ao longo da vida
+- Existe a possibilidade de **revisão de benefícios já concedidos** de forma incompleta
+
+## Perguntas Frequentes
+
+#### Dentista autônomo pode se aposentar pelo INSS?
+Sim. O dentista autônomo contribui como contribuinte individual e tem acesso a aposentadoria por idade, tempo de contribuição e aposentadoria especial.
+
+#### O INSS aceita aposentadoria especial de dentista autônomo?
+Administrativamente, o INSS costuma negar. Porém, a Justiça Federal tem reconhecido o direito com base na exposição a agentes biológicos.
+
+#### Quantos anos o dentista precisa contribuir para se aposentar?
+Na aposentadoria especial, 25 anos de atividade com exposição comprovada. Na regra geral, 35 anos (homens) ou 30 anos (mulheres).
+
+#### Qual documento comprova a atividade especial do dentista?
+LTCAT, registros no CRO, notas fiscais, contratos e prontuários de atendimento são os principais documentos.
+
+## Conclusão
+
+Se você é dentista autônomo ou sócio de clínica e ainda não planejou sua aposentadoria, saiba que cada mês sem a orientação correta pode representar **menos dinheiro no bolso e mais anos de trabalho obrigatório**.
+
+Nosso escritório é especializado em direito previdenciário e já ajudou dentistas a conquistar aposentadorias negadas pelo INSS. Entre em contato agora mesmo para uma análise gratuita do seu caso e descubra o melhor caminho para a sua aposentadoria.
+
+### Links Úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento e consulta de benefícios
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais
+- [CFO — Conselho Federal de Odontologia](https://website.cfo.org.br) — orientações sobre aposentadoria especial para dentistas
+`,
+    date: "27 de Março de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
