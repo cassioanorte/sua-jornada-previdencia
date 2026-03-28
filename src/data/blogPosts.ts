@@ -2936,6 +2936,58 @@ Fazemos a análise completa da sua carreira contributiva, identificamos os perí
     date: "27 de Março de 2026",
     category: "Aposentadoria Especial",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-pcd-direitos",
+    image: "/blog/aposentadoria-pcd-direitos.jpg",
+    title: "Aposentadoria para Pessoa com Deficiência (PCD): Saiba Como Garantir Seu Direito",
+    excerpt: "Entenda as regras da aposentadoria PCD, os graus de deficiência, tempo de contribuição exigido e como dar entrada no INSS sem perder seus direitos.",
+    content: `
+A aposentadoria para pessoa com deficiência (PCD) é um dos benefícios mais importantes do INSS, mas muitos segurados ainda desconhecem as regras e acabam perdendo esse direito. Se você possui deficiência física, mental, intelectual ou sensorial, pode ter direito a se aposentar com menos tempo de contribuição do que as regras gerais exigem.
+
+## O Que É a Aposentadoria PCD?
+
+Prevista na **Lei Complementar nº 142/2013**, a aposentadoria da pessoa com deficiência permite que o segurado se aposente com condições diferenciadas, levando em conta o grau da deficiência — leve, moderada ou grave.
+
+Os requisitos variam conforme a classificação:
+
+- **Deficiência grave:** 25 anos de contribuição (homem) / 20 anos (mulher)
+- **Deficiência moderada:** 29 anos (homem) / 24 anos (mulher)
+- **Deficiência leve:** 33 anos (homem) / 28 anos (mulher)
+
+Além disso, existe a possibilidade de **aposentadoria por idade**, com 60 anos para homem e 55 para mulher, independentemente do grau da deficiência.
+
+## Quem Tem Direito?
+
+Tem direito à aposentadoria PCD o segurado que:
+
+- Possui deficiência reconhecida por **perícia médica e avaliação social** do INSS
+- Comprova o tempo de contribuição exigido conforme o grau da deficiência
+- Tem parte ou todo o período contributivo exercido na condição de pessoa com deficiência
+
+## Como Dar Entrada no Benefício?
+
+O processo exige atenção especial à documentação. Veja os principais passos:
+
+1. Reúna laudos médicos, exames e histórico de tratamentos
+2. Agende a perícia médica e a avaliação social no INSS (Meu INSS ou ligue 135)
+3. Organize o histórico de contribuições pelo CNIS
+4. Considere buscar orientação de um advogado previdenciarista para evitar erros que resultem em negativa
+
+## Por Que Contar com um Advogado?
+
+O INSS costuma negar benefícios por falta de documentação adequada ou classificação incorreta do grau de deficiência. Um advogado especializado em direito previdenciário analisa seu caso, identifica o enquadramento correto e aumenta significativamente as chances de aprovação — inclusive na via judicial, se necessário.
+
+**Não perca seu direito por falta de informação. Entre em contato e agende uma consulta.**
+
+### Links Úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento e consulta de benefícios
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais
+`,
+    date: "28 de Março de 2026",
+    category: "Aposentadoria PCD",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
