@@ -2988,6 +2988,62 @@ O INSS costuma negar benefícios por falta de documentação adequada ou classif
     date: "28 de Março de 2026",
     category: "Aposentadoria PCD",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-medico",
+    image: "/blog/aposentadoria-medico.jpg",
+    title: "Aposentadoria de Médico: Tudo o Que Você Precisa Saber Para Garantir Seus Direitos",
+    excerpt: "Médico pode se aposentar com 25 anos de contribuição especial. Entenda as regras, tipos de aposentadoria e como garantir o melhor benefício no INSS.",
+    content: `
+## Aposentadoria de Médico: Tudo o Que Você Precisa Saber
+
+Se você é médico e está se perguntando **quando e como se aposentar**, saiba que existem regras específicas que podem ser muito vantajosas para a sua categoria. Entender essas regras pode fazer a diferença de anos de trabalho — e de muito dinheiro no seu benefício final.
+
+## O Médico Tem Regras Especiais de Aposentadoria?
+
+Sim! O médico pode se beneficiar das **regras de transição da Reforma da Previdência (EC 103/2019)**, e em muitos casos também se enquadra em situações de **aposentadoria especial**, especialmente aqueles que atuam em ambientes com exposição a agentes biológicos, como pronto-socorros, UTIs e centros cirúrgicos.
+
+Isso significa que um médico nessas condições pode se aposentar com **25 anos de contribuição especial**, ao invés de aguardar os requisitos gerais exigidos dos demais segurados.
+
+## Quais São as Formas de Aposentadoria Para Médicos?
+
+- **Aposentadoria por tempo de contribuição (regras de transição):** aplica-se a quem já contribuía antes de novembro de 2019
+
+- **Aposentadoria especial:** para médicos expostos a agentes biológicos, com 25 anos de contribuição em atividade especial
+
+- **Aposentadoria por idade:** 65 anos (homem) ou 62 anos (mulher), com no mínimo 15 anos de contribuição
+
+- **Aposentadoria por incapacidade permanente:** em casos de doença ou acidente que impeçam o exercício da profissão
+
+## A Aposentadoria Especial Vale Para Todo Médico?
+
+Não automaticamente. É necessário comprovar a **exposição habitual e permanente a agentes nocivos**, especialmente agentes biológicos. Isso é feito por meio do **Perfil Profissiográfico Previdenciário (PPP)** emitido pelo empregador ou, no caso de autônomos, com laudo técnico (LTCAT).
+
+Médicos que atuam exclusivamente em consultório particular, por exemplo, podem ter dificuldade em comprovar a exposição. Por isso, é fundamental contar com orientação jurídica especializada.
+
+## Por Que Contratar um Advogado Previdenciário?
+
+O INSS frequentemente nega ou subestima o valor de benefícios quando a documentação não está correta. Um advogado especializado em direito previdenciário:
+
+- Analisa seu histórico de contribuições e identifica períodos especiais
+- Orienta sobre a melhor data para dar entrada no benefício
+- Garante que o cálculo da renda mensal inicial seja feito corretamente
+- Recorre administrativamente ou judicialmente em caso de negativa
+
+**Não deixe o INSS decidir sozinho o valor da sua aposentadoria.** Você construiu sua carreira com dedicação — seu benefício merece a mesma atenção.
+
+## Dê o Primeiro Passo Hoje
+
+Se você é médico e quer saber se já tem direito à aposentadoria especial ou qual a melhor estratégia para o seu caso, **entre em contato com nosso escritório**. Fazemos uma análise personalizada e sem compromisso.
+
+### Links Úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento e consulta de benefícios
+- [Portal INSS](https://www.inss.gov.br) — informações oficiais
+`,
+    date: "30 de Março de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
