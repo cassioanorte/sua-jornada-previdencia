@@ -3192,6 +3192,120 @@ Não é obrigatório, mas é recomendado quando houver falta de documentação, 
     date: "30 de Março de 2026",
     category: "Aposentadoria Especial",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "doencas-que-geram-direito-aposentadoria-pcd",
+    image: "/blog/doencas-aposentadoria-pcd.jpg",
+    title: "Doenças que Geram Direito a Aposentadoria PCD",
+    excerpt: "Lista prática de doenças que geram direito à aposentadoria PCD, requisitos, documentos e passo a passo para solicitar junto ao INSS.",
+    content: `
+A questão das **doenças que geram direito à aposentadoria PCD** (pessoa com deficiência) é essencial para quem busca garantir proteção previdenciária adequada frente a limitações permanentes ou de longo prazo. Este post apresenta de forma prática quais condições de saúde podem enquadrar um segurado como PCD, os critérios legais, documentação necessária, passos para requerer o benefício no INSS e orientações jurídicas úteis.
+
+## O que é aposentadoria PCD e quem tem direito?
+
+### Conceito e tipos de aposentadoria aplicáveis
+
+A aposentadoria destinada à pessoa com deficiência não é um benefício distinto por nome único em todos os regimes, mas sim um enquadramento previsto na legislação (como regras específicas na aposentadoria por tempo de contribuição/idade com critérios diferenciados) que reconhece a condição de deficiência para reduzir requisitos (tempo de contribuição ou idade). Existem também benefícios por incapacidade (auxílio-doença, aposentadoria por invalidez) para casos em que a doença impede o trabalho. O enquadramento PCD tem critérios distintos e exige comprovação da deficiência.
+
+### Critérios gerais para ser reconhecido como PCD pelo INSS
+
+O INSS avalia a existência de deficiência por meio de perícia médica e aplicação de parâmetros que consideram tipo, grau e grau de limitação para a vida laboral. Leva-se em conta: laudos e exames que comprovem a doença, impacto funcional (limitação para atividades de trabalho), histórico médico e relatórios de profissionais de saúde. A análise é funcional, não apenas diagnóstica.
+
+## Doenças e condições que frequentemente geram enquadramento PCD
+
+### Doenças que costumam gerar limitação funcional significativa
+
+Não há uma lista fechada e automática; contudo, algumas condições frequentemente levam ao reconhecimento da deficiência quando geram limitações duradouras e importantes para o trabalho:
+
+- **Doenças neurológicas graves:** esclerose múltipla, esclerose lateral amiotrófica (ELA), acidente vascular cerebral com sequelas significativas, paralisias.
+- **Doenças musculoesqueléticas incapacitantes:** artrose avançada, doenças reumáticas graves (artrite reumatoide com perda da capacidade funcional), discopatias com compressão neurológica grave.
+- **Doenças sensoriais severas:** perda auditiva profunda bilateral, cegueira legal (acuidade visual muito reduzida).
+- **Doenças psiquiátricas graves e persistentes:** transtornos mentais que impedem a atividade laboral (quando bem documentados e avaliados na perícia).
+- **Doenças crônicas com complicações severas:** insuficiência renal crônica em programa de diálise, cardiopatias graves (insuficiência cardíaca avançada), doenças pulmonares crônicas (DPOC avançada).
+- **Doenças oncológicas em estágios limitantes ou com sequelas persistentes:** quando a doença ou seu tratamento impedem a atividade profissional.
+- **Doenças infecciosas crônicas com impacto funcional:** HIV em estágios com complicações que limitam a vida laboral (avaliadas caso a caso).
+
+### Observações importantes sobre classificação por CID vs. funcionalidade
+
+O diagnóstico (CID) é importante, mas o reconhecimento PCD depende do **impacto funcional**. Dois segurados com o mesmo CID podem ter decisões diferentes se a limitação para o trabalho for distinta. Documentos que descrevem limitações e tratamentos são essenciais.
+
+## Documentos essenciais para pedir reconhecimento como pessoa com deficiência
+
+### Documentação médica e funcional (prioritários)
+
+- Laudos e relatórios médicos detalhados (especialista): descrição do diagnóstico, evolução, tratamentos, limitações funcionais e prognóstico.
+- Exames complementares que sustentem o diagnóstico (imagem, laboratoriais, eletrofisiológicos, etc.).
+- Relatórios de reabilitação ou fichas de atendimento (quando houver).
+- Receituários e registro de tratamentos contínuos.
+
+### Documentos administrativos e pessoais
+
+- Documento de identificação (RG, CPF); carteira de trabalho (CTPS) e comprovantes de contribuição (CNIS).
+- Declarações de empregadores, atestados de afastamentos e comprovantes de períodos de incapacidade (se houver).
+- Laudos sociais ou de equipe multidisciplinar (quando disponíveis) que descrevam limitações nas atividades da vida diária e trabalho.
+
+## Passo a passo prático para solicitar aposentadoria PCD junto ao INSS
+
+### Preparação prévia (revisão documental)
+
+1. Reúna e organize laudos, exames e relatórios que comprovem diagnóstico e limitações.
+2. Verifique e atualize o CNIS para garantir que as contribuições estão registradas corretamente.
+3. Faça cópias e digitalize documentos para anexação eletrônica no Meu INSS.
+
+### Requerimento no Meu INSS e perícia médica
+
+4. Acesse o Meu INSS (meu.inss.gov.br) e agende o requerimento adequado (aposentadoria por tempo de contribuição/idade com pedido de reconhecimento de deficiência ou benefício por incapacidade, se for o caso).
+5. Anexe documentos digitais quando possível.
+6. Compareça à perícia médica na data agendada com toda documentação original. A perícia avaliará o grau de limitação funcional.
+
+### Se houver indeferimento — recursos e via judicial
+
+7. Se o pedido for indeferido, há possibilidade de interpor recurso administrativo e, persistindo a negativa, ação judicial. Documentação complementar, exames e pareceres de especialistas reforçam a defesa. Consultar advogado previdenciário é recomendável quando houver divergência técnica complexa.
+
+## Dificuldades comuns e como solucioná-las
+
+### Falta de documentação ou laudos incompletos
+
+**Solução:** buscar especialista para emitir laudo atualizado e detalhado, anexar relatórios de tratamentos, solicitar relatórios de equipe de reabilitação ou assistente social quando aplicável.
+
+### Reconhecimento negado por perícia
+
+**Solução:** recorrer administrativamente com novos documentos; se necessário, acionar via judicial com auxílio de perícia independente.
+
+## Recomendações práticas e direitos correlatos
+
+### Boas práticas antes de solicitar o benefício
+
+- Mantenha histórico médico organizado.
+- Atualize exames e laudos com especialistas.
+- Consulte advogado previdenciário se houver risco de indeferimento.
+
+### Benefícios complementares e proteção social
+
+Além da aposentadoria, pessoas com deficiência podem ter direito a outros benefícios ou políticas públicas (isenções fiscais, BPC quando aplicável para baixa renda, adaptações no trabalho, reabilitação profissional). Verifique critérios específicos.
+
+## Perguntas frequentes (FAQ)
+
+**Quais doenças automaticamente garantem aposentadoria PCD?**
+
+Não existe uma lista automática: o que importa é a limitação funcional comprovada. Doenças graves e incapacitantes costumam obter reconhecimento, mas a decisão é caso a caso.
+
+**Como é feita a avaliação da deficiência pelo INSS?**
+
+Por perícia médica que avalia o diagnóstico, tratamentos e impacto funcional nas atividades laborais e de vida diária.
+
+**Se eu for indeferido, devo procurar advogado?**
+
+Sim, é recomendável. Um advogado previdenciário pode orientar recursos administrativos e, se necessário, ação judicial com produção de prova pericial.
+
+## Links úteis
+
+- [Meu INSS](https://meu.inss.gov.br) — agendamento e consulta de benefícios
+- [Portal INSS](https://www.gov.br/inss) — informações oficiais
+`,
+    date: "1 de Abril de 2026",
+    category: "Aposentadoria PCD",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
