@@ -3306,6 +3306,134 @@ Sim, é recomendável. Um advogado previdenciário pode orientar recursos admini
     date: "1 de Abril de 2026",
     category: "Aposentadoria PCD",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "periculosidade-motoboy-entra-em-vigor-hoje",
+    image: "/blog/periculosidade-motoboy.jpg",
+    title: "Periculosidade para Motoboys: O Que Muda com a Portaria MTE nº 2.021/2025",
+    excerpt: "Entrou em vigor hoje (03/04/2026) o adicional de periculosidade de 30% para motoboys CLT. Saiba quem tem direito, como calcular e o que empresas devem fazer.",
+    content: `
+A partir de hoje, 3 de abril de 2026, entrou em vigor a Portaria MTE nº 2.021/2025, que aprovou o novo Anexo V da NR-16 e tornou obrigatório o pagamento do **adicional de periculosidade de 30%** para trabalhadores que utilizam motocicleta de forma habitual em vias públicas a serviço do empregador. Este artigo explica, de forma prática e jurídica, quem tem direito, como o adicional deve ser calculado, obrigações das empresas e passos recomendados para trabalhadores.
+
+## O que é o adicional de periculosidade e qual a base legal?
+
+### Conceito e fundamento jurídico
+
+O adicional de periculosidade é previsto no **art. 193 da CLT** e regulamentado pela NR-16 e seus anexos. A Portaria MTE nº 2.021/2025 incluiu expressamente o uso habitual de motocicletas em vias públicas como situação geradora de periculosidade, impondo adicional de **30% calculado sobre o salário-base**.
+
+### Alcance da nova regra
+
+A norma abrange **empregados com vínculo CLT** que utilizem a motocicleta como instrumento habitual de trabalho nas vias públicas (motoboys, entregadores CLT, técnicos externos, vendedores que trafeguem rotineiramente etc.). **Não se aplicam** os deslocamentos residenciais (ida e volta) nem uso apenas em áreas privadas ou em eventualidade.
+
+## Quem tem direito ao adicional de 30%?
+
+### Critérios objetivos previstos na Portaria
+
+- Uso habitual da motocicleta em vias públicas abertas à circulação como parte das atividades empregatícias
+- Atividade desempenhada de forma continuada e regular (plantões, jornadas, entregas frequentes)
+- **Não se enquadram:** deslocamento casa-trabalho, uso eventual, uso exclusivo em áreas privadas/galpões
+
+### Exemplos práticos
+
+- **Motoboy com escala diária em entrega de restaurantes:** tem direito
+- **Técnico que vai pontualmente a clientes (uma vez por mês):** provavelmente não terá direito, dependendo da habitualidade
+- **Vendedor externo que utiliza moto diariamente para visitas:** provável direito, conforme prova documental
+
+## Como o adicional deve ser calculado e repercussões trabalhistas
+
+### Base de cálculo e incidências
+
+O adicional corresponde a **30% sobre o salário-base** registrado na folha. O adicional integra a remuneração para fins de reflexos em **férias, 13º salário e depósito do FGTS**, mas não incide sobre prêmios variáveis ou gratificações eventuais, salvo disposição contratual ou coletiva em sentido contrário.
+
+### Cuidado com registros e retroatividade
+
+Empregadores devem revisar contracheques e calcular reflexos anteriores desde a vigência. Em caso de controvérsia, o empregador pode ficar sujeito a **autuação administrativa e passivo trabalhista**.
+
+## Obrigações imediatas das empresas
+
+### Laudo técnico e presunção de periculosidade
+
+A Portaria exige **laudo técnico** elaborado por Engenheiro de Segurança do Trabalho ou Médico do Trabalho para comprovar condições de exposição. Na ausência de controle documentado do uso habitual, a norma estabelece **presunção favorável ao trabalhador**.
+
+### Medidas de gestão e prevenção
+
+- Atualizar descrição de cargos e rotinas
+- Registrar escalas e tempo de uso da moto
+- Produzir laudo técnico ocupacional (LTCAT/PPRA/PCMSO)
+- Implementar treinamento, EPIs (capacete, jaqueta com proteção, colete reflexivo) e políticas de segurança viária
+- Ajustar folha de pagamento e rubricas contábeis
+
+## Passo a passo para trabalhadores que buscam o adicional
+
+### Documentação e requerimento
+
+1. Reúna documentos: CTPS, contratos, recibos, escalas, registros de jornada, relatórios de atividade
+2. Solicite à empresa declaração documental do uso habitual e eventuais laudos
+3. Procure o sindicato da categoria para orientação
+4. Em caso de negativa, procure um **advogado trabalhista** e avalie ação judicial ou reclamação trabalhista
+
+### Reclamação trabalhista — o que pedir
+
+- Pagamento do adicional de 30% desde a data de início da exposição habitual
+- Reflexos em férias, 13º, FGTS e demais verbas
+- Juros e correção monetária
+- Eventual reconhecimento da presunção de periculosidade em favor do trabalhador
+
+## Riscos para empregadores e como mitigar passivos
+
+### Principais riscos
+
+- Autuação pela fiscalização do trabalho
+- Ações trabalhistas com pedidos de reflexos e verbas retroativas
+- Danos reputacionais e negociações coletivas desfavoráveis
+
+### Recomendações práticas
+
+- Contratar ou consultar Engenheiro/Médico do Trabalho para laudos
+- Regularizar folha e rubricas imediatamente
+- Negociar acordo coletivo com sindicatos quando aplicável
+- Implementar programa de segurança no trânsito e monitoramento de jornadas
+
+## Quando há direito ao adicional — Resumo
+
+- **Trabalho habitual em vias públicas abertas à circulação:** Sim, pagamento obrigatório
+- **Deslocamento diário apenas entre casa e trabalho:** Não aplicável
+- **Uso exclusivo em áreas privadas ou galpões logísticos:** Não aplicável
+- **Uso eventual ou por tempo extremamente reduzido:** Não aplicável
+
+## Perguntas frequentes
+
+**Quais trabalhadores foram beneficiados com a nova regra?**
+
+Empregados com vínculo CLT que utilizem motocicleta de forma habitual em vias públicas a serviço do empregador (motoboys, entregadores CLT, técnicos externos etc.).
+
+**O adicional incide sobre salário variável e comissões?**
+
+A regra estabelece 30% sobre o salário-base. Prêmios e gratificações eventuais, em regra, não compõem a base do adicional, salvo disposição diversa em norma coletiva.
+
+**O que a empresa precisa ter para evitar presunção de periculosidade?**
+
+Controle documental do tempo e local de uso da moto, laudo técnico elaborado por profissional habilitado e políticas de segurança que evidenciem mitigação de risco.
+
+**Há obrigação de pagamento retroativo?**
+
+Depende do período e das provas. Trabalhadores podem pleitear valores retroativos em reclamação trabalhista.
+
+## Conclusão
+
+A Portaria MTE nº 2.021/2025 representa um marco relevante para a proteção de trabalhadores que enfrentam risco no trânsito diariamente. Para motoboys e trabalhadores em moto, é um avanço na proteção salarial; para empregadores, impõe imediata necessidade de adaptação documental, técnica e de gestão de segurança.
+
+**Se você é motoboy ou empregador e precisa de orientação sobre o adicional de periculosidade, entre em contato com nosso escritório. Fazemos uma análise personalizada do seu caso.**
+
+## Links úteis
+
+- [Art. 193 da CLT](https://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm) — Consolidação das Leis do Trabalho
+- [Portal do Ministério do Trabalho](https://www.gov.br/trabalho-e-previdencia) — Portaria MTE nº 2.021/2025
+- [NR-16 e Normas Regulamentadoras](https://www.gov.br/trabalho-e-previdencia/pt-br/assuntos/seguranca-e-saude-no-trabalho/normas-regulamentadoras)
+`,
+    date: "3 de Abril de 2026",
+    category: "Direito Trabalhista",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
