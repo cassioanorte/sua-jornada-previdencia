@@ -3434,6 +3434,88 @@ A Portaria MTE nº 2.021/2025 representa um marco relevante para a proteção de
     date: "3 de Abril de 2026",
     category: "Direito Trabalhista",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "atividade-de-risco-motoboy-beneficio-inss-sequelas-permanentes",
+    image: "/blog/atividade-risco-motoboy-beneficio-inss.jpg",
+    title: "Atividade de risco de motoboy pode gerar benefício do INSS em caso de acidente com sequelas permanentes?",
+    excerpt: "Saiba quando a atividade de risco de motoboy pode gerar benefício do INSS após acidente com sequelas permanentes: direitos, documentos e passos práticos.",
+    content: `
+A profissão de motoboy envolve exposição contínua a riscos do trânsito. Quando um acidente causa sequelas permanentes, surgem dúvidas sobre a possibilidade de obtenção de benefícios previdenciários junto ao INSS e de reivindicar direitos trabalhistas. Este artigo explica, de forma clara e prática, quais benefícios podem ser pleiteados, como se estabelece o nexo causal trabalho-doença/lesão, os documentos necessários, o passo a passo para requerer o benefício no INSS e orientações jurídicas úteis para proteger direitos do trabalhador.
+
+## O quadro legal e os benefícios possíveis
+
+**Auxílio-acidente:** benefício indenizatório concedido pelo INSS quando, após tratamento de acidente (de qualquer natureza), persistir sequela que reduza a capacidade para o trabalho habitual. É pago como uma indenização mensal proporcional e tem caráter indenizatório, sendo compatível com o trabalho (ou seja, pode ser acumulado com salário/atividade).
+
+**Aposentadoria por incapacidade permanente (aposentadoria por invalidez):** quando o segurado fica totalmente incapaz para o trabalho e a incapacidade é considerada definitiva, o INSS pode conceder aposentadoria por incapacidade. Nesse caso, há cessação do contrato de trabalho se houver vínculo empregatício, salvo estabilidade prevista por lei.
+
+**Auxílio-doença (benefício por incapacidade temporária):** quando a incapacidade for temporária, o INSS concede auxílio-doença até a recuperação ou reavaliação.
+
+**Reconhecimento de acidente de trabalho / CAT:** se o acidente ocorreu no exercício do trabalho ou no trajeto (acidente de trajeto), é possível registrar a Comunicação de Acidente de Trabalho (CAT), o que tem reflexos no enquadramento previdenciário e trabalhista (estabilidade provisória, afastamentos, FGTS, etc.).
+
+## Nexo causal: por que importa?
+
+O nexo causal entre a atividade (motoboy) e o acidente/sequelas é fundamental para efeitos trabalhistas e previdenciários:
+
+- **Para o INSS:** o enquadramento do acidente como acidente de trabalho não é sempre obrigatório para concessão de auxílio-acidente, mas o reconhecimento formal pode facilitar a prova e reverter encargos (ex.: estabilidade, cobertura de acidente de trabalho).
+- **Para o empregador:** o reconhecimento do acidente como acidente de trabalho traz obrigações como o pagamento de estabilidade provisória (quando aplicável) e possíveis reparações.
+- Provar a relação entre a função exercida e o acidente beneficia o segurado na via administrativa (INSS) e judicial.
+
+## Quando a atividade de motoboy facilita o pedido de benefício?
+
+- **Acidente ocorrido no exercício da atividade habitual** (entrega, transporte de documentos/mercadorias, deslocamento a serviço): há forte indício de relação com o trabalho.
+- **Acidente de trajeto** (ida/volta entre residência e trabalho): também pode ser reconhecido como acidente de trabalho, dependendo das circunstâncias.
+- **Uso habitual de moto e exposição a risco:** demonstra habitualidade e exposição, elementos que reforçam o pedido.
+
+## Documentos essenciais para o requerimento
+
+- **Documentos pessoais:** RG, CPF, carteira de trabalho (CTPS) ou comprovante de inscrição como contribuinte individual (MEI, autônomo, etc.).
+- **Documentos médicos:** laudo(s) e relatórios médicos detalhados (especialista), exames de imagem, exames complementares, prontuários hospitalares, relatórios de reabilitação e receitas. Descrição das sequelas, limitações funcionais e prognóstico.
+- **Documentos do acidente:** boletim de ocorrência (se houver), CAT (se registrada), comunicação à empresa, atestados de afastamento, registros de atendimento de emergência.
+- **Provas de vínculo/atividade:** contrato de trabalho, registro de ponto, escalas, notas/recibos de entrega, prints de aplicativos de trabalho, mensagens ou declarações de testemunhas que comprovem rotina de atividade.
+- **Documentos previdenciários:** CNIS (extrato de contribuições), número do NIT/INSS.
+
+## Passo a passo prático para requerer o benefício no INSS
+
+1. Organize toda a documentação acima e digitalize os documentos originais.
+2. Acesse o **Meu INSS** (meu.inss.gov.br) ou aplicativo e requeira o benefício adequado: auxílio-acidente, auxílio-doença ou aposentadoria por incapacidade, conforme o caso. Caso tenha sido CAT, anexe o documento.
+3. Agende e compareça à **perícia médica do INSS** com os documentos originais. A perícia irá avaliar a incapacidade e as sequelas.
+4. Se o resultado for negativo ou insuficiente, apresente **recurso administrativo** junto ao INSS, juntando documentos novos ou complementares.
+5. Persistindo a negativa, considere a **via judicial** com advogado especializado: a ação pode requerer perícia técnica, prova testemunhal e a produção de provas médicas independentes.
+
+## Aspectos trabalhistas a observar
+
+- **Comunicação de Acidente de Trabalho (CAT):** o empregador deve emitir a CAT; o empregado (ou representante) pode também registrá-la se a empresa não fizer. A falta de CAT pode ser arguida em processo.
+- **Estabilidade provisória:** em acidente de trabalho há, em geral, direito a estabilidade no emprego por 12 meses após retorno do afastamento (conferir regras e jurisprudência).
+- **Indenizações e reflexos:** quando houver culpa do empregador (condições inseguras, falta de EPIs, ordens para práticas inseguras), pode haver direito a indenização por danos morais e materiais.
+
+## Dicas para fortalecer o pedido
+
+- Documentar tudo: registros de jornada, fotos do local, vídeos, mensagens, testemunhas.
+- Atualizar laudos com especialistas (ortopedista, neurologista, psiquiatra, etc.) descrevendo limitações funcionais objetivas.
+- Registrar CAT imediatamente e manter comprovantes de entrega ao INSS/empregador.
+- Buscar o sindicato da categoria para apoio administrativo e orientações coletivas.
+- Consultar advogado trabalhista/previdenciário para avaliar estratégia (administrativa vs. judicial).
+
+## Prazos e prescrição
+
+A prescrição trabalhista e previdenciária varia conforme o pedido: em reclamação trabalhista, em geral, o prazo é de **2 anos após o término do contrato** para ajuizar, com alcance de verbas dos últimos 5 anos; já para pedidos previdenciários ao INSS, recomenda-se a demanda o quanto antes — veja orientação jurídica específica para cada caso.
+
+## Links úteis
+
+- [Meu INSS](https://meu.inss.gov.br)
+- [INSS — benefícios e orientações](https://www.gov.br/inss/pt-br)
+- Informação sobre CAT e acidente de trabalho: páginas do Ministério do Trabalho e da Previdência e sindicatos da categoria.
+
+## Conclusão
+
+A atividade de risco de motoboy pode sim gerar acesso a benefícios do INSS quando um acidente provoca sequelas permanentes, mas o sucesso do pedido depende de prova documental do acidente, do nexo causal com a atividade e da demonstração das limitações funcionais. Além do benefício previdenciário, há possíveis direitos trabalhistas e indenizatórios. Organizar a documentação, registrar a CAT, buscar orientação sindical e, quando necessário, assessoria jurídica especializada aumentam muito as chances de êxito.
+
+**Se você sofreu um acidente no exercício da atividade de motoboy e ficou com sequelas, entre em contato com nosso escritório. Fazemos uma análise personalizada e sem compromisso do seu caso.**
+`,
+    date: "7 de Abril de 2026",
+    category: "Direito Previdenciário",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
