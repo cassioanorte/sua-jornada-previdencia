@@ -248,6 +248,9 @@ const BlogPost = () => {
               </div>
             </div>
 
+            {/* Related Posts */}
+            <RelatedPosts currentPostId={post.id} />
+
             {/* Back to Blog */}
             <div className="mt-12 pt-8 border-t border-border">
               <Link to="/blog">
