@@ -3654,6 +3654,57 @@ Os benefícios por incapacidade no INSS protegem a renda e o acesso a tratamento
     date: "10 de Abril de 2026",
     category: "Direito Previdenciário",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "auxilio-doenca-requisitos",
+    image: "/blog/auxilio-doenca-requisitos.jpg",
+    title: "Auxílio-doença: quem tem direito, documentos e passo a passo para solicitar",
+    excerpt: "Auxílio-doença: aprenda quem tem direito, quais documentos reunir e como solicitar ao INSS.",
+    content: `
+## Introdução
+
+O **auxílio-doença** é um benefício crucial para trabalhadores que ficam incapacitados temporariamente de exercer suas funções. Saber o passo a passo do pedido e quais documentos apresentar pode fazer a diferença entre a concessão e o indeferimento.
+
+## Quem tem direito
+
+- Segurados do INSS que tenham cumprido a carência exigida (normalmente 12 contribuições), salvo em casos de acidente de trabalho.
+- **Seguro desempregado?** Cuidado: a qualidade de segurado pode perder-se após certo período sem contribuições.
+- Trabalhadores com incapacidade temporária comprovada por perícia médica.
+
+## Documentos essenciais
+
+- CPF e documento de identidade.
+- Carteira de trabalho ou comprovantes de contribuição (carnês, GPS, comprovantes digitais).
+- Relatórios médicos, atestados, prescrições e exames que comprovem a incapacidade.
+- Comunicado de acidente de trabalho, se houver.
+
+## Como solicitar
+
+1. Pelo aplicativo **Meu INSS** ou portal gov.br, faça o requerimento e agende a perícia.
+2. Em casos de urgência, busque atendimento presencial nas agências do INSS ou defensorias.
+3. Leve a documentação impressa no dia da perícia e peça protocolo de entrega.
+
+## Perícia e indeferimento
+
+A perícia avaliará a incapacidade e sua relação com a atividade exercida.
+
+Indeferimentos devem ser fundamentados; **verifique o motivo para embasar recurso**.
+
+Recurso administrativo e ação judicial são caminhos possíveis diante de decisão desfavorável.
+
+## Dicas práticas
+
+- Mantenha histórico médico organizado por datas.
+- Se possível, obtenha laudos de especialistas da área da sua doença.
+- Registre toda comunicação com o INSS (protocolos, números de atendimento).
+
+## Conclusão
+
+Reúna documentação completa e acompanhe prazos. **Precisa de ajuda para organizar seu dossiê ou revisar seu pedido? Entre em contato com nosso escritório para uma análise gratuita e personalizada.**
+`,
+    date: "10 de Abril de 2026",
+    category: "Direito Previdenciário",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
