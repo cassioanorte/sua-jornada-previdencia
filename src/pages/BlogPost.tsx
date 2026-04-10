@@ -3,8 +3,35 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Calendar, Tag, MessageCircle } from "lucide-react";
-import { getBlogPostBySlug } from "@/data/blogPosts";
+import { getBlogPostBySlug, blogPosts } from "@/data/blogPosts";
+import RelatedPosts from "@/components/RelatedPosts";
 
+// Build a map of keywords → post slugs for auto-linking
+const linkableKeywords: { keyword: string; slug: string; title: string }[] = blogPosts
+  .map(p => ({ keyword: p.title, slug: p.id, title: p.title }))
+  .sort((a, b) => b.keyword.length - a.keyword.length); // longest first to avoid partial matches
+
+// Short aliases for common terms that should link
+const shortAliases: { keyword: string; slug: string }[] = [
+  { keyword: "auxílio-doença", slug: "auxilio-doenca-requisitos" },
+  { keyword: "auxílio doença", slug: "auxilio-doenca-requisitos" },
+  { keyword: "auxílio-acidente", slug: "auxilio-acidente-inss-quem-tem-direito" },
+  { keyword: "auxílio acidente", slug: "auxilio-acidente-inss-quem-tem-direito" },
+  { keyword: "BPC/LOAS", slug: "bpc-loas-como-solicitar" },
+  { keyword: "BPC", slug: "bpc-loas-como-solicitar" },
+  { keyword: "aposentadoria especial", slug: "aposentadoria-especial-direito" },
+  { keyword: "aposentadoria por idade", slug: "aposentadoria-por-idade" },
+  { keyword: "aposentadoria rural", slug: "aposentadoria-rural" },
+  { keyword: "aposentadoria por invalidez", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "pensão por morte", slug: "pensao-por-morte" },
+  { keyword: "auxílio-maternidade", slug: "auxilio-maternidade" },
+  { keyword: "auxílio maternidade", slug: "auxilio-maternidade" },
+  { keyword: "CNIS", slug: "conferir-cnis-antes-de-solicitar-aposentadoria" },
+  { keyword: "perícia médica", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "reabilitação profissional", slug: "plano-de-reabilitacao-profissional" },
+  { keyword: "Atestmed", slug: "atestmed-auxilio-doenca" },
+  { keyword: "Tema 416", slug: "stj-beneficio-lesao-minima" },
+];
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
