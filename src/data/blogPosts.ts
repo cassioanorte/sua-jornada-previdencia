@@ -1,3 +1,14 @@
+export type BlogCluster = 
+  | "incapacidade"
+  | "aposentadorias"
+  | "aposentadoria-especial"
+  | "assistencial"
+  | "acidente"
+  | "planejamento"
+  | "legislacao"
+  | "maternidade"
+  | "pcd";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -7,6 +18,7 @@ export interface BlogPost {
   category: string;
   author: string;
   image?: string;
+  cluster?: BlogCluster;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -3710,4 +3722,13 @@ Reúna documentação completa e acompanhe prazos. **Precisa de ajuda para organ
 
 export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
   return blogPosts.find(post => post.id === slug);
+};
+
+export const getRelatedPosts = (currentId: string, maxPosts: number = 3): BlogPost[] => {
+  const current = blogPosts.find(p => p.id === currentId);
+  if (!current?.cluster) return [];
+  return blogPosts
+    .filter(p => p.id !== currentId && p.cluster === current.cluster)
+    .slice(-maxPosts)
+    .reverse();
 };
