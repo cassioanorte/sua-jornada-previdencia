@@ -1,3 +1,14 @@
+export type BlogCluster = 
+  | "incapacidade"
+  | "aposentadorias"
+  | "aposentadoria-especial"
+  | "assistencial"
+  | "acidente"
+  | "planejamento"
+  | "legislacao"
+  | "maternidade"
+  | "pcd";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -7,11 +18,13 @@ export interface BlogPost {
   category: string;
   author: string;
   image?: string;
+  cluster?: BlogCluster;
 }
 
 export const blogPosts: BlogPost[] = [
   {
     id: "aposentadoria-especial-direito",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-especial-direito.jpg",
     title: "Como saber se tenho direito à aposentadoria especial?",
     excerpt: "Entenda os requisitos e como comprovar que você trabalhou exposto a agentes nocivos à saúde.",
@@ -63,6 +76,7 @@ Entre em contato conosco para uma consulta gratuita e descubra se você tem dire
   },
   {
     id: "bpc-loas-como-solicitar",
+    cluster: "assistencial" as BlogCluster,
     image: "/blog/bpc-loas-como-solicitar.jpg",
     title: "BPC LOAS: quem tem direito e como solicitar",
     excerpt: "Tudo o que você precisa saber sobre o Benefício de Prestação Continuada para idosos e pessoas com deficiência.",
@@ -139,6 +153,7 @@ Agende uma consulta gratuita e tire todas as suas dúvidas sobre o BPC/LOAS.
   },
   {
     id: "erros-auxilio-doenca",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/erros-auxilio-doenca.jpg",
     title: "5 erros que fazem o INSS negar o auxílio-doença",
     excerpt: "Conheça os erros mais comuns e saiba como evitá-los na hora de solicitar seu benefício.",
@@ -214,6 +229,7 @@ Entre em contato conosco para uma análise gratuita do seu caso.
   },
   {
     id: "aumentar-valor-aposentadoria",
+    cluster: "planejamento" as BlogCluster,
     image: "/blog/aumentar-valor-aposentadoria.jpg",
     title: "Como aumentar o valor da sua aposentadoria",
     excerpt: "Estratégias legais para maximizar o valor do seu benefício previdenciário.",
@@ -302,6 +318,7 @@ Agende uma consulta gratuita e descubra como podemos ajudar a maximizar sua apos
   },
   {
     id: "diferenca-aposentadoria-tempo-idade",
+    cluster: "aposentadorias" as BlogCluster,
     image: "/blog/diferenca-aposentadoria-tempo-idade.jpg",
     title: "Diferença entre aposentadoria por tempo e por idade",
     excerpt: "Entenda as diferenças entre esses dois tipos de aposentadoria e qual é melhor para você.",
@@ -391,6 +408,7 @@ Entre em contato para uma análise gratuita e personalizada do seu caso.
   },
   {
     id: "reforma-previdencia-mudancas",
+    cluster: "legislacao" as BlogCluster,
     image: "/blog/reforma-previdencia-mudancas.jpg",
     title: "Reforma da Previdência: o que mudou?",
     excerpt: "Principais mudanças trazidas pela Reforma da Previdência e como elas afetam seus direitos.",
@@ -488,6 +506,7 @@ Agende uma consulta gratuita e descubra qual é a melhor opção para o seu caso
   },
   {
     id: "auxilio-acidente-inss-quem-tem-direito",
+    cluster: "acidente" as BlogCluster,
     image: "/blog/auxilio-acidente-inss-quem-tem-direito.jpg",
     title: "Auxílio-Acidente: Quem Tem Direito, Valor do Benefício e Como Solicitar no INSS em 2026",
     excerpt: "Saiba o que é o auxílio-acidente, quem tem direito, valor do benefício e como solicitar no INSS. Guia completo atualizado para trabalhadores e segurados.",
@@ -720,6 +739,7 @@ Por isso, conhecer os requisitos e reunir provas médicas adequadas pode fazer t
   },
   {
     id: "stj-beneficio-lesao-minima",
+    cluster: "acidente" as BlogCluster,
     image: "/blog/stj-beneficio-lesao-minima.jpg",
     title: "STJ reconhece direito a benefício mesmo com lesão mínima",
     excerpt: "O Superior Tribunal de Justiça decidiu que basta a existência de lesão que reduza a capacidade para o trabalho habitual, mesmo que mínima, para a concessão do auxílio-acidente.",
@@ -782,6 +802,7 @@ Procure orientação jurídica e analise seu caso. Um advogado especialista em D
   },
   {
     id: "auxilio-acidente",
+    cluster: "acidente" as BlogCluster,
     image: "/blog/auxilio-acidente.jpg",
     title: "Auxílio-Acidente: Você Sabia que Placas e Próteses Podem Dar Direito a um Benefício?",
     excerpt: "Você com placa, prótese ou limitação após acidente pode ter direito ao auxílio-acidente do INSS. Saiba como comprovar e pedir o benefício.",
@@ -868,6 +889,7 @@ Conte em poucas linhas qual acidente você sofreu e quais sequelas ficaram (ex.:
   },
   {
     id: "auxilio-maternidade",
+    cluster: "maternidade" as BlogCluster,
     image: "/blog/auxilio-maternidade.jpg",
     title: "Auxílio-maternidade: como garantir seu direito ao benefício do INSS",
     excerpt: "Auxílio-maternidade: entenda quem tem direito, como pedir ao INSS e documentos necessários para garantir o benefício.",
@@ -956,6 +978,7 @@ Conte rapidamente: você é empregada registrada, contribuinte individual, traba
   },
   {
     id: "documentos-auxilio-acidente-checklist",
+    cluster: "acidente" as BlogCluster,
     image: "/blog/documentos-auxilio-acidente-checklist.jpg",
     title: "Documentos essenciais para pedir auxílio-acidente: checklist completo",
     excerpt: "Confira o checklist completo de documentos para pedir auxílio-acidente ao INSS e aumente suas chances de aprovação na perícia.",
@@ -1044,6 +1067,7 @@ Um pedido de auxílio-acidente bem-sucedido começa com um dossiê bem organizad
   },
   {
     id: "auxilio-acidente-e-dpvat",
+    cluster: "acidente" as BlogCluster,
     image: "/blog/auxilio-acidente-e-dpvat.jpg",
     title: "Auxílio-acidente e DPVAT: 7 passos para garantir seus direitos",
     excerpt: "Entenda auxílio-acidente e DPVAT: quem tem direito, como pedir indenização DPVAT e solicitar o benefício do INSS.",
@@ -1148,6 +1172,7 @@ Auxílio-acidente e DPVAT são recursos importantes para quem sofreu um acidente
   },
   {
     id: "plano-de-reabilitacao-profissional",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/plano-de-reabilitacao-profissional.jpg",
     title: "Plano de Reabilitação Profissional e o Papel no Pedido de Benefício: Obrigatoriedade do INSS antes da Aposentadoria por Invalidez",
     excerpt: "Plano de reabilitação profissional: entenda a obrigatoriedade do INSS em oferecer PRP antes da aposentadoria por invalidez e os efeitos da omissão.",
@@ -1244,6 +1269,7 @@ O plano de reabilitação profissional é peça-chave do sistema previdenciário
   },
   {
     id: "aposentadoria-do-professor",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-do-professor.jpg",
     title: "Aposentadoria do Professor: Guia Completo das Regras e Opções",
     excerpt: "Aposentadoria do professor: entenda regras, requisitos e opções para docentes da rede pública e privada.",
@@ -1356,6 +1382,7 @@ A aposentadoria do professor exige atenção à legislação aplicável, ao regi
   },
   {
     id: "pensao-por-morte",
+    cluster: "legislacao" as BlogCluster,
     image: "/blog/pensao-por-morte.jpg",
     title: "Pensão por Morte: Guia Completo para Entender Direitos e Como Solicitar",
     excerpt: "Entenda quem tem direito à pensão por morte, requisitos, valor do benefício, documentação necessária e como solicitar no INSS. Guia completo e atualizado.",
@@ -1467,6 +1494,7 @@ A **pensão por morte** é um direito relevante para proteção de dependentes d
   },
   {
     id: "conferir-cnis-antes-de-solicitar-aposentadoria",
+    cluster: "planejamento" as BlogCluster,
     image: "/blog/conferir-cnis-antes-de-solicitar-aposentadoria.jpg",
     title: "Conferir o CNIS Antes de Pedir Aposentadoria: Por Que é Essencial",
     excerpt: "Importância de conferir o CNIS antes de solicitar aposentadoria: evite erros, garanta tempo de contribuição e maximize seu benefício.",
@@ -1550,6 +1578,7 @@ Conferir o CNIS antes de solicitar aposentadoria é um passo simples, mas estrat
   },
   {
     id: "aposentadoria-rural",
+    cluster: "aposentadorias" as BlogCluster,
     image: "/blog/aposentadoria-rural.jpg",
     title: "Aposentadoria Rural: Guia Completo para Trabalhadores do Campo",
     excerpt: "Aposentadoria rural: saiba requisitos, tipos, documentos e como solicitar o benefício do INSS para trabalhadores do campo.",
@@ -1682,6 +1711,7 @@ A aposentadoria rural é um direito construído sobre provas de trabalho e vínc
   },
   {
     id: "aposentadoria-por-idade",
+    cluster: "aposentadorias" as BlogCluster,
     image: "/blog/aposentadoria-por-idade.jpg",
     title: "Aposentadoria por Idade: Guia Prático para Garantir Seu Benefício",
     excerpt: "Saiba requisitos, prazos, cálculo e como solicitar a aposentadoria por idade no INSS de forma prática.",
@@ -1782,6 +1812,7 @@ A aposentadoria por idade é um direito que exige atenção ao momento do requer
   },
   {
     id: "consultar-profissional-antes-pedir-beneficio-previdenciario",
+    cluster: "planejamento" as BlogCluster,
     image: "/blog/consultar-profissional-antes-pedir-beneficio-previdenciario.jpg",
     title: "10 Razões para Consultar um Profissional Antes de Pedir um Benefício Previdenciário",
     excerpt: "Descubra por que buscar orientação especializada antes de solicitar um benefício previdenciário pode aumentar suas chances de sucesso e evitar prejuízos.",
@@ -1878,6 +1909,7 @@ Consultar um profissional antes de encaminhar um pedido de benefício previdenci
   },
   {
     id: "aposentadoria-pcd",
+    cluster: "pcd" as BlogCluster,
     image: "/blog/aposentadoria-pcd.jpg",
     title: "Aposentadoria PCD: Guia Prático para Garantir Seus Direitos",
     excerpt: "Aposentadoria PCD: entenda requisitos, tipos, comprovação da deficiência e como solicitar o benefício no INSS.",
@@ -1994,6 +2026,7 @@ A Aposentadoria PCD existe para oferecer tratamento mais justo a pessoas cuja de
   },
   {
     id: "aposentadoria-frentista",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-frentista.jpg",
     title: "Aposentadoria Frentista: Guia Completo para Garantir Seus Direitos",
     excerpt: "Saiba as regras, tempo de contribuição, riscos ocupacionais e como solicitar a aposentadoria de frentista no INSS.",
@@ -2075,6 +2108,7 @@ Frentistas podem ter direitos previdenciários específicos em razão da exposi�
   ,
   {
     id: "aposentadoria-vigilante",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-vigilante.jpg",
     title: "Aposentadoria Vigilante: Direitos e Como Solicitar",
     excerpt: "Entenda regras, reconhecimento de atividade especial, documentação e como pedir o benefício no INSS sendo vigilante.",
@@ -2151,6 +2185,7 @@ Vigilantes podem ter direito a aposentadoria diferenciada quando a atividade é 
   },
   {
     id: "aposentadoria-caminhoneiro",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-caminhoneiro.jpg",
     title: "Aposentadoria do Caminhoneiro: Entenda Seus Direitos",
     excerpt: "Guia completo sobre aposentadoria para caminhoneiros: requisitos, cálculos, documentação e dicas para garantir seu benefício no INSS.",
@@ -2301,6 +2336,7 @@ A aposentadoria do caminhoneiro é um direito que precisa ser conquistado com **
   },
   {
     id: "aposentadoria-do-pedreiro",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-do-pedreiro.jpg",
     title: "9 Passos Simples para Conquistar a Aposentadoria do Pedreiro sem Perder Tempo!",
     excerpt: "Tudo sobre aposentadoria do pedreiro: regras especiais INSS, tempo de contribuição, cálculo e como solicitar em 2026 para garantir seus direitos.",
@@ -2526,6 +2562,7 @@ A **aposentadoria do pedreiro** é o prêmio por construir o país com as mãos 
   },
   {
     id: "aposentadoria-operador-maquinas-pesadas",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-operador-maquinas-pesadas.jpg",
     title: "Aposentadoria de Operador de Máquinas Pesadas: Saiba Seus Direitos",
     excerpt: "Saiba tudo sobre a aposentadoria especial do operador de máquinas pesadas: requisitos, documentos, PPP e como garantir seu direito no INSS.",
@@ -2663,6 +2700,7 @@ A **aposentadoria do operador de máquinas pesadas** é um direito que precisa s
   },
   {
     id: "atestmed-auxilio-doenca",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/atestmed-auxilio-doenca.jpg",
     title: "Atestmed Agora Concede Auxílio-Doença por Até 3 Meses: Entenda as Mudanças",
     excerpt: "O INSS ampliou o prazo do Atestmed para até 90 dias. Saiba como solicitar o auxílio-doença sem perícia presencial e o que fazer se for negado.",
@@ -2735,6 +2773,7 @@ Sim, desde que esteja em dia com as contribuições e tenha cumprido a carência
   },
   {
     id: "aposentadoria-dentista-contribuinte-individual",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-dentista.jpg",
     title: "Aposentadoria do Dentista Contribuinte Individual: Guia Completo para Garantir Seus Direitos",
     excerpt: "Dentista autônomo ou dono de clínica? Saiba como funciona a aposentadoria do contribuinte individual dentista, quais são as regras, valores e como um advogado previdenciário pode te ajudar.",
@@ -2833,6 +2872,7 @@ Nosso escritório é especializado em direito previdenciário e já ajudou denti
   },
   {
     id: "reconhecimento-atividade-especial-dentista",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/atividade-especial-dentista.jpg",
     title: "Reconhecimento de Atividade Especial para Dentista Contribuinte Individual: O Que a Justiça Já Decidiu",
     excerpt: "O INSS nega administrativamente a aposentadoria especial do dentista autônomo — mas a Justiça garante esse direito. Entenda os precedentes, o Tema 1291 do STJ e como um advogado pode te ajudar.",
@@ -2939,6 +2979,7 @@ Fazemos a análise completa da sua carreira contributiva, identificamos os perí
   },
   {
     id: "aposentadoria-pcd-direitos",
+    cluster: "pcd" as BlogCluster,
     image: "/blog/aposentadoria-pcd-direitos.jpg",
     title: "Aposentadoria para Pessoa com Deficiência (PCD): Saiba Como Garantir Seu Direito",
     excerpt: "Entenda as regras da aposentadoria PCD, os graus de deficiência, tempo de contribuição exigido e como dar entrada no INSS sem perder seus direitos.",
@@ -2991,6 +3032,7 @@ O INSS costuma negar benefícios por falta de documentação adequada ou classif
   },
   {
     id: "aposentadoria-medico",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-medico.jpg",
     title: "Aposentadoria de Médico: Tudo o Que Você Precisa Saber Para Garantir Seus Direitos",
     excerpt: "Médico pode se aposentar com 25 anos de contribuição especial. Entenda as regras, tipos de aposentadoria e como garantir o melhor benefício no INSS.",
@@ -3047,6 +3089,7 @@ Se você é médico e quer saber se já tem direito à aposentadoria especial ou
   },
   {
     id: "atividade-especial-medico-contribuinte-individual",
+    cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/atividade-especial-medico.jpg",
     title: "Atividade Especial para Médico Contribuinte Individual",
     excerpt: "Requisitos, documentos, comprovação e passo a passo para reconhecer tempo especial junto ao INSS sendo médico autônomo.",
@@ -3195,6 +3238,7 @@ Não é obrigatório, mas é recomendado quando houver falta de documentação, 
   },
   {
     id: "doencas-que-geram-direito-aposentadoria-pcd",
+    cluster: "pcd" as BlogCluster,
     image: "/blog/doencas-aposentadoria-pcd.jpg",
     title: "Doenças que Geram Direito a Aposentadoria PCD",
     excerpt: "Lista prática de doenças que geram direito à aposentadoria PCD, requisitos, documentos e passo a passo para solicitar junto ao INSS.",
@@ -3309,6 +3353,7 @@ Sim, é recomendável. Um advogado previdenciário pode orientar recursos admini
   },
   {
     id: "periculosidade-motoboy-entra-em-vigor-hoje",
+    cluster: "acidente" as BlogCluster,
     image: "/blog/periculosidade-motoboy.jpg",
     title: "Periculosidade para Motoboys: O Que Muda com a Portaria MTE nº 2.021/2025",
     excerpt: "Entrou em vigor hoje (03/04/2026) o adicional de periculosidade de 30% para motoboys CLT. Saiba quem tem direito, como calcular e o que empresas devem fazer.",
@@ -3437,6 +3482,7 @@ A Portaria MTE nº 2.021/2025 representa um marco relevante para a proteção de
   },
   {
     id: "atividade-de-risco-motoboy-beneficio-inss-sequelas-permanentes",
+    cluster: "acidente" as BlogCluster,
     image: "/blog/atividade-risco-motoboy-beneficio-inss.jpg",
     title: "Atividade de risco de motoboy pode gerar benefício do INSS em caso de acidente com sequelas permanentes?",
     excerpt: "Saiba quando a atividade de risco de motoboy pode gerar benefício do INSS após acidente com sequelas permanentes: direitos, documentos e passos práticos.",
@@ -3519,6 +3565,7 @@ A atividade de risco de motoboy pode sim gerar acesso a benefícios do INSS quan
   },
   {
     id: "fim-da-renovacao-de-laudo-medico-para-autistas",
+    cluster: "assistencial" as BlogCluster,
     image: "/blog/fim-renovacao-laudo-autistas.jpg",
     title: "Fim da Renovação de Laudo Médico para Autistas: Impactos Práticos e Orientações",
     excerpt: "Entenda o que muda com o fim da exigência de renovação periódica de laudos médicos para pessoas com TEA, seus impactos nos benefícios do INSS e orientações práticas para famílias.",
@@ -3602,6 +3649,7 @@ O fim da exigência de renovação periódica de laudos para pessoas com TEA pod
   },
   {
     id: "beneficios-por-incapacidade-no-inss",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/beneficios-por-incapacidade-inss.jpg",
     title: "Benefícios por incapacidade no INSS: guia completo para ter seus direitos garantidos",
     excerpt: "Benefícios por incapacidade no INSS — entenda requisitos, documentos e como solicitar para garantir seus direitos.",
@@ -3657,6 +3705,7 @@ Os benefícios por incapacidade no INSS protegem a renda e o acesso a tratamento
   },
   {
     id: "auxilio-doenca-requisitos",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/auxilio-doenca-requisitos.jpg",
     title: "Auxílio-doença: quem tem direito, documentos e passo a passo para solicitar",
     excerpt: "Auxílio-doença: aprenda quem tem direito, quais documentos reunir e como solicitar ao INSS.",
@@ -3710,4 +3759,13 @@ Reúna documentação completa e acompanhe prazos. **Precisa de ajuda para organ
 
 export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
   return blogPosts.find(post => post.id === slug);
+};
+
+export const getRelatedPosts = (currentId: string, maxPosts: number = 3): BlogPost[] => {
+  const current = blogPosts.find(p => p.id === currentId);
+  if (!current?.cluster) return [];
+  return blogPosts
+    .filter(p => p.id !== currentId && p.cluster === current.cluster)
+    .slice(-maxPosts)
+    .reverse();
 };

@@ -3,8 +3,35 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Calendar, Tag, MessageCircle } from "lucide-react";
-import { getBlogPostBySlug } from "@/data/blogPosts";
+import { getBlogPostBySlug, blogPosts } from "@/data/blogPosts";
+import RelatedPosts from "@/components/RelatedPosts";
 
+// Build a map of keywords → post slugs for auto-linking
+const linkableKeywords: { keyword: string; slug: string; title: string }[] = blogPosts
+  .map(p => ({ keyword: p.title, slug: p.id, title: p.title }))
+  .sort((a, b) => b.keyword.length - a.keyword.length); // longest first to avoid partial matches
+
+// Short aliases for common terms that should link
+const shortAliases: { keyword: string; slug: string }[] = [
+  { keyword: "auxílio-doença", slug: "auxilio-doenca-requisitos" },
+  { keyword: "auxílio doença", slug: "auxilio-doenca-requisitos" },
+  { keyword: "auxílio-acidente", slug: "auxilio-acidente-inss-quem-tem-direito" },
+  { keyword: "auxílio acidente", slug: "auxilio-acidente-inss-quem-tem-direito" },
+  { keyword: "BPC/LOAS", slug: "bpc-loas-como-solicitar" },
+  { keyword: "BPC", slug: "bpc-loas-como-solicitar" },
+  { keyword: "aposentadoria especial", slug: "aposentadoria-especial-direito" },
+  { keyword: "aposentadoria por idade", slug: "aposentadoria-por-idade" },
+  { keyword: "aposentadoria rural", slug: "aposentadoria-rural" },
+  { keyword: "aposentadoria por invalidez", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "pensão por morte", slug: "pensao-por-morte" },
+  { keyword: "auxílio-maternidade", slug: "auxilio-maternidade" },
+  { keyword: "auxílio maternidade", slug: "auxilio-maternidade" },
+  { keyword: "CNIS", slug: "conferir-cnis-antes-de-solicitar-aposentadoria" },
+  { keyword: "perícia médica", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "reabilitação profissional", slug: "plano-de-reabilitacao-profissional" },
+  { keyword: "Atestmed", slug: "atestmed-auxilio-doenca" },
+  { keyword: "Tema 416", slug: "stj-beneficio-lesao-minima" },
+];
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -81,10 +108,68 @@ const BlogPost = () => {
                 const trimmed = paragraph.trim();
                 if (!trimmed) return null;
 
-                const renderInline = (text: string) =>
-                  text.split('**').map((part, i) =>
-                    i % 2 === 1 ? <strong key={i} className="text-foreground">{part}</strong> : part
-                  );
+                const renderInline = (text: string) => {
+                  // First handle bold
+                  const boldParts = text.split('**');
+                  const elements: React.ReactNode[] = [];
+
+                  boldParts.forEach((part, i) => {
+                    if (i % 2 === 1) {
+                      elements.push(<strong key={`b-${i}`} className="text-foreground">{part}</strong>);
+                    } else {
+                      // Apply auto-linking to non-bold text
+                      elements.push(...renderWithLinks(part, `p-${i}`));
+                    }
+                  });
+
+                  return elements;
+                };
+
+                const renderWithLinks = (text: string, keyPrefix: string): React.ReactNode[] => {
+                  if (!text) return [text];
+
+                  // Combine short aliases (check them first, they're more specific terms)
+                  const allKeywords = [
+                    ...shortAliases.filter(a => a.slug !== post.id),
+                  ];
+
+                  let result: React.ReactNode[] = [text];
+
+                  for (const { keyword, slug } of allKeywords) {
+                    const newResult: React.ReactNode[] = [];
+                    let linkedThisKeyword = false;
+                    for (const segment of result) {
+                      if (typeof segment !== 'string' || linkedThisKeyword) {
+                        newResult.push(segment);
+                        continue;
+                      }
+                      const idx = segment.toLowerCase().indexOf(keyword.toLowerCase());
+                      if (idx === -1) {
+                        newResult.push(segment);
+                        continue;
+                      }
+                      // Only link first occurrence per keyword
+                      linkedThisKeyword = true;
+                      const before = segment.slice(0, idx);
+                      const match = segment.slice(idx, idx + keyword.length);
+                      const after = segment.slice(idx + keyword.length);
+                      if (before) newResult.push(before);
+                      newResult.push(
+                        <Link
+                          key={`${keyPrefix}-link-${slug}`}
+                          to={`/blog/${slug}`}
+                          className="text-primary hover:underline font-medium"
+                        >
+                          {match}
+                        </Link>
+                      );
+                      if (after) newResult.push(after);
+                    }
+                    result = newResult;
+                  }
+
+                  return result;
+                };
                 
                 if (trimmed.startsWith('## ')) {
                   return (
@@ -162,6 +247,9 @@ const BlogPost = () => {
                 </Button>
               </div>
             </div>
+
+            {/* Related Posts */}
+            <RelatedPosts currentPostId={post.id} />
 
             {/* Back to Blog */}
             <div className="mt-12 pt-8 border-t border-border">
