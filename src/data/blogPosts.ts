@@ -3599,6 +3599,61 @@ O fim da exigência de renovação periódica de laudos para pessoas com TEA pod
     date: "8 de Abril de 2026",
     category: "Direito Previdenciário",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "beneficios-por-incapacidade-no-inss",
+    image: "/blog/beneficios-por-incapacidade-inss.jpg",
+    title: "Benefícios por incapacidade no INSS: guia completo para ter seus direitos garantidos",
+    excerpt: "Benefícios por incapacidade no INSS — entenda requisitos, documentos e como solicitar para garantir seus direitos.",
+    content: `
+## Introdução
+
+Os **benefícios por incapacidade no INSS** são mecanismos essenciais de proteção social para quem, por razão de doença ou acidente, fica temporária ou permanentemente impossibilitado de trabalhar. Este guia reúne informações práticas sobre os tipos de benefício, requisitos, documentos, perícia médica, recursos e estratégias para aumentar as chances de sucesso em pedidos administrativos ou judiciais.
+
+## Tipos de benefícios
+
+- **Auxílio-doença:** benefício temporário pago ao segurado que está incapaz de trabalhar por mais de 15 dias consecutivos, desde que cumpridos carência e demais requisitos.
+- **Aposentadoria por invalidez:** quando a incapacidade é total e permanente, impossibilitando o retorno ao trabalho.
+- **BPC/LOAS (benefício de prestação continuada):** destinado a pessoas com deficiência e idosos de baixa renda; requisitos são distintos do regime contributivo do INSS.
+- **Auxílio-acidentário e auxílio suplementar:** em casos de acidente de trabalho ou doença ocupacional.
+
+## Requisitos gerais
+
+- **Qualidade de segurado:** estar na condição de segurado (contribuinte) no momento da incapacidade.
+- **Carência:** em muitos casos é exigida uma carência mínima (ex.: 12 contribuições), exceto em situações específicas como acidente de trabalho.
+- **Incapacidade atestada:** laudos médicos e perícia do INSS que comprovem a incapacidade.
+- **Documentação complementar:** histórico clínico, exames, relatórios, receitas, atestados e, quando houver, laudos de exames complementares.
+
+## Como preparar o pedido
+
+1. Reúna todo o dossiê médico: relatórios, prontuário, exames e prescrições cronológicas.
+2. Faça cópia do CNIS e do extrato do benefício (quando aplicável).
+3. Registre datas importantes: início da incapacidade, internações, tratamentos e afastamentos.
+4. Agende a perícia com antecedência e leve toda a documentação para a avaliação.
+
+## Perícia médica e recursos
+
+A perícia é o passo decisivo em muitos pedidos. Chegue preparado, com documentação organizada e atualizado sobre seu tratamento.
+
+Se houver indeferimento, há procedimentos administrativos (recurso à Junta de Recursos do INSS) e posteriormente possibilidade de ação judicial.
+
+Em casos de divergência, **avaliações periciais independentes e laudos de especialistas** podem fortalecer o recurso.
+
+## Dicas práticas para aumentar as chances
+
+- **Documente tudo:** diário de sintomas, prescrições e relatórios.
+- Busque laudos que correlacionem incapacidade à atividade habitual de trabalho.
+- **Controle prazos:** o recurso administrativo tem prazos; ações judiciais podem exigir perícia complementar.
+
+## Conclusão
+
+Os benefícios por incapacidade no INSS protegem a renda e o acesso a tratamento quando a pessoa não pode trabalhar. Se você está em processo de requerimento ou teve indeferimento, organize seu dossiê e busque orientação especializada.
+
+**Quer ajuda para montar o dossiê ou revisar um pedido? Entre em contato com nosso escritório para uma análise personalizada e sem compromisso.**
+`,
+    date: "10 de Abril de 2026",
+    category: "Direito Previdenciário",
+    author: "Equipe Spier & Anorte"
   }
 ];
 
