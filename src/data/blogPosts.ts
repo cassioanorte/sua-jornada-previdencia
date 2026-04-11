@@ -3754,6 +3754,53 @@ Reúna documentação completa e acompanhe prazos. **Precisa de ajuda para organ
     date: "10 de Abril de 2026",
     category: "Direito Previdenciário",
     author: "Equipe Spier & Anorte"
+  },
+  {
+    id: "aposentadoria-por-invalidez-como-pedir",
+    cluster: "incapacidade" as BlogCluster,
+    image: "/blog/aposentadoria-por-invalidez.jpg",
+    title: "Aposentadoria por invalidez: condições, provas e como requerer ao INSS",
+    excerpt: "Saiba quando pedir aposentadoria por invalidez, quais provas apresentar e como proceder no INSS para garantir seus direitos.",
+    date: "11 de Abril de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Dra. Fabíola Marques",
+    content: `## Introdução
+
+A **aposentadoria por invalidez** é devida ao segurado considerado incapaz permanentemente para o trabalho. Entender os critérios e a documentação necessária é essencial para um pedido bem-sucedido.
+
+## Critérios principais
+
+- **Incapacidade total e permanente** para o trabalho.
+- **Qualidade de segurado** e cumprimento de carência (salvo em acidentes de trabalho).
+- A relação entre a doença/incapacidade e a atividade laboral deve estar bem demonstrada.
+
+## Documentos e provas
+
+- Relatórios de especialistas, laudos hospitalares e exames que comprovem a gravidade e permanência.
+- Histórico de tratamentos, terapias e intervenções.
+- Documentação que mostre a impossibilidade de readaptação ao trabalho.
+
+## Procedimento
+
+1. **Requerimento** via Meu INSS ou agendamento de perícia.
+2. **Perícia médica** realizada por peritos do INSS avaliará o grau de incapacidade.
+3. Em caso de **indeferimento**, recurso administrativo e, se necessário, ação judicial com prova pericial independente.
+
+## Dicas estratégicas
+
+- Laudos detalhados e assinados por especialistas aumentam a credibilidade.
+- Considere a necessidade de **perícia judicial** quando houver divergência técnica.
+- Avalie a possibilidade de conversão de auxílio-doença em aposentadoria por invalidez quando a incapacidade se tornar permanente.
+
+## Conclusão
+
+Se a sua condição impede o trabalho de forma permanente, organize a documentação e busque apoio técnico para formular um pedido robusto. **Precisa revisar seu dossiê?** [Solicite avaliação](/contato).
+
+---
+
+**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Auxílio-doença: requisitos e passo a passo](/blog/auxilio-doenca-requisitos)
+
+**Hashtags:** #AposentadoriaPorInvalidez #INSS #BenefíciosPorIncapacidade`
   }
 ];
 
