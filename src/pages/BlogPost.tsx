@@ -27,7 +27,7 @@ const shortAliases: { keyword: string; slug: string }[] = [
   { keyword: "auxílio-maternidade", slug: "auxilio-maternidade" },
   { keyword: "auxílio maternidade", slug: "auxilio-maternidade" },
   { keyword: "CNIS", slug: "conferir-cnis-antes-de-solicitar-aposentadoria" },
-  { keyword: "perícia médica", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "perícia médica", slug: "pericia-medica-inss-como-preparar" },
   { keyword: "reabilitação profissional", slug: "plano-de-reabilitacao-profissional" },
   { keyword: "Atestmed", slug: "atestmed-auxilio-doenca" },
   { keyword: "Tema 416", slug: "stj-beneficio-lesao-minima" },

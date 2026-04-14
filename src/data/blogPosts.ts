@@ -3801,6 +3801,64 @@ Se a sua condição impede o trabalho de forma permanente, organize a documenta�
 **Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Auxílio-doença: requisitos e passo a passo](/blog/auxilio-doenca-requisitos)
 
 **Hashtags:** #AposentadoriaPorInvalidez #INSS #BenefíciosPorIncapacidade`
+  },
+  {
+    id: "pericia-medica-inss-como-preparar",
+    cluster: "incapacidade" as BlogCluster,
+    image: "/blog/pericia-medica-inss.jpg",
+    title: "Perícia médica do INSS: dicas práticas para se preparar e evitar indeferimentos",
+    excerpt: "Saiba como se preparar para a perícia médica do INSS, que documentos levar e como aumentar as chances de concessão do benefício.",
+    date: "14 de Abril de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Spier & Anorte Advogados",
+    content: `## Introdução
+
+A perícia médica muitas vezes decide o destino de um pedido de benefício. Chegar bem preparado e com documentação organizada é fundamental para obter a concessão do auxílio-doença, aposentadoria por invalidez ou qualquer outro benefício que dependa de avaliação médica.
+
+## Preparação antes da perícia
+
+- Organize um **dossiê cronológico**: consultas, exames, relatórios e medicações em ordem.
+- Inclua **laudos de especialistas** que expliquem a limitação funcional.
+- Leve um **resumo escrito** (breve histórico) e cópias para entrega ao perito.
+- Revise seu CNIS e certifique-se de que as contribuições estão em dia.
+
+## O que levar no dia
+
+- Documentos pessoais (RG, CPF) e comprovantes de contribuição.
+- **Relatórios médicos**, receitas e exames atualizados.
+- Se possível, **atestado de incapacidade** que relate limitações específicas para a função exercida.
+- Fotos de procedimentos cirúrgicos, cicatrizes ou limitações visíveis, se aplicável.
+
+## Comportamento durante a perícia
+
+- Explique de forma **objetiva** as limitações e como afetam suas tarefas diárias e laborais.
+- Evite contradições entre o que consta no prontuário e o seu depoimento.
+- Informe **medicações**, tratamentos e efeitos colaterais relevantes.
+- Não exagere nem minimize seus sintomas — seja honesto e preciso.
+
+## Em caso de indeferimento
+
+- Analise a **justificativa do INSS** e reúna elementos contrários ao fundamento apresentado.
+- O **recurso administrativo** deve ser bem fundamentado com novos elementos probatórios.
+- Se necessário, **perícia particular ou judicial** pode ser solicitada para contestar a decisão.
+- Considere buscar assessoria jurídica especializada para avaliar a viabilidade de ação judicial.
+
+## Dicas extras
+
+- Chegue com antecedência ao local da perícia.
+- Leve acompanhante se necessário (especialmente em casos de limitação cognitiva ou mobilidade).
+- Guarde cópias de tudo que entregar ao perito.
+- Se fizer uso do Atestmed, certifique-se de que o atestado atende aos requisitos formais.
+
+## Conclusão
+
+Perícia bem-sucedida exige preparo e documentação robusta. **Precisa de um checklist completo para a perícia?** [Entre em contato com nossa equipe](/contato) para receber orientação personalizada.
+
+---
+
+**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Aposentadoria por invalidez: como pedir](/blog/aposentadoria-por-invalidez-como-pedir) | [Auxílio-doença: requisitos e passo a passo](/blog/auxilio-doenca-requisitos)
+
+**Hashtags:** #PeríciaINSS #AuxílioDoença #DireitoPrevidenciário`
   }
 ];
 
