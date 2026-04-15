@@ -238,7 +238,11 @@ const BlogPost = () => {
                     {renderInline(trimmed)}
                   </p>
                 );
-              })}
+              }) : (
+                <div className="flex justify-center py-8">
+                  <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+                </div>
+              )}
             </article>
 
             {/* CTA Section */}
