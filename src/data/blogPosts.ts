@@ -3859,6 +3859,55 @@ Perícia bem-sucedida exige preparo e documentação robusta. **Precisa de um ch
 **Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Aposentadoria por invalidez: como pedir](/blog/aposentadoria-por-invalidez-como-pedir) | [Auxílio-doença: requisitos e passo a passo](/blog/auxilio-doenca-requisitos)
 
 **Hashtags:** #PeríciaINSS #AuxílioDoença #DireitoPrevidenciário`
+  },
+  {
+    id: "bpc-vs-beneficios-inss",
+    cluster: "assistencial" as BlogCluster,
+    image: "/blog/bpc-vs-beneficios-inss.jpg",
+    title: "BPC vs. benefícios do INSS: entenda as diferenças e quem tem direito",
+    excerpt: "BPC x benefícios do INSS por incapacidade: diferenças, requisitos e como escolher o melhor caminho.",
+    date: "2025-07-15",
+    category: "BPC/LOAS",
+    author: "Spier & Anorte Advogados",
+    content: `## Introdução
+
+Muitos confundem o **BPC/LOAS** com os benefícios contributivos do INSS. Apesar de ambos atenderem pessoas incapacitadas, possuem critérios, objetivos e regras distintas.
+
+## O que é o BPC/LOAS
+
+O **Benefício de Prestação Continuada (LOAS)** garante um salário mínimo a pessoa com deficiência e idosos de baixa renda.
+
+Não exige contribuições previdenciárias, mas exige comprovação de **baixa renda familiar per capita** e deficiência que gere impedimentos para a vida independente e trabalho.
+
+## Principais diferenças
+
+### Fonte e natureza
+
+O BPC é **assistencial** (não contributivo); já o auxílio-doença e a aposentadoria por invalidez são **contributivos**.
+
+### Critérios de renda
+
+O BPC exige limite de renda familiar; o INSS exige contribuições e, muitas vezes, carência.
+
+### Duração
+
+O BPC é contínuo enquanto persistirem os requisitos; benefícios do INSS podem ser revisados ou cessados após perícia.
+
+## Como escolher o caminho
+
+- Verifique se há condição de ser segurado do INSS. Se houver contribuições suficientes, o benefício contributivo pode ser a melhor opção.
+- Em casos de **baixa renda e deficiência severa**, analise elegibilidade ao BPC.
+- Em muitos casos, é necessário avaliar estratégias conjuntas com assistência social e jurídica.
+
+## Conclusão
+
+A decisão sobre pleitear BPC ou benefício do INSS depende do perfil contributivo e socioeconômico. **Precisa de avaliação personalizada?** [Agende uma análise de elegibilidade](/contato) com nossa equipe.
+
+---
+
+**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [BPC/LOAS: como solicitar](/blog/bpc-loas-como-solicitar) | [Aposentadoria por invalidez: como pedir](/blog/aposentadoria-por-invalidez-como-pedir)
+
+**Hashtags:** #BPC #LOAS #DireitosSociais`
   }
 ];
 
