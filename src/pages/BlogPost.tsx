@@ -37,6 +37,15 @@ const shortAliases: { keyword: string; slug: string }[] = [
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getBlogPostBySlug(slug) : undefined;
+  const [content, setContent] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (post) {
+      import("@/data/blogPostContents").then(mod => {
+        setContent(mod.default[post.id] || null);
+      });
+    }
+  }, [post]);
 
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
