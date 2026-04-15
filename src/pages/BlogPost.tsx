@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -36,6 +37,15 @@ const shortAliases: { keyword: string; slug: string }[] = [
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getBlogPostBySlug(slug) : undefined;
+  const [content, setContent] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (post) {
+      import("@/data/blogPostContents").then(mod => {
+        setContent(mod.default[post.id] || null);
+      });
+    }
+  }, [post]);
 
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
@@ -104,7 +114,7 @@ const BlogPost = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <article className="prose prose-lg max-w-none prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-li:text-muted-foreground" style={{ textAlign: 'justify' }}>
-              {post.content.split('\n').map((paragraph, index) => {
+              {content ? content.split('\n').map((paragraph, index) => {
                 const trimmed = paragraph.trim();
                 if (!trimmed) return null;
 
@@ -228,7 +238,11 @@ const BlogPost = () => {
                     {renderInline(trimmed)}
                   </p>
                 );
-              })}
+              }) : (
+                <div className="flex justify-center py-8">
+                  <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+                </div>
+              )}
             </article>
 
             {/* CTA Section */}
