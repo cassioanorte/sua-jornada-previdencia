@@ -421,6 +421,16 @@ export const blogPosts: BlogPost[] = [
     date: "2025-07-15",
     category: "BPC/LOAS",
     author: "Spier & Anorte Advogados"
+  },
+  {
+    id: "reabilitacao-profissional-inss",
+    cluster: "incapacidade" as BlogCluster,
+    image: "/blog/reabilitacao-profissional-inss.jpg",
+    title: "Reabilitação profissional do INSS: direitos, procedimentos e como acessar",
+    excerpt: "Reabilitação profissional INSS: conheça os direitos, etapas do programa e como solicitar apoio para retornar ao trabalho.",
+    date: "2025-07-20",
+    category: "Benefícios por Incapacidade",
+    author: "Spier & Anorte Advogados"
   }
 ];
 

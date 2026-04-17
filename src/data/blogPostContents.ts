@@ -3486,6 +3486,54 @@ A decisão sobre pleitear BPC ou benefício do INSS depende do perfil contributi
 **Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [BPC/LOAS: como solicitar](/blog/bpc-loas-como-solicitar) | [Aposentadoria por invalidez: como pedir](/blog/aposentadoria-por-invalidez-como-pedir)
 
 **Hashtags:** #BPC #LOAS #DireitosSociais`,
+
+  "reabilitacao-profissional-inss": `
+A **reabilitação profissional** é um serviço do INSS voltado a ajudar segurados incapacitados a readquirir capacidade laboral por meio de treinamento, readaptação ou encaminhamento para novo emprego. Conheça abaixo como funciona o programa e quais são seus direitos.
+
+## Quem pode participar
+
+- Segurados considerados **incapazes para a função habitual**, mas com possibilidade de reabilitação para outra atividade.
+- O encaminhamento ocorre via **perícia médica** ou por requerimento do próprio segurado.
+
+## Etapas do processo
+
+### 1. Avaliação inicial
+
+Perícia médica e avaliação social para identificar o potencial de reabilitação do segurado.
+
+### 2. Plano de reabilitação
+
+Definido por equipe multiprofissional, com metas, prazos e cursos compatíveis com o perfil do trabalhador.
+
+### 3. Treinamento e qualificação
+
+Cursos e orientações para novas ocupações compatíveis com a capacidade remanescente do segurado.
+
+### 4. Encaminhamento ao mercado de trabalho
+
+Intermediação de vagas, suporte na recolocação e acompanhamento do retorno às atividades.
+
+## Benefícios e limitações
+
+- O objetivo é a **reintegração ao mercado** com preservação da renda do segurado.
+- Participantes podem **conservar benefícios** enquanto estiverem em reabilitação, dependendo do caso.
+- Nem todos os segurados se adequam ao programa: existem critérios técnicos e médicos.
+
+## Dicas práticas
+
+- Mantenha o **prontuário clínico atualizado** para justificar o potencial de reabilitação.
+- Busque **cursos alinhados com o mercado local** e com suas limitações funcionais.
+- Use a reabilitação como estratégia para **evitar perda de renda** a longo prazo, especialmente em casos de auxílio-doença prolongado.
+
+## Conclusão
+
+A reabilitação pode ser a ponte para um novo trabalho e para a manutenção da dignidade do segurado. **Quer planejar um encaminhamento ou saber sobre vagas e cursos?** [Solicite nossa orientação](/contato).
+
+---
+
+**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Auxílio-doença: requisitos e como solicitar](/blog/auxilio-doenca-requisitos) | [Perícia médica do INSS: como se preparar](/blog/pericia-medica-inss-como-preparar)
+
+**Hashtags:** #ReabilitaçãoProfissional #INSS #RetornoAoTrabalho`,
 };
 
 export default blogPostContents;
