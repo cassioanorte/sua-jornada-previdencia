@@ -1,5 +1,45 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "revisao-beneficio-incapacidade": `
+Revisões e recursos são caminhos frequentes quando há cessação indevida de benefício ou quando o valor percebido está incorreto. Entender prazos e fundamentos melhora as chances de êxito.
+
+## Quando pedir revisão
+
+- Erros de cálculo no valor do benefício.
+- Inclusão de contribuições não computadas no CNIS.
+- Cessação do benefício sem justificativa técnica.
+- Mudança no quadro clínico que justifique aposentadoria por invalidez permanente.
+
+## Procedimento e prazos
+
+**Recurso administrativo após indeferimento:** apresentar novos elementos probatórios perante a Junta de Recursos do INSS, dentro do prazo de 30 dias contados da ciência da decisão.
+
+**Revisão por ofício:** o INSS pode rever valores, mas cabe ao segurado acompanhar e, se necessário, impugnar eventual revisão que reduza o benefício.
+
+**Prazo decadencial e prescricional:** atenção às datas para evitar perda de direitos. O prazo decadencial para revisão do ato de concessão é de 10 anos, e a prescrição quinquenal alcança parcelas vencidas há mais de 5 anos.
+
+## Como fundamentar o recurso
+
+- Junte documentos novos ou que não foram considerados na decisão original: laudos médicos atualizados, exames complementares e comprovação de atividades insalubres ou penosas.
+- Argumente com base na legislação previdenciária, em jurisprudência consolidada e em perícias técnicas independentes quando possível.
+- Sempre protocole com número de protocolo e guarde comprovantes de toda a tramitação administrativa.
+
+## Principais hipóteses de revisão
+
+**Revisão da vida toda:** consideração de contribuições anteriores a julho de 1994 no cálculo do benefício, em casos específicos.
+
+**Revisão do teto:** segurados que tiveram contribuições limitadas pelo teto antes das Emendas 20/1998 e 41/2003 podem ter direito a recálculo.
+
+**Revisão por reconhecimento de tempo especial:** quando há provas posteriores de exposição a agentes nocivos não consideradas na concessão.
+
+## Quando recorrer ao Judiciário
+
+Esgotada a via administrativa ou diante de negativa indevida, a ação judicial é o caminho. A perícia médica judicial costuma ser mais técnica e isenta, sendo decisiva em muitos casos de restabelecimento de benefícios cessados indevidamente.
+
+## Conclusão
+
+Revisões exigem cuidado técnico. Se você teve benefício cancelado ou suspeita de erro de cálculo, peça análise do seu caso para ação administrativa ou judicial. Conheça também nosso conteúdo sobre perícia médica INSS e benefícios por incapacidade para entender todo o processo.
+`,
   "aposentadoria-especial-direito": `
 A aposentadoria especial é um benefício previdenciário destinado aos trabalhadores que exerceram atividades em condições prejudiciais à saúde ou à integridade física. Se você trabalhou exposto a agentes nocivos, pode ter direito a se aposentar mais cedo.
 

@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "revisao-beneficio-incapacidade",
+    cluster: "incapacidade" as BlogCluster,
+    image: "/blog/revisao-beneficio-incapacidade.jpg",
+    title: "Revisão de benefício por incapacidade: quando pedir e como fundamentar o recurso",
+    excerpt: "Revisão de benefício por incapacidade: saiba quando requerer, prazos e como fundamentar recurso no INSS.",
+    date: "17 de abril de 2026",
+    category: "Recursos e Revisões",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-especial-direito",
     cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-especial-direito.jpg",
