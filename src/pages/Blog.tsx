@@ -5,7 +5,42 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Calendar, ArrowRight } from "lucide-react";
 import { blogPosts } from "@/data/blogPosts";
 
+const monthMap: Record<string, number> = {
+  janeiro: 0,
+  fevereiro: 1,
+  março: 2,
+  marco: 2,
+  abril: 3,
+  maio: 4,
+  junho: 5,
+  julho: 6,
+  agosto: 7,
+  setembro: 8,
+  outubro: 9,
+  novembro: 10,
+  dezembro: 11,
+};
+
+const parseBlogDate = (date: string) => {
+  const match = date.toLowerCase().match(/(\d{1,2})\s+de\s+([\p{L}]+)\s+de\s+(\d{4})/u);
+
+  if (!match) {
+    return 0;
+  }
+
+  const [, day, monthName, year] = match;
+  const month = monthMap[monthName];
+
+  if (month === undefined) {
+    return 0;
+  }
+
+  return new Date(Number(year), month, Number(day)).getTime();
+};
+
 const Blog = () => {
+  const sortedPosts = [...blogPosts].sort((a, b) => parseBlogDate(b.date) - parseBlogDate(a.date));
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -28,7 +63,7 @@ const Blog = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {blogPosts.map((post) => (
+            {sortedPosts.map((post) => (
               <Link key={post.id} to={`/blog/${post.id}`}>
                 <Card className="card-shadow hover:card-shadow-hover transition-smooth cursor-pointer group h-full flex flex-col overflow-hidden">
                   {post.image && (
