@@ -28,7 +28,7 @@ const Blog = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {[...blogPosts].reverse().map((post) => (
+            {blogPosts.map((post) => (
               <Link key={post.id} to={`/blog/${post.id}`}>
                 <Card className="card-shadow hover:card-shadow-hover transition-smooth cursor-pointer group h-full flex flex-col overflow-hidden">
                   {post.image && (
