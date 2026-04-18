@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-especial-guia-completo",
+    cluster: "aposentadoria-especial" as BlogCluster,
+    image: "/blog/aposentadoria-especial-guia-completo.jpg",
+    title: "Aposentadoria Especial: guia completo sobre requisitos, comprovação e cálculo",
+    excerpt: "Aposentadoria Especial — entenda requisitos, tempo especial, comprovação e como calcular seu benefício.",
+    date: "19 de abril de 2026",
+    category: "Guia Pilar",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "dossie-medico-checklist-inss",
     cluster: "incapacidade" as BlogCluster,
     image: "/blog/dossie-medico-checklist-inss.jpg",

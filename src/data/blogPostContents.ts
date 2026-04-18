@@ -1,5 +1,50 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-especial-guia-completo": `
+A **aposentadoria especial** é um benefício previdenciário devido ao trabalhador exposto a agentes nocivos à saúde ou à integridade física. Ela permite a aposentadoria com tempo reduzido de contribuição quando comprovada a exposição habitual e contínua a riscos como agentes químicos, físicos, biológicos e trabalho em condições prejudiciais.
+
+Este guia pilar reúne os principais pontos sobre requisitos, comprovação documental, regras de cálculo e estratégias práticas para quem busca o benefício, servindo como ponto de partida para os demais conteúdos do nosso cluster sobre o tema.
+
+## Requisitos essenciais
+
+**Tempo de exposição:** períodos especiais que variam (15, 20 ou 25 anos) conforme o agente nocivo e o grau de risco da atividade.
+
+**Atividade habitual e permanente:** a exposição deve ser regular às condições nocivas, não eventual ou ocasional, conforme entendimento consolidado pelo INSS e pelo Judiciário.
+
+**Comprovação documental:** Perfil Profissiográfico Previdenciário (PPP), LTCAT (Laudo Técnico das Condições Ambientais do Trabalho), comunicações de acidente, contratos de trabalho, holerites e laudos técnicos complementares.
+
+**Qualidade de segurado:** estar com situação previdenciária compatível em determinados casos de transição é essencial para o reconhecimento do direito.
+
+## Como comprovar o tempo especial
+
+O documento primordial é o **PPP emitido pelo empregador**. Outros documentos como fichas de entrega de EPI, exames periódicos e laudos técnicos da empresa complementam a prova.
+
+Para períodos anteriores a 1995, pode haver necessidade de prova material retroativa (declarações, recibos, formulários SB-40 e DSS-8030, além de prova testemunhal).
+
+Em casos de divergência, o Judiciário costuma aceitar prova pericial e testemunhal quando houver suporte documental mínimo, especialmente em ações que discutem o reconhecimento do tempo especial.
+
+## Cálculo e conversões
+
+**Regra anterior:** aposentadoria direta com tempo reduzido; conversões de tempo especial em comum podem ocorrer dependendo das reformas e regras de transição aplicáveis ao segurado.
+
+**Cálculo do benefício:** depende dos salários-de-contribuição e das regras vigentes na data do requerimento; é comum buscar revisão administrativa ou judicial para incluir salários de contribuição faltantes ou corrigir o cálculo da renda mensal inicial.
+
+A Reforma da Previdência (EC 103/2019) trouxe mudanças relevantes nas regras de cálculo e conversão, exigindo análise individualizada de cada caso para identificar a regra mais vantajosa.
+
+## Dicas práticas
+
+- Organize PPPs e LTCATs em **dossiê cronológico**, separados por empregador.
+- Caso o empregador não forneça o PPP, considere solicitar via processo judicial ou usar prova indireta (laudos similares, perícia técnica).
+- Confira sempre o **CNIS** para identificar períodos sem registro adequado de exposição.
+- Busque orientação especializada para montar o pedido administrativo ou inicializar ação judicial com a melhor estratégia.
+- Guarde EPIs antigos, fotos do ambiente de trabalho e qualquer documento que demonstre as condições reais.
+
+## Conclusão
+
+A aposentadoria especial exige comprovação técnica e documental robusta. Se você acredita ter direito ao benefício, reúna seu dossiê e solicite análise especializada para evitar perda de tempo de contribuição ou indeferimentos evitáveis.
+
+Quer que avaliemos seu caso e verifiquemos seu PPP? **Solicite uma análise** com nosso escritório e descubra se você já tem direito à aposentadoria especial.
+`,
   "dossie-medico-checklist-inss": `
 Um dossiê médico organizado aumenta muito a chance de concessão do benefício. Abaixo, um checklist objetivo com os documentos e orientações para montar um arquivo eficaz que será fundamental tanto na perícia médica quanto em eventual recurso administrativo ou judicial.
 
