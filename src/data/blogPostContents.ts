@@ -1,5 +1,63 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "dossie-medico-checklist-inss": `
+Um dossiê médico organizado aumenta muito a chance de concessão do benefício. Abaixo, um checklist objetivo com os documentos e orientações para montar um arquivo eficaz que será fundamental tanto na perícia médica quanto em eventual recurso administrativo ou judicial.
+
+## Checklist essencial
+
+**Documentos pessoais:** CPF, RG e comprovante de residência atualizado.
+
+**Comprovantes de contribuição:** CTPS, carnês de contribuição e extrato CNIS atualizado.
+
+**Relatórios médicos cronológicos:** descrevendo sintomas, evolução, tratamentos realizados e limitações funcionais para o trabalho.
+
+**Exames complementares:** laudos de imagem (raio-x, ressonância, tomografia), exames laboratoriais, biópsias e demais exames especializados.
+
+**Prescrições e receitas:** comprovam tratamento contínuo e a gravidade do quadro clínico.
+
+**Atestados e comunicações hospitalares:** datas de internações, procedimentos cirúrgicos e relatórios de alta.
+
+**Declaração do empregador (quando aplicável):** descrição da função, atividades habituais e data de afastamento do trabalho.
+
+**Termos de alta e relatórios de reabilitação profissional**, se houver histórico anterior junto ao INSS.
+
+## Organização prática
+
+- Separe os documentos em ordem cronológica, com os mais recentes primeiro.
+- Faça uma capa com índice e uma síntese clínica de uma página.
+- Digitalize tudo em PDF de boa qualidade e mantenha backups em nuvem.
+- Numere as páginas e identifique cada documento com etiquetas claras.
+
+## Uso na perícia e em recurso
+
+Entregue cópias ao perito médico no dia da avaliação — nunca os originais. O perito tem prazo limitado de análise, por isso um dossiê bem organizado facilita a leitura rápida das informações essenciais.
+
+Em recursos administrativos ou judiciais, destaque documentos novos ou que complementem a decisão anterior. A juntada de provas inéditas é um dos principais fundamentos de êxito em sede recursal.
+
+## Modelo de uso
+
+Crie um arquivo "Resumo Clínico" com uma página, contendo:
+
+- Diagnóstico principal e CID;
+- Limitações funcionais para o trabalho habitual;
+- Principais tratamentos realizados e em curso;
+- Prognóstico médico, quando disponível.
+
+Anexe esse resumo no início do dossiê — ele funciona como um sumário executivo do seu quadro clínico.
+
+## Erros comuns a evitar
+
+- Apresentar apenas atestados genéricos sem CID e sem descrição de limitações.
+- Misturar documentos sem ordem cronológica.
+- Esquecer de levar exames de imagem em formato físico ou digital legível.
+- Não atualizar relatórios médicos próximos à data da perícia.
+
+## Conclusão
+
+Montar um dossiê organizado facilita processos e reduz significativamente o risco de indeferimento por falta de provas. A organização documental é, muitas vezes, o diferencial entre a concessão e a negativa do benefício.
+
+Quer ajuda para montar seu dossiê médico ou revisar a documentação antes de protocolar o pedido? Nossa equipe pode orientar sobre quais documentos faltam e como estruturar as provas. Entre em contato pelo WhatsApp e agende sua consulta.
+`,
   "revisao-beneficio-incapacidade": `
 Revisões e recursos são caminhos frequentes quando há cessação indevida de benefício ou quando o valor percebido está incorreto. Entender prazos e fundamentos melhora as chances de êxito.
 

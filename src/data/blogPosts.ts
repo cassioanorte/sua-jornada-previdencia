@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "dossie-medico-checklist-inss",
+    cluster: "incapacidade" as BlogCluster,
+    image: "/blog/dossie-medico-checklist-inss.jpg",
+    title: "Dossiê médico para benefícios do INSS: checklist prático e modelo para download",
+    excerpt: "Dossiê médico para INSS: checklist prático com documentos essenciais para facilitar pedido de benefício por incapacidade.",
+    date: "18 de abril de 2026",
+    category: "Guia Prático",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "revisao-beneficio-incapacidade",
     cluster: "incapacidade" as BlogCluster,
     image: "/blog/revisao-beneficio-incapacidade.jpg",
