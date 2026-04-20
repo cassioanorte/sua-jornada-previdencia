@@ -1,5 +1,57 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "ppp-o-que-e-como-obter": `
+O **Perfil Profissiográfico Previdenciário (PPP)** é o principal documento para comprovar atividade especial. Emitido pelo empregador, ele reúne informações sobre o vínculo, as condições ambientais de trabalho e os agentes nocivos aos quais o trabalhador esteve exposto ao longo da relação laboral.
+
+Para quem busca a **aposentadoria especial**, entender o PPP — seu conteúdo, sua função e o que fazer quando ele não é entregue — é passo decisivo para garantir o reconhecimento do tempo especial junto ao INSS ou na via judicial.
+
+## Conteúdo e função do PPP
+
+O PPP consolida, em um único documento, dados essenciais para a análise previdenciária:
+
+- **Dados do trabalhador**, período de trabalho, descrição das atividades exercidas e exposição a agentes nocivos.
+- **Sumário dos resultados de monitoramento ambiental** (medições de ruído, calor, agentes químicos) e dos exames médicos ocupacionais realizados.
+- Informações sobre **EPI/EPC** fornecidos, sua eficácia e o responsável técnico pelos registros ambientais.
+
+Esse documento serve como base para o INSS na avaliação do tempo especial e também é peça central em perícias judiciais quando há discussão sobre enquadramento da atividade.
+
+## O que fazer se a empresa não entrega o PPP
+
+Nem sempre o empregador cumpre a obrigação de fornecer o PPP. Nesses casos, o caminho recomendado é:
+
+1. **Solicite formalmente por escrito**, preferencialmente por e-mail ou carta com aviso de recebimento. Guarde protocolo, comprovante de envio e eventuais respostas.
+2. Se não houver resposta, é possível **requerer o documento via processo judicial trabalhista ou previdenciário**, ou ainda utilizar **prova alternativa** (atestados, laudos antigos, fichas de EPI, testemunhas de colegas de trabalho).
+3. Em auditoria, INSS e Judiciário aceitam **LTCAT, PPP parcial, fichas de entrega de EPI, holerites com adicional de insalubridade/periculosidade e contratos** como elementos para reconhecer o tempo especial.
+
+## Provas alternativas mais usadas
+
+- **LTCAT (Laudo Técnico das Condições Ambientais do Trabalho)** elaborado por engenheiro ou médico do trabalho.
+- **Fichas de controle de EPI** assinadas pelo trabalhador.
+- **Holerites** que demonstrem pagamento de adicional de insalubridade ou periculosidade.
+- **Comunicações de Acidente de Trabalho (CAT)** e prontuários médicos ocupacionais.
+- **Prova testemunhal** de colegas que trabalharam no mesmo setor e função.
+
+## Dicas práticas
+
+- Conserve cópias de **exames periódicos** e mantenha comunicação por escrito com empregadores atuais e antigos.
+- Ao elaborar pedido administrativo, **anexe todo material técnico disponível** para robustecer a prova desde o início e evitar indeferimentos.
+- Se houver alteração societária da empresa ou encerramento das atividades, busque o documento junto ao **sindicato da categoria** ou em ações trabalhistas anteriores.
+- Em caso de divergências entre PPP e LTCAT, prevalece em regra a prova técnica mais detalhada e contemporânea ao período trabalhado.
+
+## Links úteis
+
+- Portal **Meu INSS** (gov.br) para consulta de vínculos e CNIS.
+- Normas Regulamentadoras (NRs) do Ministério do Trabalho aplicáveis ao setor.
+- Decisões do **STJ** e dos **TRFs** sobre reconhecimento de tempo especial.
+
+## Conclusão
+
+Sem o PPP fica mais difícil comprovar o tempo especial, mas existem alternativas técnicas e jurídicas eficazes. O segredo está em organizar a documentação disponível e construir um conjunto probatório consistente.
+
+Precisa que nossa equipe analise seus documentos e identifique lacunas no PPP? **Solicite a revisão documental** com nossos advogados especialistas em **aposentadoria especial**.
+
+#PPP #PerfilProfissiográfico #AposentadoriaEspecial
+`,
   "aposentadoria-especial-guia-completo": `
 A **aposentadoria especial** é um benefício previdenciário devido ao trabalhador exposto a agentes nocivos à saúde ou à integridade física. Ela permite a aposentadoria com tempo reduzido de contribuição quando comprovada a exposição habitual e contínua a riscos como agentes químicos, físicos, biológicos e trabalho em condições prejudiciais.
 
