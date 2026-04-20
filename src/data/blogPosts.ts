@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "licenca-paternidade-lei-15371-2026",
+    cluster: "legislacao" as BlogCluster,
+    image: "/blog/licenca-paternidade-lei-15371-2026.jpg",
+    title: "Nova Lei da Licença-Paternidade (Lei 15.371/26): Entenda o que muda e os novos prazos",
+    excerpt: "A Lei 15.371/2026 institui o salário-paternidade, amplia os prazos da licença até 2029 e garante estabilidade no emprego. Entenda o que muda e como garantir seu direito.",
+    date: "20 de abril de 2026",
+    category: "Legislação Previdenciária",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "ppp-o-que-e-como-obter",
     cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/ppp-o-que-e-como-obter.jpg",

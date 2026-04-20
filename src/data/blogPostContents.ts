@@ -1,5 +1,62 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+
+  "licenca-paternidade-lei-15371-2026": `
+Com a recente publicação da **Lei nº 15.371, de 31 de março de 2026**, o cenário dos direitos trabalhistas e previdenciários no Brasil deu um passo importante. A nova legislação não apenas regulamenta a licença-paternidade, mas institui o **salário-paternidade** e traz um cronograma progressivo de ampliação do benefício.
+
+Se você é trabalhador, RH ou empreendedor, confira os principais pontos dessa mudança que já está em vigor:
+
+## 1. Quem tem direito à licença e ao salário-paternidade?
+
+A lei é abrangente e garante o afastamento do trabalho sem prejuízo do salário nas seguintes situações:
+
+- Nascimento de filho;
+- Adoção;
+- Obtenção de guarda para fins de adoção.
+
+## 2. Cronograma de Duração: A Escala Progressiva
+
+Diferente do modelo anterior, a duração da licença-paternidade agora possui um cronograma de crescimento anual:
+
+- **A partir de 2027:** 10 dias.
+- **A partir de 2028:** 15 dias.
+- **A partir de 2029:** 20 dias (sujeito ao cumprimento de metas fiscais).
+
+## 3. Garantia de Emprego e Estabilidade
+
+A nova lei traz uma proteção rígida contra a dispensa sem justa causa. O pai tem **estabilidade garantida desde o início da licença até 1 mês após o seu término**. Caso a empresa impeça o gozo da licença, a indenização prevista é **em dobro**.
+
+## 4. Regras e Deveres do Pai
+
+Para manter o direito ao benefício, o segurado deve estar atento a alguns pontos:
+
+- **Foco no Cuidado:** É vedado o exercício de qualquer atividade remunerada durante o afastamento. O objetivo é a convivência e o cuidado com o recém-nascido ou adotado.
+- **Suspensão do Direito:** A licença pode ser suspensa em casos comprovados de violência doméstica ou abandono.
+- **Comunicação:** O empregador deve ser avisado com antecedência mínima de **30 dias**, exceto em casos de parto antecipado, onde o afastamento é imediato.
+
+## 5. Como funciona o pagamento?
+
+O salário-paternidade segue regras similares às do salário-maternidade:
+
+- **Empregados comuns:** A empresa paga e depois solicita o reembolso à Previdência.
+- **Empregados de MEI e Trabalhadores Avulsos:** O pagamento é feito diretamente pela Previdência Social.
+
+## Situações Especiais previstas na Lei
+
+A Lei 15.371/26 também foi sensível a casos excepcionais, garantindo o benefício em situações de:
+
+- Falecimento da mãe;
+- Internação da mãe ou do recém-nascido;
+- Adoção monoparental (feita apenas pelo pai).
+
+**Dica Importante:** Para garantir o seu direito, tenha sempre em mãos a certidão de nascimento ou o termo judicial de guarda para apresentação à empresa ou ao INSS.
+
+Para ler o texto completo da nova lei publicado no Diário Oficial da União, acesse o [link oficial da Lei nº 15.371/2026](https://www.in.gov.br/web/dou/-/lei-n-15.371-de-31-de-marco-de-2026-697067576).
+
+Gostou deste conteúdo? **Compartilhe com alguém que precisa saber dessas novas regras!**
+
+#DireitoDoTrabalho #LicençaPaternidade #SalárioPaternidade #Lei15371 #INSS2026
+`,
   "ppp-o-que-e-como-obter": `
 O **Perfil Profissiográfico Previdenciário (PPP)** é o principal documento para comprovar atividade especial. Emitido pelo empregador, ele reúne informações sobre o vínculo, as condições ambientais de trabalho e os agentes nocivos aos quais o trabalhador esteve exposto ao longo da relação laboral.
 
