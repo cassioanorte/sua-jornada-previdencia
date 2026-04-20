@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "ppp-o-que-e-como-obter",
+    cluster: "aposentadoria-especial" as BlogCluster,
+    image: "/blog/ppp-o-que-e-como-obter.jpg",
+    title: "PPP: o que é, por que é essencial e como obter quando a empresa não fornece",
+    excerpt: "PPP (Perfil Profissiográfico Previdenciário) — entenda sua importância para aposentadoria especial e como conseguir o documento.",
+    date: "20 de abril de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-especial-guia-completo",
     cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-especial-guia-completo.jpg",
