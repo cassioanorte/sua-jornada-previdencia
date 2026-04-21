@@ -1,6 +1,43 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
 
+  "ltcat-laudos-tecnicos-aposentadoria-especial": `
+O **Laudo Técnico de Condições Ambientais do Trabalho (LTCAT)** descreve a exposição aos agentes nocivos e fundamenta as informações do PPP. É elaborado por engenheiro de segurança do trabalho ou médico do trabalho e tem grande peso em processos administrativos e judiciais.
+
+## Conteúdo do LTCAT
+
+O LTCAT é um documento técnico que contém:
+
+- **Medições ambientais** realizadas no local de trabalho, descrição detalhada dos agentes nocivos presentes e metodologia adotada para avaliação.
+- **Conclusão técnica** sobre a insalubridade ou periculosidade da atividade, com base nas Normas Regulamentadoras do Ministério do Trabalho.
+- **Períodos avaliados** e cargos relacionados, com indicação clara da necessidade (ou não) de conversão do tempo comum em tempo especial.
+
+## Como usar o LTCAT no pedido de aposentadoria
+
+O LTCAT é uma ferramenta poderosa para robustecer seu pedido:
+
+- **Anexe o LTCAT ao PPP** e ao requerimento no INSS. Quando ambos os documentos se complementam, a chance de reconhecimento do tempo especial aumenta significativamente.
+- **Na ausência de LTCAT**, a perícia judicial pode requisitar uma avaliação ambiental atual ou aceitar prova técnica alternativa que demonstre a exposição aos agentes nocivos.
+- Em casos de empresas extintas ou documentação incompleta, o LTCAT de época ou uma perícia técnica atual podem suprir a falta de outros documentos.
+
+## Cuidados e práticas recomendadas
+
+- **Verifique a data de emissão**: LTCAT desatualizado pode ser questionado. Documentos recentes têm mais credibilidade técnica.
+- **Se o empregador se recusa a fornecer**, peça em juízo ou junte outros documentos técnicos que comprovem as condições de trabalho.
+- **Mantenha cópias de segurança**: digitalize e guarde o LTCAT em múltiplos locais (nuvem, e-mail, pendrive).
+- **Consulte um especialista**: um engenheiro de segurança ou médico do trabalho pode avaliar se o LTCAT está completo e adequado aos fins previdenciários.
+
+## Conclusão
+
+O **LTCAT** é peça-chave para comprovação do direito à aposentadoria especial. Quando bem elaborado e corretamente utilizado, ele pode ser o diferencial entre o reconhecimento e a negativa do benefício.
+
+Quer que nossa equipe analise seu LTCAT e prepare um requerimento robusto? **Solicite análise documental** com nossos advogados especialistas em aposentadoria especial.
+
+**Links relacionados:** [PPP](/blog/ppp-o-que-e-como-obter), [Guia Pilar de Aposentadoria Especial](/blog/aposentadoria-especial-guia-completo), [Jurisprudência sobre LTCAT](/blog/aposentadoria-especial-guia-completo).
+
+#LTCAT #LaudoTécnico #SegurançaDoTrabalho #AposentadoriaEspecial
+`,
+
   "licenca-paternidade-lei-15371-2026": `
 Com a recente publicação da **Lei nº 15.371, de 31 de março de 2026**, o cenário dos direitos trabalhistas e previdenciários no Brasil deu um passo importante. A nova legislação não apenas regulamenta a licença-paternidade, mas institui o **salário-paternidade** e traz um cronograma progressivo de ampliação do benefício.
 
