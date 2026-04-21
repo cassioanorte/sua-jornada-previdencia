@@ -1,5 +1,7 @@
 import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
+import { BookOpen, ArrowRight } from "lucide-react";
+import { blogPosts } from "@/data/blogPosts";
 
 // Internal aliases — keyword → blog post slug
 const shortAliases: { keyword: string; slug: string }[] = [
@@ -100,6 +102,18 @@ const ArticleContent = ({ content, currentPostId }: ArticleContentProps) => {
     return [...internal, ...external].sort((a, b) => b.keyword.length - a.keyword.length);
   }, [currentPostId]);
 
+  // Pick up to 3 related posts from the same cluster (fallback: any other posts)
+  const currentPost = blogPosts.find(p => p.id === currentPostId);
+  const relatedPosts = useMemo(() => {
+    const sameCluster = blogPosts.filter(
+      p => p.id !== currentPostId && currentPost?.cluster && p.cluster === currentPost.cluster
+    );
+    const pool = sameCluster.length >= 3
+      ? sameCluster
+      : [...sameCluster, ...blogPosts.filter(p => p.id !== currentPostId && !sameCluster.includes(p))];
+    return pool.slice(0, 3);
+  }, [currentPostId, currentPost]);
+
   if (!content) {
     return (
       <article className="prose prose-lg max-w-none">
@@ -198,65 +212,120 @@ const ArticleContent = ({ content, currentPostId }: ArticleContentProps) => {
     return elements;
   };
 
+  // Pre-render all paragraphs, then inject the "Leia também" box at ~50% mark
+
+  const paragraphs = content.split("\n");
+  const rendered: React.ReactNode[] = [];
+
+  paragraphs.forEach((paragraph, index) => {
+    const trimmed = paragraph.trim();
+    if (!trimmed) return;
+
+    if (trimmed.startsWith("## ")) {
+      rendered.push(
+        <h2 key={index} className="text-2xl font-bold mt-8 mb-4 text-foreground">
+          {trimmed.replace("## ", "")}
+        </h2>
+      );
+      return;
+    }
+    if (trimmed.startsWith("### ")) {
+      rendered.push(
+        <h3 key={index} className="text-xl font-bold mt-6 mb-3 text-foreground">
+          {trimmed.replace("### ", "")}
+        </h3>
+      );
+      return;
+    }
+    if (trimmed.startsWith("#### ")) {
+      rendered.push(
+        <h4 key={index} className="text-lg font-bold mt-4 mb-2 text-foreground">
+          {renderInline(trimmed.replace("#### ", ""), `h4-${index}`)}
+        </h4>
+      );
+      return;
+    }
+    if (trimmed.startsWith("- ") || trimmed.startsWith("* ")) {
+      rendered.push(
+        <li key={index} className="ml-6 text-muted-foreground list-disc">
+          {renderInline(trimmed.replace(/^[-*] /, ""), `li-${index}`)}
+        </li>
+      );
+      return;
+    }
+    if (trimmed.match(/^\d+\. /)) {
+      rendered.push(
+        <li key={index} className="ml-6 text-muted-foreground list-decimal">
+          {renderInline(trimmed.replace(/^\d+\. /, ""), `ol-${index}`)}
+        </li>
+      );
+      return;
+    }
+    if (trimmed.startsWith("**") && trimmed.endsWith("**")) {
+      rendered.push(
+        <p key={index} className="font-bold text-foreground my-2">
+          {trimmed.replace(/\*\*/g, "")}
+        </p>
+      );
+      return;
+    }
+    if (trimmed.startsWith("|")) return;
+
+    rendered.push(
+      <p key={index} className="text-muted-foreground my-4 leading-relaxed">
+        {renderInline(trimmed, `p-${index}`)}
+      </p>
+    );
+  });
+
+  // Inject "Leia também" box at ~50% (after a heading boundary if possible)
+  const injectAt = Math.floor(rendered.length / 2);
+  let finalInjectAt = injectAt;
+  for (let i = injectAt; i < rendered.length; i++) {
+    const node = rendered[i] as React.ReactElement;
+    if (node?.type === "h2" || node?.type === "h3") {
+      finalInjectAt = i;
+      break;
+    }
+  }
+
+  const leiaTambem = relatedPosts.length > 0 ? (
+    <aside
+      key="leia-tambem"
+      className="my-10 p-6 md:p-8 bg-gradient-to-br from-primary/5 to-accent/5 border-l-4 border-primary rounded-r-2xl shadow-sm not-prose"
+    >
+      <div className="flex items-center gap-2 mb-4">
+        <BookOpen className="w-5 h-5 text-primary" />
+        <h4 className="text-sm font-bold uppercase tracking-wider text-primary">
+          Leia também
+        </h4>
+      </div>
+      <ul className="space-y-3">
+        {relatedPosts.map(rp => (
+          <li key={rp.id}>
+            <Link
+              to={`/blog/${rp.id}`}
+              className="group flex items-start gap-2 text-foreground hover:text-primary transition-colors"
+            >
+              <ArrowRight className="w-4 h-4 mt-1 flex-shrink-0 text-primary group-hover:translate-x-1 transition-transform" />
+              <span className="font-medium leading-snug">{rp.title}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </aside>
+  ) : null;
+
+  if (leiaTambem) {
+    rendered.splice(finalInjectAt, 0, leiaTambem);
+  }
+
   return (
     <article
       className="prose prose-lg max-w-none prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-li:text-muted-foreground"
       style={{ textAlign: "justify" }}
     >
-      {content.split("\n").map((paragraph, index) => {
-        const trimmed = paragraph.trim();
-        if (!trimmed) return null;
-
-        if (trimmed.startsWith("## ")) {
-          return (
-            <h2 key={index} className="text-2xl font-bold mt-8 mb-4 text-foreground">
-              {trimmed.replace("## ", "")}
-            </h2>
-          );
-        }
-        if (trimmed.startsWith("### ")) {
-          return (
-            <h3 key={index} className="text-xl font-bold mt-6 mb-3 text-foreground">
-              {trimmed.replace("### ", "")}
-            </h3>
-          );
-        }
-        if (trimmed.startsWith("#### ")) {
-          return (
-            <h4 key={index} className="text-lg font-bold mt-4 mb-2 text-foreground">
-              {renderInline(trimmed.replace("#### ", ""), `h4-${index}`)}
-            </h4>
-          );
-        }
-        if (trimmed.startsWith("- ") || trimmed.startsWith("* ")) {
-          return (
-            <li key={index} className="ml-6 text-muted-foreground list-disc">
-              {renderInline(trimmed.replace(/^[-*] /, ""), `li-${index}`)}
-            </li>
-          );
-        }
-        if (trimmed.match(/^\d+\. /)) {
-          return (
-            <li key={index} className="ml-6 text-muted-foreground list-decimal">
-              {renderInline(trimmed.replace(/^\d+\. /, ""), `ol-${index}`)}
-            </li>
-          );
-        }
-        if (trimmed.startsWith("**") && trimmed.endsWith("**")) {
-          return (
-            <p key={index} className="font-bold text-foreground my-2">
-              {trimmed.replace(/\*\*/g, "")}
-            </p>
-          );
-        }
-        if (trimmed.startsWith("|")) return null;
-
-        return (
-          <p key={index} className="text-muted-foreground my-4 leading-relaxed">
-            {renderInline(trimmed, `p-${index}`)}
-          </p>
-        );
-      })}
+      {rendered}
     </article>
   );
 };
