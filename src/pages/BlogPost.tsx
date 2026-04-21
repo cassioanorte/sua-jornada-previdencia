@@ -12,26 +12,84 @@ const linkableKeywords: { keyword: string; slug: string; title: string }[] = blo
   .map(p => ({ keyword: p.title, slug: p.id, title: p.title }))
   .sort((a, b) => b.keyword.length - a.keyword.length); // longest first to avoid partial matches
 
-// Short aliases for common terms that should link
+// Short aliases for common terms that should link internally to other posts
 const shortAliases: { keyword: string; slug: string }[] = [
+  // Benefícios por incapacidade
   { keyword: "auxílio-doença", slug: "auxilio-doenca-requisitos" },
   { keyword: "auxílio doença", slug: "auxilio-doenca-requisitos" },
+  { keyword: "benefício por incapacidade", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "benefícios por incapacidade", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "aposentadoria por invalidez", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "perícia médica", slug: "pericia-medica-inss-como-preparar" },
+  { keyword: "perícia do INSS", slug: "pericia-medica-inss-como-preparar" },
+  { keyword: "Atestmed", slug: "atestmed-auxilio-doenca" },
+  { keyword: "reabilitação profissional", slug: "plano-de-reabilitacao-profissional" },
+  { keyword: "dossiê médico", slug: "dossie-medico-checklist-inss" },
+  { keyword: "revisão de benefício", slug: "revisao-beneficio-incapacidade" },
+
+  // Auxílio-acidente
   { keyword: "auxílio-acidente", slug: "auxilio-acidente-inss-quem-tem-direito" },
   { keyword: "auxílio acidente", slug: "auxilio-acidente-inss-quem-tem-direito" },
-  { keyword: "BPC/LOAS", slug: "bpc-loas-como-solicitar" },
-  { keyword: "BPC", slug: "bpc-loas-como-solicitar" },
-  { keyword: "aposentadoria especial", slug: "aposentadoria-especial-direito" },
+  { keyword: "DPVAT", slug: "auxilio-acidente-e-dpvat" },
+  { keyword: "Tema 416", slug: "stj-beneficio-lesao-minima" },
+  { keyword: "lesão mínima", slug: "stj-beneficio-lesao-minima" },
+
+  // Aposentadoria especial e documentos
+  { keyword: "aposentadoria especial", slug: "aposentadoria-especial-guia-completo" },
+  { keyword: "tempo especial", slug: "aposentadoria-especial-guia-completo" },
+  { keyword: "agentes nocivos", slug: "aposentadoria-especial-guia-completo" },
+  { keyword: "PPP", slug: "ppp-o-que-e-como-obter" },
+  { keyword: "Perfil Profissiográfico Previdenciário", slug: "ppp-o-que-e-como-obter" },
+  { keyword: "LTCAT", slug: "ltcat-laudos-tecnicos-aposentadoria-especial" },
+  { keyword: "laudo técnico", slug: "ltcat-laudos-tecnicos-aposentadoria-especial" },
+  { keyword: "Tema 1291", slug: "reconhecimento-atividade-especial-dentista" },
+
+  // Aposentadorias por categoria
+  { keyword: "aposentadoria do professor", slug: "aposentadoria-do-professor" },
+  { keyword: "aposentadoria do médico", slug: "aposentadoria-medico" },
+  { keyword: "aposentadoria do dentista", slug: "aposentadoria-dentista-contribuinte-individual" },
+  { keyword: "aposentadoria do pedreiro", slug: "aposentadoria-do-pedreiro" },
+  { keyword: "aposentadoria do caminhoneiro", slug: "aposentadoria-caminhoneiro" },
+  { keyword: "aposentadoria do vigilante", slug: "aposentadoria-vigilante" },
+  { keyword: "aposentadoria do frentista", slug: "aposentadoria-frentista" },
+  { keyword: "operador de máquinas pesadas", slug: "aposentadoria-operador-maquinas-pesadas" },
   { keyword: "aposentadoria por idade", slug: "aposentadoria-por-idade" },
   { keyword: "aposentadoria rural", slug: "aposentadoria-rural" },
-  { keyword: "aposentadoria por invalidez", slug: "beneficios-por-incapacidade-no-inss" },
+  { keyword: "aposentadoria PCD", slug: "aposentadoria-pcd" },
+  { keyword: "pessoa com deficiência", slug: "aposentadoria-pcd-direitos" },
+
+  // Outros benefícios
+  { keyword: "BPC/LOAS", slug: "bpc-loas-como-solicitar" },
+  { keyword: "BPC LOAS", slug: "bpc-loas-como-solicitar" },
+  { keyword: "BPC", slug: "bpc-loas-como-solicitar" },
+  { keyword: "LOAS", slug: "bpc-loas-como-solicitar" },
   { keyword: "pensão por morte", slug: "pensao-por-morte" },
   { keyword: "auxílio-maternidade", slug: "auxilio-maternidade" },
   { keyword: "auxílio maternidade", slug: "auxilio-maternidade" },
+  { keyword: "salário-maternidade", slug: "auxilio-maternidade" },
+  { keyword: "licença-paternidade", slug: "licenca-paternidade-lei-15371-2026" },
+  { keyword: "salário-paternidade", slug: "licenca-paternidade-lei-15371-2026" },
+
+  // Planejamento e legislação
   { keyword: "CNIS", slug: "conferir-cnis-antes-de-solicitar-aposentadoria" },
-  { keyword: "perícia médica", slug: "pericia-medica-inss-como-preparar" },
-  { keyword: "reabilitação profissional", slug: "plano-de-reabilitacao-profissional" },
-  { keyword: "Atestmed", slug: "atestmed-auxilio-doenca" },
-  { keyword: "Tema 416", slug: "stj-beneficio-lesao-minima" },
+  { keyword: "Reforma da Previdência", slug: "reforma-previdencia-mudancas" },
+  { keyword: "EC 103", slug: "reforma-previdencia-mudancas" },
+];
+
+// External authoritative links (open in new tab)
+const externalLinks: { keyword: string; url: string }[] = [
+  { keyword: "portal Meu INSS", url: "https://meu.inss.gov.br" },
+  { keyword: "Meu INSS", url: "https://meu.inss.gov.br" },
+  { keyword: "Diário Oficial da União", url: "https://www.in.gov.br" },
+  { keyword: "Superior Tribunal de Justiça", url: "https://www.stj.jus.br" },
+  { keyword: "Tribunal Regional Federal da 4ª Região", url: "https://www.trf4.jus.br" },
+  { keyword: "Supremo Tribunal Federal", url: "https://www.stf.jus.br" },
+  { keyword: "Ministério do Trabalho", url: "https://www.gov.br/trabalho-e-emprego" },
+  { keyword: "STJ", url: "https://www.stj.jus.br" },
+  { keyword: "TRF4", url: "https://www.trf4.jus.br" },
+  { keyword: "STF", url: "https://www.stf.jus.br" },
+  { keyword: "OAB", url: "https://www.oab.org.br" },
+  { keyword: "gov.br", url: "https://www.gov.br" },
 ];
 
 const BlogPost = () => {
