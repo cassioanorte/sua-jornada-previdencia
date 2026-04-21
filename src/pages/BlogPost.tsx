@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -171,74 +171,16 @@ const BlogPost = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <article className="prose prose-lg max-w-none prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-li:text-muted-foreground" style={{ textAlign: 'justify' }}>
-              {content ? content.split('\n').map((paragraph, index) => {
-                const trimmed = paragraph.trim();
-                if (!trimmed) return null;
+            <ArticleContent content={content} currentPostId={post.id} />
+          </div>
+        </div>
+      </section>
 
-                const renderInline = (text: string) => {
-                  // First handle bold
-                  const boldParts = text.split('**');
-                  const elements: React.ReactNode[] = [];
+      {/* CTA Section */}
+      <section className="pb-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
 
-                  boldParts.forEach((part, i) => {
-                    if (i % 2 === 1) {
-                      elements.push(<strong key={`b-${i}`} className="text-foreground">{part}</strong>);
-                    } else {
-                      // Apply auto-linking to non-bold text
-                      elements.push(...renderWithLinks(part, `p-${i}`));
-                    }
-                  });
-
-                  return elements;
-                };
-
-                const renderWithLinks = (text: string, keyPrefix: string): React.ReactNode[] => {
-                  if (!text) return [text];
-
-                  // Combine short aliases (check them first, they're more specific terms)
-                  const allKeywords = [
-                    ...shortAliases.filter(a => a.slug !== post.id),
-                  ];
-
-                  let result: React.ReactNode[] = [text];
-
-                  for (const { keyword, slug } of allKeywords) {
-                    const newResult: React.ReactNode[] = [];
-                    let linkedThisKeyword = false;
-                    for (const segment of result) {
-                      if (typeof segment !== 'string' || linkedThisKeyword) {
-                        newResult.push(segment);
-                        continue;
-                      }
-                      const idx = segment.toLowerCase().indexOf(keyword.toLowerCase());
-                      if (idx === -1) {
-                        newResult.push(segment);
-                        continue;
-                      }
-                      // Only link first occurrence per keyword
-                      linkedThisKeyword = true;
-                      const before = segment.slice(0, idx);
-                      const match = segment.slice(idx, idx + keyword.length);
-                      const after = segment.slice(idx + keyword.length);
-                      if (before) newResult.push(before);
-                      newResult.push(
-                        <Link
-                          key={`${keyPrefix}-link-${slug}`}
-                          to={`/blog/${slug}`}
-                          className="text-primary hover:underline font-medium"
-                        >
-                          {match}
-                        </Link>
-                      );
-                      if (after) newResult.push(after);
-                    }
-                    result = newResult;
-                  }
-
-                  return result;
-                };
-                
                 if (trimmed.startsWith('## ')) {
                   return (
                     <h2 key={index} className="text-2xl font-bold mt-8 mb-4 text-foreground">
