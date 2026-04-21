@@ -102,6 +102,18 @@ const ArticleContent = ({ content, currentPostId }: ArticleContentProps) => {
     return [...internal, ...external].sort((a, b) => b.keyword.length - a.keyword.length);
   }, [currentPostId]);
 
+  // Pick up to 3 related posts from the same cluster (fallback: any other posts)
+  const currentPost = blogPosts.find(p => p.id === currentPostId);
+  const relatedPosts = useMemo(() => {
+    const sameCluster = blogPosts.filter(
+      p => p.id !== currentPostId && currentPost?.cluster && p.cluster === currentPost.cluster
+    );
+    const pool = sameCluster.length >= 3
+      ? sameCluster
+      : [...sameCluster, ...blogPosts.filter(p => p.id !== currentPostId && !sameCluster.includes(p))];
+    return pool.slice(0, 3);
+  }, [currentPostId, currentPost]);
+
   if (!content) {
     return (
       <article className="prose prose-lg max-w-none">
