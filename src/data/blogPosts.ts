@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "ltcat-laudos-tecnicos-aposentadoria-especial",
+    cluster: "aposentadoria-especial" as BlogCluster,
+    image: "/blog/ltcat-laudos-tecnicos-aposentadoria-especial.jpg",
+    title: "LTCAT e laudos técnicos: como esses documentos influenciam a aposentadoria especial",
+    excerpt: "LTCAT e laudos técnicos — entenda como funcionam e por que são fundamentais na comprovação do tempo especial.",
+    date: "21 de abril de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "licenca-paternidade-lei-15371-2026",
     cluster: "legislacao" as BlogCluster,
     image: "/blog/licenca-paternidade-lei-15371-2026.jpg",
