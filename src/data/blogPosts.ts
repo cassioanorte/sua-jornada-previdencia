@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-invalidez-valor-reduzido-ec103",
+    cluster: "incapacidade" as BlogCluster,
+    image: "/blog/aposentadoria-invalidez-valor-reduzido-ec103.jpg",
+    title: "O INSS cortou o valor da sua aposentadoria por invalidez? Entenda por que isso acontece — e o que fazer",
+    excerpt: "Desde a Reforma da Previdência (EC 103/2019), a aposentadoria por incapacidade pode vir com valor reduzido. Saiba quando é possível reverter e receber 100% do benefício.",
+    date: "22 de abril de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "ltcat-laudos-tecnicos-aposentadoria-especial",
     cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/ltcat-laudos-tecnicos-aposentadoria-especial.jpg",

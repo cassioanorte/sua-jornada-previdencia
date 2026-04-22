@@ -1,6 +1,54 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
 
+  "aposentadoria-invalidez-valor-reduzido-ec103": `
+A Dona Rosa (nome fictício) trabalhou 22 anos como auxiliar de limpeza hospitalar em Caxias do Sul. Desenvolveu uma hérnia de disco grave que a impediu de continuar trabalhando.
+
+Quando o INSS concedeu a aposentadoria por incapacidade permanente, veio o susto: o valor era bem menor do que ela esperava.
+
+## Por que o valor veio reduzido?
+
+Desde a Reforma da Previdência (EC 103/2019), a aposentadoria por incapacidade que **não é causada por acidente de trabalho ou doença ocupacional** recebe apenas 60% da média salarial + 2% por ano que passar do mínimo exigido de contribuição.
+
+Para mulheres, o mínimo são 15 anos (180 contribuições). Dona Rosa, com 22 anos de contribuição, ficou com 74% do valor — sendo 60% base + 7 anos além do mínimo × 2% = 14%.
+
+Na prática, ela perdeu mais de um quarto do benefício que esperava.
+
+## Essa regra está sendo questionada no STF
+
+Em 2026, o Supremo Tribunal Federal está analisando se essa redução é constitucional. Antes da reforma, quem se aposentava por invalidez recebia **100% da média salarial** — independentemente do tempo de contribuição.
+
+Os ministros discutem se a nova regra viola o princípio da irredutibilidade e se fere a proteção social do trabalhador incapacitado.
+
+## Quando é possível receber 100%?
+
+Mas não precisa esperar o STF decidir. Quando a incapacidade tem **relação com o trabalho** — mesmo que o INSS não reconheça de cara — é possível pedir na Justiça a **conversão para aposentadoria acidentária**. E aí o valor sobe para 100%.
+
+Isso se aplica quando:
+
+- A lesão ou doença tem **nexo com a atividade profissional**
+- Há **exposição a agentes nocivos** no ambiente de trabalho
+- O desgaste físico é consequência direta das funções exercidas
+
+## O caso da Dona Rosa
+
+Foi exatamente o que aconteceu. A perícia judicial comprovou o nexo entre o trabalho hospitalar (esforço físico repetitivo, levantamento de pacientes) e a lesão na coluna.
+
+O valor foi recalculado para 100% e ela recebeu a diferença retroativa de 14 meses.
+
+## Como saber se você tem direito?
+
+Se você se aposentou por invalidez e o valor veio menor do que esperava, vale a pena analisar:
+
+1. **Qual a causa da incapacidade?** Se tem relação com o trabalho, pode ser convertida em acidentária
+2. **Quantos anos você contribuiu?** O cálculo muda conforme o tempo (mínimo 15 anos para mulheres, 20 para homens)
+3. **O INSS classificou corretamente?** Muitas vezes o benefício é concedido como "previdenciário" quando deveria ser "acidentário"
+
+A negativa administrativa ou o valor reduzido não são a última palavra. Se você está nessa situação, vale a pena entender seus direitos. A análise inicial é gratuita — chama no WhatsApp. 👇
+
+#AposentadoriaPorInvalidez #INSS #ReformaDaPrevidência #EC103 #DireitoPrevidenciario #SpierEAnorte
+`,
+
   "ltcat-laudos-tecnicos-aposentadoria-especial": `
 O **Laudo Técnico de Condições Ambientais do Trabalho (LTCAT)** descreve a exposição aos agentes nocivos e fundamenta as informações do PPP. É elaborado por engenheiro de segurança do trabalho ou médico do trabalho e tem grande peso em processos administrativos e judiciais.
 
