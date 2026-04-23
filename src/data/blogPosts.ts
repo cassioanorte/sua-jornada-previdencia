@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-especial-regras-transicao",
+    cluster: "aposentadoria-especial" as BlogCluster,
+    image: "/blog/aposentadoria-especial-regras-transicao.jpg",
+    title: "Aposentadoria Especial: regras de transição, reformas e como calcular seu benefício hoje",
+    excerpt: "Entenda as regras de transição da aposentadoria especial, impactos das reformas e como calcular seu benefício atualmente.",
+    date: "23 de abril de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-invalidez-valor-reduzido-ec103",
     cluster: "incapacidade" as BlogCluster,
     image: "/blog/aposentadoria-invalidez-valor-reduzido-ec103.jpg",

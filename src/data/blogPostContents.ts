@@ -1,6 +1,141 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
 
+  "aposentadoria-especial-regras-transicao": `
+As reformas mudaram o jogo. Você pode ter anos de exposição ao risco e, ainda assim, ver seu direito esmorecer por falta de estratégia. Regras de transição foram criadas para quem estava na estrada quando o mapa mudou — e escolher o momento certo para pedir significa renda a mais no bolso ou meses a mais de espera sem ganhos. Não é só dizer "já trabalhei tempo suficiente": é simular, comparar e agir com base em números. Se preferir improviso, vá em frente — mas saiba que errar aqui custa dinheiro.
+
+## O que são as regras de transição e por que importam?
+
+Regras de transição são atalhos temporários que atenuam mudanças abruptas das reformas previdenciárias. Elas existem para quem já estava perto de se aposentar quando as novas regras entraram em vigor. No caso da aposentadoria especial, isso pode afetar:
+
+- a idade mínima aplicável;
+- a forma de contagem do tempo especial;
+- a conversão do tempo especial em tempo comum;
+- a forma de cálculo do benefício.
+
+Por que elas importam? Porque determinam se você pede agora ou espera, se converte tempo especial, e como será a sua renda inicial. Uma escolha equivocada pode transformar 12 meses de espera numa perda acumulada de milhares de reais ao longo dos anos.
+
+## Como as reformas alteraram o cálculo do benefício
+
+Não vou encher de siglas: o ponto é prático. Antes, muitos pedidos tinham cálculo baseado em média simples dos salários e um percentual. Depois das reformas, entraram regras que:
+
+- mudam a base de cálculo (média de mais meses, exclusão de salários menores);
+- aplicam fatores que reduzem ou aumentam o benefício conforme idade e tempo;
+- criam tetos e regras específicas para quem converte tempo especial em comum.
+
+Resultado prático: dois trabalhadores com mesma vida contributiva podem ter benefícios diferentes dependendo da data do pedido e das opções escolhidas (converter tempo ou não, por exemplo). Por isso, simular cenários é obrigação, não luxo.
+
+## Passo a passo prático para calcular (sem mistério)
+
+### 1. Levante o CNIS e organize salários
+
+Primeiro: baixe seu CNIS e verifique se todas as contribuições estão registradas. Falhas comuns: meses sem registro, valores divergentes e vínculos incompletos. Corrija antes de simular — muitas diferenças surgem por erro de livro-caixa.
+
+### 2. Identifique os períodos especiais
+
+Liste todos os períodos que você tem direito a reconhecer como especiais (com PPP, laudos, holerites ou provas alternativas). Coloque datas de início e fim, empresas e funções.
+
+### 3. Decida: pedir agora ou esperar?
+
+Faça pelo menos duas simulações: pedir hoje e pedir na data em que completar o tempo que falta. Compare:
+
+- renda inicial estimada;
+- tempo médio para obter o benefício (administrativo vs judicial);
+- risco de indeferimento por prova incompleta.
+
+### 4. Simule com conversão e sem conversão
+
+A conversão do tempo especial em comum pode encurtar a estrada para se aposentar, mas nem sempre aumenta a renda. Em alguns cenários, converter tempo reduz a base de cálculo porque inclui salários antigos mais baixos. Compare os dois cenários sempre.
+
+### 5. Verifique aplicação de fatores e regras específicas
+
+Alguns pedidos sofrem aplicação de fatores que alteram o percentual do benefício. Simule com e sem fator aplicado quando for o caso.
+
+### 6. Estime efeito retroativo (se houver)
+
+Se houver possibilidade de ação judicial, calcule também o efeito retroativo — às vezes, esperar por uma decisão judicial compensa financeiramente, mesmo com atraso.
+
+## Exemplo prático (numérico, em R$) — cenário simplificado
+
+**Trabalhador C:**
+
+- Média salarial lastreada nos últimos anos: R$ 2.800,00.
+- Tempo especial comprovado: 23 anos.
+- Falta: 2 anos para completar o período exigido para a modalidade especial (hipótese: precisa de 25 anos).
+
+**Cenário A — pedir agora (reconhecimento parcial + conversão)**
+
+Decidem pedir agora com conversão parcial do tempo especial de 23 anos. Média considerada: R$ 2.800,00. Simulação estimada (hipótese): 85% da média = R$ 2.380,00.
+
+**Cenário B — esperar 2 anos, completar tempo especial e pedir sem conversão**
+
+Média salarial atualizada em 2 anos: R$ 3.000,00 (promoções e aumentos). Ao completar 25 anos de especial e pedir sem conversão, ganho de 100% da média. Simulação estimada: R$ 3.000,00.
+
+**Comparação prática:** pedindo agora o trabalhador teria R$ 2.380,00; esperando e pedindo depois poderia ter R$ 3.000,00. Mesmo considerando dois anos sem benefício, a diferença ao longo dos anos pode justificar a espera. Mas atenção: essa decisão depende também da saúde, da urgência do trabalhador e do risco de perder provas. Não existe resposta universal.
+
+## Decisões táticas comuns (e quando adotá-las)
+
+- **Pedir agora e recorrer depois:** válido se há risco de prescrição e prova razoável. Você já inicia a contagem e, se negado, recorre.
+- **Esperar e reforçar a prova:** indicado quando documentos faltam e é possível reuni-los em curto prazo.
+- **Converter tempo especial em comum:** útil para quem precisa atingir uma regra de tempo mais rapidamente; faça simulação antes.
+
+## Erros que custam caro (e como evitá-los)
+
+- **Não checar o CNIS:** contribuições perdidas geram descontos no benefício e podem ser recuperadas antes do pedido.
+- **Não simular conversão:** muitas pessoas convertem por impulso e perdem renda.
+- **Depender apenas do PPP:** o PPP mal preenchido existe; verifique assinaturas, lacunas e coerência com holerites.
+- **Ignorar provas alternativas:** quando faltam PPP/LTCAT, fotos, EPI, ordens de serviço e testemunhas salvam.
+- **Esperar sem plano:** "vou juntar depois" costuma virar "não juntei nada" — estabeleça prazos.
+
+## Checklist estratégico antes do pedido (versão prática)
+
+- CNIS atualizado e conferido
+- Lista cronológica de empregos com funções e períodos
+- PPPs solicitados e arquivados ou registro da negativa
+- LTCATs e relatórios técnicos quando existirem
+- Holerites e comprovantes de contribuição digitalizados
+- Exames ocupacionais digitalizados por data
+- Fotos e vídeos datados do ambiente de trabalho
+- Registros de EPI (fichas, recibos)
+- Testemunhas identificadas com contatos e relatos escritos
+- Simulações de benefício: pedir agora / esperar / converter / não converter
+- Plano: pedir agora com dossiê básico ou esperar X meses para reforçar prova
+
+## Quando a via judicial vale a pena?
+
+Se o INSS negar por falta de prova, ou por interpretação técnica questionável, o caminho judicial costuma dar resultado quando:
+
+- há prova indireta consistente (holerites, EPI, ordens);
+- há perícia técnica possível de demonstrar a nocividade;
+- a prescrição não barra a pretensão.
+
+Mas vá ao processo com dossiê organizado. Perícia custa tempo; precedentes ajudam, mas nada garante. Avalie custos, prazos e a possibilidade de efeitos retroativos compensadores.
+
+## Dicas práticas para ter vantagem
+
+- **Corrija o CNIS antes de pedir:** requerimentos administrativos para atualização frequentemente ampliam o valor do benefício.
+- **Colete provas agora:** testemunhos, fotos e ordens de serviço não envelhecem bem — quanto antes melhor.
+- **Faça pelo menos três simulações distintas** e compare valores líquidos — a diferença entre pedir hoje e depois pode ser surpreendente.
+- **Busque orientação especializada:** advogado, técnico de segurança ou perito. Uma simulação bem feita vale o investimento.
+- **Documente recusa do empregador** em fornecer PPP — essa prova é útil judicialmente.
+
+## Perguntas que respondem na hora se vale pedir já
+
+- Meu CNIS está atualizado? Se não, atualize.
+- Tenho PPP ou prova equivalente? Sem isso, o risco aumenta.
+- Completo o tempo em poucos meses? Se sim, talvez valha esperar.
+- Minha média salarial tende a subir? Se sim, esperar pode ser vantajoso.
+- Minha saúde permite esperar? Se não, pedir agora pode ser prioridade.
+
+## Conclusão direta
+
+Regras de transição e reformas trouxeram escolhas com números por trás. Pedir sem simular é atirar no escuro. Junte documentos, simule cenários, compare e decida com dados — não com sentimento. O tempo pode ser seu aliado ou inimigo: use-o a favor.
+
+Quer que analisemos seu CNIS e façamos a simulação comparativa do seu benefício (pedir agora vs esperar, com e sem conversão)? Fale com nossa equipe pelo WhatsApp e envie sua documentação de forma segura.
+
+#AposentadoriaEspecial #RegrasDeTransição #ReformaDaPrevidência #CNIS #PPP #SpierEAnorte
+`,
+
   "aposentadoria-invalidez-valor-reduzido-ec103": `
 A Dona Rosa (nome fictício) trabalhou 22 anos como auxiliar de limpeza hospitalar em Caxias do Sul. Desenvolveu uma hérnia de disco grave que a impediu de continuar trabalhando.
 
