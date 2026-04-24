@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "conversao-tempo-especial-comum",
+    cluster: "aposentadoria-especial" as BlogCluster,
+    image: "/blog/conversao-tempo-especial-comum.jpg",
+    title: "Conversão do tempo especial em tempo comum: quando compensa e como pedir",
+    excerpt: "Entenda quando a conversão de tempo especial para comum compensa e como requerer.",
+    date: "24 de abril de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-especial-regras-transicao",
     cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/aposentadoria-especial-regras-transicao.jpg",
