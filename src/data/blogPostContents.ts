@@ -2,142 +2,146 @@
 const blogPostContents: Record<string, string> = {
 
   "conversao-tempo-especial-comum": `
-Converter tempo especial em tempo comum pode parecer atalho: soma-se tempo, acelera-se a aposentadoria. Mas nem sempre é estrada reta para benefício maior. Às vezes é truque que reduz o valor final; noutras, é a manobra que resolve quem está a poucos meses de alcançar uma regra de tempo. Aqui eu vou direto ao ponto: mostro quando a conversão é vantajosa, quando evitá-la, como preparar o pedido e como se proteger caso o INSS negue. Sem jargão inútil, com exemplos em R$, checklist prático e modelo de requerimento para copiar e usar.
+A conversão do tempo especial em tempo comum é uma ferramenta importante no planejamento previdenciário. Para muitos trabalhadores, ela representa a possibilidade de somar períodos laborais desempenhados em condições nocivas ao tempo necessário para aposentadoria por tempo de contribuição. Contudo, a conversão é uma operação técnica que exige análise cuidadosa: ela aumenta o tempo, mas pode alterar a base de cálculo do benefício e, em determinados cenários, reduzir a renda mensal. Este texto explica, de forma prática e objetiva, quando a conversão costuma compensar, quando evitá-la, como preparar o pedido administrativo, o que provar e como avaliar o impacto financeiro com exemplos em reais, checklists e modelo de requerimento pronto para uso.
 
-## O que é a conversão e por que ela existe?
+## O que é a conversão do tempo especial em tempo comum?
 
-Conversão do tempo especial em tempo comum é mecanismo que transforma períodos trabalhados sob condições nocivas (ruído, calor, agentes químicos, risco etc.) em tempo equivalente para aposentadoria por tempo de contribuição. Em vez de pedir aposentadoria especial, você "converte" esses anos para somar ao tempo comum, ajudando a alcançar regras de contribuição ou idade para outras modalidades de aposentadoria.
+A conversão transforma períodos trabalhados em condição especial — exposição a agentes nocivos, periculosidade ou insalubridade — em tempo equivalente a ser computado como tempo de contribuição comum. Na prática, anos trabalhados sob atividade especial "viram" anos a mais no cômputo do tempo de contribuição, ajudando a alcançar requisitos de tempo total necessários para aposentadoria por tempo de contribuição ou regras de transição.
 
-Pontos cruciais: a conversão aumenta o tempo contado, mas não necessariamente aumenta a base de cálculo. Em muitos casos, incluir anos antigos com salários baixos na média pode reduzir o valor do benefício. Portanto, a decisão é estratégica — e deve ser feita com números na mão.
+Importante: a conversão não cria automaticamente direito à aposentadoria especial. Ela serve para somar tempo. O efeito final sobre o benefício depende da média salarial considerada, do momento do pedido e das regras aplicáveis na data de concessão.
+
+## Por que nem sempre compensa?
+
+A conversão pode ser desvantajosa se a inclusão dos períodos especiais implicar a inserção de salários antigos e baixos na média de cálculo. Essa "puxada para baixo" pode reduzir o valor do benefício final, mesmo que o tempo requerido seja atingido mais cedo. Além disso, existem cenários em que a aposentadoria especial direta (quando possível) resulta em benefício mais vantajoso do que a conversão seguida de aposentadoria comum.
+
+Em outras palavras: a conversão cresce em tempo, mas pode encolher o benefício. Decisões sem simulação numérica são arriscadas.
 
 ## Quando a conversão costuma compensar?
 
-- Você está a poucos meses ou anos de alcançar uma regra de tempo para se aposentar por tempo de contribuição, e a conversão evita anos adicionais de trabalho.
-- Sua média salarial é relativamente estável ou maior nos períodos que seriam incluídos com a conversão (ou seja, os salários antigos não "puxam" sua média para baixo).
-- A alternativa é continuar trabalhando por muitos anos, com risco de saúde ou desemprego; então antecipar a aposentadoria compensa.
-- Há risco de perda de provas (documentos, testemunhas) se você esperar muito tempo; converter agora preserva o direito.
+- **Situação de proximidade:** quando faltam poucos meses/anos para atingir o tempo de contribuição necessário e a conversão evita longa permanência no trabalho.
+- **Salários antigos compatíveis:** quando os salários que serão incluídos pela conversão não reduzem significativamente a média salarial.
+- **Risco de saúde ou desemprego:** se continuar no mercado de trabalho implica risco de perda de renda futura, antecipar a aposentadoria com conversão pode ser vantajoso.
+- **Perda de provas iminente:** se documentos ou testemunhas estão prestes a se perder, converter agora preserva o direito.
 
-## Quando a conversão pode ser desvantajosa?
+## Quando a conversão tende a ser desvantajosa?
 
-- Seus salários antigos são muito inferiores à média atual; incluí-los reduzirá o benefício.
-- Você tem vantagem em buscar aposentadoria especial diretamente (se o valor da especial seria maior).
-- A diferença entre pedir agora e esperar para completar requisito de aposentadoria especial é financeiramente favorável à espera (simulação mostra maior benefício futuro, mesmo descontando período sem renda).
-- O fator aplicado no cálculo (quando há) penaliza de forma significativa o benefício inicial.
+- Salários antigos muito baixos em comparação com a média atual — sua inclusão reduz o benefício.
+- Quando a aposentadoria especial direta, se disponível, gera valor maior.
+- Quando a regra de cálculo vigente penaliza a inclusão de períodos antigos (por exemplo, quando a média considera muitos salários ao longo da vida contributiva).
+- Em casos onde a diferença entre pedir agora e esperar é menor do que os prejuízos causados pela inclusão de salários baixos.
 
-## Como avaliar: regra prática de decisão
+## Passo a passo para decidir: método prático
 
-- Simule sempre com números reais do seu CNIS.
-- Faça duas simulações mínimas: pedir aposentadoria comum convertendo o tempo especial; e pedir aposentadoria especial (ou esperar completar o tempo especial).
-- Compare valores brutos e líquidos e estime efeito retroativo/juros se houver ação judicial.
-- Considere saúde, idade e risco de perda de provas.
+### 1. Atualize e confira o CNIS
+Baixe o extrato do CNIS e confira todos os vínculos e valores de contribuição. Corrija eventuais divergências antes de simular — muitas perdas vêm de erros no cadastro.
 
-## Exemplo prático (numérico, em R$) — cenário simplificado
+### 2. Liste cronologicamente os períodos especiais
+Organize por empresa, função, agente nocivo, data de início e término, e documentos disponíveis (PPP, LTCAT, holerites, ordens de serviço, etc.).
 
-Trabalhador D:
+### 3. Faça simulações comparativas
+Simule, no mínimo, três cenários:
+- Pedir aposentadoria comum com conversão dos períodos especiais.
+- Pedir aposentadoria especial (se aplicável).
+- Esperar X meses/anos para completar o tempo especial e pedir sem conversão.
 
-- Média salarial recente (últimos anos): R$ 4.000,00.
-- Salários antigos (20 anos atrás): média R$ 1.200,00.
-- Tempo especial comprovado: 10 anos.
-- Tempo comum já adquirido: 23 anos.
-- Meta para aposentadoria por tempo de contribuição: 35 anos.
+Compare valores brutos e líquidos e estime impacto de eventuais tributos, descontos e contribuições.
 
-**Opção A — converter 10 anos especiais em comuns**
+### 4. Considere aspectos pessoais e riscos
+Inclua na decisão fatores como saúde, expectativa de permanecer no trabalho, necessidade imediata de renda e risco de perda de prova documental.
 
-- Novo tempo total: 33 anos (23 + 10).
-- Ainda faltam 2 anos para 35; teria que trabalhar mais 2 anos.
-- Se pedir quando atingir 35 anos com inclusão dos salários antigos, média poderá diminuir por causa dos R$ 1.200,00 anteriores, reduzindo benefício final.
+### 5. Escolha a estratégia e documente a decisão
+Se decidir pedir, prepare dossiê robusto. Se decidir esperar, estabeleça prazos e plano de coleta de provas.
 
-**Opção B — pedir aposentadoria especial (se aplicável)**
+## Exemplo prático e numérico (hipótese em R$)
 
-Se critério permite aposentadoria especial direto, o benefício pode incidir sobre média dos últimos anos apenas, sem puxar salários muito baixos. Assim, o valor pode ser maior que converter e incluir salários antigos.
+**Trabalhador E:**
+- Média salarial dos últimos anos: R$ 3.800,00.
+- Salários antigos (há mais de 20 anos): média R$ 1.000,00.
+- Tempo comum já computado: 22 anos.
+- Tempo especial comprovado: 8 anos.
+- Regra de aposentadoria por tempo de contribuição: 35 anos.
 
-Neste caso, converter pode não compensar, pois os salários antigos arrastam a média para baixo. A saída pode ser: buscar reconhecimento judicial do tempo especial sem conversão, ou simular formas de excluir os piores salários (quando aplicável). O ponto é: números mandam.
+**Opção 1 — Converter 8 anos especiais agora:**
+- Novo tempo: 30 anos (22 + 8).
+- Ainda faltam 5 anos.
+- Caso o trabalhador, ao completar 35 anos, tenha sua média recalculada incluindo os 8 anos antigos, a média pode cair sensivelmente, reduzindo o benefício esperado.
 
-## Como pedir a conversão (passo a passo prático)
+**Opção 2 — Buscar aposentadoria especial (se for aplicável):**
+- Em regra hipotética, aposentadoria especial poderia ser concedida com base na média dos últimos anos, mantendo a média de R$ 3.800,00 e resultando em benefício maior que aquele com inclusão de salários de R$ 1.000,00.
 
-1. Reúna a prova do tempo especial: PPP, LTCAT, ordens de serviço, holerites, registros de EPI, exames ocupacionais e testemunhas.
-2. Atualize e confira o CNIS; corrija divergências antes do pedido.
-3. No requerimento administrativo ao INSS, informe expressamente a intenção de conversão do tempo especial para tempo comum e peça o cálculo discriminado (com e sem conversão).
-4. Anexe toda a documentação comprobatória, inclusive simulações que você já fez para demonstrar sua tese.
-5. Se houver indeferimento, apresente recurso administrativo fundamentado e, se preciso, prepare a via judicial com perícia técnica.
+Neste exemplo, a conversão só compensa se o trabalhador tiver pressa e risco de não conseguir completar tempo de contribuição comum por motivos de saúde ou emprego; caso contrário, esperar ou optar por reconhecimento de especial pode ser superior financeiramente.
 
-## Modelo prático de requerimento (texto para copiar)
+## Como pedir a conversão: roteiro prático
+
+### 1. Reúna provas
+PPP, LTCAT, CTPS, holerites, comprovantes de pagamento de adicional, ordens de serviço, fichas de EPI, exames ocupacionais e fotografias datadas. Testemunhas com relatos escritos também são valiosas.
+
+### 2. Corrija o CNIS
+Solicite retificações de vínculos ou valores errados antes do pedido.
+
+### 3. Faça o requerimento administrativo
+No pedido ao INSS, informe claramente que solicita a conversão dos períodos especiais elencados, indicando datas e anexando a documentação. Solicite cálculo discriminado do benefício com e sem conversão.
+
+### 4. Guarde protocolos e acompanhe o processo
+Anote números de protocolo, prazos e possíveis exigências. Responda prontamente a pedidos de documentação adicional.
+
+### 5. Se houver indeferimento, recorra
+Apresente recurso administrativo com fundamentação técnica e, se necessário, prepare ação judicial com perícia técnica para comprovação da nocividade.
+
+## Modelo de requerimento (pronto para copiar)
 
 (Local/data)
-
 Ao Instituto Nacional do Seguro Social — INSS
-
 Assunto: Requerimento de Conversão de Tempo Especial em Tempo Comum
 
-Eu, [nome completo], CPF [número], NIT/PIS [número], residente em [endereço], venho requerer, com fundamento na legislação aplicável, a conversão do tempo de atividade especial em tempo de contribuição comum, referente aos períodos discriminados na documentação anexa, para fins de contagem de tempo para aposentadoria.
+Eu, [nome completo], CPF [número], NIT/PIS [número], residente em [endereço], venho requerer a conversão do tempo de atividade especial em tempo de contribuição comum, referente aos períodos discriminados na documentação anexa, para fins de contagem para aposentadoria.
 
-Junto a este requerimento encaminho: PPP, LTCAT, CTPS, holerites, exames ocupacionais, relatórios de entrega de EPI, e demais provas que seguem em anexo. Requeiro, ainda, que seja apresentado relatório de cálculo discriminado, demonstrando o valor do benefício com e sem a conversão requerida.
+Anexos: PPP, LTCAT, CTPS, holerites, exames ocupacionais, fichas de EPI, ordens de serviço, relatórios e demais documentos comprobatórios.
+
+Requeiro ainda que o INSS apresente cálculo discriminado, demonstrando o valor do benefício com e sem a conversão requerida.
 
 Atenciosamente,
-
 [assinatura]
 [nome completo]
 [contato: telefone/e-mail]
 
-## Provas essenciais e provas alternativas
-
-- **Provas ideais:** PPP assinado, LTCAT com assinatura técnica, holerites, CTPS.
-- **Provas alternativas úteis:** recibos de insalubridade/periculosidade, fichas de entrega de EPI, ordens de serviço, fotografias datadas, relatórios de manutenção, exames ocupacionais e depoimentos escritos de colegas.
-
-Lembre-se: organização cronológica e coerente transforma prova frágil em dossiê convincente para peritos e julgadores.
-
-## Roteiro para depoimento de testemunha (guião prático)
-
-- Nome, profissão e vínculo com o requerente.
-- Período em que trabalhou com o requerente.
-- Descrição das atividades diárias do requerente.
-- Existência e qualidade de EPI; frequência de fornecimento.
-- Exposição a ruído, calor, poeira, agentes químicos ou risco; frequência e intensidade.
-- Existência de documentos internos (ordens de serviço, relatórios) que corroborem a exposição.
-
-## Riscos processuais e como minimizá-los
-
-- **CNIS com erros:** corrija antes do pedido para evitar descontos no cálculo.
-- **PPP mal preenchido:** verifique datas, assinaturas e cargo. Se inconsistente, peça complementação ou junte prova alternativa.
-- **Prescrição:** cheque prazos; se corre risco de prescrição, pedir agora e recorrer depois pode ser estratégia.
-- **Perícia desfavorável:** antecipe contraforça com laudo técnico independente e testemunhas qualificadas.
-
-## Quando levar ao Judiciário?
-
-- INSS indefere por falta de prova e há prova indireta suficiente para instruir perícia.
-- Há prescrição para reconhecimento do direito via administrativa.
-- O caso exige perícia técnica que o INSS recusou ou avaliou de modo contrário aos fatos.
-
-Lembre: ação judicial costuma resultar em reconhecimento com efeitos retroativos — isso pode compensar o tempo de espera, mas implica custos e prazo. Avalie com profissional.
-
-## Checklist prático antes do pedido de conversão
+## Checklist prático antes de pedir
 
 - [ ] CNIS atualizado e conferido
 - [ ] Lista cronológica de empregos com funções e períodos
-- [ ] PPPs e/ou registros técnicos (LTCAT)
+- [ ] PPPs, LTCATs e/ou outros registros técnicos
 - [ ] Holerites, CTPS e comprovantes de recolhimento
-- [ ] Exames ocupacionais (admissionais, periódicos, demissionais)
-- [ ] Ordens de serviço, registros de EPI e fotos datadas
+- [ ] Exames ocupacionais digitalizados (admissionais, periódicos, demissionais)
+- [ ] Registros de EPI e ordens de serviço datadas
+- [ ] Fotografias do ambiente de trabalho (datadas)
 - [ ] Relatos escritos de colegas/testemunhas com contatos
-- [ ] Simulações de benefício: com conversão / sem conversão / pedir especial
-- [ ] Modelo de requerimento preenchido e assinado
+- [ ] Simulações de benefício: com conversão / sem conversão / solicitar especial
+- [ ] Requerimento preenchido e cópia protocolada
 - [ ] Plano para recurso administrativo e eventual ação judicial
 
-## Dicas finais práticas e decisivas
+## Erros frequentes e como evitá-los
 
-- Nunca decida só no sentimento; simule com seu CNIS real.
-- Corrija o CNIS antes de pedir: muitas vezes isso já eleva o valor do benefício.
-- Se faltar prova, priorize recolher testemunhos e documentos antes de pedir.
-- Documente qualquer recusa do empregador em fornecer PPP — é prova para o futuro.
-- Se tiver dúvidas, busque avaliação de advogado previdenciário ou perito de segurança do trabalho; esses investimentos costumam pagar o próprio custo ao aumentar o benefício.
+- **Ignorar a atualização do CNIS:** corrigi-lo antes do pedido evita perda de valor.
+- **Converter sem simular previamente:** decisão sem números pode reduzir renda.
+- **Depender exclusivamente do PPP:** verifique assinatura, datas e coerência; complemente com provas alternativas se necessário.
+- **Deixar para coletar provas depois do indeferimento:** quanto antes reunir, melhor.
 
-## Conclusão direta
+## Quando recorrer ao Judiciário?
 
-A conversão do tempo especial em tempo comum é ferramenta poderosa, mas não é mágica. Em alguns casos, encurta o caminho para aposentadoria; em outros, diminui o ganho porque traz salários antigos para a média. A regra de ouro: simule, compare e decida com números e prova. Se quiser, nossa equipe faz a simulação com seus períodos e salários, indica a melhor estratégia e monta o requerimento já pronto para enviar ao INSS.
+A via judicial costuma ser adequada quando:
+- O INSS indefere por falta de documentação, mas existe prova indireta suficiente;
+- Há risco de prescrição;
+- A perícia técnica é essencial e o INSS a recusou ou avaliou de forma equivocada.
 
-## Fale com a Spier & Anorte Advogados
+Lembre que o processo judicial envolve custos e prazos, mas pode garantir efeitos retroativos que compensam a espera.
 
-Quer saber se a conversão vale a pena no seu caso? Nossa equipe analisa seu CNIS, seus PPPs e os períodos de exposição para indicar a estratégia mais vantajosa — administrativa ou judicial. Entre em contato pelo WhatsApp e agende sua consulta.
+## Considerações finais
+
+A conversão do tempo especial em tempo comum é uma opção estratégica que exige análise individualizada. A regra de ouro é: não decida sem simular. Corrija seu CNIS, organize o dossiê, faça simulações com números reais e só então escolha entre converter, pedir especial ou aguardar. Em muitos casos, investir na confecção de um dossiê técnico e numa simulação detalhada economiza tempo e aumenta substancialmente o benefício.
+
+## CTA prático
+
+Quer que eu simule se a conversão vale a pena no seu caso? Envie: 1) lista cronológica de empregos (empresa, função, período), 2) print do CNIS atualizado, 3) cópia dos PPPs ou outros documentos de prova. Responda "Quero simulação" e eu explico como enviar os arquivos com segurança.
 `,
 
   "aposentadoria-especial-regras-transicao": `
