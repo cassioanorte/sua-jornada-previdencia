@@ -151,7 +151,7 @@ const Index = () => {
             <h1
               className="font-display animate-fade-in"
               style={{
-                fontSize: "clamp(52px, 8vw, 100px)",
+                fontSize: "clamp(56px, 8vw, 100px)",
                 fontWeight: 400,
                 lineHeight: 0.98,
                 color: "#f4ede0",
@@ -369,7 +369,7 @@ const Index = () => {
               <h2
                 className="font-display"
                 style={{
-                  fontSize: "clamp(44px, 7vw, 84px)",
+                  fontSize: "clamp(48px, 7vw, 84px)",
                   fontWeight: 400,
                   lineHeight: 1.02,
                   color: "#f4ede0",
@@ -460,7 +460,7 @@ const Index = () => {
             <h2
               className="font-display"
               style={{
-                fontSize: "clamp(44px, 7vw, 84px)",
+                fontSize: "clamp(48px, 7vw, 84px)",
                 fontWeight: 400,
                 lineHeight: 1.02,
                 color: "#4a2e1f",
@@ -601,7 +601,7 @@ const Index = () => {
             <h2
               className="font-display"
               style={{
-                fontSize: "clamp(44px, 7vw, 84px)",
+                fontSize: "clamp(48px, 7vw, 84px)",
                 fontWeight: 400,
                 lineHeight: 1.02,
                 color: "#f4ede0",
@@ -613,7 +613,7 @@ const Index = () => {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4" style={{ gap: 24 }}>
+          <div className="grid grid-cols-2 lg:grid-cols-4" style={{ gap: 24 }}>
             {[
               { n: "01", title: "Conversa inicial", desc: "Você nos manda um WhatsApp com o que está acontecendo. Sem custo, sem compromisso." },
               { n: "02", title: "Análise do CNIS", desc: "Lemos seu CNIS página por página, identificamos vínculos, períodos especiais e lacunas." },
@@ -665,7 +665,7 @@ const Index = () => {
             <h2
               className="font-display"
               style={{
-                fontSize: "clamp(44px, 7vw, 84px)",
+                fontSize: "clamp(48px, 7vw, 84px)",
                 fontWeight: 400,
                 lineHeight: 1.02,
                 color: "#f4ede0",
