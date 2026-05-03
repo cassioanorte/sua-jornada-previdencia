@@ -302,6 +302,39 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Manifesto */}
+      <section style={{ backgroundColor: "#1f1a15", padding: "120px 24px" }}>
+        <div className="mx-auto text-center" style={{ maxWidth: 1100 }}>
+          <div
+            className="font-mono uppercase"
+            style={{ fontSize: 11, letterSpacing: "0.32em", color: "#d4b888", marginBottom: 40 }}
+          >
+            Capítulo I — Manifesto
+          </div>
+          <blockquote
+            className="font-display italic"
+            style={{
+              fontSize: "clamp(28px, 4.2vw, 52px)",
+              fontWeight: 400,
+              lineHeight: 1.18,
+              color: "#f4ede0",
+              letterSpacing: "-0.005em",
+            }}
+          >
+            <span style={{ color: "#d4b888" }}>“</span>
+            Trabalhador rural que perdeu uma aposentadoria por falta de documento. Mãe que teve o auxílio cessado por uma perícia apressada. Servidor cuja revisão o INSS preferiu ignorar.{" "}
+            <span style={{ color: "#d4b888" }}>São essas as histórias que nos formaram</span> — e que continuamos defendendo, uma por uma.
+            <span style={{ color: "#d4b888" }}>”</span>
+          </blockquote>
+          <div
+            className="font-mono uppercase"
+            style={{ fontSize: 10, letterSpacing: "0.28em", color: "#b8b1a9", marginTop: 48 }}
+          >
+            — Spier &amp; Anorte, sociedade de advogados
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="py-20 bg-gradient-to-b from-background via-secondary/30 to-background relative">
         <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle, hsl(var(--primary)) 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
