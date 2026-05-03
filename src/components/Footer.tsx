@@ -1,170 +1,155 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Scale } from "lucide-react";
-import logo from "@/assets/logo-spier-anorte.jpeg";
 import { cityPages } from "@/data/cityPages";
 
-const Footer = () => {
-  const handleWhatsApp = () => {
-    window.open("https://wa.link/hdn70i", "_blank");
-  };
+const colHeader: React.CSSProperties = {
+  fontFamily: '"JetBrains Mono", monospace',
+  fontSize: 10,
+  letterSpacing: "0.28em",
+  textTransform: "uppercase",
+  color: "#d4b888",
+  marginBottom: 20,
+};
 
+const linkStyle: React.CSSProperties = {
+  fontFamily: '"Cormorant Garamond", Georgia, serif',
+  fontSize: 15,
+  color: "#b8b1a9",
+  display: "block",
+  padding: "5px 0",
+};
+
+const areas = [
+  { label: "Aposentadorias", to: "/areas-de-atuacao" },
+  { label: "Incapacidade", to: "/auxilio-doenca" },
+  { label: "Rural", to: "/aposentadoria-rural" },
+  { label: "Pensões", to: "/pensao-morte" },
+  { label: "Maternidade", to: "/auxilio-maternidade" },
+  { label: "Revisões", to: "/areas-de-atuacao" },
+];
+
+const escritorio = [
+  { label: "Sócios", to: "/quem-somos" },
+  { label: "Conteúdo", to: "/blog" },
+  { label: "Casos", to: "/quem-somos#casos" },
+  { label: "FAQ", to: "/contato#faq" },
+  { label: "Privacidade", to: "/contato" },
+];
+
+const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-card to-secondary/20 border-t border-border">
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* About */}
+    <footer
+      style={{
+        backgroundColor: "#14110e",
+        borderTop: "3px solid #d4b888",
+        padding: "64px 24px 28px",
+      }}
+    >
+      <div className="mx-auto" style={{ maxWidth: 1320 }}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]" style={{ gap: 56 }}>
+          {/* Brand */}
           <div>
-            <img src={logo} alt="Logo" className="h-12 w-auto mb-6" />
-            <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-              Especialistas em Direito Previdenciário há mais de 13 anos, 
-              ajudando brasileiros a conquistar seus benefícios do INSS com transparência e dedicação.
+            <div className="font-display italic" style={{ fontSize: 32, color: "#f4ede0", lineHeight: 1.1 }}>
+              Spier <span style={{ color: "#d4b888" }}>&</span> Anorte
+            </div>
+            <div
+              className="font-mono uppercase"
+              style={{ fontSize: 9, letterSpacing: "0.32em", color: "#d4b888", marginTop: 10 }}
+            >
+              Advogados Associados · OAB/RS 4.809
+            </div>
+            <p
+              className="font-editorial italic"
+              style={{
+                fontSize: 16,
+                lineHeight: 1.55,
+                color: "#b8b1a9",
+                marginTop: 24,
+                maxWidth: 360,
+                textAlign: "justify",
+              }}
+            >
+              Sociedade de advogados com atuação exclusiva em direito previdenciário desde 2014.
+              Gramado · Nova Petrópolis · atendimento em todo o Brasil.
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Áreas */}
           <div>
-            <h3 className="text-lg font-bold mb-6 text-foreground font-display">Links Rápidos</h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <Link to="/" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Início
+            <div style={colHeader}>Áreas</div>
+            <nav>
+              {areas.map((a) => (
+                <Link key={a.label} to={a.to} style={linkStyle} className="hover:text-[#d4b888] transition-colors">
+                  {a.label}
                 </Link>
-              </li>
-              <li>
-                <Link to="/quem-somos" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Quem Somos
-                </Link>
-              </li>
-              <li>
-                <Link to="/areas-de-atuacao" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Áreas de Atuação
-                </Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link to="/contato" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Contato
-                </Link>
-              </li>
-            </ul>
+              ))}
+            </nav>
           </div>
 
-          {/* Services */}
+          {/* Escritório */}
           <div>
-            <h3 className="text-lg font-bold mb-6 text-foreground font-display">Serviços</h3>
-            <ul className="space-y-3 text-sm">
-              <li>
-                <Link to="/auxilio-doenca" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Auxílio Doença
+            <div style={colHeader}>Escritório</div>
+            <nav>
+              {escritorio.map((a) => (
+                <Link key={a.label} to={a.to} style={linkStyle} className="hover:text-[#d4b888] transition-colors">
+                  {a.label}
                 </Link>
-              </li>
-              <li>
-                <Link to="/aposentadoria-idade" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Aposentadoria por Idade
-                </Link>
-              </li>
-              <li>
-                <Link to="/aposentadoria-tempo" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Aposentadoria por Tempo
-                </Link>
-              </li>
-              <li>
-                <Link to="/aposentadoria-especial" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  Aposentadoria Especial
-                </Link>
-              </li>
-              <li>
-                <Link to="/bpc-loas" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center group">
-                  <span className="w-0 group-hover:w-2 h-0.5 bg-primary transition-all duration-300 mr-0 group-hover:mr-2"></span>
-                  BPC/LOAS
-                </Link>
-              </li>
-            </ul>
+              ))}
+            </nav>
           </div>
 
-          {/* Contact */}
+          {/* Contato */}
           <div>
-            <h3 className="text-lg font-bold mb-6 text-foreground font-display">Contato e Informações</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Phone className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <p className="text-xs text-muted-foreground mb-1">Telefone</p>
-                  <button onClick={handleWhatsApp} className="text-sm font-medium text-foreground hover:text-primary transition-colors">(54) 99987-0786</button>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <p className="text-xs text-muted-foreground mb-1">E-mail</p>
-                  <a href="mailto:cassio@spiereanorte.adv.br" className="text-sm font-medium text-foreground hover:text-primary transition-colors break-all">cassio@spiereanorte.adv.br</a>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <p className="text-xs text-muted-foreground mb-1">Atendimento</p>
-                  <p className="text-sm font-medium text-foreground">100% online em todo o Brasil</p>
-                  <p className="text-xs text-muted-foreground mt-2 mb-1">Unidades Físicas</p>
-                  <p className="text-sm font-medium text-foreground">Gramado - RS</p>
-                  <p className="text-xs text-muted-foreground">R. Berna, 715 - Vila Suíça, CEP 95670-554</p>
-                  <p className="text-sm font-medium text-foreground mt-1">Nova Petrópolis - RS</p>
-                  <p className="text-xs text-muted-foreground">Av. 15 de Novembro, 1924, Sala 304, Centro, CEP 95150-000</p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Scale className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <p className="text-xs text-muted-foreground mb-2">Sociedade</p>
-                  <p className="text-sm font-medium text-foreground">Spier e Anorte Advogados Associados</p>
-                  <p className="text-xs text-muted-foreground">OAB/RS nº 4.809</p>
-                  <p className="text-xs text-muted-foreground mt-3 mb-1">Advogados</p>
-                  <p className="text-sm font-medium text-foreground">Cassio Fraga Anorte</p>
-                  <p className="text-xs text-muted-foreground">OAB/RS 73.679</p>
-                  <p className="text-sm font-medium text-foreground mt-1">Rodrigo Fernando Shoeler Spier</p>
-                  <p className="text-xs text-muted-foreground">OAB/RS 70.421</p>
-                  <p className="text-sm font-medium text-foreground mt-1">Paloma Nicole Schabarum</p>
-                  <p className="text-xs text-muted-foreground">OAB/RS 125.105</p>
-                </div>
-              </li>
-            </ul>
+            <div style={colHeader}>Contato</div>
+            <a
+              href="https://wa.link/hdn70i"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={linkStyle}
+              className="hover:text-[#d4b888] transition-colors"
+            >
+              (54) 99987-0786
+            </a>
+            <a
+              href="mailto:cassio@spiereanorte.adv.br"
+              style={linkStyle}
+              className="hover:text-[#d4b888] transition-colors"
+            >
+              cassio@spiereanorte.adv.br
+            </a>
+            <span style={linkStyle}>Gramado · RS</span>
+            <span style={linkStyle}>Nova Petrópolis · RS</span>
           </div>
         </div>
 
-        {/* Cities */}
-        <div className="border-t border-border mt-12 pt-8 pb-8">
-          <h3 className="text-lg font-bold mb-4 text-foreground font-display text-center">
-            <Link to="/advogado-previdenciario-rs" className="hover:text-primary transition-colors">
-              Atendemos no Rio Grande do Sul
-            </Link>
-          </h3>
-          <div className="flex flex-wrap justify-center gap-2">
+        {/* Cities (SEO) */}
+        <div style={{ marginTop: 56, paddingTop: 32, borderTop: "1px solid rgba(184,153,104,0.18)" }}>
+          <Link
+            to="/advogado-previdenciario-rs"
+            className="font-mono uppercase"
+            style={{
+              fontSize: 10,
+              letterSpacing: "0.28em",
+              color: "#d4b888",
+              display: "block",
+              marginBottom: 16,
+            }}
+          >
+            Atendemos no Rio Grande do Sul →
+          </Link>
+          <div className="flex flex-wrap" style={{ gap: 8 }}>
             {cityPages.map((city) => (
               <Link
                 key={city.slug}
                 to={`/advogado-previdenciario/${city.slug}`}
-                className="px-3 py-1.5 rounded-full bg-secondary border border-border text-xs text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors"
+                className="font-mono uppercase hover:text-[#d4b888] hover:border-[#d4b888]/40 transition-colors"
+                style={{
+                  fontSize: 10,
+                  letterSpacing: "0.18em",
+                  padding: "5px 10px",
+                  border: "1px solid rgba(184,153,104,0.18)",
+                  color: "#b8b1a9",
+                  borderRadius: 2,
+                }}
               >
                 {city.name}
               </Link>
@@ -172,16 +157,27 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-border pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Spier & Anorte Advogados. Todos os direitos reservados.
-            </p>
-            <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <span className="px-3 py-1 bg-primary/5 rounded-full border border-primary/10">🔒 Dados Protegidos</span>
-            </div>
-          </div>
+        {/* Bottom bar */}
+        <div
+          className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3"
+          style={{
+            marginTop: 44,
+            paddingTop: 24,
+            borderTop: "1px solid rgba(184,153,104,0.18)",
+          }}
+        >
+          <span
+            className="font-mono uppercase"
+            style={{ fontSize: 10, letterSpacing: "0.18em", color: "#87807a" }}
+          >
+            © {new Date().getFullYear()} Spier &amp; Anorte Advogados Associados
+          </span>
+          <span
+            className="font-mono uppercase"
+            style={{ fontSize: 10, letterSpacing: "0.18em", color: "#87807a" }}
+          >
+            Provimento 205/2021 OAB
+          </span>
         </div>
       </div>
     </footer>
