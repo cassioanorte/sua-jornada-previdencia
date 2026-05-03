@@ -92,11 +92,11 @@ const Header = () => {
           {/* RIGHT — Phone + WhatsApp pill */}
           <div className="hidden lg:flex items-center" style={{ gap: 20 }}>
             <a
-              href="tel:+5551999990000"
+              href="tel:+5554999870786"
               className="font-mono"
               style={{ fontSize: 11, color: "#b8b1a9", letterSpacing: "0.08em" }}
             >
-              (51) 99999-0000
+              (54) 99987-0786
             </a>
             <button
               onClick={handleWhatsApp}
