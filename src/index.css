@@ -8,87 +8,76 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 24%;
+    /* Premium boutique palette — DARK is the default theme */
+    --night: 30 14% 7%;            /* #14110e */
+    --night-soft: 27 18% 10%;      /* #1f1a15 */
+    --night-card: 27 17% 13%;      /* #28221c */
+    --night-line: 36 35% 56%;      /* used with /18 opacity */
+    --gold-soft: 36 49% 68%;       /* #d4b888 */
+    --gold-deep: 35 33% 46%;       /* #9a7d4f */
+    --brown: 19 41% 20%;           /* #4a2e1f */
+    --cream: 39 53% 92%;           /* #f4ede0 */
+    --white-warm: 43 54% 97%;      /* #fcfaf5 */
+    --stone: 27 6% 50%;            /* #87807a */
+    --stone-soft: 28 11% 69%;      /* #b8b1a9 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 24%;
+    /* Semantic mapping (dark by default) */
+    --background: var(--night);
+    --foreground: var(--cream);
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 24%;
+    --card: var(--night-card);
+    --card-foreground: var(--cream);
 
-    --primary: 28 41% 34%;
-    --primary-foreground: 0 0% 100%;
-    --primary-hover: 28 41% 28%;
+    --popover: var(--night-card);
+    --popover-foreground: var(--cream);
 
-    --secondary: 0 0% 97%;
-    --secondary-foreground: 28 41% 34%;
+    --primary: var(--gold-soft);
+    --primary-foreground: var(--night);
+    --primary-hover: var(--gold-deep);
 
-    --muted: 0 0% 97%;
-    --muted-foreground: 0 0% 48%;
+    --secondary: var(--night-soft);
+    --secondary-foreground: var(--cream);
 
-    --accent: 28 41% 40%;
-    --accent-foreground: 0 0% 100%;
-    --accent-hover: 28 41% 36%;
+    --muted: var(--night-soft);
+    --muted-foreground: var(--stone-soft);
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
-
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 28 41% 34%;
-
-    --radius: 0.75rem;
-
-    /* Custom design tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(28, 41%, 34%), hsl(28, 41%, 24%));
-    --gradient-section: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(0, 0%, 97%));
-    --shadow-card: 0 4px 20px -4px hsl(28 41% 34% / 0.15);
-    --shadow-hover: 0 8px 30px -6px hsl(28 41% 34% / 0.25);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .dark {
-    --background: 0 0% 12%;
-    --foreground: 0 0% 95%;
-
-    --card: 0 0% 15%;
-    --card-foreground: 0 0% 95%;
-
-    --popover: 0 0% 15%;
-    --popover-foreground: 0 0% 95%;
-
-    --primary: 28 41% 45%;
-    --primary-foreground: 0 0% 100%;
-    --primary-hover: 28 41% 40%;
-
-    --secondary: 0 0% 20%;
-    --secondary-foreground: 0 0% 95%;
-
-    --muted: 0 0% 22%;
-    --muted-foreground: 0 0% 65%;
-
-    --accent: 28 41% 50%;
-    --accent-foreground: 0 0% 12%;
-    --accent-hover: 28 41% 45%;
+    --accent: var(--gold-soft);
+    --accent-foreground: var(--night);
+    --accent-hover: var(--gold-deep);
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 25%;
-    --input: 0 0% 25%;
-    --ring: 28 41% 45%;
+    --border: var(--night-line);
+    --input: var(--night-line);
+    --ring: var(--gold-soft);
 
-    --gradient-hero: linear-gradient(135deg, hsl(28, 41%, 30%), hsl(28, 41%, 20%));
-    --gradient-section: linear-gradient(180deg, hsl(0, 0%, 12%), hsl(0, 0%, 15%));
-    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
-    --shadow-hover: 0 8px 30px -6px hsl(0 0% 0% / 0.4);
+    --radius: 0.5rem;
+
+    /* Custom design tokens */
+    --gradient-hero: linear-gradient(180deg, hsl(var(--night)), hsl(var(--night-soft)));
+    --gradient-section: linear-gradient(180deg, hsl(var(--night)), hsl(var(--night-soft)));
+    --shadow-card: 0 8px 30px -12px hsl(0 0% 0% / 0.5);
+    --shadow-hover: 0 16px 50px -16px hsl(0 0% 0% / 0.6);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Cream / light surface for sócios sections — apply class="surface-cream" */
+  .surface-cream {
+    --background: var(--cream);
+    --foreground: 19 41% 20%;
+    --card: var(--white-warm);
+    --card-foreground: 19 41% 20%;
+    --muted-foreground: var(--stone);
+    --border: 36 35% 56%;
+    background-color: hsl(var(--cream));
+    color: hsl(19 41% 20%);
   }
 }
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border) / 0.18);
   }
 
   html {
@@ -97,13 +86,14 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-bold tracking-tight;
+    @apply tracking-tight;
     font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
   }
 
   button {
@@ -137,7 +127,57 @@ All colors MUST be HSL.
   }
 
   .font-body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-mono-ui {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  /* Editorial typography helpers */
+  .kicker {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: hsl(var(--gold-soft));
+    font-weight: 500;
+  }
+
+  .ui-label {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+  }
+
+  .gold-italic {
+    font-style: italic;
+    color: hsl(var(--gold-soft));
+  }
+
+  .container-editorial {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  @media (min-width: 768px) {
+    .container-editorial { padding-left: 56px; padding-right: 56px; }
+  }
+
+  .section-spacing {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  @media (min-width: 768px) {
+    .section-spacing { padding-top: 120px; padding-bottom: 120px; }
   }
 
   @keyframes fade-in {
