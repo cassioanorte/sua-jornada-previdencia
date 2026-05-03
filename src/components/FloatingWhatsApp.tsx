@@ -11,19 +11,21 @@ const FloatingWhatsApp = () => {
           70%  { box-shadow: 0 8px 24px rgba(37,211,102,0.4), 0 0 0 18px rgba(37,211,102,0); }
           100% { box-shadow: 0 8px 24px rgba(37,211,102,0.4), 0 0 0 0 rgba(37,211,102,0); }
         }
+        .wa-fab { bottom: 28px; right: 28px; width: 64px; height: 64px; }
+        @media (max-width: 767px) {
+          .wa-fab { bottom: 20px; right: 20px; width: 56px; height: 56px; }
+          .wa-fab svg { width: 28px; height: 28px; }
+        }
       `}</style>
       <a
         href={href}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Falar no WhatsApp"
+        className="wa-fab"
         style={{
           position: "fixed",
-          bottom: 28,
-          right: 28,
           zIndex: 100,
-          width: 64,
-          height: 64,
           borderRadius: "50%",
           backgroundColor: "#25d366",
           display: "flex",
