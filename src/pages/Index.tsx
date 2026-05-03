@@ -19,6 +19,8 @@ import {
 } from "lucide-react";
 import teamImage from "@/assets/team.jpg";
 import socioRodrigo from "@/assets/socio-rodrigo.png";
+import socioPaloma from "@/assets/socio-paloma.png";
+import socioCassio from "@/assets/socio-cassio.png";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -472,7 +474,7 @@ const Index = () => {
                 oab: "OAB/RS 73.679",
                 bio: "Atuação consolidada em direito previdenciário, com foco em segurado especial rural, salário-maternidade e auxílio-acidente (Tema 416 STJ).",
                 tags: ["Rural", "Maternidade", "Auxílio-acidente"],
-                photo: null,
+                photo: socioCassio,
               },
               {
                 name: "Paloma Nicole Schabarum",
@@ -481,7 +483,7 @@ const Index = () => {
                 oab: "OAB/RS 125.105",
                 bio: "Especialista em revisões e cálculos previdenciários. Coordena a carteira de revisão da vida toda e teto do escritório.",
                 tags: ["Revisões", "Cálculos", "Recursos JR/CRPS"],
-                photo: null,
+                photo: socioPaloma,
               },
             ].map((p, i) => (
               <article
