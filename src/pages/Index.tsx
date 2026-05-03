@@ -235,7 +235,7 @@ const Index = () => {
                   border: "1px solid rgba(212,184,136,0.25)",
                 }}
               >
-                ● Lucas Spier · Marina Anorte · Rafael Klein
+                ● Rodrigo Spier · Cassio Anorte · Paloma Schabarum
               </div>
             </div>
           </div>
