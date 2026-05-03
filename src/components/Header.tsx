@@ -127,15 +127,37 @@ const Header = () => {
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden p-2"
-            style={{ color: "#fcfaf5" }}
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label="Menu"
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Mobile — WhatsApp pill + Hamburger */}
+          <div className="lg:hidden flex items-center" style={{ gap: 10 }}>
+            <button
+              onClick={handleWhatsApp}
+              className="inline-flex items-center transition-opacity hover:opacity-90"
+              aria-label="Falar no WhatsApp"
+              style={{
+                backgroundColor: "#d4b888",
+                color: "#14110e",
+                padding: "8px 14px",
+                borderRadius: 999,
+                gap: 6,
+              }}
+            >
+              <span style={{ width: 6, height: 6, borderRadius: 999, backgroundColor: "#3ddc84", display: "inline-block" }} />
+              <span
+                className="font-mono"
+                style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase" }}
+              >
+                WhatsApp
+              </span>
+            </button>
+            <button
+              className="p-2"
+              style={{ color: "#fcfaf5" }}
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Menu"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
