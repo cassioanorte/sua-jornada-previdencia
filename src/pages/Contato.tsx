@@ -154,7 +154,7 @@ const Contato = () => {
               <div className="p-6 bg-accent/5 rounded-xl border border-accent/20">
                 <p className="text-foreground/80 text-sm">
                   <strong className="text-foreground">Atendimento rápido, honesto e 100% online.</strong><br />
-                  A primeira consulta é gratuita e sem compromisso. 
+                  A primeira consulta é sem compromisso. 
                   Fale com um especialista agora mesmo!
                 </p>
               </div>

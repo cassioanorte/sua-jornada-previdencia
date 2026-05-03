@@ -1,7 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ServiceCard from "@/components/ServiceCard";
-import TestimonialCard from "@/components/TestimonialCard";
 import AposentadoriaSimulator from "@/components/AposentadoriaSimulator";
 import ContatoSection from "@/components/ContatoSection";
 
@@ -84,29 +82,11 @@ const Index = () => {
     }
   ];
 
-  const testimonials = [
-    {
-      name: "Maria Silva",
-      location: "São Paulo - SP",
-      text: "Fui atendida com muito profissionalismo e honestidade. Consegui minha aposentadoria em apenas 6 meses!"
-    },
-    {
-      name: "João Santos",
-      location: "Rio de Janeiro - RJ",
-      text: "Depois de 2 negativas do INSS, encontrei este escritório. Hoje estou aposentado graças ao trabalho dedicado deles."
-    },
-    {
-      name: "Ana Costa",
-      location: "Belo Horizonte - MG",
-      text: "Atendimento 100% online e humanizado. Sempre responderam minhas dúvidas com clareza e paciência."
-    }
-  ];
-
   const benefits = [
-    "Mais de 13 anos de experiência exclusiva em Direito Previdenciário",
-    "Atendimento 100% digital em todo o Brasil",
+    "Mais de 12 anos de experiência exclusiva em Direito Previdenciário",
+    "Escritórios em Gramado e Nova Petrópolis · Atendimento online em todo o Brasil",
     "Transparência e honestidade em primeiro lugar",
-    "Consulta inicial gratuita"
+    "Primeira conversa sem compromisso pelo WhatsApp"
   ];
 
   return (
@@ -255,7 +235,7 @@ const Index = () => {
                   border: "1px solid rgba(212,184,136,0.25)",
                 }}
               >
-                ● Lucas Spier · Marina Anorte · Rafael Klein
+                ● Rodrigo Spier · Cassio Anorte · Paloma Schabarum
               </div>
             </div>
           </div>
@@ -273,7 +253,7 @@ const Index = () => {
             {[
               { num: "12", label: "Anos", desc: "atuando exclusivamente em previdenciário" },
               { num: "1.4k+", label: "Casos", desc: "concluídos com benefício concedido" },
-              { num: "3", label: "Estados", desc: "RS · SC · PR e atendimento remoto" },
+              { num: "2", label: "Sedes", desc: "Gramado e Nova Petrópolis · RS · atendimento remoto" },
               { num: "96%", label: "Satisfação", desc: "de clientes em pesquisa anual" },
             ].map((m, i) => (
               <div
@@ -476,19 +456,19 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" style={{ gap: 28 }}>
             {[
               {
-                name: "Rodrigo Spier",
+                name: "Rodrigo Fernando Shoeler Spier",
                 initials: "RS",
                 role: "Sócio Fundador",
                 oab: "OAB/RS 70.421",
-                bio: "Mestre em Direito Previdenciário pela PUC-RS. 14 anos atuando em JEFs e TRF4. Autoridade em benefícios por incapacidade.",
+                bio: "Atuação dedicada ao Direito Previdenciário em JEFs, varas federais e TRF4. Foco em benefícios por incapacidade, aposentadoria especial e revisões.",
                 tags: ["Incapacidade", "Aposentadoria especial", "Revisões"],
               },
               {
-                name: "Cássio Anorte",
+                name: "Cassio Fraga Anorte",
                 initials: "CA",
                 role: "Sócio Fundador",
                 oab: "OAB/RS 73.679",
-                bio: "Pós-graduada em Direito do Trabalho (UFRGS). Conselheira da Comissão de Previdência da OAB/RS. Foco em rural e maternidade.",
+                bio: "Atuação consolidada em direito previdenciário, com foco em segurado especial rural, salário-maternidade e auxílio-acidente (Tema 416 STJ).",
                 tags: ["Rural", "Maternidade", "Auxílio-acidente"],
               },
               {
