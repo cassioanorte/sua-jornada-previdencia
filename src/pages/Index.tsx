@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
+import AposentadoriaSimulator from "@/components/AposentadoriaSimulator";
 
 import { Button } from "@/components/ui/button";
 import { 
