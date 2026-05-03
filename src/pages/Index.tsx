@@ -751,7 +751,7 @@ const Index = () => {
             {[
               {
                 quote:
-                  "Achei que tinha perdido meu auxílio para sempre. Em três meses, a Dr. Cássio não só recuperou como conseguiu retroativos que eu nem sabia que tinha direito.",
+                  "Achei que tinha perdido meu auxílio para sempre. Em três meses, o Dr. Cássio não só recuperou como conseguiu retroativos que eu nem sabia que tinha direito.",
                 sign: "— Sandra L., Caxias do Sul",
               },
               {
