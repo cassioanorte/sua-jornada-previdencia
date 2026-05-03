@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import AposentadoriaSimulator from "@/components/AposentadoriaSimulator";
+import ContatoSection from "@/components/ContatoSection";
 
 import { Button } from "@/components/ui/button";
 import { 
@@ -781,29 +782,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-24 hero-gradient text-primary-foreground relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
-        </div>
-        <div className="container mx-auto px-4 text-center relative z-10">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-              Pronto para conquistar seus direitos?
-            </h2>
-            <p className="text-xl mb-10 text-primary-foreground/95 max-w-2xl mx-auto leading-relaxed">
-              Converse com um advogado especialista agora mesmo pelo WhatsApp. Atendimento rápido, honesto e 100% online.
-            </p>
-            <Button variant="hero" size="xl" onClick={handleWhatsApp} className="shadow-2xl hover:shadow-3xl animate-scale-in">
-              <Phone className="w-5 h-5" />
-              Fale com um Advogado Agora
-            </Button>
-            <p className="mt-6 text-sm text-primary-foreground/70">
-              ✓ Resposta em minutos ✓ Primeira consulta gratuita ✓ Sem compromisso
-            </p>
-          </div>
-        </div>
-      </section>
+      <ContatoSection />
 
       <Footer />
     </div>
