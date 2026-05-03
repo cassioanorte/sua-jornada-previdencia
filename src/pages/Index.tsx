@@ -648,6 +648,8 @@ const Index = () => {
       </section>
 
       {/* Testimonials Section */}
+      <AposentadoriaSimulator />
+
       <section className="py-24 section-gradient">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
