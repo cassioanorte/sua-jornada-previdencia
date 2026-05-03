@@ -352,27 +352,93 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section id="servicos" className="py-24">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-primary/5 px-4 py-2 rounded-full mb-4">
-              <Target className="w-4 h-4 text-primary" />
-              <span className="text-sm font-semibold text-primary">Nossas Especialidades</span>
+      {/* Áreas — Capítulo II */}
+      <section id="servicos" style={{ backgroundColor: "#14110e", padding: "120px 24px" }}>
+        <div className="mx-auto" style={{ maxWidth: 1320 }}>
+          {/* Header */}
+          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10" style={{ marginBottom: 64 }}>
+            <div className="lg:max-w-3xl">
+              <div
+                className="font-mono uppercase"
+                style={{ fontSize: 11, letterSpacing: "0.32em", color: "#d4b888", marginBottom: 24 }}
+              >
+                Capítulo II — Áreas
+              </div>
+              <h2
+                className="font-display"
+                style={{
+                  fontSize: "clamp(44px, 7vw, 84px)",
+                  fontWeight: 400,
+                  lineHeight: 1.02,
+                  color: "#f4ede0",
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                Tudo o que envolve seu{" "}
+                <em style={{ fontStyle: "italic", color: "#d4b888" }}>benefício</em>.
+              </h2>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
-              Áreas de Atuação
-            </h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Especializados em garantir seus direitos previdenciários com transparência e agilidade
+            <p
+              className="font-editorial italic"
+              style={{ fontSize: 18, lineHeight: 1.55, color: "#b8b1a9", maxWidth: 320 }}
+            >
+              Atuação exclusiva em direito previdenciário. Sem pulverizar em outras áreas.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {services.map((service, index) => (
-              <div key={index} className="animate-fade-in-up" style={{ animationDelay: `${index * 100}ms` }}>
-                <ServiceCard {...service} />
-              </div>
+
+          {/* Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4" style={{ gap: 12 }}>
+            {[
+              { roman: "I", title: "Aposentadorias", desc: "Idade · tempo · especial · professor · híbrida rural · regras de transição EC 103/2019.", href: "/areas-de-atuacao", line: "#d4b888" },
+              { roman: "II", title: "Incapacidade", desc: "Auxílio-doença, invalidez e auxílio-acidente. Acompanhamento de perícia médica.", href: "/auxilio-doenca", line: "#b89968" },
+              { roman: "III", title: "Benefícios rurais", desc: "Segurado especial, salário-maternidade rural, pensão e aposentadoria rural.", href: "/aposentadoria-rural", line: "#9a7d4f" },
+              { roman: "IV", title: "Salário-maternidade", desc: "Empregadas, autônomas, MEIs, desempregadas e seguradas especiais. Inclui adoção.", href: "/auxilio-maternidade", line: "#d4b888" },
+              { roman: "V", title: "Pensão por morte", desc: "União estável, dependência econômica e divisão entre dependentes.", href: "/pensao-morte", line: "#b89968" },
+              { roman: "VI", title: "BPC / LOAS", desc: "Benefício de Prestação Continuada para idosos e pessoas com deficiência.", href: "/bpc-loas", line: "#9a7d4f" },
+              { roman: "VII", title: "Revisões", desc: "Vida toda · teto · tempo especial · revisão de RMI. Análise integral do CNIS.", href: "/areas-de-atuacao", line: "#d4b888" },
+              { roman: "VIII", title: "Recursos administrativos", desc: "JR e CRPS. Para retomar benefícios cessados ou reformar decisões da Previdência.", href: "/areas-de-atuacao", line: "#b89968" },
+            ].map((card, i) => (
+              <Link
+                key={i}
+                to={card.href}
+                className="group relative flex flex-col transition-colors"
+                style={{
+                  backgroundColor: i % 2 === 0 ? "#1f1a15" : "#28221c",
+                  padding: "32px 26px 28px",
+                  minHeight: 240,
+                  borderRadius: 4,
+                  position: "relative",
+                  overflow: "hidden",
+                }}
+              >
+                {/* Top color line */}
+                <span
+                  aria-hidden="true"
+                  className="absolute top-0 left-0 right-0"
+                  style={{ height: 2, backgroundColor: card.line }}
+                />
+                <div
+                  className="font-display italic"
+                  style={{ fontSize: 30, color: "#d4b888", fontWeight: 400, lineHeight: 1, marginBottom: 20 }}
+                >
+                  {card.roman}
+                </div>
+                <h3
+                  className="font-display"
+                  style={{ fontSize: 24, fontWeight: 400, color: "#f4ede0", lineHeight: 1.2, marginBottom: 12 }}
+                >
+                  {card.title}
+                </h3>
+                <p style={{ fontSize: 13, lineHeight: 1.6, color: "#b8b1a9", textAlign: "justify", flexGrow: 1 }}>
+                  {card.desc}
+                </p>
+                <span
+                  className="font-mono uppercase transition-transform group-hover:translate-x-1"
+                  style={{ fontSize: 10, letterSpacing: "0.22em", color: "#d4b888", fontWeight: 600, marginTop: 20 }}
+                >
+                  Detalhes →
+                </span>
+              </Link>
             ))}
           </div>
         </div>
