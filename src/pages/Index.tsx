@@ -20,6 +20,8 @@ import {
   Baby
 } from "lucide-react";
 import heroImage from "@/assets/hero-law.webp";
+import teamImage from "@/assets/team.jpg";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   const handleWhatsApp = () => {
@@ -113,55 +115,192 @@ const Index = () => {
       <Header />
       
       
-      {/* Hero Section */}
-      <section className="relative hero-gradient text-primary-foreground pt-32 pb-24 overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.15]">
-          <img src={heroImage} alt="Equipe de advogados" className="w-full h-full object-cover" loading="eager" fetchPriority="high" decoding="async" />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-primary/90"></div>
+      {/* Hero — Editorial */}
+      <section className="relative overflow-hidden" style={{ backgroundColor: "#14110e", paddingTop: 112, paddingBottom: 96 }}>
+        {/* Ghost letters */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute left-1/2 -translate-x-1/2 select-none font-display italic"
+          style={{
+            top: 24,
+            fontSize: "clamp(220px, 36vw, 520px)",
+            lineHeight: 0.9,
+            color: "rgba(184,153,104,0.035)",
+            whiteSpace: "nowrap",
+            zIndex: 0,
+          }}
+        >
+          S&amp;A
         </div>
-        
-        <div className="container mx-auto px-4 relative z-10">
-          {/* Badge de Experiência */}
-          <div className="flex justify-center mb-8">
-            <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary-foreground/20 animate-scale-in">
-              <Award className="w-5 h-5 text-accent" />
-              <span className="text-sm font-semibold text-primary-foreground">13+ Anos de Excelência</span>
+
+        <div className="relative z-10 mx-auto px-6 md:px-14" style={{ maxWidth: 1320 }}>
+          {/* Centered content */}
+          <div className="mx-auto text-center" style={{ maxWidth: 1100 }}>
+            {/* Kicker */}
+            <div className="flex items-center justify-center gap-3 mb-10">
+              <span style={{ width: 28, height: 1, backgroundColor: "#d4b888", opacity: 0.6 }} />
+              <span
+                className="font-mono uppercase"
+                style={{ fontSize: 11, letterSpacing: "0.32em", color: "#d4b888" }}
+              >
+                Boutique previdenciário · est. 2014
+              </span>
+              <span style={{ width: 28, height: 1, backgroundColor: "#d4b888", opacity: 0.6 }} />
+            </div>
+
+            {/* H1 */}
+            <h1
+              className="font-display animate-fade-in"
+              style={{
+                fontSize: "clamp(52px, 8vw, 100px)",
+                fontWeight: 400,
+                lineHeight: 0.98,
+                color: "#f4ede0",
+                letterSpacing: "-0.01em",
+              }}
+            >
+              Cada benefício é um <em style={{ color: "#d4b888", fontStyle: "italic" }}>direito</em>.
+              <br />
+              Cada cliente, uma <em style={{ color: "#d4b888", fontStyle: "italic" }}>história</em>.
+            </h1>
+
+            {/* Subtitle */}
+            <p
+              className="font-editorial italic mx-auto"
+              style={{
+                fontSize: 22,
+                lineHeight: 1.55,
+                color: "#b8b1a9",
+                maxWidth: 720,
+                marginTop: 36,
+              }}
+            >
+              Defendemos aposentadorias, benefícios por incapacidade, auxílios e revisões com a profundidade técnica
+              que cada caso previdenciário exige — e com a escuta humana que ele merece.
+            </p>
+
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4" style={{ marginTop: 48 }}>
+              <button
+                onClick={handleWhatsApp}
+                className="inline-flex items-center transition-opacity hover:opacity-90"
+                style={{
+                  backgroundColor: "#d4b888",
+                  color: "#14110e",
+                  padding: "16px 28px",
+                  borderRadius: 999,
+                  gap: 10,
+                }}
+              >
+                <span style={{ width: 7, height: 7, borderRadius: 999, backgroundColor: "#1f7a3d" }} />
+                <span
+                  className="font-mono uppercase"
+                  style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.18em" }}
+                >
+                  Falar no WhatsApp
+                </span>
+              </button>
+              <Link
+                to="/areas-de-atuacao"
+                className="inline-flex items-center transition-colors hover:bg-[rgba(212,184,136,0.08)]"
+                style={{
+                  border: "1px solid rgba(212,184,136,0.45)",
+                  color: "#f4ede0",
+                  padding: "16px 28px",
+                  borderRadius: 999,
+                  gap: 10,
+                }}
+              >
+                <span
+                  className="font-mono uppercase"
+                  style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.18em" }}
+                >
+                  Áreas de atuação →
+                </span>
+              </Link>
             </div>
           </div>
 
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in leading-tight">
-              Seu direito previdenciário garantido com rapidez, honestidade e experiência
-            </h1>
-            <p className="text-xl md:text-2xl mb-4 text-primary-foreground leading-relaxed animate-fade-in-up font-body font-medium">
-              Há mais de 13 anos ajudando brasileiros a conquistar seus benefícios do INSS com segurança e transparência
-            </p>
-            
-            {/* Estatísticas */}
-            <div className="grid grid-cols-3 gap-6 max-w-2xl mx-auto mb-10 animate-fade-in-up">
-              <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-primary-foreground mb-1">+3.000</div>
-                <div className="text-sm text-primary-foreground/80">Casos Atendidos</div>
-              </div>
-              <div className="text-center border-x border-primary-foreground/20">
-                <div className="text-3xl md:text-4xl font-bold text-primary-foreground mb-1">98%</div>
-                <div className="text-sm text-primary-foreground/80">Taxa de Sucesso</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-primary-foreground mb-1">100%</div>
-                <div className="text-sm text-primary-foreground/80">Digital</div>
+          {/* Team photo */}
+          <div className="relative mx-auto" style={{ marginTop: 80, maxWidth: 1320 }}>
+            <div className="relative overflow-hidden" style={{ aspectRatio: "21/9" }}>
+              <img
+                src={teamImage}
+                alt="Equipe Spier & Anorte Advogados"
+                className="w-full h-full object-cover"
+                style={{ filter: "brightness(0.92) contrast(1.08)" }}
+                loading="eager"
+                fetchPriority="high"
+              />
+              {/* Inner decorative frame */}
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute"
+                style={{
+                  inset: 16,
+                  border: "1px solid rgba(212,184,136,0.35)",
+                }}
+              />
+              {/* Caption tag */}
+              <div
+                className="absolute font-mono uppercase"
+                style={{
+                  left: 32,
+                  bottom: 32,
+                  fontSize: 10,
+                  letterSpacing: "0.22em",
+                  color: "#d4b888",
+                  backgroundColor: "rgba(20,17,14,0.55)",
+                  backdropFilter: "blur(8px)",
+                  padding: "8px 14px",
+                  border: "1px solid rgba(212,184,136,0.25)",
+                }}
+              >
+                ● Lucas Spier · Marina Anorte · Rafael Klein
               </div>
             </div>
+          </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="xl" onClick={handleWhatsApp} className="shadow-xl hover:shadow-2xl">
-                <Phone className="w-5 h-5" />
-                Agende sua Consulta
-              </Button>
-              <Button variant="outline" size="xl" asChild className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 border-2 shadow-lg">
-                <a href="#servicos">Conheça Nossos Serviços</a>
-              </Button>
-            </div>
+          {/* Metrics row */}
+          <div
+            className="grid grid-cols-2 md:grid-cols-4"
+            style={{
+              marginTop: 64,
+              paddingTop: 40,
+              borderTop: "1px solid rgba(184,153,104,0.18)",
+              gap: 24,
+            }}
+          >
+            {[
+              { num: "12", label: "Anos", desc: "atuando exclusivamente em previdenciário" },
+              { num: "1.4k+", label: "Casos", desc: "concluídos com benefício concedido" },
+              { num: "3", label: "Estados", desc: "RS · SC · PR e atendimento remoto" },
+              { num: "96%", label: "Satisfação", desc: "de clientes em pesquisa anual" },
+            ].map((m, i) => (
+              <div
+                key={i}
+                style={{
+                  borderLeft: "1px solid rgba(184,153,104,0.18)",
+                  paddingLeft: 24,
+                }}
+              >
+                <div
+                  className="font-display italic"
+                  style={{ fontSize: 56, color: "#d4b888", fontWeight: 400, lineHeight: 1 }}
+                >
+                  {m.num}
+                </div>
+                <div
+                  className="font-mono uppercase"
+                  style={{ fontSize: 11, letterSpacing: "0.22em", color: "#f4ede0", marginTop: 12 }}
+                >
+                  {m.label}
+                </div>
+                <div style={{ fontSize: 13, color: "#b8b1a9", marginTop: 8, lineHeight: 1.5 }}>
+                  {m.desc}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
