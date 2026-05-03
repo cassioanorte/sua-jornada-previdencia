@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
+import AposentadoriaSimulator from "@/components/AposentadoriaSimulator";
 
 import { Button } from "@/components/ui/button";
 import { 
@@ -647,6 +648,8 @@ const Index = () => {
       </section>
 
       {/* Testimonials Section */}
+      <AposentadoriaSimulator />
+
       <section className="py-24 section-gradient">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
