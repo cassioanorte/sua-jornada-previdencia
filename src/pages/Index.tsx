@@ -18,6 +18,7 @@ import {
   Home,
 } from "lucide-react";
 import teamImage from "@/assets/team.jpg";
+import socioRodrigo from "@/assets/socio-rodrigo.png";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -462,6 +463,7 @@ const Index = () => {
                 oab: "OAB/RS 70.421",
                 bio: "Atuação dedicada ao Direito Previdenciário em JEFs, varas federais e TRF4. Foco em benefícios por incapacidade, aposentadoria especial e revisões.",
                 tags: ["Incapacidade", "Aposentadoria especial", "Revisões"],
+                photo: socioRodrigo,
               },
               {
                 name: "Cassio Fraga Anorte",
@@ -470,6 +472,7 @@ const Index = () => {
                 oab: "OAB/RS 73.679",
                 bio: "Atuação consolidada em direito previdenciário, com foco em segurado especial rural, salário-maternidade e auxílio-acidente (Tema 416 STJ).",
                 tags: ["Rural", "Maternidade", "Auxílio-acidente"],
+                photo: null,
               },
               {
                 name: "Paloma Nicole Schabarum",
@@ -478,6 +481,7 @@ const Index = () => {
                 oab: "OAB/RS 125.105",
                 bio: "Especialista em revisões e cálculos previdenciários. Coordena a carteira de revisão da vida toda e teto do escritório.",
                 tags: ["Revisões", "Cálculos", "Recursos JR/CRPS"],
+                photo: null,
               },
             ].map((p, i) => (
               <article
@@ -499,17 +503,33 @@ const Index = () => {
                     background: "linear-gradient(160deg, #3a2418 0%, #4a2e1f 100%)",
                   }}
                 >
-                  <span
-                    className="font-display italic select-none"
-                    style={{
-                      fontSize: 96,
-                      color: "rgba(212,184,136,0.22)",
-                      lineHeight: 1,
-                    }}
-                  >
-                    {p.initials}
-                  </span>
-                  <span
+                  {p.photo ? (
+                    <img
+                      src={p.photo}
+                      alt={`Retrato de ${p.name}`}
+                      loading="lazy"
+                      style={{
+                        position: "absolute",
+                        inset: 0,
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                        objectPosition: "center top",
+                      }}
+                    />
+                  ) : (
+                    <span
+                      className="font-display italic select-none"
+                      style={{
+                        fontSize: 96,
+                        color: "rgba(212,184,136,0.22)",
+                        lineHeight: 1,
+                      }}
+                    >
+                      {p.initials}
+                    </span>
+                  )}
+                  {!p.photo && <span
                     className="absolute font-mono uppercase"
                     style={{
                       left: 18,
@@ -520,7 +540,7 @@ const Index = () => {
                     }}
                   >
                     Foto · Retrato individual
-                  </span>
+                  </span>}
                 </div>
 
                 {/* Content */}
