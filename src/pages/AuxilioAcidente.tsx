@@ -132,7 +132,7 @@ const AuxilioAcidente = () => {
             Sofreu um acidente e ficou com sequelas?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Você pode ter direito ao auxílio-acidente. Fale conosco para uma análise gratuita do seu caso.
+            Você pode ter direito ao auxílio-acidente. Fale conosco para uma análise inicial do seu caso.
           </p>
           <Button variant="hero" size="xl" onClick={handleWhatsApp}>
             <Phone className="w-5 h-5" />
