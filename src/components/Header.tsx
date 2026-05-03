@@ -1,28 +1,17 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Menu, X, Phone } from "lucide-react";
-import logo from "@/assets/logo-spier-anorte.jpeg";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   const navigation = [
-    { name: "Início", href: "/" },
-    { name: "Quem Somos", href: "/quem-somos" },
-    { name: "Áreas de Atuação", href: "/areas-de-atuacao" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contato", href: "/contato" },
+    { name: "Áreas", href: "/areas-de-atuacao" },
+    { name: "Sócios", href: "/quem-somos" },
+    { name: "Casos", href: "/quem-somos#casos" },
+    { name: "Conteúdo", href: "/blog" },
+    { name: "FAQ", href: "/contato#faq" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -33,53 +22,117 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${
-        isScrolled ? "bg-background/95 backdrop-blur-sm card-shadow" : "bg-background"
-      }`}
+      className="fixed top-0 left-0 right-0 z-50"
+      style={{
+        backgroundColor: "#14110e",
+        borderBottom: "1px solid rgba(184,153,104,0.18)",
+      }}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link to="/" className="flex items-center hover:opacity-90 transition-opacity">
-            <img 
-              src={logo}
-              alt="Spier & Anorte Advogados Associados" 
-              className={`w-auto transition-all duration-300 ${isScrolled ? 'h-10' : 'h-14'}`}
-            />
+      <div className="mx-auto" style={{ maxWidth: "1320px", padding: "20px 24px" }}>
+        <div className="flex items-center justify-between gap-8 lg:px-8">
+          {/* LEFT — Monogram + Wordmark */}
+          <Link to="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity">
+            <div
+              className="flex items-center justify-center flex-shrink-0"
+              style={{
+                width: 38,
+                height: 38,
+                backgroundColor: "#d4b888",
+                borderRadius: 2,
+              }}
+              aria-hidden="true"
+            >
+              <span className="font-display italic leading-none" style={{ fontSize: 22, color: "#14110e" }}>
+                S
+              </span>
+              <span
+                className="font-display italic leading-none"
+                style={{ fontSize: 22, color: "#4a2e1f", marginLeft: -3 }}
+              >
+                A
+              </span>
+            </div>
+            <div className="flex flex-col leading-tight">
+              <span className="font-display italic" style={{ fontSize: 20, color: "#fcfaf5" }}>
+                Spier <span style={{ color: "#d4b888" }}>&</span> Anorte
+              </span>
+              <span
+                className="font-mono"
+                style={{
+                  fontSize: 9,
+                  letterSpacing: "0.28em",
+                  color: "#d4b888",
+                  textTransform: "uppercase",
+                  marginTop: 2,
+                }}
+              >
+                Direito Previdenciário
+              </span>
+            </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          {/* CENTER — Nav */}
+          <nav className="hidden lg:flex items-center" style={{ gap: 32 }}>
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
-                className={`text-sm font-medium transition-all relative group ${
-                  isActive(item.href)
-                    ? "text-primary"
-                    : "text-foreground/70 hover:text-primary"
-                }`}
+                className="font-mono uppercase transition-colors hover:text-[#d4b888]"
+                style={{
+                  fontSize: 11,
+                  letterSpacing: "0.2em",
+                  color: isActive(item.href) ? "#d4b888" : "#b8b1a9",
+                }}
               >
                 {item.name}
-                <span className={`absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300 ${
-                  isActive(item.href) ? 'w-full' : 'w-0 group-hover:w-full'
-                }`}></span>
               </Link>
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="cta" size="sm" onClick={handleWhatsApp} className="shadow-sm hover:shadow-md">
-              <Phone className="w-4 h-4" />
-              Consulte Agora
-            </Button>
+          {/* RIGHT — Phone + WhatsApp pill */}
+          <div className="hidden lg:flex items-center" style={{ gap: 20 }}>
+            <a
+              href="tel:+5551999990000"
+              className="font-mono"
+              style={{ fontSize: 11, color: "#b8b1a9", letterSpacing: "0.08em" }}
+            >
+              (51) 99999-0000
+            </a>
+            <button
+              onClick={handleWhatsApp}
+              className="inline-flex items-center transition-opacity hover:opacity-90"
+              style={{
+                backgroundColor: "#d4b888",
+                color: "#14110e",
+                padding: "11px 18px",
+                borderRadius: 999,
+                gap: 8,
+              }}
+            >
+              <span
+                style={{
+                  width: 6,
+                  height: 6,
+                  borderRadius: 999,
+                  backgroundColor: "#3ddc84",
+                  display: "inline-block",
+                }}
+              />
+              <span
+                className="font-mono"
+                style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase" }}
+              >
+                WhatsApp
+              </span>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-foreground"
+            className="lg:hidden p-2"
+            style={{ color: "#fcfaf5" }}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Menu"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -87,26 +140,47 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-6 border-t border-border animate-fade-in">
+          <div
+            className="lg:hidden py-6 animate-fade-in"
+            style={{ borderTop: "1px solid rgba(184,153,104,0.18)" }}
+          >
             <nav className="flex flex-col space-y-4">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`text-base font-medium transition-smooth py-2 ${
-                    isActive(item.href)
-                      ? "text-primary"
-                      : "text-foreground/70 hover:text-primary"
-                  }`}
+                  className="font-mono uppercase py-2"
+                  style={{
+                    fontSize: 11,
+                    letterSpacing: "0.2em",
+                    color: isActive(item.href) ? "#d4b888" : "#b8b1a9",
+                  }}
                 >
                   {item.name}
                 </Link>
               ))}
-              <Button variant="cta" size="lg" onClick={handleWhatsApp} className="w-full mt-4">
-                <Phone className="w-4 h-4" />
-                Consulte Agora
-              </Button>
+              <button
+                onClick={handleWhatsApp}
+                className="inline-flex items-center justify-center w-full mt-4"
+                style={{
+                  backgroundColor: "#d4b888",
+                  color: "#14110e",
+                  padding: "13px 18px",
+                  borderRadius: 999,
+                  gap: 8,
+                }}
+              >
+                <span
+                  style={{ width: 6, height: 6, borderRadius: 999, backgroundColor: "#3ddc84" }}
+                />
+                <span
+                  className="font-mono"
+                  style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase" }}
+                >
+                  WhatsApp
+                </span>
+              </button>
             </nav>
           </div>
         )}
