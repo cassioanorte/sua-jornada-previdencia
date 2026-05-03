@@ -456,19 +456,19 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" style={{ gap: 28 }}>
             {[
               {
-                name: "Rodrigo Spier",
+                name: "Rodrigo Fernando Shoeler Spier",
                 initials: "RS",
                 role: "Sócio Fundador",
                 oab: "OAB/RS 70.421",
-                bio: "Mestre em Direito Previdenciário pela PUC-RS. 14 anos atuando em JEFs e TRF4. Autoridade em benefícios por incapacidade.",
+                bio: "Atuação dedicada ao Direito Previdenciário em JEFs, varas federais e TRF4. Foco em benefícios por incapacidade, aposentadoria especial e revisões.",
                 tags: ["Incapacidade", "Aposentadoria especial", "Revisões"],
               },
               {
-                name: "Cássio Anorte",
+                name: "Cassio Fraga Anorte",
                 initials: "CA",
                 role: "Sócio Fundador",
                 oab: "OAB/RS 73.679",
-                bio: "Pós-graduada em Direito do Trabalho (UFRGS). Conselheira da Comissão de Previdência da OAB/RS. Foco em rural e maternidade.",
+                bio: "Atuação consolidada em direito previdenciário, com foco em segurado especial rural, salário-maternidade e auxílio-acidente (Tema 416 STJ).",
                 tags: ["Rural", "Maternidade", "Auxílio-acidente"],
               },
               {
