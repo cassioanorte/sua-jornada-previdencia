@@ -444,6 +444,148 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Sócios — Capítulo III (cream surface) */}
+      <section style={{ backgroundColor: "#f4ede0", color: "#1a1614", padding: "120px 24px" }}>
+        <div className="mx-auto" style={{ maxWidth: 1320 }}>
+          {/* Header */}
+          <div style={{ marginBottom: 64 }}>
+            <div
+              className="font-mono uppercase"
+              style={{ fontSize: 11, letterSpacing: "0.32em", color: "#9a7d4f", marginBottom: 24 }}
+            >
+              Capítulo III — Sócios
+            </div>
+            <h2
+              className="font-display"
+              style={{
+                fontSize: "clamp(44px, 7vw, 84px)",
+                fontWeight: 400,
+                lineHeight: 1.02,
+                color: "#4a2e1f",
+                letterSpacing: "-0.01em",
+                maxWidth: 1100,
+              }}
+            >
+              Quem realmente <em style={{ fontStyle: "italic", color: "#d4b888" }}>cuida</em> do seu caso.
+            </h2>
+          </div>
+
+          {/* Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" style={{ gap: 28 }}>
+            {[
+              {
+                name: "Rodrigo Spier",
+                initials: "RS",
+                role: "Sócio Fundador",
+                oab: "OAB/RS 70.421",
+                bio: "Mestre em Direito Previdenciário pela PUC-RS. 14 anos atuando em JEFs e TRF4. Autoridade em benefícios por incapacidade.",
+                tags: ["Incapacidade", "Aposentadoria especial", "Revisões"],
+              },
+              {
+                name: "Cássio Anorte",
+                initials: "CA",
+                role: "Sócio Fundador",
+                oab: "OAB/RS 73.679",
+                bio: "Pós-graduada em Direito do Trabalho (UFRGS). Conselheira da Comissão de Previdência da OAB/RS. Foco em rural e maternidade.",
+                tags: ["Rural", "Maternidade", "Auxílio-acidente"],
+              },
+              {
+                name: "Paloma Nicole Schabarum",
+                initials: "PS",
+                role: "Advogada Sênior",
+                oab: "OAB/RS 125.105",
+                bio: "Especialista em revisões e cálculos previdenciários. Coordena a carteira de revisão da vida toda e teto do escritório.",
+                tags: ["Revisões", "Cálculos", "Recursos JR/CRPS"],
+              },
+            ].map((p, i) => (
+              <article
+                key={i}
+                style={{
+                  backgroundColor: "#fcfaf5",
+                  border: "1px solid rgba(74,46,31,0.12)",
+                  borderRadius: 6,
+                  overflow: "hidden",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                {/* Photo placeholder */}
+                <div
+                  className="relative flex items-center justify-center"
+                  style={{
+                    aspectRatio: "4/5",
+                    background: "linear-gradient(160deg, #3a2418 0%, #4a2e1f 100%)",
+                  }}
+                >
+                  <span
+                    className="font-display italic select-none"
+                    style={{
+                      fontSize: 96,
+                      color: "rgba(212,184,136,0.22)",
+                      lineHeight: 1,
+                    }}
+                  >
+                    {p.initials}
+                  </span>
+                  <span
+                    className="absolute font-mono uppercase"
+                    style={{
+                      left: 18,
+                      bottom: 18,
+                      fontSize: 9,
+                      letterSpacing: "0.24em",
+                      color: "#d4b888",
+                    }}
+                  >
+                    Foto · Retrato individual
+                  </span>
+                </div>
+
+                {/* Content */}
+                <div style={{ padding: 28, display: "flex", flexDirection: "column", gap: 14, flexGrow: 1 }}>
+                  <div
+                    className="font-mono uppercase"
+                    style={{ fontSize: 10, letterSpacing: "0.22em", color: "#9a7d4f" }}
+                  >
+                    {p.role} · {p.oab}
+                  </div>
+                  <h3
+                    className="font-display"
+                    style={{ fontSize: 32, fontWeight: 400, color: "#4a2e1f", lineHeight: 1.1 }}
+                  >
+                    {p.name}
+                  </h3>
+                  <p
+                    className="font-editorial"
+                    style={{ fontSize: 16, lineHeight: 1.55, color: "#4a423d", textAlign: "justify" }}
+                  >
+                    {p.bio}
+                  </p>
+                  <div className="flex flex-wrap" style={{ gap: 8, marginTop: "auto", paddingTop: 8 }}>
+                    {p.tags.map((t) => (
+                      <span
+                        key={t}
+                        className="font-mono uppercase"
+                        style={{
+                          fontSize: 10,
+                          letterSpacing: "0.18em",
+                          padding: "5px 10px",
+                          border: "1px solid rgba(74,46,31,0.25)",
+                          color: "#4a2e1f",
+                          borderRadius: 2,
+                        }}
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="py-24 section-gradient">
         <div className="container mx-auto px-4">
