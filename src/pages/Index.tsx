@@ -207,7 +207,7 @@ const Index = () => {
                 src={teamImage}
                 alt="Equipe Spier & Anorte Advogados"
                 className="w-full h-full object-cover"
-                style={{ filter: "brightness(0.92) contrast(1.08)" }}
+                style={{ filter: "brightness(0.92) contrast(1.08)", objectPosition: "center top" }}
                 loading="eager"
                 fetchPriority="high"
               />
@@ -235,7 +235,7 @@ const Index = () => {
                   border: "1px solid rgba(212,184,136,0.25)",
                 }}
               >
-                ● Rodrigo Spier · Cassio Anorte · Paloma Schabarum
+                ● Cássio Anorte · Paloma Schabarum · Rodrigo Spier
               </div>
             </div>
           </div>
