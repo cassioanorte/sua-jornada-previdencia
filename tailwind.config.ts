@@ -13,12 +13,38 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        editorial: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        sans: ['"Inter Tight"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+      },
+      maxWidth: {
+        editorial: '1320px',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        night: {
+          DEFAULT: "hsl(var(--night))",
+          soft: "hsl(var(--night-soft))",
+          card: "hsl(var(--night-card))",
+          line: "hsl(var(--night-line) / 0.18)",
+        },
+        gold: {
+          soft: "hsl(var(--gold-soft))",
+          deep: "hsl(var(--gold-deep))",
+        },
+        brown: "hsl(var(--brown))",
+        cream: "hsl(var(--cream))",
+        "white-warm": "hsl(var(--white-warm))",
+        stone: {
+          DEFAULT: "hsl(var(--stone))",
+          soft: "hsl(var(--stone-soft))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
