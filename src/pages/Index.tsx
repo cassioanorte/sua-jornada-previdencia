@@ -650,26 +650,132 @@ const Index = () => {
       {/* Testimonials Section */}
       <AposentadoriaSimulator />
 
-      <section className="py-24 section-gradient">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-primary/5 px-4 py-2 rounded-full mb-4">
-              <TrendingUp className="w-4 h-4 text-primary" />
-              <span className="text-sm font-semibold text-primary">Histórias Reais</span>
+      {/* Casos & Depoimentos — Capítulo VI */}
+      <section style={{ backgroundColor: "#14110e", padding: "120px 24px" }}>
+        <div className="mx-auto" style={{ maxWidth: 1320 }}>
+          {/* Header */}
+          <div style={{ marginBottom: 64 }}>
+            <div
+              className="font-mono uppercase"
+              style={{ fontSize: 11, letterSpacing: "0.32em", color: "#d4b888", marginBottom: 24 }}
+            >
+              Capítulo VI — Casos
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
-              O que nossos clientes dizem
+            <h2
+              className="font-display"
+              style={{
+                fontSize: "clamp(44px, 7vw, 84px)",
+                fontWeight: 400,
+                lineHeight: 1.02,
+                color: "#f4ede0",
+                letterSpacing: "-0.01em",
+                maxWidth: 1100,
+              }}
+            >
+              <em style={{ fontStyle: "italic", color: "#d4b888" }}>Histórias</em> que viraram benefícios.
             </h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Transparência e resultados que transformam vidas
-            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="animate-fade-in-up" style={{ animationDelay: `${index * 150}ms` }}>
-                <TestimonialCard {...testimonial} />
+
+          {/* Editorial list */}
+          <div style={{ borderTop: "1px solid rgba(184,153,104,0.18)" }}>
+            {[
+              {
+                year: "2025",
+                title: "Auxílio-doença restabelecido após 4 negativas administrativas",
+                desc: "Cliente com fibromialgia severa havia tido o benefício cessado três vezes. Reverteu-se em juízo com perícia judicial — retroativos de R$ 47.000.",
+                tag: "Incapacidade · TRF4",
+              },
+              {
+                year: "2024",
+                title: "Aposentadoria especial a soldador (32 anos de exposição)",
+                desc: "Reconhecimento integral de tempo especial por agentes nocivos, com conversão e revisão da RMI.",
+                tag: "Especial · INSS",
+              },
+              {
+                year: "2024",
+                title: "Salário-maternidade rural sem documentação cartorial",
+                desc: "Comprovação por início de prova material + testemunhal robusta para segurada especial no Vale do Taquari.",
+                tag: "Rural · JEF",
+              },
+            ].map((c, i) => (
+              <div
+                key={i}
+                className="grid grid-cols-1 md:grid-cols-[120px_1fr_240px]"
+                style={{
+                  padding: "32px 0",
+                  borderBottom: "1px solid rgba(184,153,104,0.18)",
+                  gap: 24,
+                  alignItems: "start",
+                }}
+              >
+                <div
+                  className="font-display italic"
+                  style={{ fontSize: 56, color: "#d4b888", fontWeight: 400, lineHeight: 1 }}
+                >
+                  {c.year}
+                </div>
+                <div>
+                  <h3
+                    className="font-display"
+                    style={{ fontSize: 28, fontWeight: 400, color: "#f4ede0", lineHeight: 1.2, marginBottom: 12 }}
+                  >
+                    {c.title}
+                  </h3>
+                  <p
+                    className="font-editorial"
+                    style={{ fontSize: 17, lineHeight: 1.55, color: "#b8b1a9", textAlign: "justify" }}
+                  >
+                    {c.desc}
+                  </p>
+                </div>
+                <div
+                  className="font-mono uppercase md:text-right"
+                  style={{ fontSize: 10, letterSpacing: "0.22em", color: "#d4b888", paddingTop: 12 }}
+                >
+                  {c.tag}
+                </div>
               </div>
+            ))}
+          </div>
+
+          {/* Depoimentos */}
+          <div
+            className="grid grid-cols-1 md:grid-cols-2"
+            style={{
+              marginTop: 80,
+              paddingTop: 48,
+              borderTop: "1px solid rgba(184,153,104,0.18)",
+              gap: 64,
+            }}
+          >
+            {[
+              {
+                quote:
+                  "Achei que tinha perdido meu auxílio para sempre. Em três meses, a Dr. Cássio não só recuperou como conseguiu retroativos que eu nem sabia que tinha direito.",
+                sign: "— Sandra L., Caxias do Sul",
+              },
+              {
+                quote:
+                  "Outro escritório tinha desistido do meu caso. O Dr. Rodrigo leu meu CNIS página por página e encontrou tempo especial que ninguém viu.",
+                sign: "— Antônio P., Pelotas",
+              },
+            ].map((d, i) => (
+              <figure key={i}>
+                <blockquote
+                  className="font-editorial italic"
+                  style={{ fontSize: 22, lineHeight: 1.5, color: "#f4ede0", textAlign: "justify" }}
+                >
+                  <span style={{ color: "#d4b888" }}>“</span>
+                  {d.quote}
+                  <span style={{ color: "#d4b888" }}>”</span>
+                </blockquote>
+                <figcaption
+                  className="font-mono uppercase"
+                  style={{ fontSize: 10, letterSpacing: "0.24em", color: "#d4b888", marginTop: 24 }}
+                >
+                  {d.sign}
+                </figcaption>
+              </figure>
             ))}
           </div>
         </div>
