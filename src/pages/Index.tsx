@@ -586,6 +586,66 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Processo — Capítulo IV */}
+      <section style={{ backgroundColor: "#14110e", padding: "120px 24px" }}>
+        <div className="mx-auto" style={{ maxWidth: 1320 }}>
+          <div style={{ marginBottom: 64 }}>
+            <div
+              className="font-mono uppercase"
+              style={{ fontSize: 11, letterSpacing: "0.32em", color: "#d4b888", marginBottom: 24 }}
+            >
+              Capítulo IV — Processo
+            </div>
+            <h2
+              className="font-display"
+              style={{
+                fontSize: "clamp(44px, 7vw, 84px)",
+                fontWeight: 400,
+                lineHeight: 1.02,
+                color: "#f4ede0",
+                letterSpacing: "-0.01em",
+                maxWidth: 1100,
+              }}
+            >
+              Quatro etapas. Sem promessa <em style={{ fontStyle: "italic", color: "#d4b888" }}>vazia</em>.
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4" style={{ gap: 24 }}>
+            {[
+              { n: "01", title: "Conversa inicial", desc: "Você nos manda um WhatsApp com o que está acontecendo. Sem custo, sem compromisso." },
+              { n: "02", title: "Análise do CNIS", desc: "Lemos seu CNIS página por página, identificamos vínculos, períodos especiais e lacunas." },
+              { n: "03", title: "Estratégia honesta", desc: "Te dizemos o que é viável, o que não é e o que precisa de mais informação." },
+              { n: "04", title: "Defesa ativa", desc: "Administrativo e judicial. Acompanhamento de perícia. Recursos. Sempre com sócio responsável." },
+            ].map((s) => (
+              <div
+                key={s.n}
+                style={{
+                  borderTop: "1px solid rgba(184,153,104,0.18)",
+                  paddingTop: 28,
+                }}
+              >
+                <div
+                  className="font-display italic"
+                  style={{ fontSize: 64, color: "#d4b888", fontWeight: 400, lineHeight: 1, marginBottom: 20 }}
+                >
+                  {s.n}
+                </div>
+                <h3
+                  className="font-display"
+                  style={{ fontSize: 26, fontWeight: 400, color: "#f4ede0", lineHeight: 1.2, marginBottom: 12 }}
+                >
+                  {s.title}
+                </h3>
+                <p style={{ fontSize: 14, lineHeight: 1.65, color: "#b8b1a9", textAlign: "justify" }}>
+                  {s.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="py-24 section-gradient">
         <div className="container mx-auto px-4">
