@@ -1,7 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ServiceCard from "@/components/ServiceCard";
-import TestimonialCard from "@/components/TestimonialCard";
 import AposentadoriaSimulator from "@/components/AposentadoriaSimulator";
 import ContatoSection from "@/components/ContatoSection";
 
@@ -84,29 +82,11 @@ const Index = () => {
     }
   ];
 
-  const testimonials = [
-    {
-      name: "Maria Silva",
-      location: "São Paulo - SP",
-      text: "Fui atendida com muito profissionalismo e honestidade. Consegui minha aposentadoria em apenas 6 meses!"
-    },
-    {
-      name: "João Santos",
-      location: "Rio de Janeiro - RJ",
-      text: "Depois de 2 negativas do INSS, encontrei este escritório. Hoje estou aposentado graças ao trabalho dedicado deles."
-    },
-    {
-      name: "Ana Costa",
-      location: "Belo Horizonte - MG",
-      text: "Atendimento 100% online e humanizado. Sempre responderam minhas dúvidas com clareza e paciência."
-    }
-  ];
-
   const benefits = [
-    "Mais de 13 anos de experiência exclusiva em Direito Previdenciário",
-    "Atendimento 100% digital em todo o Brasil",
+    "Mais de 12 anos de experiência exclusiva em Direito Previdenciário",
+    "Escritórios em Gramado e Nova Petrópolis · Atendimento online em todo o Brasil",
     "Transparência e honestidade em primeiro lugar",
-    "Consulta inicial gratuita"
+    "Primeira conversa sem compromisso pelo WhatsApp"
   ];
 
   return (
