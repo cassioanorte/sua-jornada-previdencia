@@ -13,13 +13,10 @@ import {
   FileText,
   Phone,
   CheckCircle,
-  Award,
   Target,
   TrendingUp,
   Home,
-  Baby
 } from "lucide-react";
-import heroImage from "@/assets/hero-law.webp";
 import teamImage from "@/assets/team.jpg";
 import { Link } from "react-router-dom";
 
