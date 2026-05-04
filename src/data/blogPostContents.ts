@@ -1,6 +1,48 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
 
+  "auxilio-acidente-beneficio-vitalicio": `
+O auxílio-acidente é um dos benefícios previdenciários menos compreendidos — e um dos mais importantes para quem sofreu acidente de trabalho e ficou com sequelas permanentes. Diferente do auxílio-doença (hoje Benefício por Incapacidade Temporária), que é pago apenas enquanto durar a incapacidade, o auxílio-acidente tem caráter **vitalício** e **indenizatório**: ele compensa a redução da capacidade laboral deixada pela sequela definitiva do acidente.
+
+## O que é o auxílio-acidente?
+
+Previsto no artigo 86 da Lei 8.213/91, o auxílio-acidente é um benefício pago ao segurado que, após consolidação das lesões decorrentes de acidente de qualquer natureza, apresenta **sequela permanente** que reduza sua capacidade para o trabalho que habitualmente exercia.
+
+É importante destacar: **não é preciso estar incapacitado para o trabalho**. A redução da capacidade pode ser mínima — o que importa é que a sequela seja definitiva e cause alguma limitação.
+
+## Quem tem direito?
+
+- Empregados (urbanos e rurais)
+- Trabalhadores avulsos
+- Segurados especiais (agricultores familiares, pescadores artesanais)
+- **Não** é devido a contribuintes individuais (autônomos) e segurados facultativos
+
+O acidente pode ser de qualquer natureza:
+- Acidente típico de trabalho
+- Acidente de trajeto (casa-trabalho, trabalho-casa)
+- Doença ocupacional equiparada a acidente
+
+## Qual o valor do benefício?
+
+O auxílio-acidente corresponde a **50% do salário-de-benefício** do segurado. É pago mensalmente a partir do dia seguinte ao fim do auxílio-doença (se houve afastamento) ou da data de consolidação das lesões.
+
+## Acúmulo com salário
+
+Uma característica importante: o auxílio-acidente **pode ser acumulado com o salário**. O segurado continua trabalhando normalmente e recebe o benefício como uma indenização pela sequela. Isso é diferente de outros benefícios por incapacidade, que exigem afastamento.
+
+## Se o INSS negar
+
+O INSS frequentemente nega o auxílio-acidente alegando que a sequela não reduz a capacidade laboral ou que não há nexo com o acidente. Nesses casos, é possível:
+1. **Recurso administrativo** à Junta de Recursos do INSS (prazo: 30 dias)
+2. **Ação judicial** perante a Justiça Federal
+
+Na via judicial, a perícia médica é determinante. Laudos bem elaborados, exames e registros médicos são provas essenciais.
+
+Precisa de orientação? Fale com a gente.
+
+📲 (54) 99987-0786 | spiereanorte.adv.br
+`,
+
   "conversao-tempo-especial-comum": `
 A conversão do tempo especial em tempo comum é uma ferramenta importante no planejamento previdenciário. Para muitos trabalhadores, ela representa a possibilidade de somar períodos laborais desempenhados em condições nocivas ao tempo necessário para aposentadoria por tempo de contribuição. Contudo, a conversão é uma operação técnica que exige análise cuidadosa: ela aumenta o tempo, mas pode alterar a base de cálculo do benefício e, em determinados cenários, reduzir a renda mensal. Este texto explica, de forma prática e objetiva, quando a conversão costuma compensar, quando evitá-la, como preparar o pedido administrativo, o que provar e como avaliar o impacto financeiro com exemplos em reais, checklists e modelo de requerimento pronto para uso.
 

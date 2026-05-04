@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-beneficio-vitalicio",
+    cluster: "acidente" as BlogCluster,
+    image: "/blog/auxilio-acidente-beneficio-vitalicio.jpg",
+    title: "Auxílio-Acidente: sequelas do trabalho geram direito a benefício vitalício",
+    excerpt: "Entenda como funciona o auxílio-acidente, quem tem direito e como recorrer se o INSS negar.",
+    date: "3 de maio de 2026",
+    category: "Acidente de Trabalho",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "conversao-tempo-especial-comum",
     cluster: "aposentadoria-especial" as BlogCluster,
     image: "/blog/conversao-tempo-especial-comum.jpg",
