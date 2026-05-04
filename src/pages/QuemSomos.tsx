@@ -72,22 +72,23 @@ const QuemSomos = () => {
             </h2>
             <div className="space-y-6 text-lg text-foreground/80" style={{ textAlign: 'justify' }}>
               <p>
-                Há mais de 13 anos, iniciamos nossa jornada com um propósito claro: 
-                <strong className="text-primary"> garantir os direitos previdenciários dos brasileiros com honestidade, transparência e dedicação</strong>.
+                Há mais de 13 anos, iniciamos nossa trajetória com um propósito muito claro: 
+                <strong className="text-primary"> assegurar que cada brasileiro tenha acesso aos seus direitos previdenciários de forma justa, transparente e digna</strong>.
               </p>
               <p>
-                Ao longo desses anos, ajudamos milhares de pessoas a conquistar seus benefícios do INSS, 
-                sempre mantendo a verdade e a ética como pilares fundamentais do nosso trabalho.
+                Desde então, já ajudamos milhares de pessoas em todo o país a conquistarem seus benefícios junto ao INSS. 
+                Cada história atendida reforça o nosso compromisso com a verdade, a ética e a responsabilidade — valores que não são apenas princípios, mas a base de tudo o que fazemos.
               </p>
               <p>
-                Acreditamos que <strong className="text-primary">o Direito deve servir para dar dignidade às pessoas, 
-                e não para complicar a vida delas</strong>. Por isso, nos dedicamos exclusivamente ao Direito Previdenciário, 
-                tornando-nos especialistas em todas as nuances dessa área tão importante.
+                Acreditamos que <strong className="text-primary">o Direito deve ser um instrumento de transformação e dignidade, jamais um obstáculo</strong>. 
+                Por isso, escolhemos atuar de forma exclusiva no Direito Previdenciário, aprofundando nosso conhecimento e nos tornando especialistas em cada detalhe dessa área essencial para a vida das pessoas.
               </p>
               <p>
-                Com o avanço da tecnologia, expandimos nosso atendimento para todo o Brasil, 
-                oferecendo um serviço 100% online, mas sempre humanizado e personalizado. 
-                Cada cliente é único e merece toda nossa atenção e cuidado.
+                Com a evolução da tecnologia, ampliamos nossa atuação para todo o Brasil por meio de um atendimento 100% online — sem abrir mão do cuidado, da proximidade e da atenção individual. 
+                Aqui, cada cliente é tratado de forma única, com escuta ativa, respeito e dedicação genuína.
+              </p>
+              <p>
+                <strong className="text-primary">Mais do que processos, cuidamos de pessoas.</strong> E é isso que nos move todos os dias.
               </p>
             </div>
           </div>
