@@ -254,7 +254,7 @@ const Index = () => {
             }}
           >
             {[
-              { num: "12", label: "Anos", desc: "atuando exclusivamente em previdenciário" },
+              { num: "13", label: "Anos", desc: "atuando exclusivamente em previdenciário" },
               { num: "1.4k+", label: "Casos", desc: "concluídos com benefício concedido" },
               { num: "2", label: "Sedes", desc: "Gramado e Nova Petrópolis · RS · atendimento remoto" },
               { num: "96%", label: "Satisfação", desc: "de clientes em pesquisa anual" },
