@@ -68,7 +68,7 @@ const Footer = () => {
                 textAlign: "justify",
               }}
             >
-              Sociedade de advogados com atuação exclusiva em direito previdenciário desde 2014.
+              Sociedade de advogados com atuação exclusiva em direito previdenciário desde 2013.
               Gramado · Nova Petrópolis · atendimento em todo o Brasil.
             </p>
           </div>

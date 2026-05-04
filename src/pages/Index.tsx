@@ -86,7 +86,7 @@ const Index = () => {
   ];
 
   const benefits = [
-    "Mais de 12 anos de experiência exclusiva em Direito Previdenciário",
+    "Mais de 13 anos de experiência exclusiva em Direito Previdenciário",
     "Escritórios em Gramado e Nova Petrópolis · Atendimento online em todo o Brasil",
     "Transparência e honestidade em primeiro lugar",
     "Primeira conversa sem compromisso pelo WhatsApp"
@@ -125,7 +125,7 @@ const Index = () => {
                 className="font-mono uppercase"
                 style={{ fontSize: 11, letterSpacing: "0.32em", color: "#d4b888" }}
               >
-                Boutique previdenciário · est. 2014
+                Boutique previdenciário · est. 2013
               </span>
               <span style={{ width: 28, height: 1, backgroundColor: "#d4b888", opacity: 0.6 }} />
             </div>
