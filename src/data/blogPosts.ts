@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-doenca-guia-completo-2026",
+    image: "/blog/auxilio-doenca-guia-completo-2026.jpg",
+    title: "Auxílio-doença 2026: guia completo para quem não pode trabalhar",
+    excerpt: "Parou de trabalhar por doença e não sabe o que fazer? Entenda como funciona o auxílio-doença em 2026, quem tem direito e como pedir ao INSS.",
+    date: "4 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-acidente-beneficio-vitalicio",
     cluster: "acidente" as BlogCluster,
     image: "/blog/auxilio-acidente-beneficio-vitalicio.jpg",

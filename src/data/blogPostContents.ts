@@ -1,5 +1,50 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-doenca-guia-completo-2026": `## Quando o corpo para, a conta não espera
+
+Você acordou um dia e simplesmente não conseguiu mais trabalhar. Pode ter sido uma cirurgia, uma doença crônica que piorou, um acidente — ou qualquer situação que te tirou da ativa. O salário parou, as contas continuaram chegando, e ninguém te explicou direito o que fazer.
+
+Essa situação é mais comum do que parece. Milhões de brasileiros passam por isso todo ano, e boa parte nem sabe que existe um benefício criado exatamente para esse momento.
+
+## O que é o auxílio-doença, afinal?
+
+O auxílio-doença — chamado tecnicamente de benefício por incapacidade temporária desde a reforma previdenciária (EC 103/2019) — é um pagamento mensal do INSS para quem ficou temporariamente incapaz de trabalhar por motivo de saúde.
+
+A base legal está nos artigos 59 a 63 da Lei 8.213/91. A ideia é simples: se você contribuiu para o INSS e não pode trabalhar por doença ou acidente, o sistema previdenciário existe para te amparar nesse período.
+
+O valor corresponde a 91% do seu salário de benefício, calculado com base na média das suas contribuições.
+
+## Quem tem direito?
+
+Para ter direito ao auxílio-doença, você precisa preencher três condições principais estabelecidas pela Lei 8.213/91.
+
+A primeira é ser segurado do INSS — ou seja, contribuir como empregado CLT, autônomo, MEI, empregado doméstico, ou estar no chamado período de graça.
+
+A segunda condição é a carência: pelo menos 12 contribuições mensais. Mas atenção: essa carência não existe para doenças graves listadas no Decreto 3.048/99, como câncer, tuberculose ativa, AIDS e hepatite grave.
+
+A terceira condição é a incapacidade. Um médico perito do INSS precisa reconhecer que você está temporariamente incapaz de exercer sua atividade habitual por mais de 15 dias consecutivos.
+
+## Os primeiros 15 dias: quem paga?
+
+Se você é empregado com carteira assinada, os primeiros 15 dias de afastamento são pagos pelo empregador, não pelo INSS. A partir do 16º dia, o INSS assume.
+
+Se você é autônomo, MEI ou contribuinte individual, o INSS paga desde o primeiro dia de incapacidade reconhecida.
+
+## O que acontece com o emprego durante o afastamento?
+
+Enquanto você estiver recebendo o auxílio-doença, seu contrato de trabalho fica suspenso — não extinto. O empregador não pode te demitir durante esse período. Após o retorno, você tem estabilidade provisória garantida pela jurisprudência consolidada do TST (Súmula 378).
+
+## Quanto tempo dura o benefício?
+
+O auxílio-doença dura enquanto a incapacidade durar. O INSS programa perícias de revisão periódicas para verificar se você já se recuperou. Se a perícia confirmar que você ainda está incapaz, o benefício é prorrogado.
+
+## O que fazer agora?
+
+Se você está afastado ou prestes a se afastar por motivo de saúde, o primeiro passo é reunir toda a documentação médica que tiver: atestados, laudos, exames, receitas, relatórios de internação.
+
+Depois, o pedido pode ser feito pelo aplicativo Meu INSS, pelo site meu.inss.gov.br ou pelo telefone 135. Você vai precisar agendar uma perícia médica, e é nesse momento que a documentação faz toda a diferença.
+
+Quer saber se o seu caso se encaixa nas regras do auxílio-doença? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
 
   "auxilio-acidente-beneficio-vitalicio": `
 O auxílio-acidente é um dos benefícios previdenciários menos compreendidos — e um dos mais importantes para quem sofreu acidente de trabalho e ficou com sequelas permanentes. Diferente do auxílio-doença (hoje Benefício por Incapacidade Temporária), que é pago apenas enquanto durar a incapacidade, o auxílio-acidente tem caráter **vitalício** e **indenizatório**: ele compensa a redução da capacidade laboral deixada pela sequela definitiva do acidente.
