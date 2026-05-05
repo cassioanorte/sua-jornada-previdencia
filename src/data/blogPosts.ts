@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "trabalhar-recebendo-auxilio-doenca",
+    image: "/blog/trabalhar-recebendo-auxilio-doenca.jpg",
+    title: "Trabalhei enquanto recebia auxílio-doença: o que pode acontecer?",
+    excerpt: "Voltou ao trabalho antes da alta do INSS ou fez bicos enquanto recebia auxílio-doença? Entenda os riscos reais e o que a lei diz sobre isso.",
+    date: "5 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-doenca-guia-completo-2026",
     image: "/blog/auxilio-doenca-guia-completo-2026.jpg",
     title: "Auxílio-doença 2026: guia completo para quem não pode trabalhar",

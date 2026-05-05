@@ -1,5 +1,36 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "trabalhar-recebendo-auxilio-doenca": `## A situação que ninguém quer passar
+
+Maria recebeu o diagnóstico, ficou afastada, entrou com o auxílio-doença e começou a receber. Depois de dois meses, se sentiu um pouco melhor e aceitou um serviço informal — só para ajudar nas contas. Meses depois, recebeu uma carta do INSS exigindo a devolução de tudo que recebeu.
+
+Essa história é real e acontece com muito mais frequência do que se imagina. E as consequências podem ser graves.
+
+## O que diz a lei
+
+O auxílio-doença, previsto no art. 59 da Lei 8.213/91, existe para quem está temporariamente incapaz de trabalhar. Se você está trabalhando, a lógica jurídica do benefício é quebrada.
+
+O art. 69 da mesma lei é claro ao prever que o benefício cessa quando o segurado retorna à atividade. E o Decreto 3.048/99 reforça que cabe ao segurado comunicar ao INSS qualquer mudança na situação que gerou o benefício.
+
+Trabalhar enquanto recebe auxílio-doença pode ser enquadrado como fraude previdenciária — crime previsto no art. 171, §3º do Código Penal, com pena de reclusão de 1 a 5 anos, além da obrigação de devolver os valores recebidos.
+
+## Mas a realidade é mais complexa
+
+Nem todo trabalho durante o auxílio-doença é automaticamente fraude. A legislação e a jurisprudência reconhecem situações distintas. Se a doença que gerou o afastamento incapacita para a função habitual, mas não para qualquer atividade, o cenário jurídico muda.
+
+Por exemplo: um pedreiro com lesão grave no joelho pode estar legitimamente incapaz para a construção civil, mas pode exercer uma atividade sedentária leve. O TRF da 4ª Região já reconheceu situações assim em casos específicos.
+
+## O que acontece quando o INSS descobre
+
+O INSS tem um sistema de cruzamento de dados que compara informações da Receita Federal, do eSocial e de outras bases. Quando identifica que um segurado estava trabalhando enquanto recebia benefício, pode cancelar o benefício com efeito retroativo, cobrar a devolução dos valores recebidos e encaminhar para a área de combate à fraude.
+
+## O que fazer se você está nessa situação
+
+Se você trabalhou enquanto recebia auxílio-doença — mesmo que tenha sido por necessidade genuína — a primeira coisa é entender exatamente o que aconteceu antes de esperar o INSS bater na porta.
+
+Há diferença entre quem exerceu atividade incompatível com a incapacidade declarada e quem fez algo que, juridicamente, pode ser considerado compatível. Essas distinções importam muito quando se está diante de um processo de cobrança.
+
+Quer entender se a sua situação pode ter consequências ou se existe defesa para o seu caso? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "auxilio-doenca-guia-completo-2026": `## Quando o corpo para, a conta não espera
 
 Você acordou um dia e simplesmente não conseguiu mais trabalhar. Pode ter sido uma cirurgia, uma doença crônica que piorou, um acidente — ou qualquer situação que te tirou da ativa. O salário parou, as contas continuaram chegando, e ninguém te explicou direito o que fazer.
