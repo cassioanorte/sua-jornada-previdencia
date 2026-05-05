@@ -30,6 +30,8 @@ const pageImports = {
   NotFound: () => import("./pages/NotFound"),
   CityLandingPage: () => import("./pages/CityLandingPage"),
   EstadoRS: () => import("./pages/EstadoRS"),
+  Termos: () => import("./pages/Termos"),
+  Privacidade: () => import("./pages/Privacidade"),
 };
 
 const QuemSomos = lazy(pageImports.QuemSomos);
@@ -52,6 +54,8 @@ const Contato = lazy(pageImports.Contato);
 const NotFound = lazy(pageImports.NotFound);
 const CityLandingPage = lazy(pageImports.CityLandingPage);
 const EstadoRS = lazy(pageImports.EstadoRS);
+const Termos = lazy(pageImports.Termos);
+const Privacidade = lazy(pageImports.Privacidade);
 
 const queryClient = new QueryClient();
 
@@ -119,6 +123,8 @@ const App = () => {
             <Route path="/contato" element={<Contato />} />
             <Route path="/advogado-previdenciario-rs" element={<EstadoRS />} />
             <Route path="/advogado-previdenciario/:city" element={<CityLandingPage />} />
+            <Route path="/termos" element={<Termos />} />
+            <Route path="/privacidade" element={<Privacidade />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
