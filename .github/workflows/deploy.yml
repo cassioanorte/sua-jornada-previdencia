@@ -27,9 +27,11 @@ jobs:
           NODE_ENV: production
 
       - name: Deploy para Netlify
-        uses: netlify/actions/cli@master
+        uses: nwtgck/actions-netlify@v3
         with:
-          args: deploy --prod --dir=dist
+          publish-dir: './dist'
+          production-branch: main
+          production-deploy: true
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
