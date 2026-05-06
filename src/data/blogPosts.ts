@@ -558,6 +558,16 @@ export const blogPosts: BlogPost[] = [
     date: "2025-07-20",
     category: "Benefícios por Incapacidade",
     author: "Spier & Anorte Advogados"
+  },
+  {
+    id: "trf4-amplia-tempo-rural-mantem-atividade-especial",
+    cluster: "aposentadoria-especial" as BlogCluster,
+    image: "/blog/trf4-rural-especial-reconhecimento.jpg",
+    title: "TRF4 amplia tempo rural e mantém atividade especial: o que essa decisão significa para sua aposentadoria",
+    excerpt: "Decisão do TRF4 reconhece trabalho rural desde 1982 com base em documentos familiares e mantém atividade especial mesmo com falhas formais no PPP. Entenda o impacto para segurados do INSS.",
+    date: "6 de maio de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte"
   }
 ];
 

@@ -4306,6 +4306,83 @@ A reabilitação pode ser a ponte para um novo trabalho e para a manutenção da
 **Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Auxílio-doença: requisitos e como solicitar](/blog/auxilio-doenca-requisitos) | [Perícia médica do INSS: como se preparar](/blog/pericia-medica-inss-como-preparar)
 
 **Hashtags:** #ReabilitaçãoProfissional #INSS #RetornoAoTrabalho`,
+
+  "trf4-amplia-tempo-rural-mantem-atividade-especial": `## A decisão que pode mudar sua aposentadoria
+
+Em março de 2026, o Tribunal Regional Federal da 4ª Região (TRF4) proferiu uma decisão importante para quem busca reconhecimento de tempo rural e atividade especial no INSS. O caso envolveu um segurado que conseguiu ampliar em mais de 3 anos seu tempo de contribuição rural e manter o reconhecimento de períodos especiais de trabalho.
+
+O acórdão é rico em fundamentos que podem beneficiar milhares de trabalhadores que enfrentam dificuldades semelhantes na hora de comprovar seus direitos.
+
+## Tempo rural: documentos da família valem, sim
+
+O ponto mais relevante da decisão foi o reconhecimento do trabalho rural desde outubro de 1982 — período muito anterior ao que a sentença de primeira instância havia aceito.
+
+A sentença inicial havia reconhecido o tempo rural apenas de 1986 a 1989. Mas o TRF4 entendeu que o pedido administrativo formulado pelo segurado já abrangia o período desde 1982, e que **documentos em nome do grupo familiar são suficientes para comprovar o exercício da atividade rural**.
+
+Isso é importantíssimo: muitos segurados enfrentam negativas do INSS porque não têm documentos em nome próprio do início da vida laboral — muitas vezes porque eram adolescentes ou jovens adultos quando começaram a trabalhar na roça com os pais.
+
+A decisão considerou como provas válidas: declaração sindical, declaração registrada em cartório e documentos do grupo familiar. Todos apontando o trabalho rural desde 1982.
+
+### O que isso significa na prática
+
+Se você trabalhou na roça desde jovem e tem dificuldade de provar esse período, saiba que:
+
+- Documentos em nome dos pais ou irmãos podem ser aproveitados
+- Declarações de sindicatos rurais têm peso probatório
+- O INSS tem o dever de analisar o conjunto da documentação, não apenas documentos individuais
+- A ausência de início de prova material em nome próprio não impede o reconhecimento quando há outros elementos do grupo familiar
+
+## Atividade especial: falhas no PPP não prejudicam o segurado
+
+Outro fundamento relevante da decisão foi a manutenção da atividade especial de vários períodos, mesmo diante de questionamentos do INSS sobre a metodologia de medição do ruído.
+
+O tribunal foi enfático: **eventuais falhas formais no preenchimento do PPP não podem prejudicar o direito do segurado**. Se o documento indica a exposição a agentes nocivos e está baseado em laudo técnico da empresa, ele tem validade.
+
+No caso específico, o PPP indicava:
+- Exposição a ruído de 86 dB(A), aferido por dosimetria
+- Exposição a inflamáveis (periculosidade)
+
+O INSS tentou afastar a especialidade alegando que a medição do ruído não seguia a metodologia da NHO-01. O tribunal rejeitou essa alegação por dois motivos: primeiro, porque o PPP estava baseado em laudo técnico e assinado pelo responsável legal da empresa; segundo, porque a especialidade de um dos períodos já estava fundamentada na periculosidade (inflamáveis), e não no ruído.
+
+## Aviso prévio indenizado: não conta como tempo de contribuição
+
+Um ponto negativo da decisão para os segurados foi a aplicação do **Tema 1.238 do STJ**, que afasta o cômputo do aviso prévio indenizado como tempo de contribuição.
+
+O fundamento é simples: no aviso prévio indenizado não há efetiva prestação de serviço nem recolhimento previdenciário. Portanto, não gera tempo de contribuição para fins de aposentadoria.
+
+É importante ter isso em mente ao planejar sua aposentadoria: aquele período de aviso prévio que você recebeu sem trabalhar não vai contar para o INSS.
+
+## O resultado final
+
+Com a decisão, o segurado obteve:
+- Reconhecimento do trabalho rural de **01/10/1982 a 31/12/1985** (mais de 3 anos adicionais)
+- Manutenção dos períodos de atividade especial (com conversão pelo fator 1,40)
+- Possibilidade de revisão do benefício
+
+O processo foi julgado pela Juíza Federal Aline Lazzaron, em 17 de março de 2026.
+
+## Como aproveitar essa decisão no seu caso
+
+Se você tem situação parecida, algumas providências podem fazer diferença:
+
+**1. Reúna documentos do grupo familiar** — busque certidões, declarações sindicais e documentos rurais de pais, irmãos e parentes que trabalharam na mesma propriedade.
+
+**2. Verifique seu PPP** — se a empresa preencheu o formulário e ele indica exposição a agentes nocivos, mesmo com eventuais falhas formais, ele pode ser aceito. O que importa é a realidade das condições de trabalho.
+
+**3. Atenção ao aviso prévio indenizado** — ao fazer o planejamento previdenciário, saiba que esse período não será contado como tempo de contribuição.
+
+**4. Não desista de um pedido negado** — se o INSS indeferiu seu benefício por falhas documentais ou divergências em PPP, você pode ter direito à revisão judicial.
+
+📄 **Fonte:** TRF4 — Apelação Cível nº 5023732-24.2020.4.04.7000/PR  
+🗓 **Julgamento:** 17/03/2026 | **Relatora:** Juíza Federal Aline Lazzaron
+
+Tem dúvidas sobre tempo rural, atividade especial ou quer revisar sua aposentadoria? [Fale com um especialista agora](https://wa.me/5554999870786).
+
+---
+
+**Links relacionados:** [Aposentadoria especial: guia completo](/blog/aposentadoria-especial-guia-completo) | [Aposentadoria rural: quem tem direito](/blog/aposentadoria-rural) | [Revisão de benefício por incapacidade](/blog/revisao-beneficio-incapacidade)
+
+**Hashtags:** #TRF4 #AposentadoriaEspecial #TrabalhoRural #INSS #Previdência #PPP #AvisoPrévio`,
 };
 
 export default blogPostContents;
