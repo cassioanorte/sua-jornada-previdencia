@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "como-pedir-auxilio-doenca-passo-a-passo",
+    image: "/blog/como-pedir-auxilio-doenca-passo-a-passo.jpg",
+    title: "Como pedir auxílio-doença no INSS: passo a passo em 2026",
+    excerpt: "Precisa pedir auxílio-doença mas não sabe por onde começar? Veja o passo a passo atualizado para 2026, da documentação até a perícia médica.",
+    date: "6 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "trabalhar-recebendo-auxilio-doenca",
     image: "/blog/trabalhar-recebendo-auxilio-doenca.jpg",
     title: "Trabalhei enquanto recebia auxílio-doença: o que pode acontecer?",

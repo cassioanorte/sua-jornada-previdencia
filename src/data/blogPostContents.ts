@@ -1,5 +1,44 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "como-pedir-auxilio-doenca-passo-a-passo": `## O pedido que trava na burocracia
+
+Roberto ficou internado por 20 dias após uma cirurgia cardíaca. Quando recebeu alta hospitalar, tentou pedir o auxílio-doença pelo celular. Não conseguiu agendar a perícia, o sistema retornou erro, e ele ficou sem benefício por dois meses enquanto tentava entender o que estava fazendo errado.
+
+O processo em si não é complicado — mas tem detalhes que, se você não souber, podem atrasar ou inviabilizar o seu pedido.
+
+## O que você vai precisar antes de tudo
+
+Antes de abrir qualquer tela ou ligar para o 135, reúna a documentação médica. Esse é o ponto mais importante e mais negligenciado.
+
+O documento principal é o laudo ou relatório médico atualizado, assinado pelo seu médico, com o diagnóstico em CID, a descrição do quadro clínico, o tratamento prescrito e a justificativa de por que você está incapaz de trabalhar. Um simples atestado de um dia raramente é suficiente.
+
+Além do laudo, junte todos os exames recentes, receitas médicas, relatórios de internação, histórico de consultas e qualquer documento que comprove a evolução da doença.
+
+## Os documentos pessoais necessários
+
+Você vai precisar do seu documento de identidade (RG ou CNH), CPF, comprovante de residência atualizado e, se for empregado CLT, o atestado médico com o CID preenchido que você entregou para o seu empregador.
+
+## Como fazer o pedido: os três caminhos
+
+O primeiro caminho é o aplicativo Meu INSS. Você cria ou acessa sua conta gov.br, entra no aplicativo e busca "Benefício por Incapacidade". O sistema vai agendar automaticamente a perícia médica.
+
+O segundo caminho é o site meu.inss.gov.br, que funciona exatamente como o aplicativo, mas pelo computador.
+
+O terceiro caminho é o telefone 135. Você liga, informa seus dados e solicita o agendamento da perícia. Útil para quem tem dificuldade com tecnologia.
+
+## A perícia médica: o momento decisivo
+
+Na perícia, um médico perito do INSS vai avaliar sua condição de saúde. Leve toda a documentação médica que você reuniu — original e cópia. Fale claramente sobre como a doença afeta sua capacidade de trabalhar no dia a dia.
+
+Um ponto que poucos sabem: se você não conseguir comparecer à perícia por estar impossibilitado — por exemplo, internado ou acamado — é possível solicitar perícia domiciliar ou hospitalar, prevista no art. 60, §7º da Lei 8.213/91.
+
+## O que acontece depois da perícia
+
+Se a perícia aprovar, o benefício começa a ser pago. O prazo de processamento após a perícia é de até 45 dias.
+
+Se a perícia negar, você tem direito a recurso — e esse recurso tem chances reais de reverter a decisão, especialmente quando a documentação médica é sólida. O prazo para recorrer é de 30 dias a partir da notificação da negativa.
+
+Quer saber se você está pronto para pedir o auxílio-doença ou se sua documentação está adequada? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "trabalhar-recebendo-auxilio-doenca": `## A situação que ninguém quer passar
 
 Maria recebeu o diagnóstico, ficou afastada, entrou com o auxílio-doença e começou a receber. Depois de dois meses, se sentiu um pouco melhor e aceitou um serviço informal — só para ajudar nas contas. Meses depois, recebeu uma carta do INSS exigindo a devolução de tudo que recebeu.
