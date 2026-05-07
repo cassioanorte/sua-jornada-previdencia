@@ -23,6 +23,7 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: "pericia-medica-inss-negada-o-que-fazer",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/pericia-medica-inss-negada-o-que-fazer.jpg",
     title: "Perícia médica do INSS negada: o que fazer e como recorrer",
     excerpt: "O médico perito do INSS negou seu benefício mesmo estando doente? Entenda por que isso acontece, seus direitos e como recorrer com mais chances.",
@@ -32,6 +33,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "como-pedir-auxilio-doenca-passo-a-passo",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/como-pedir-auxilio-doenca-passo-a-passo.jpg",
     title: "Como pedir auxílio-doença no INSS: passo a passo em 2026",
     excerpt: "Precisa pedir auxílio-doença mas não sabe por onde começar? Veja o passo a passo atualizado para 2026, da documentação até a perícia médica.",
@@ -41,6 +43,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "trabalhar-recebendo-auxilio-doenca",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/trabalhar-recebendo-auxilio-doenca.jpg",
     title: "Trabalhei enquanto recebia auxílio-doença: o que pode acontecer?",
     excerpt: "Voltou ao trabalho antes da alta do INSS ou fez bicos enquanto recebia auxílio-doença? Entenda os riscos reais e o que a lei diz sobre isso.",
@@ -50,6 +53,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "auxilio-doenca-guia-completo-2026",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/auxilio-doenca-guia-completo-2026.jpg",
     title: "Auxílio-doença 2026: guia completo para quem não pode trabalhar",
     excerpt: "Parou de trabalhar por doença e não sabe o que fazer? Entenda como funciona o auxílio-doença em 2026, quem tem direito e como pedir ao INSS.",
