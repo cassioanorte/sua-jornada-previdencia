@@ -31,15 +31,6 @@ export const blogPosts: BlogPost[] = [
     author: "Equipe Spier & Anorte"
   },
   {
-    id: "pericia-medica-inss-negada-o-que-fazer",
-    image: "/blog/pericia-medica-inss-negada-o-que-fazer.jpg",
-    title: "Perícia médica do INSS negada: o que fazer e como recorrer",
-    excerpt: "O médico perito do INSS negou seu benefício mesmo estando doente? Entenda por que isso acontece, seus direitos e como recorrer com mais chances.",
-    date: "7 de maio de 2026",
-    category: "Benefícios por Incapacidade",
-    author: "Equipe Spier & Anorte"
-  },
-  {
     id: "como-pedir-auxilio-doenca-passo-a-passo",
     image: "/blog/como-pedir-auxilio-doenca-passo-a-passo.jpg",
     title: "Como pedir auxílio-doença no INSS: passo a passo em 2026",
