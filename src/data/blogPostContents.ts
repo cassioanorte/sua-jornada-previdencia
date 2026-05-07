@@ -31,37 +31,6 @@ Se a Junta de Recursos mantiver a negativa, ainda há o recurso ao Conselho de R
 A ação judicial previdenciária tramita, em regra, no Juizado Especial Federal (JEF). No Rio Grande do Sul, os JEFs têm histórico de reversão de negativas do INSS em casos devidamente documentados. Na via judicial, o juiz pode determinar uma perícia judicial — feita por um médico independente do INSS.
 
 Quer saber se sua negativa tem fundamento para recurso? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
-  "pericia-medica-inss-negada-o-que-fazer": `## A cena que acontece todo dia no Brasil
-
-João esperou três semanas pela perícia. No dia, passou menos de dez minutos com o médico perito. Ouviu que estava "apto para o trabalho" e foi embora sem entender nada — com a coluna ainda doendo e uma carta de negativa na mão.
-
-Isso acontece todos os dias. E a maioria das pessoas acredita que a história acabou aí. Não acabou.
-
-## Por que as perícias negam tanto?
-
-O médico perito do INSS avalia a incapacidade laboral com base em critérios técnicos — mas também opera dentro de uma pressão institucional real. A perícia dura poucos minutos. O perito não acompanhou seu tratamento, não leu necessariamente todos os laudos que você trouxe.
-
-Avaliações pontuais podem subestimar condições crônicas, flutuantes ou que não aparecem claramente em exame físico — como dores neuropáticas, transtornos mentais e fibromialgia.
-
-## O que você pode fazer imediatamente
-
-Assim que receber a negativa, guarde tudo: a carta do INSS com o número do benefício, a data da perícia e qualquer protocolo gerado.
-
-Você tem 30 dias corridos a partir da ciência da decisão para entrar com recurso administrativo junto à Junta de Recursos do INSS, conforme o art. 305 e seguintes do Decreto 3.048/99. Esse prazo é improrrogável.
-
-## O recurso administrativo: como funciona
-
-O recurso é protocolado no próprio sistema Meu INSS, na opção "Recursos e Contestações". No recurso, você vai contestar a conclusão pericial apresentando novos documentos médicos, relatórios complementares, exames mais recentes, ou uma carta do seu médico explicando especificamente por que você está incapaz de exercer suas atividades habituais.
-
-O ideal é que o médico que te acompanha escreva um documento direcionado: não apenas descrevendo a doença, mas explicando como ela impede o exercício da sua função específica.
-
-## Quando o recurso administrativo não resolve
-
-Se a Junta de Recursos mantiver a negativa, ainda há o recurso ao Conselho de Recursos do Seguro Social (CRSS). E se mesmo assim a negativa for mantida, o caminho é a via judicial.
-
-A ação judicial previdenciária tramita, em regra, no Juizado Especial Federal (JEF). No Rio Grande do Sul, os JEFs têm histórico de reversão de negativas do INSS em casos devidamente documentados. Na via judicial, o juiz pode determinar uma perícia judicial — feita por um médico independente do INSS.
-
-Quer saber se sua negativa tem fundamento para recurso? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "como-pedir-auxilio-doenca-passo-a-passo": `## O pedido que trava na burocracia
 
 Roberto ficou internado por 20 dias após uma cirurgia cardíaca. Quando recebeu alta hospitalar, tentou pedir o auxílio-doença pelo celular. Não conseguiu agendar a perícia, o sistema retornou erro, e ele ficou sem benefício por dois meses enquanto tentava entender o que estava fazendo errado.
