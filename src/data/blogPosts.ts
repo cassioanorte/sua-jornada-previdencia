@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-doenca-negado-como-reverter",
+    image: "/blog/auxilio-doenca-negado-como-reverter.jpg",
+    title: "Auxílio-doença negado na 1ª tentativa? Ainda tem caminhos",
+    excerpt: "Recebeu negativa do INSS no auxílio-doença? Saiba que a primeira negativa não é o fim — existem caminhos administrativos e judiciais para reverter.",
+    date: "8 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "pericia-medica-inss-negada-o-que-fazer",
     cluster: "incapacidade" as BlogCluster,
     image: "/blog/pericia-medica-inss-negada-o-que-fazer.jpg",
