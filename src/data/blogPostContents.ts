@@ -33,6 +33,39 @@ Se o prazo de 30 dias para recurso já passou, ainda existem alternativas. Uma d
 Importante: é possível pleitear valores retroativos. A prescrição de parcelas previdenciárias é de 5 anos, conforme a Súmula 85 do STJ.
 
 Quer entender se seu caso de negativa tem caminho de reversão? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
+  "auxilio-doenca-negado-como-reverter": `## A primeira negativa não é a última palavra
+
+Ana pediu o auxílio-doença após ser diagnosticada com um transtorno depressivo grave. A perícia do INSS durou oito minutos e terminou com a conclusão de que ela estava "apta". Ela desistiu. Achou que não havia mais o que fazer.
+
+Seis meses depois, descobriu que podia ter recorrido — e que provavelmente teria conseguido o benefício. Tempo perdido, sofrimento desnecessário, e nenhum centavo de reparação pelo período sem renda.
+
+Se você está nessa situação, leia até o final antes de desistir.
+
+## Por que a primeira negativa acontece tanto
+
+O INSS nega benefícios na primeira tentativa por razões que nem sempre têm a ver com o mérito do caso: documentação incompleta, avaliação pericial superficial, enquadramento incorreto da doença. São falhas do processo, não necessariamente da sua condição.
+
+Dados do próprio INSS indicam que uma parcela significativa dos recursos contra negativas de benefício por incapacidade resulta em reversão.
+
+## Os três caminhos possíveis após a negativa
+
+O primeiro caminho é o recurso à Junta de Recursos do INSS, que precisa ser apresentado em até 30 dias após a notificação da negativa, conforme o art. 305 do Decreto 3.048/99. É gratuito, feito pelo Meu INSS, e permite apresentar nova documentação.
+
+O segundo caminho é o recurso ao Conselho de Recursos do Seguro Social (CRSS), se a Junta mantiver a negativa. Também gratuito, prazo de 30 dias.
+
+O terceiro caminho é a ação judicial no Juizado Especial Federal. Nas causas de até 60 salários mínimos, não é obrigatória a assistência de advogado — mas ter um aumenta consideravelmente as chances de êxito.
+
+## O que mudar no segundo pedido
+
+A documentação precisa ser mais robusta do que na primeira vez. O médico precisa conectar explicitamente sua doença à incapacidade para o seu trabalho específico. Esse tipo de laudo direcionado muda o peso da prova.
+
+## E se já passou o prazo do recurso?
+
+Se o prazo de 30 dias para recurso já passou, ainda existem alternativas. Uma delas é fazer um novo pedido de benefício — não há impedimento legal para novo requerimento, desde que a situação de incapacidade persista.
+
+Importante: é possível pleitear valores retroativos. A prescrição de parcelas previdenciárias é de 5 anos, conforme a Súmula 85 do STJ.
+
+Quer entender se seu caso de negativa tem caminho de reversão? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "pericia-medica-inss-negada-o-que-fazer": `## A cena que acontece todo dia no Brasil
 
 João esperou três semanas pela perícia. No dia, passou menos de dez minutos com o médico perito. Ouviu que estava "apto para o trabalho" e foi embora sem entender nada — com a coluna ainda doendo e uma carta de negativa na mão.
