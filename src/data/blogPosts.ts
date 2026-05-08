@@ -23,6 +23,7 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: "auxilio-doenca-negado-como-reverter",
+    cluster: "incapacidade" as BlogCluster,
     image: "/blog/auxilio-doenca-negado-como-reverter.jpg",
     title: "Auxílio-doença negado na 1ª tentativa? Ainda tem caminhos",
     excerpt: "Recebeu negativa do INSS no auxílio-doença? Saiba que a primeira negativa não é o fim — existem caminhos administrativos e judiciais para reverter.",
@@ -599,9 +600,16 @@ export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
 
 export const getRelatedPosts = (currentId: string, maxPosts: number = 3): BlogPost[] => {
   const current = blogPosts.find(p => p.id === currentId);
-  if (!current?.cluster) return [];
-  return blogPosts
-    .filter(p => p.id !== currentId && p.cluster === current.cluster)
-    .slice(-maxPosts)
-    .reverse();
+  if (!current) return [];
+  const sameCluster = current.cluster
+    ? blogPosts.filter(p => p.id !== currentId && p.cluster === current.cluster)
+    : [];
+  if (sameCluster.length >= maxPosts) {
+    return sameCluster.slice(-maxPosts).reverse();
+  }
+  // Fallback: complete with other posts so newly added posts (sem cluster) sempre exibam relacionados
+  const others = blogPosts.filter(
+    p => p.id !== currentId && !sameCluster.find(s => s.id === p.id)
+  );
+  return [...sameCluster.slice(-maxPosts).reverse(), ...others].slice(0, maxPosts);
 };
