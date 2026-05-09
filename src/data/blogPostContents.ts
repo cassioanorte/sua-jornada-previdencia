@@ -1,5 +1,56 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "stj-tema-1157-inss-cancelar-beneficio": `# STJ decide: INSS pode cancelar benefício concedido na Justiça sem ação revisional
+
+## A decisão que mexe com milhares de segurados
+
+A 1ª Seção do Superior Tribunal de Justiça decidiu, no último dia 7 de maio de 2026, que o INSS pode rever e cancelar administrativamente benefícios por incapacidade concedidos pela Justiça — mesmo após o trânsito em julgado — sem precisar entrar com ação revisional.
+
+O julgamento do Tema 1.157 (REsps 1.985.189 e 1.985.190) foi concluído após voto-vista do ministro Teodoro Silva Santos, que acompanhou o relator, ministro Herman Benjamin.
+
+## O que o STJ decidiu, em termos práticos?
+
+A tese fixada foi a seguinte:
+
+> "É lícito ao INSS promover o cancelamento administrativo de benefícios previdenciários por incapacidade, outorgados mediante decisão judicial transitada em julgado, desde que observado o devido processo legal administrativo, o qual deve incluir a realização de perícia médica. Tal procedimento administrativo é autônomo e independe da propositura de ação judicial revisional para sua efetivação."
+
+Traduzindo: se você recebeu auxílio-doença ou aposentadoria por invalidez por decisão judicial, o INSS pode, por conta própria, convocar você para uma nova perícia. Se o perito concluir que você se recuperou, o benefício pode ser cortado — sem que o INSS precise entrar na Justiça.
+
+## Isso é definitivo?
+
+**Não.** A própria tese impõe limites importantes:
+
+1. **Devido processo legal administrativo** — o INSS não pode simplesmente cancelar. Precisa abrir um procedimento formal, notificar você, dar prazo para defesa.
+2. **Perícia médica obrigatória** — não basta um despacho interno. Tem que ter avaliação médica constatando a recuperação.
+3. **Contraditório e ampla defesa** — você pode contestar, apresentar novos laudos, exames, relatórios médicos.
+
+## O que isso significa para quem recebe benefício por incapacidade?
+
+Se você recebe auxílio-doença ou aposentadoria por invalidez por decisão judicial, fique atento a três coisas:
+
+**Primeiro:** mantenha sua documentação médica sempre atualizada. Laudos, exames, receitas, relatórios de tratamento — tudo que comprove que a incapacidade persiste.
+
+**Segundo:** se receber uma convocação do INSS para perícia, não ignore. Compareça com toda a documentação e, de preferência, acompanhado de um advogado previdenciarista.
+
+**Terceiro:** se o benefício for cancelado administrativamente, é possível recorrer — primeiro na via administrativa (Junta de Recursos do INSS) e, se necessário, na via judicial. O cancelamento não é palavra final.
+
+## O precedente é vinculante
+
+Por se tratar de recurso repetitivo (Tema 1.157), a tese fixada pelo STJ deve ser seguida por todos os juízes e tribunais do país. Isso significa que a partir de agora, os juízes de primeira instância e os tribunais regionais federais estão vinculados a esse entendimento.
+
+## Conclusão
+
+A decisão do STJ amplia o poder de revisão do INSS, mas não elimina as garantias do segurado. O beneficiário que efetivamente permanece incapaz tem instrumentos para se defender — desde que esteja bem assessorado e com a documentação médica em ordem.
+
+Quer saber se seu benefício está em risco ou o que fazer em caso de convocação do INSS? Fale conosco.
+
+📲 (54) 99987-0786
+📍 Gramado | Nova Petrópolis | Atendimento online Brasil
+
+---
+
+*Spier & Anorte Advocacia — Especialistas em Direito Previdenciário*
+`,
   "auxilio-doenca-negado-como-reverter": `## A primeira negativa não é a última palavra
 
 Ana pediu o auxílio-doença após ser diagnosticada com um transtorno depressivo grave. A perícia do INSS durou oito minutos e terminou com a conclusão de que ela estava "apta". Ela desistiu. Achou que não havia mais o que fazer.

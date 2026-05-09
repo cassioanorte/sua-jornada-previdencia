@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "stj-tema-1157-inss-cancelar-beneficio",
+    image: "/blog/stj-tema-1157-inss-cancelar-beneficio.jpg",
+    title: "STJ decide: INSS pode cancelar benefício concedido na Justiça sem ação revisional",
+    excerpt: "A 1ª Seção do STJ decidiu que o INSS pode rever e cancelar administrativamente benefícios por incapacidade concedidos judicialmente, mesmo após trânsito em julgado. Entenda o Tema 1.157.",
+    date: "9 de maio de 2026",
+    category: "Jurisprudência",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-doenca-negado-como-reverter",
     cluster: "incapacidade" as BlogCluster,
     image: "/blog/auxilio-doenca-negado-como-reverter.jpg",
