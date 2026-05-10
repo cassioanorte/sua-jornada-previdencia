@@ -6,7 +6,7 @@ const blogPostContents: Record<string, string> = {
 
 A 1ª Seção do Superior Tribunal de Justiça decidiu, no último dia 7 de maio de 2026, que o INSS pode rever e cancelar administrativamente benefícios por incapacidade concedidos pela Justiça — mesmo após o trânsito em julgado — sem precisar entrar com ação revisional.
 
-O julgamento do Tema 1.157 (REsps 1.985.189 e 1.985.190) foi concluído após voto-vista do ministro Teodoro Silva Santos, que acompanhou o relator, ministro Herman Benjamin.
+O julgamento do Tema 1.157 (REsps 1.985.189 e 1.985.190) foi concluído após voto-vista do ministro Teodoro Silva Santos, que acompanhou integralmente o relator, ministro Herman Benjamin. A decisão é vinculante: deve ser seguida por todos os juízes e tribunais do país.
 
 ## O que o STJ decidiu, em termos práticos?
 
@@ -14,33 +14,64 @@ A tese fixada foi a seguinte:
 
 > "É lícito ao INSS promover o cancelamento administrativo de benefícios previdenciários por incapacidade, outorgados mediante decisão judicial transitada em julgado, desde que observado o devido processo legal administrativo, o qual deve incluir a realização de perícia médica. Tal procedimento administrativo é autônomo e independe da propositura de ação judicial revisional para sua efetivação."
 
-Traduzindo: se você recebeu auxílio-doença ou aposentadoria por invalidez por decisão judicial, o INSS pode, por conta própria, convocar você para uma nova perícia. Se o perito concluir que você se recuperou, o benefício pode ser cortado — sem que o INSS precise entrar na Justiça.
+Traduzindo: se você recebeu auxílio-doença ou aposentadoria por invalidez por decisão judicial, o INSS pode, por conta própria, convocar você para uma nova perícia. Se o perito concluir que você se recuperou, o benefício pode ser cortado — sem que o INSS precise entrar na Justiça para isso.
 
-## Isso é definitivo?
+## O contexto da controvérsia
 
-**Não.** A própria tese impõe limites importantes:
+A disputa girava em torno de dois princípios em aparente conflito. De um lado, a **coisa julgada** — garantia constitucional de que decisões judiciais definitivas não podem ser modificadas. Do outro, a **natureza temporária** dos benefícios por incapacidade, cuja manutenção pressupõe que o segurado continue incapaz para o trabalho.
 
-1. **Devido processo legal administrativo** — o INSS não pode simplesmente cancelar. Precisa abrir um procedimento formal, notificar você, dar prazo para defesa.
-2. **Perícia médica obrigatória** — não basta um despacho interno. Tem que ter avaliação médica constatando a recuperação.
-3. **Contraditório e ampla defesa** — você pode contestar, apresentar novos laudos, exames, relatórios médicos.
+O STJ entendeu que a coisa julgada, nesses casos, não é absoluta. O benefício foi concedido porque, naquele momento, o segurado estava incapaz. Se essa condição muda — se ele se recupera — o fundamento da concessão desaparece. A revisão administrativa, portanto, não ofenderia a coisa julgada, mas apenas constataria um fato novo: o fim da incapacidade.
 
-## O que isso significa para quem recebe benefício por incapacidade?
+Essa posição já vinha sendo adotada de forma isolada por algumas turmas recursais e tribunais regionais. O Tema 1.157 uniformiza o entendimento em nível nacional.
 
-Se você recebe auxílio-doença ou aposentadoria por invalidez por decisão judicial, fique atento a três coisas:
+## Isso é definitivo? O que a tese NÃO permite
 
-**Primeiro:** mantenha sua documentação médica sempre atualizada. Laudos, exames, receitas, relatórios de tratamento — tudo que comprove que a incapacidade persiste.
+**Não.** A própria tese impõe limites importantes que o INSS é obrigado a respeitar:
 
-**Segundo:** se receber uma convocação do INSS para perícia, não ignore. Compareça com toda a documentação e, de preferência, acompanhado de um advogado previdenciarista.
+**1. Devido processo legal administrativo** — O INSS não pode simplesmente cancelar o benefício por decisão interna. É obrigatório abrir um procedimento formal, notificar o segurado pessoalmente, conceder prazo razoável para manifestação e defesa, e motivar a decisão de forma clara. Cancelamento sumário é ilegal.
 
-**Terceiro:** se o benefício for cancelado administrativamente, é possível recorrer — primeiro na via administrativa (Junta de Recursos do INSS) e, se necessário, na via judicial. O cancelamento não é palavra final.
+**2. Perícia médica obrigatória** — Não basta um despacho administrativo ou uma revisão documental. O cancelamento exige perícia médica presencial que constate, de forma fundamentada, a recuperação da capacidade laboral. Laudos genéricos ou conclusões sem exame clínico não atendem ao requisito.
 
-## O precedente é vinculante
+**3. Contraditório e ampla defesa** — O segurado tem o direito de contestar a conclusão pericial, apresentar novos laudos particulares, exames complementares, relatórios de médicos assistentes e qualquer outro documento que comprove a persistência da incapacidade.
 
-Por se tratar de recurso repetitivo (Tema 1.157), a tese fixada pelo STJ deve ser seguida por todos os juízes e tribunais do país. Isso significa que a partir de agora, os juízes de primeira instância e os tribunais regionais federais estão vinculados a esse entendimento.
+**4. Proporcionalidade da medida** — Em alguns casos, a recuperação pode ser apenas parcial. Se o segurado continua incapaz para sua atividade habitual, mas pode exercer outra função, o correto é encaminhá-lo à reabilitação profissional — não simplesmente cancelar o benefício.
+
+## O que muda na prática para o segurado?
+
+Se você recebe auxílio-doença ou aposentadoria por invalidez por decisão judicial, a partir de agora o INSS tem autorização expressa do STJ para revisar seu caso administrativamente. Isso significa que:
+
+**Convocações para perícia podem chegar a qualquer momento.** Diferentemente do que ocorria antes — quando muitos segurados com decisão judicial ficavam anos sem reavaliação —, a tendência é que o INSS intensifique as revisões.
+
+**O ônus de provar que a incapacidade persiste é do segurado.** Embora o INSS precise realizar a perícia, caberá a você demonstrar — com documentação médica robusta e atualizada — que a condição incapacitante permanece.
+
+**A ausência na perícia pode ser fatal.** Se você for convocado e não comparecer, o benefício poderá ser suspenso imediatamente, com posterior cancelamento.
+
+## Três medidas de proteção imediatas
+
+**Primeira: organize sua documentação médica.** Laudos, exames de imagem, receitas de medicação contínua, relatórios de fisioterapia, atestados de consultas recentes — tudo que comprove que você continua em tratamento e que a incapacidade persiste. Documentos antigos são úteis, mas os recentes (últimos 6 meses) são essenciais.
+
+**Segunda: nunca ignore convocações do INSS.** Se receber carta ou notificação para perícia de revisão, compareça. Leve toda a documentação organizada. Se possível, vá acompanhado de um advogado previdenciarista. A presença de um profissional especializado faz diferença na hora de questionar perguntas inadequadas ou conclusões precipitadas do perito.
+
+**Terceira: saiba que cancelamento não é o fim.** Se o benefício for cancelado administrativamente após a perícia de revisão, você pode:
+
+- **Recorrer administrativamente** à Junta de Recursos do INSS (prazo de 30 dias);
+- **Recorrer ao Conselho de Recursos do Seguro Social (CRSS)** se a Junta mantiver o cancelamento;
+- **Ingressar com ação judicial** para restabelecer o benefício, discutindo a validade da perícia e apresentando provas da incapacidade.
+
+Em qualquer dessas etapas, a assistência de um advogado especializado é fundamental.
+
+## O que fazer se você receber a convocação?
+
+1. **Não entre em pânico.** A decisão do STJ é preocupante, mas o cancelamento não é automático.
+2. **Reúna toda a documentação médica** — laudos, exames, receitas, relatórios.
+3. **Agende uma consulta com seu médico assistente** e peça um relatório atualizado descrevendo sua condição e por que você continua incapaz de trabalhar.
+4. **Procure um advogado previdenciarista** antes da perícia. Ele pode orientar sobre a documentação necessária e, em muitos casos, acompanhar você no dia.
 
 ## Conclusão
 
-A decisão do STJ amplia o poder de revisão do INSS, mas não elimina as garantias do segurado. O beneficiário que efetivamente permanece incapaz tem instrumentos para se defender — desde que esteja bem assessorado e com a documentação médica em ordem.
+A decisão do STJ no Tema 1.157 amplia o poder de revisão do INSS, mas não elimina as garantias do segurado. O beneficiário que efetivamente permanece incapaz tem instrumentos para se defender — desde que esteja bem assessorado e com a documentação médica em ordem.
+
+O recado principal é: **não espere a convocação chegar para se preparar**. Esteja com seus documentos em dia desde já.
 
 Quer saber se seu benefício está em risco ou o que fazer em caso de convocação do INSS? Fale conosco.
 
