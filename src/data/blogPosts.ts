@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-por-idade-regras-2026",
+    image: "/blog/aposentadoria-por-idade-regras-2026.jpg",
+    title: "Aposentadoria por idade em 2026: regras, idades e como planejar",
+    excerpt: "As regras da aposentadoria por idade mudaram com a reforma de 2019. Entenda as idades mínimas, o tempo de contribuição e como planejar sua saída em 2026.",
+    date: "11 de maio de 2026",
+    category: "Aposentadoria",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "stj-tema-1157-inss-cancelar-beneficio",
     image: "/blog/stj-tema-1157-inss-cancelar-beneficio.jpg",
     title: "STJ decide: INSS pode cancelar benefício concedido na Justiça sem ação revisional",

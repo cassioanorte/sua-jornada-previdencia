@@ -1,5 +1,40 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-por-idade-regras-2026": `## Uma conversa que acontece toda semana
+
+Semana passada, alguém chegou com uma dúvida que parece simples mas esconde uma complexidade enorme: "Tenho 63 anos e contribuí 25 anos. Posso me aposentar?"
+
+A resposta, em 2026, não é simples. Depende de quando você começou a contribuir, de qual regra de transição se aplica ao seu caso, e de quanto você quer receber.
+
+## O que mudou com a reforma de 2019
+
+Antes da Emenda Constitucional 103/2019, a aposentadoria por idade era relativamente simples: 65 anos para homens e 60 anos para mulheres, com 15 anos de contribuição.
+
+A reforma manteve a aposentadoria por idade, mas criou um período de transição para quem já estava contribuindo antes de novembro de 2019. Para quem se aposenta pelas regras definitivas, a exigência é 65 anos para homens e 62 anos para mulheres, com no mínimo 20 anos de contribuição para homens e 15 anos para mulheres.
+
+## O tempo de contribuição: armadilha silenciosa
+
+A idade mínima é o critério mais visível, mas o tempo de contribuição é onde muita gente se perde.
+
+Contribuições não são apenas as de emprego formal. Período de serviço militar obrigatório, tempo de contribuição como autônomo, contribuições como MEI — tudo pode contar, desde que devidamente comprovado e com recolhimento registrado no CNIS.
+
+O problema é que muitas contribuições não aparecem no CNIS porque houve falha no registro, o empregador não repassou ao INSS, ou as contribuições foram feitas de forma informal.
+
+## Como o valor da aposentadoria é calculado em 2026
+
+A fórmula estabelecida pela EC 103/2019 considera a média aritmética simples de 100% de todos os salários de contribuição desde julho de 1994. Não há mais descarte dos menores salários — tudo entra.
+
+Isso significa que quem passou anos com salário baixo vai ter uma média menor. Por isso, planejar a aposentadoria com antecedência faz diferença no valor final recebido.
+
+## Como planejar a saída em 2026
+
+O primeiro passo é consultar seu extrato no Meu INSS e verificar todo o histórico de contribuições registrado no CNIS. Veja se há períodos em branco ou contribuições faltando.
+
+O segundo passo é fazer a conta: qual a sua data de entrada no INSS? Quantos meses de contribuição você tem? Você se enquadra na regra definitiva ou em alguma transição?
+
+O terceiro passo é simular o valor antes de pedir. Uma vez que você pede a aposentadoria e ela é concedida, é muito difícil voltar atrás. A decisão de quando se aposentar afeta o valor do benefício pelo resto da vida.
+
+Quer saber exatamente qual a sua situação e qual o melhor momento para pedir? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "stj-tema-1157-inss-cancelar-beneficio": `# STJ decide: INSS pode cancelar benefício concedido na Justiça sem ação revisional
 
 ## A decisão que mexe com milhares de segurados
