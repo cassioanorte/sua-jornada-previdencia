@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "posso-me-aposentar-hoje-2026",
+    image: "/blog/posso-me-aposentar-hoje-2026.jpg",
+    title: "Tenho 62 ou 65 anos: posso me aposentar hoje? Entenda as regras",
+    excerpt: "Chegou na idade mínima de aposentadoria e quer saber se já pode parar de trabalhar? As regras de 2026 exigem mais do que só a idade — veja o que falta.",
+    date: "12 de maio de 2026",
+    category: "Aposentadoria",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-por-idade-regras-2026",
     image: "/blog/aposentadoria-por-idade-regras-2026.jpg",
     title: "Aposentadoria por idade em 2026: regras, idades e como planejar",

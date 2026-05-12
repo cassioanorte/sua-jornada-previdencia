@@ -1,5 +1,40 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "posso-me-aposentar-hoje-2026": `## A pergunta que parece óbvia mas não é
+
+Teresa completou 62 anos em março. Achou que era só protocolar o pedido no INSS e pronto — aposentada. Chegou lá e descobriu que tinha apenas 12 anos de contribuição. O pedido foi negado.
+
+A idade mínima é apenas um dos requisitos. E é exatamente aí que está o engano de muita gente.
+
+## As regras vigentes para quem quer se aposentar em 2026
+
+Em 2026, quem quer se aposentar por idade precisa respeitar dois critérios simultâneos, conforme estabelecido pela EC 103/2019.
+
+Para mulheres: 62 anos de idade e pelo menos 15 anos de contribuição (para quem já contribuía antes de novembro de 2019) ou 20 anos (para quem ingressou no sistema após a reforma).
+
+Para homens: 65 anos de idade e pelo menos 20 anos de contribuição.
+
+Isto é: ter a idade sem o tempo de contribuição não basta. Os dois precisam estar presentes ao mesmo tempo.
+
+## O que conta como tempo de contribuição?
+
+Contam como tempo de contribuição: períodos como empregado CLT, contribuições como autônomo ou profissional liberal, períodos como MEI com contribuição em dia, serviço militar obrigatório (art. 55 da Lei 8.213/91), período de recebimento de auxílio-doença e aposentadoria por invalidez.
+
+O que não conta automaticamente: trabalho informal sem recolhimento ao INSS, períodos em que você era sócio de empresa mas não se inscreveu como contribuinte individual, e tempo de MEI sem pagamento do DAS.
+
+## O CNIS: seu extrato previdenciário
+
+O Cadastro Nacional de Informações Sociais (CNIS) é onde o INSS busca as informações sobre seu histórico contributivo. Você pode consultar pelo Meu INSS gratuitamente a qualquer momento.
+
+O problema é que o CNIS frequentemente apresenta inconsistências. Antes de pedir a aposentadoria, vale conferir cada linha do extrato e identificar eventuais correções necessárias.
+
+## Quando compensa esperar para pedir?
+
+Isso é uma conta que precisa ser feita individualmente. Em alguns casos, esperar mais alguns meses ou anos para completar o tempo de contribuição pode aumentar significativamente o valor mensal do benefício.
+
+A decisão de quando pedir é uma das mais importantes da vida financeira de uma pessoa.
+
+Quer fazer essa conta para o seu caso específico? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "aposentadoria-por-idade-regras-2026": `## Uma conversa que acontece toda semana
 
 Semana passada, alguém chegou com uma dúvida que parece simples mas esconde uma complexidade enorme: "Tenho 63 anos e contribuí 25 anos. Posso me aposentar?"
