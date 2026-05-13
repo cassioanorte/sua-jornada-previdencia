@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "regras-de-transicao-previdencia-reforma",
+    image: "/blog/regras-de-transicao-previdencia-reforma.jpg",
+    title: "As 4 regras de transição da reforma previdenciária: qual é a sua?",
+    excerpt: "A reforma de 2019 criou 4 regras de transição para aposentadoria. Descubra qual se aplica a você e se ela pode ser mais vantajosa do que a regra definitiva.",
+    date: "13 de maio de 2026",
+    category: "Aposentadoria",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "posso-me-aposentar-hoje-2026",
     image: "/blog/posso-me-aposentar-hoje-2026.jpg",
     title: "Tenho 62 ou 65 anos: posso me aposentar hoje? Entenda as regras",

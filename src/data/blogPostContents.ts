@@ -1,5 +1,42 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "regras-de-transicao-previdencia-reforma": `## O que ninguém explicou direito para você
+
+A maioria das pessoas que estava trabalhando quando a reforma previdenciária entrou em vigor em novembro de 2019 tem direito a uma das quatro regras de transição criadas pela EC 103/2019. Essas regras existem para proteger quem já estava no meio do caminho quando as exigências mudaram.
+
+O problema é que pouquíssimas pessoas sabem qual regra se aplica ao seu caso — e, mais importante, qual delas é a mais vantajosa.
+
+## O que são as regras de transição?
+
+A EC 103/2019 criou quatro caminhos de transição, cada um com critérios diferentes, para quem já era segurado antes de 13 de novembro de 2019. Cada trabalhador pode usar a regra que for mais vantajosa para o seu caso — mas é preciso saber que existem, calcular cada uma e comparar.
+
+## Transição 1: Pedágio de 50%
+
+Essa regra permite se aposentar antes das idades mínimas da regra definitiva, mas exige pagar um "pedágio" de 50% do tempo que ainda faltava para completar o requisito de contribuição no momento da reforma. Essa transição é detalhada no art. 15 da EC 103/2019.
+
+## Transição 2: Pedágio de 100%
+
+Essa permite aposentadoria com valor integral (100% da média), mas exige pedágio de 100% do que faltava em novembro de 2019, mais uma idade mínima de 57 anos para mulheres e 60 anos para homens.
+
+## Transição 3: Pontos progressivos
+
+Essa é a transição mais conhecida e mais utilizada. Funciona por um sistema de pontos: a soma da sua idade com o seu tempo de contribuição precisa atingir um número mínimo que aumenta gradualmente a cada ano.
+
+Em 2026, os pontos necessários são 98 para mulheres e 108 para homens. Além dos pontos, há uma exigência mínima de tempo de contribuição: 30 anos para mulheres e 35 anos para homens.
+
+Exemplo: uma mulher com 55 anos e 43 anos de contribuição tem 55 + 43 = 98 pontos em 2026 — exatamente o mínimo necessário.
+
+## Transição 4: Idade mínima progressiva
+
+Essa transição funciona como uma escada de idades mínimas que sobe gradualmente. Para mulheres, já chegou a 62 anos em 2023 e está estabilizada. Para homens, em 2026 a idade mínima é de 64 anos e 6 meses (chegando a 65 em 2027).
+
+## Como descobrir qual é a sua?
+
+Primeiro, confirme se você estava contribuindo antes de 13 de novembro de 2019. Se sim, você pode usar qualquer uma das quatro transições.
+
+Depois, é preciso simular cada uma delas com seus dados reais. Em muitos casos, a mais vantajosa não é a mais óbvia. A diferença pode ser de meses no tempo para se aposentar ou de centenas de reais no valor mensal do benefício.
+
+Quer descobrir qual transição se aplica ao seu caso e qual é a mais vantajosa? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "posso-me-aposentar-hoje-2026": `## A pergunta que parece óbvia mas não é
 
 Teresa completou 62 anos em março. Achou que era só protocolar o pedido no INSS e pronto — aposentada. Chegou lá e descobriu que tinha apenas 12 anos de contribuição. O pedido foi negado.
