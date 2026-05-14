@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "revisao-da-vida-toda-vale-a-pena",
+    image: "/blog/revisao-da-vida-toda-vale-a-pena.jpg",
+    title: "Revisão da vida toda: quando ela aumenta sua aposentadoria",
+    excerpt: "A revisão da vida toda pode aumentar sua aposentadoria incluindo contribuições anteriores a 1994. Entenda quem tem direito e por que muita gente ainda não pediu.",
+    date: "14 de maio de 2026",
+    category: "Aposentadoria",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "regras-de-transicao-previdencia-reforma",
     image: "/blog/regras-de-transicao-previdencia-reforma.jpg",
     title: "As 4 regras de transição da reforma previdenciária: qual é a sua?",

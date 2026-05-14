@@ -1,5 +1,36 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "revisao-da-vida-toda-vale-a-pena": `## Um benefício pago a menos por anos
+
+Cleuza se aposentou em 2005. Trabalhou a vida toda, desde os 18 anos. Mas na hora de calcular o valor da aposentadoria, o INSS usou apenas as contribuições a partir de julho de 1994. Os 15 anos anteriores — quando ela ganhava bem e contribuía com valores proporcionalmente altos — foram simplesmente ignorados.
+
+Isso aconteceu com milhões de brasileiros. E existe uma tese jurídica que pode corrigir isso.
+
+## O que é a revisão da vida toda?
+
+A revisão da vida toda discute qual período deve ser considerado no cálculo da aposentadoria. Quando o Plano Real foi implantado em 1994, estabeleceu-se que apenas as contribuições a partir de julho de 1994 seriam consideradas para o cálculo do benefício (Lei 9.876/99). As contribuições anteriores a essa data ficaram de fora.
+
+Para quem trabalhou e contribuiu bastante antes de 1994 — especialmente com salários mais altos — essa exclusão pode ter resultado em um benefício menor.
+
+## O julgamento do STF
+
+Em dezembro de 2022, o Supremo Tribunal Federal concluiu o julgamento do Tema 1.102 e decidiu, por maioria apertada (6 a 5), que o segurado tem o direito de optar pelo cálculo que for mais vantajoso: com os salários a partir de julho de 1994, ou com todos os salários desde o início das contribuições.
+
+A revisão só beneficia quem tem contribuições pré-1994 que, quando incluídas, resultam em uma média mais alta.
+
+## Quem pode se beneficiar?
+
+A revisão da vida toda potencialmente beneficia quem: se aposentou a partir de novembro de 1999, tem um longo histórico contributivo anterior a 1994, e cujos salários de contribuição antes de 1994 eram proporcionalmente altos.
+
+O perfil mais comum são pessoas que começaram a trabalhar na década de 1970 ou 1980 e se aposentaram no início dos anos 2000.
+
+## Por que ainda há tanto caso para revisar?
+
+O prazo para pedir a revisão no INSS é de 10 anos a partir da data de concessão do benefício. Para benefícios mais antigos, o caminho é a ação judicial. A prescrição de parcelas já pagas é de 5 anos, mas a ação pode ser ajuizada se a aposentadoria ainda estiver ativa.
+
+Muitas pessoas que têm direito à revisão não pediram por falta de informação.
+
+Quer saber se a revisão da vida toda faz sentido para o seu caso? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "regras-de-transicao-previdencia-reforma": `## O que ninguém explicou direito para você
 
 A maioria das pessoas que estava trabalhando quando a reforma previdenciária entrou em vigor em novembro de 2019 tem direito a uma das quatro regras de transição criadas pela EC 103/2019. Essas regras existem para proteger quem já estava no meio do caminho quando as exigências mudaram.
