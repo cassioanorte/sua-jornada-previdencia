@@ -1,5 +1,32 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-acidente-vs-auxilio-doenca": `## A confusão que custa dinheiro
+
+Quem nunca precisou desses benefícios acha que são a mesma coisa — afinal, ambos envolvem doença ou acidente e pagamento do INSS. Mas as diferenças são profundas, e confundir um com o outro pode fazer alguém perder o direito ao benefício correto.
+
+## O auxílio-doença: para incapacidade temporária
+
+O auxílio-doença é pago enquanto você está incapaz de trabalhar. Está previsto nos arts. 59 a 63 da Lei 8.213/91. Para recebê-lo, você precisa estar efetivamente incapaz — não conseguir trabalhar. O benefício cessa quando a perícia médica entender que você se recuperou.
+
+O valor é de 91% do salário de benefício. E enquanto você recebe o auxílio-doença, não está trabalhando — o contrato de trabalho fica suspenso.
+
+## O auxílio-acidente: para sequela permanente pós-recuperação
+
+O auxílio-acidente, previsto no art. 86 da Lei 8.213/91, entra em cena depois que você já se recuperou o suficiente para trabalhar, mas ficou com uma sequela permanente que reduz sua capacidade laboral.
+
+Ele não substitui o salário — você continua trabalhando e recebe o auxílio-acidente junto. É um adicional permanente que reconhece que você ficou com uma limitação. O valor é de 50% do salário de benefício.
+
+## A linha do tempo típica
+
+Numa situação ideal: acidente → afastamento → auxílio-doença → recuperação parcial → alta médica com reconhecimento de sequela → início do auxílio-acidente → retorno ao trabalho com percepção simultânea do auxílio-acidente.
+
+O problema é que o "reconhecimento de sequela" raramente acontece de forma automática. O INSS concede a alta e encerra o auxílio-doença. O reconhecimento da sequela e o pedido do auxílio-acidente precisa ser feito separadamente.
+
+## Quais acidentes dão direito ao auxílio-acidente?
+
+O auxílio-acidente, como o nome diz, exige que a origem seja um acidente. Mas não apenas acidente de trabalho. O art. 86 da Lei 8.213/91 abrange acidente de qualquer natureza: acidente de trabalho típico, acidente de trajeto, doença ocupacional, acidente doméstico e acidente de trânsito.
+
+Quer entender qual benefício se aplica à sua situação? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "revisao-da-vida-toda-vale-a-pena": `## Um benefício pago a menos por anos
 
 Cleuza se aposentou em 2005. Trabalhou a vida toda, desde os 18 anos. Mas na hora de calcular o valor da aposentadoria, o INSS usou apenas as contribuições a partir de julho de 1994. Os 15 anos anteriores — quando ela ganhava bem e contribuía com valores proporcionalmente altos — foram simplesmente ignorados.
@@ -4667,6 +4694,62 @@ Tem dúvidas sobre tempo rural, atividade especial ou quer revisar sua aposentad
 **Links relacionados:** [Aposentadoria especial: guia completo](/blog/aposentadoria-especial-guia-completo) | [Aposentadoria rural: quem tem direito](/blog/aposentadoria-rural) | [Revisão de benefício por incapacidade](/blog/revisao-beneficio-incapacidade)
 
 **Hashtags:** #TRF4 #AposentadoriaEspecial #TrabalhoRural #INSS #Previdência #PPP #AvisoPrévio`,
+  "contribuindo-errado-para-o-inss": `## A surpresa desagradável na hora H
+
+Pedro tinha certeza de que estava tudo certo. Pagou o carnê do autônomo por anos. Chegou na idade, foi pedir a aposentadoria — e descobriu que os recolhimentos tinham sido feitos sobre o salário mínimo quando ele ganhava o triplo disso. O benefício que recebeu foi muito menor do que esperava.
+
+Esse tipo de erro é silencioso. Ele não aparece na conta bancária, não gera notificação, não tem alarme. Só aparece quando você precisa do resultado.
+
+## Os erros mais comuns de contribuição
+
+O primeiro erro clássico é o autônomo que contribui sempre pelo salário mínimo para pagar menos, sem perceber que está construindo um benefício menor. O valor da aposentadoria é diretamente proporcional aos salários de contribuição.
+
+O segundo erro é do MEI que acha que a contribuição embutida no DAS (5% sobre o salário mínimo) vai gerar uma aposentadoria proporcional ao que ele ganha. O MEI contribui pelo mínimo por definição — para ter benefício maior, é necessário complementar como contribuinte individual.
+
+O terceiro erro acontece com empregados cujo empregador faz o desconto na folha mas não repassa ao INSS. Você vê o desconto no holerite, mas o dinheiro nunca chega à Receita Federal. Isso gera um período em branco no seu CNIS.
+
+## Como verificar seu CNIS agora
+
+O extrato do CNIS está disponível no aplicativo ou site Meu INSS. O que verificar: se há períodos em que você trabalhou formalmente mas não aparecem no extrato, se os salários registrados correspondem ao que você realmente recebia, se há lacunas entre períodos com contribuição contínua.
+
+Se encontrar inconsistências, é possível solicitar a regularização administrativamente no INSS, apresentando comprovantes do vínculo empregatício.
+
+## Como o planejamento muda tudo
+
+A diferença entre contribuir sobre o salário mínimo e sobre R\$ 3.000 durante 20 anos pode representar centenas de reais a mais no benefício mensal — para o resto da vida.
+
+Não existe o momento certo para começar a prestar atenção nisso. O melhor momento é agora, quando ainda há tempo de corrigir.
+
+Quer uma análise do seu CNIS para identificar se há erros ou oportunidades? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
+  "auxilio-acidente-o-que-e-quem-tem-direito": `## Alta médica não significa fim dos direitos
+
+Carlos trabalhou 12 anos como motorista. Sofreu um acidente de trânsito, ficou afastado por 4 meses, recebeu o auxílio-doença, e recebeu alta. O médico do trabalho o liberou para retornar às atividades. Aparentemente, tudo resolvido.
+
+O que ninguém contou para Carlos é que ele saiu daquele acidente com uma redução permanente na amplitude de movimento do ombro direito. Isso afeta diretamente sua capacidade de dirigir por longas horas. E isso gera direito a outro benefício que ele nunca soube que existia.
+
+## O que é o auxílio-acidente
+
+O auxílio-acidente é um benefício previdenciário previsto no art. 86 da Lei 8.213/91. Ele é pago para o segurado que, após consolidação das lesões decorrentes de acidente, apresenta sequela permanente que reduza a capacidade para o trabalho que exercia habitualmente.
+
+Não é para quem está incapaz de trabalhar — é para quem voltou a trabalhar, mas ficou com limitação permanente que afeta sua eficiência na função habitual.
+
+O valor é de 50% do salário de benefício do segurado, e ele é cumulativo com o salário. Você continua trabalhando e recebe o auxílio-acidente por cima do seu salário mensal.
+
+## Quem tem direito?
+
+Três condições precisam estar presentes: você precisa ser segurado do INSS como empregado CLT, trabalhador avulso, ou segurado especial (desde a Lei 9.032/95, o contribuinte individual não tem direito); o dano precisa ter decorrido de acidente de qualquer natureza; e a sequela precisa ser permanente e redutora da capacidade laboral.
+
+## Por que tanta gente perde esse benefício?
+
+O auxílio-acidente não é automático. O INSS não te liga para avisar que você pode ter direito. Na perícia de encerramento do auxílio-doença, o médico perito muitas vezes simplesmente concede a alta sem avaliar formalmente se houve sequela permanente.
+
+## Quanto tempo tem para pedir?
+
+O prazo para pedir o auxílio-acidente é de 5 anos a partir da data da alta médica ou da consolidação das lesões, conforme o art. 103 da Lei 8.213/91.
+
+Isso significa que quem sofreu acidente e recebeu alta nos últimos 5 anos ainda pode verificar se tem direito ao benefício.
+
+Quer saber se o seu acidente gerou sequela que dá direito ao auxílio-acidente? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
 };
 
 export default blogPostContents;

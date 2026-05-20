@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-vs-auxilio-doenca",
+    image: "/blog/auxilio-acidente-vs-auxilio-doenca.jpg",
+    title: "Auxílio-acidente x auxílio-doença: diferenças e quando pedir cada um",
+    excerpt: "Auxílio-doença e auxílio-acidente têm nomes parecidos mas funcionam de forma muito diferente. Saiba qual é qual e em que momento cada um se aplica.",
+    date: "20 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "revisao-da-vida-toda-vale-a-pena",
     image: "/blog/revisao-da-vida-toda-vale-a-pena.jpg",
     title: "Revisão da vida toda: quando ela aumenta sua aposentadoria",
@@ -636,6 +645,28 @@ export const blogPosts: BlogPost[] = [
     date: "6 de maio de 2026",
     category: "Aposentadoria Especial",
     author: "Equipe Spier & Anorte"
+  }
+,
+  {
+    id: "contribuindo-errado-para-o-inss",
+    image: "/blog/contribuindo-errado-para-o-inss.jpg",
+    title: "Contribuindo errado para o INSS? Como descobrir antes que seja tarde",
+    excerpt: "Muita gente contribui para o INSS sem saber que está fazendo errado — e só descobre na hora de se aposentar. Veja como identificar falhas antes que virem problemas.",
+    date: "15 de maio de 2026",
+    category: "Aposentadoria",
+    author: "Equipe Spier & Anorte",
+    conteudo_ref: "post_contribuindo_errado_para_o_inss",
+  }
+,
+  {
+    id: "auxilio-acidente-o-que-e-quem-tem-direito",
+    image: "/blog/auxilio-acidente-o-que-e-quem-tem-direito.jpg",
+    title: "Auxílio-acidente: o benefício previdenciário que ninguém te contou",
+    excerpt: "Teve um acidente, se recuperou, mas ficou com alguma limitação? O auxílio-acidente existe para esse caso — e a maioria das pessoas não sabe que tem direito.",
+    date: "18 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte",
+    conteudo_ref: "post_auxilio_acidente_o_que_e_quem_tem_direito",
   }
 ];
 
