@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "alta-sem-sequela-reconhecida-inss",
+    image: "/blog/alta-sem-sequela-reconhecida-inss.jpg",
+    title: "Alta do INSS sem reconhecimento de sequela: o erro que prejudica trabalhadores",
+    excerpt: "Recebeu alta do INSS sem que o perito reconhecesse a sequela do acidente? Esse erro é mais comum do que parece — e tem como corrigir mesmo depois da alta.",
+    date: "21 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-acidente-vs-auxilio-doenca",
     image: "/blog/auxilio-acidente-vs-auxilio-doenca.jpg",
     title: "Auxílio-acidente x auxílio-doença: diferenças e quando pedir cada um",
@@ -667,6 +676,17 @@ export const blogPosts: BlogPost[] = [
     category: "Benefícios por Incapacidade",
     author: "Equipe Spier & Anorte",
     conteudo_ref: "post_auxilio_acidente_o_que_e_quem_tem_direito",
+  }
+,
+  {
+    id: "tipos-de-acidente-que-dao-auxilio-acidente",
+    image: "/blog/tipos-de-acidente-que-dao-auxilio-acidente.jpg",
+    title: "Quais acidentes dão direito ao auxílio-acidente? Os 3 tipos",
+    excerpt: "Nem todo acidente gera auxílio-acidente — mas a lei é mais abrangente do que parece. Conheça os 3 tipos de acidente reconhecidos e se o seu se encaixa.",
+    date: "20 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte",
+    conteudo_ref: "post_tipos_de_acidente_que_dao_auxilio_acidente",
   }
 ];
 

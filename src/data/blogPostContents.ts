@@ -1,5 +1,32 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "alta-sem-sequela-reconhecida-inss": `## A alta que parecia boa notícia
+
+Fernando sofreu um acidente de trabalho, ficou 6 meses recebendo auxílio-doença e foi chamado para a perícia de revisão. O médico perito disse que ele estava apto para retornar ao trabalho. Fernando ficou aliviado — pensou que tinha se recuperado bem.
+
+Voltou ao trabalho. Mas passou a ter dor crônica no joelho ao final de cada turno. Não conseguia mais fazer hora extra. Tinha dificuldade em subir escadas no trabalho. Ninguém perguntou sobre isso na perícia. A alta simplesmente foi dada.
+
+Fernando ficou com sequela permanente e sem benefício.
+
+## Por que isso é tão comum?
+
+A perícia de encerramento do auxílio-doença tem um objetivo específico: determinar se o segurado está apto para retornar ao trabalho. O que muitas vezes não acontece é uma avaliação complementar: mesmo que o segurado esteja apto para trabalhar, houve sequela permanente?
+
+Estar apto para trabalhar não significa que não há sequela. Alguém pode estar apto e ainda assim ter perdido 30% da mobilidade de um membro — o que configura exatamente o quadro que gera direito ao auxílio-acidente.
+
+## Como corrigir esse erro depois
+
+Se você recebeu alta do INSS mas ficou com sequela perceptível — dor crônica, limitação de movimentos, redução de força —, é possível fazer um novo pedido específico de auxílio-acidente pelo Meu INSS.
+
+Para essa perícia, você vai precisar de laudos médicos que descrevam especificamente a sequela atual e permanente. O médico precisa usar linguagem objetiva: "perda de 40% da amplitude de movimento do ombro direito" é muito mais forte do que "dor ocasional no ombro".
+
+## O prazo que você precisa conhecer
+
+O direito ao pedido de auxílio-acidente tem prazo prescricional de 5 anos a partir da alta médica, conforme o art. 103 da Lei 8.213/91.
+
+Se a sua alta foi há menos de 5 anos e você ficou com sequela não reconhecida, o caminho ainda está aberto.
+
+Quer saber se a alta que você recebeu deixou de reconhecer uma sequela que gera direito ao benefício? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "auxilio-acidente-vs-auxilio-doenca": `## A confusão que custa dinheiro
 
 Quem nunca precisou desses benefícios acha que são a mesma coisa — afinal, ambos envolvem doença ou acidente e pagamento do INSS. Mas as diferenças são profundas, e confundir um com o outro pode fazer alguém perder o direito ao benefício correto.
@@ -4750,6 +4777,37 @@ O prazo para pedir o auxílio-acidente é de 5 anos a partir da data da alta mé
 Isso significa que quem sofreu acidente e recebeu alta nos últimos 5 anos ainda pode verificar se tem direito ao benefício.
 
 Quer saber se o seu acidente gerou sequela que dá direito ao auxílio-acidente? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
+  "tipos-de-acidente-que-dao-auxilio-acidente": `## O trabalhador que não sabia que tinha direito
+
+Silvia caiu da escada em casa. Fraturou o tornozelo, ficou 3 meses afastada pelo auxílio-doença, e voltou ao trabalho com limitação de movimentos. O médico disse que era sequela permanente. Quando alguém perguntou se ela tinha pedido o auxílio-acidente, ela respondeu: "Mas não foi acidente de trabalho, foi em casa."
+
+O que Silvia não sabia é que a Lei 8.213/91 não exige que seja acidente de trabalho.
+
+## A base legal: o que diz o art. 86
+
+O art. 86 da Lei 8.213/91 estabelece que o auxílio-acidente é devido ao segurado que, após consolidação das lesões decorrentes de acidente de qualquer natureza, resultar sequela permanente. A expressão "acidente de qualquer natureza" é o que abre o leque.
+
+## Tipo 1: Acidente de trabalho típico
+
+É o acidente que ocorre durante o exercício do trabalho, a serviço da empresa. O registro é feito pela empresa através da CAT (Comunicação de Acidente de Trabalho), o que facilita a comprovação.
+
+Atenção: a falta de CAT não impede o direito ao benefício. A Súmula 229 do STJ reconhece que outras provas podem suprir.
+
+## Tipo 2: Acidente de trajeto
+
+O acidente que ocorre no percurso entre a residência e o trabalho também é equiparado ao acidente de trabalho para fins previdenciários, conforme o art. 21-A da Lei 8.213/91.
+
+Isso inclui acidentes de carro, moto, ônibus, bicicleta ou a pé, desde que no trajeto habitual.
+
+## Tipo 3: Acidente de qualquer natureza (não relacionado ao trabalho)
+
+Aqui está o tipo mais ignorado. A Lei 8.213/91 é clara: o auxílio-acidente pode decorrer de acidente de qualquer natureza — não apenas os relacionados ao trabalho.
+
+Isso significa: acidente doméstico, acidente de trânsito fora do trajeto trabalho-casa, acidente durante atividade de lazer, acidente esportivo — desde que resulte em sequela permanente redutora da capacidade laboral.
+
+A condição é que o segurado seja empregado, trabalhador avulso ou segurado especial. O contribuinte individual não tem direito.
+
+Quer verificar se o acidente que você sofreu se enquadra? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
 };
 
 export default blogPostContents;
