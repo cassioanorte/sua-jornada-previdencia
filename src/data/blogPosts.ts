@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-vitalicio-cumula-salario",
+    image: "/blog/auxilio-acidente-vitalicio-cumula-salario.jpg",
+    title: "O benefício que acumula com o salário: entenda o auxílio-acidente vitalício",
+    excerpt: "O auxílio-acidente é pago junto com o salário e dura até a aposentadoria. Entenda como funciona esse benefício vitalício e quem tem direito em 2026.",
+    date: "22 de maio de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "alta-sem-sequela-reconhecida-inss",
     image: "/blog/alta-sem-sequela-reconhecida-inss.jpg",
     title: "Alta do INSS sem reconhecimento de sequela: o erro que prejudica trabalhadores",

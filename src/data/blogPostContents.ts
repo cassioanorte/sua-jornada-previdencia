@@ -1,5 +1,36 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-acidente-vitalicio-cumula-salario": `## O benefício mais subestimado da previdência
+
+Se alguém te dissesse que existe um benefício do INSS que você recebe todo mês junto com o seu salário, sem precisar parar de trabalhar, e que dura até você se aposentar — você acreditaria?
+
+Esse benefício existe. Chama-se auxílio-acidente. E é um dos menos conhecidos e menos reivindicados de todo o sistema previdenciário brasileiro.
+
+## Como funciona a cumulatividade
+
+O art. 86, §2º da Lei 8.213/91 estabelece expressamente que o auxílio-acidente é inacumulável com qualquer aposentadoria, mas é plenamente acumulável com o salário e com outros benefícios.
+
+Um trabalhador com salário de contribuição de R\$ 3.000 e salário de benefício de R\$ 2.800 receberia R\$ 1.400 mensais de auxílio-acidente, além do seu salário regular. Ao longo de 10 anos, isso representa R\$ 168.000.
+
+## Por que é chamado de vitalício?
+
+O auxílio-acidente não tem prazo de encerramento determinado por recuperação, porque ele não é pago por incapacidade — é pago por sequela permanente. A sequela não vai embora. Por isso, o benefício continua.
+
+Ele cessa apenas em duas situações: quando o segurado se aposenta por qualquer modalidade, ou em caso de falecimento.
+
+## O impacto na aposentadoria
+
+O auxílio-acidente entra no cálculo do salário de contribuição para fins de aposentadoria. Isso significa que os 50% mensais recebidos como auxílio-acidente elevam a base de cálculo da aposentadoria futura.
+
+Além disso, o período de recebimento do auxílio-acidente conta como tempo de contribuição para aposentadoria, conforme o art. 29 da Lei 8.213/91.
+
+## O MEI e o autônomo ficam de fora?
+
+Infelizmente, sim. Desde a Lei 9.032/95, o contribuinte individual — categoria que inclui autônomos, profissionais liberais e MEIs — não tem direito ao auxílio-acidente.
+
+Quem trabalha como empregado registrado, trabalhador avulso ou segurado especial tem direito ao benefício.
+
+Quer entender se você tem direito ao auxílio-acidente e quanto poderia receber? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "alta-sem-sequela-reconhecida-inss": `## A alta que parecia boa notícia
 
 Fernando sofreu um acidente de trabalho, ficou 6 meses recebendo auxílio-doença e foi chamado para a perícia de revisão. O médico perito disse que ele estava apto para retornar ao trabalho. Fernando ficou aliviado — pensou que tinha se recuperado bem.
