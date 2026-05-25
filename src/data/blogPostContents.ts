@@ -1,5 +1,40 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "salario-maternidade-quem-tem-direito-2026": `## A informação que chega tarde demais
+
+Diana ficou grávida trabalhando como diarista, sem carteira assinada, mas contribuindo ao INSS como contribuinte individual. Quando foi ver sobre o salário-maternidade, achou que não tinha direito porque não era CLT. Passou a gravidez inteira sem pedir — e só depois soube que poderia ter recebido.
+
+Esse tipo de erro acontece em silêncio, e o prejuízo é real: meses de benefício perdidos por falta de informação.
+
+## O que é o salário-maternidade
+
+O salário-maternidade é um benefício previdenciário pago pelo INSS (ou pelo empregador, no caso de CLT) durante o afastamento por maternidade. Está previsto nos arts. 71 a 73 da Lei 8.213/91 e nos arts. 93 a 103 do Decreto 3.048/99.
+
+Ele é pago por 120 dias (4 meses) em regra, podendo ser estendido para 180 dias em empresas participantes do programa Empresa Cidadã (Lei 11.770/2008).
+
+## Quem tem direito?
+
+Têm direito: empregadas CLT (inclusive domésticas), trabalhadoras avulsas, contribuintes individuais (autônomas), seguradas especiais (trabalhadoras rurais em regime de economia familiar), e MEIs — desde que respeitem o período de carência.
+
+Também têm direito mulheres que adotaram ou obtiveram guarda judicial para fins de adoção (após a decisão do STF no ARE 1.348.503).
+
+## Período de carência: quando é necessário?
+
+Para a empregada CLT, trabalhadora doméstica e avulsa: não há carência. O benefício é devido independentemente do tempo de contribuição.
+
+Para a contribuinte individual e a MEI: a carência é de 10 contribuições mensais antes da data provável do parto.
+
+Para a segurada especial (trabalhadora rural): 10 meses de atividade rural comprovada.
+
+## Quanto é pago?
+
+Para a empregada CLT: o valor é igual ao último salário. Para a contribuinte individual e MEI que contribui pelo DAS: baseado na média das contribuições (MEI que contribui só pelo DAS recebe um salário mínimo).
+
+## Como pedir
+
+O pedido é feito pelo Meu INSS — pelo aplicativo, pelo site ou pelo telefone 135. O ideal é fazer o pedido com antecedência — a partir de 28 dias antes da data provável do parto.
+
+Quer saber se você tem direito ao salário-maternidade e quanto seria o valor? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "auxilio-acidente-vitalicio-cumula-salario": `## O benefício mais subestimado da previdência
 
 Se alguém te dissesse que existe um benefício do INSS que você recebe todo mês junto com o seu salário, sem precisar parar de trabalhar, e que dura até você se aposentar — você acreditaria?

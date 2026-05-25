@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "salario-maternidade-quem-tem-direito-2026",
+    image: "/blog/salario-maternidade-quem-tem-direito-2026.jpg",
+    title: "Salário-maternidade 2026: quem tem direito e como pedir",
+    excerpt: "O salário-maternidade não é só para grávidas com carteira assinada. Entenda quem tem direito em 2026, quanto é pago e como fazer o pedido ao INSS.",
+    date: "25 de maio de 2026",
+    category: "Maternidade e Família",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-acidente-vitalicio-cumula-salario",
     image: "/blog/auxilio-acidente-vitalicio-cumula-salario.jpg",
     title: "O benefício que acumula com o salário: entenda o auxílio-acidente vitalício",
