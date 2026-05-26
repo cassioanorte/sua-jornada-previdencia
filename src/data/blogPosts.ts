@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "mei-gravida-tem-direito-salario-maternidade",
+    image: "/blog/mei-gravida-tem-direito-salario-maternidade.jpg",
+    title: "MEI grávida tem direito ao salário-maternidade? Sim — veja como pedir",
+    excerpt: "Muitas MEIs não sabem que têm direito ao salário-maternidade. Veja as regras, o período de carência e como pedir o benefício pelo INSS em 2026.",
+    date: "26 de maio de 2026",
+    category: "Maternidade e Família",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "salario-maternidade-quem-tem-direito-2026",
     image: "/blog/salario-maternidade-quem-tem-direito-2026.jpg",
     title: "Salário-maternidade 2026: quem tem direito e como pedir",

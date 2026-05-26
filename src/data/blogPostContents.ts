@@ -1,5 +1,38 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "mei-gravida-tem-direito-salario-maternidade": `## A dúvida que aparece tarde demais
+
+Rosana abriu seu MEI há dois anos para formalizar seu trabalho como cabeleireira. Ficou grávida, parou de trabalhar, mas não pediu o salário-maternidade porque "não sabia que MEI tinha direito". Descobriu só quando a bebê tinha 3 meses — e perdeu parte do benefício por não ter pedido a tempo.
+
+## MEI tem sim direito ao salário-maternidade
+
+A MEI é enquadrada como contribuinte individual para fins previdenciários, e nessa condição tem direito ao salário-maternidade conforme o art. 71-C da Lei 8.213/91, inserido pela Lei 12.873/2013.
+
+O benefício é pago diretamente pelo INSS e dura 120 dias corridos, a partir da data do parto ou até 28 dias antes da data provável do parto.
+
+## A carência: o detalhe que mais pega
+
+Para a MEI ter direito ao salário-maternidade, é necessário ter cumprido a carência de 10 contribuições mensais antes da data provável do parto.
+
+Isso significa: se a data prevista para o parto é em outubro, a MEI precisava ter contribuído (pago o DAS) nos 10 meses anteriores — desde dezembro do ano anterior, no mínimo.
+
+O DAS precisa estar pago, não apenas gerado. Por isso, assim que uma MEI descobre que está grávida, é fundamental verificar o histórico de pagamentos do DAS.
+
+## Qual o valor do benefício para a MEI?
+
+O valor do salário-maternidade para quem contribui apenas pelo DAS é equivalente a um salário mínimo — porque a contribuição do MEI é calculada sobre o salário mínimo (5% do piso salarial vigente).
+
+Em 2026, com o salário mínimo em R\$ 1.518, o salário-maternidade mensal para MEI que contribui apenas pelo DAS é R\$ 1.518. O benefício dura 120 dias, totalizando R\$ 6.072 brutos.
+
+Para receber mais, seria necessário ter feito contribuições complementares como contribuinte individual durante o período anterior ao parto.
+
+## Como fazer o pedido
+
+O pedido é feito pelo Meu INSS — aplicativo, site meu.inss.gov.br ou telefone 135. Os documentos necessários incluem: certidão de nascimento da criança, comprovante de pagamento dos DAS dos últimos meses, CNPJ ativo do MEI e documentos pessoais.
+
+O INSS tem prazo de até 45 dias para processar o benefício após o pedido. Quanto antes for feito, melhor.
+
+Quer conferir se sua situação como MEI cumpre os requisitos? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "salario-maternidade-quem-tem-direito-2026": `## A informação que chega tarde demais
 
 Diana ficou grávida trabalhando como diarista, sem carteira assinada, mas contribuindo ao INSS como contribuinte individual. Quando foi ver sobre o salário-maternidade, achou que não tinha direito porque não era CLT. Passou a gravidez inteira sem pedir — e só depois soube que poderia ter recebido.
