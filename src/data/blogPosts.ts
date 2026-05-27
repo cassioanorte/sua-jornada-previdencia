@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "salario-maternidade-clt-autonoma-mei-desempregada",
+    image: "/blog/salario-maternidade-clt-autonoma-mei-desempregada.jpg",
+    title: "Salário-maternidade para CLT, autônoma, MEI e desempregada: guia completo",
+    excerpt: "As regras do salário-maternidade mudam dependendo do seu vínculo de trabalho. Este guia compara os 4 perfis e explica o que cada uma precisa saber.",
+    date: "27 de maio de 2026",
+    category: "Maternidade e Família",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "mei-gravida-tem-direito-salario-maternidade",
     image: "/blog/mei-gravida-tem-direito-salario-maternidade.jpg",
     title: "MEI grávida tem direito ao salário-maternidade? Sim — veja como pedir",

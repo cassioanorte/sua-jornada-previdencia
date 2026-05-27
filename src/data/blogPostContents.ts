@@ -1,5 +1,40 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "salario-maternidade-clt-autonoma-mei-desempregada": `## Uma pergunta, quatro respostas
+
+"Tenho direito ao salário-maternidade?" Parece uma pergunta simples, mas a resposta depende de uma informação fundamental: qual é o seu vínculo com o trabalho e com a Previdência Social.
+
+Em 2026, as regras variam significativamente conforme você seja CLT, autônoma, MEI ou desempregada.
+
+## CLT: a situação mais protegida
+
+A empregada com carteira assinada tem o salário-maternidade mais vantajoso do sistema. Sem carência, o benefício é igual ao último salário — sem limitação de valor.
+
+Como funciona na prática: a empregada comunica a gravidez ao empregador, que é obrigado a pagar o salário normalmente durante a licença de 120 dias (ou 180, se a empresa aderiu ao Empresa Cidadã pela Lei 11.770/2008).
+
+A proteção vai além do benefício financeiro: a gestante tem estabilidade no emprego desde a confirmação da gravidez até 5 meses após o parto, conforme art. 10, II, "b" do ADCT da Constituição Federal, mesmo que a gravidez não seja comunicada ao empregador (Súmula 244 do TST).
+
+## Autônoma (contribuinte individual): carência importa
+
+A trabalhadora autônoma que contribui ao INSS como contribuinte individual tem direito ao salário-maternidade, mas com a carência de 10 contribuições mensais antes da data provável do parto.
+
+O valor do benefício é calculado com base em 1/12 da soma dos últimos 12 salários de contribuição.
+
+## MEI: contribuição mínima, benefício mínimo
+
+A MEI contribui ao INSS através do DAS (5% do salário mínimo). O direito ao salário-maternidade existe, mas o valor é limitado ao salário mínimo. A carência também é de 10 meses de DAS pago.
+
+## Desempregada: o período de graça
+
+Uma mulher que está desempregada pode ainda ter direito ao salário-maternidade se estiver dentro do chamado período de graça.
+
+O período de graça é o tempo em que o segurado mantém a qualidade de segurado após cessar as contribuições. Para quem perdeu o emprego, esse período é de 12 meses — podendo ser prorrogado para 24 meses se tiver mais de 120 contribuições mensais.
+
+## A comparação que todo mundo quer ver
+
+CLT: sem carência, recebe o salário integral; autônoma: carência de 10 meses, recebe com base na média das contribuições; MEI: carência de 10 meses, recebe pelo menos um salário mínimo; desempregada: pode ter direito se ainda estiver no período de graça.
+
+Quer saber qual é a sua situação específica? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "mei-gravida-tem-direito-salario-maternidade": `## A dúvida que aparece tarde demais
 
 Rosana abriu seu MEI há dois anos para formalizar seu trabalho como cabeleireira. Ficou grávida, parou de trabalhar, mas não pediu o salário-maternidade porque "não sabia que MEI tinha direito". Descobriu só quando a bebê tinha 3 meses — e perdeu parte do benefício por não ter pedido a tempo.
