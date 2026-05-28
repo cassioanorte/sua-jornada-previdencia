@@ -1,5 +1,38 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "adocao-salario-maternidade": `## A mãe adotiva que não sabia que tinha direito
+
+Lucia e seu marido esperaram 4 anos pelo processo de adoção. Quando finalmente trouxeram a menina de 7 anos para casa, Lucia tirou férias do trabalho para se dedicar à adaptação da família. Só depois um colega comentou que ela tinha direito à licença-maternidade — e ao salário-maternidade correspondente.
+
+Ela perdeu os 120 dias de benefício. Não por falta de direito, mas por falta de informação.
+
+## O direito à licença-maternidade na adoção
+
+O art. 71-A da Lei 8.213/91, inserido pela Lei 12.010/2009, assegura salário-maternidade à segurada que adotar ou obtiver guarda judicial para fins de adoção de criança.
+
+Originalmente, a lei previa prazos diferentes conforme a idade da criança adotada. Mas essa diferenciação foi declarada inconstitucional pelo Supremo Tribunal Federal no julgamento do ARE 1.348.503, concluído em 2022.
+
+## O que mudou com a decisão do STF
+
+A partir da decisão do STF, o prazo do salário-maternidade por adoção é de 120 dias, independentemente da idade da criança adotada.
+
+Isso significa que a mãe que adotou uma criança de 8 anos tem o mesmo direito à licença de 120 dias que a mãe que adotou um bebê de 2 meses. A decisão tem efeito vinculante.
+
+## Quem pode pedir
+
+O benefício pode ser pedido tanto pela mãe adotante quanto pelo pai adotante — em caso de casal homoafetivo feminino, ambas têm direito ao benefício de acordo com a situação de cada uma.
+
+A segurada precisa ter qualidade de segurada no INSS. Para empregadas CLT e domésticas, não há carência. Para contribuintes individuais e MEIs, a carência de 10 contribuições mensais se aplica.
+
+O pedido precisa ser feito a partir da data da guarda judicial para fins de adoção — não é necessário esperar a adoção ser finalizada em cartório.
+
+## Como funciona o pedido
+
+O documento central é o termo de guarda judicial para fins de adoção. Com esse documento em mãos, o pedido é feito pelo Meu INSS.
+
+O benefício começa a ser contado a partir da data da guarda judicial, não da data do pedido ao INSS. Por isso, faça o pedido o quanto antes após obter o documento judicial.
+
+Quer saber como pedir o salário-maternidade por adoção e qual documentação reunir? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "salario-maternidade-clt-autonoma-mei-desempregada": `## Uma pergunta, quatro respostas
 
 "Tenho direito ao salário-maternidade?" Parece uma pergunta simples, mas a resposta depende de uma informação fundamental: qual é o seu vínculo com o trabalho e com a Previdência Social.

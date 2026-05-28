@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "adocao-salario-maternidade",
+    image: "/blog/adocao-salario-maternidade.jpg",
+    title: "Adoção dá direito a salário-maternidade: saiba como obter o seu",
+    excerpt: "Quem adota também tem direito ao salário-maternidade — e após decisão do STF, o prazo é o mesmo de 120 dias independentemente da idade da criança adotada.",
+    date: "28 de maio de 2026",
+    category: "Maternidade e Família",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "salario-maternidade-clt-autonoma-mei-desempregada",
     image: "/blog/salario-maternidade-clt-autonoma-mei-desempregada.jpg",
     title: "Salário-maternidade para CLT, autônoma, MEI e desempregada: guia completo",
