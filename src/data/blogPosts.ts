@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "mae-desempregada-direito-salario-maternidade",
+    image: "/blog/mae-desempregada-direito-salario-maternidade.jpg",
+    title: "Mãe desempregada tem direito ao salário-maternidade? Entenda o período de graça",
+    excerpt: "Perdeu o emprego durante a gravidez ou ficou desempregada antes de engravidar? O período de graça pode preservar seu direito ao salário-maternidade — entenda.",
+    date: "29 de maio de 2026",
+    category: "Maternidade e Família",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "adocao-salario-maternidade",
     image: "/blog/adocao-salario-maternidade.jpg",
     title: "Adoção dá direito a salário-maternidade: saiba como obter o seu",

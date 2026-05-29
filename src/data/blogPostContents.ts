@@ -1,5 +1,36 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "mae-desempregada-direito-salario-maternidade": `## O medo que paralisa na hora errada
+
+Camila ficou desempregada no quinto mês de gravidez. O empregador soube da gravidez e, de forma irregular, encerrou o contrato. Camila entrou em desespero: achava que ao perder o emprego, perdia também o direito ao salário-maternidade.
+
+Essa crença é errada — e faz muitas mulheres desistirem de um benefício a que ainda têm direito.
+
+## O que é o período de graça
+
+O período de graça é um mecanismo previsto no art. 15 da Lei 8.213/91 que garante a manutenção da qualidade de segurado mesmo após o término das contribuições.
+
+Para quem perdeu o emprego involuntariamente (demissão sem justa causa), o período de graça é de 12 meses a partir do último dia de trabalho — podendo ser prorrogado para 24 meses se a segurada tiver mais de 120 contribuições mensais ao longo da vida.
+
+Durante esse período, você mantém direito a todos os benefícios previdenciários para os quais já tinha carência cumprida — incluindo o salário-maternidade.
+
+## O caso da demissão durante a gravidez
+
+Se a demissão ocorreu durante a gravidez — como no caso de Camila —, há dois ângulos de proteção.
+
+O primeiro é trabalhista: a gestante tem estabilidade no emprego desde a confirmação da gravidez até 5 meses após o parto, conforme o art. 10, II, "b" do ADCT. Isso significa que a demissão foi provavelmente ilegal.
+
+O segundo é previdenciário: mesmo que a demissão tenha ocorrido, enquanto estiver dentro do período de graça, Camila tem direito ao salário-maternidade pelo INSS.
+
+## Grávida que perdeu o emprego: como pedir
+
+O pedido de salário-maternidade para desempregada é feito diretamente ao INSS pelo Meu INSS. O INSS vai verificar se você ainda tem qualidade de segurada (dentro do período de graça), o tempo de carência cumprido, e a data do afastamento do trabalho.
+
+## A prescrição dos valores não recebidos
+
+Se você teve direito ao salário-maternidade, não pediu, e o prazo de 120 dias já passou — ainda assim é possível pleitear os valores retroativos. A prescrição de parcelas previdenciárias é de 5 anos, conforme a Súmula 85 do STJ.
+
+Quer verificar se você ainda tem direito ao salário-maternidade mesmo desempregada? Chama no WhatsApp. Link na bio. (54) 99987-0786`,
   "adocao-salario-maternidade": `## A mãe adotiva que não sabia que tinha direito
 
 Lucia e seu marido esperaram 4 anos pelo processo de adoção. Quando finalmente trouxeram a menina de 7 anos para casa, Lucia tirou férias do trabalho para se dedicar à adaptação da família. Só depois um colega comentou que ela tinha direito à licença-maternidade — e ao salário-maternidade correspondente.
