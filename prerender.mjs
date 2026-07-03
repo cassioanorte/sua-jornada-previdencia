@@ -7,7 +7,8 @@ import http from "http";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.join(__dirname, "dist");
@@ -80,9 +81,22 @@ async function run() {
   const routes = readRoutes();
   console.log(`Prerender de ${routes.length} rotas...`);
 
+  // @sparticuz/chromium traz um Chromium autocontido (com as libs junto), então
+  // funciona em ambientes de build/CI (Netlify, GitHub Actions, lambda) que NÃO têm
+  // as bibliotecas de sistema do Chromium (libatk, libgbm, etc.) instaladas.
+  // Permite override via PUPPETEER_EXECUTABLE_PATH (Chrome do sistema) quando existir.
+  const executablePath =
+    process.env.PUPPETEER_EXECUTABLE_PATH || (await chromium.executablePath());
+
   const browser = await puppeteer.launch({
-    headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
+    executablePath,
+    headless: chromium.headless,
+    args: [
+      ...chromium.args,
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+    ],
   });
 
   let ok = 0;
