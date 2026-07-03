@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FaqSection from "@/components/FaqSection";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -231,6 +232,8 @@ const Contato = () => {
           </div>
         </div>
       </section>
+
+      <FaqSection />
 
       <Footer />
     </div>

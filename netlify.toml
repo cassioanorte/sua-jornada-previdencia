@@ -6,17 +6,46 @@
   NODE_VERSION = "20"
   NODE_OPTIONS = "--max-old-space-size=4096"
 
-# Headers: força Cloudflare a NÃO cachear index.html e assets críticos
+# ---------------------------------------------------------------------------
+# CONTENT-TYPE / HEADERS
+#
+# REGRA DE OURO (lição do deploy quebrado de 2026-05-29):
+# NUNCA forçar Content-Type text/html de forma global (for = "/*" ou "/*/").
+# Isso serve os arquivos de /assets/*.js e *.css como text/html, o navegador
+# recusa executar o React e o site inteiro fica desconfigurado.
+#
+# O Netlify já serve com o Content-Type correto por extensão:
+#   - dist/assets/*.js  -> application/javascript
+#   - dist/assets/*.css -> text/css
+#   - qualquer index.html (inclusive /contato/index.html do prerender) -> text/html
+#
+# Por isso NÃO forçamos text/html em lugar nenhum. Abaixo apenas fixamos
+# explicitamente o content-type dos assets (cinto + suspensório) e ajustamos cache.
+# ---------------------------------------------------------------------------
+
+# Assets JS: garante application/javascript (nunca text/html)
+[[headers]]
+  for = "/assets/*.js"
+  [headers.values]
+    Content-Type = "application/javascript; charset=utf-8"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Assets CSS: garante text/css (nunca text/html)
+[[headers]]
+  for = "/assets/*.css"
+  [headers.values]
+    Content-Type = "text/css; charset=utf-8"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# index.html nunca cacheado (para o prerender atualizado sempre valer)
 [[headers]]
   for = "/index.html"
   [headers.values]
     Cache-Control = "no-cache, no-store, must-revalidate"
 
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
-
+# Fallback SPA: só pega rotas que NÃO têm arquivo estático real.
+# Páginas prerenderizadas (/contato/index.html, /blog/<id>/index.html) têm
+# precedência e são servidas como text/html nativo pelo Netlify.
 [[redirects]]
   from = "/*"
   to = "/index.html"
