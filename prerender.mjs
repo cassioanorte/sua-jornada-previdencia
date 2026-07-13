@@ -119,6 +119,20 @@ async function run() {
 
       let html = await page.content();
 
+      // Corrige canonical/og:url por rota. O template index.html traz esses
+      // valores fixos apontando para a home; sem isso, o Google trata toda
+      // página como duplicata da home e não indexa (canonical = home).
+      const canonicalUrl =
+        "https://spiereanorte.adv.br" + (route === "/" ? "/" : route);
+      html = html.replace(
+        /(<link[^>]*rel=["']canonical["'][^>]*href=["'])[^"']*(["'])/i,
+        `$1${canonicalUrl}$2`
+      );
+      html = html.replace(
+        /(<meta[^>]*property=["']og:url["'][^>]*content=["'])[^"']*(["'])/i,
+        `$1${canonicalUrl}$2`
+      );
+
       const outDir = route === "/" ? DIST : path.join(DIST, route);
       fs.mkdirSync(outDir, { recursive: true });
       fs.writeFileSync(path.join(outDir, "index.html"), html, "utf-8");
