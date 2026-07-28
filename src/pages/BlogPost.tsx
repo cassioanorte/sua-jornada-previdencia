@@ -8,6 +8,54 @@ import { getBlogPostBySlug } from "@/data/blogPosts";
 import RelatedPosts from "@/components/RelatedPosts";
 import ArticleContent from "@/components/ArticleContent";
 
+const SITE_URL = "https://spiereanorte.adv.br";
+const BRAND = "Spier & Anorte";
+
+// Converte a data em pt-BR ("29 de maio de 2026", "17 de Março de 2026")
+// ou ISO ("2025-07-15") para o formato ISO 8601 (YYYY-MM-DD) exigido pelo schema.
+// Se não conseguir interpretar, retorna null (não inventa data).
+const MESES_PT: Record<string, string> = {
+  janeiro: "01", fevereiro: "02", "março": "03", marco: "03", abril: "04",
+  maio: "05", junho: "06", julho: "07", agosto: "08", setembro: "09",
+  outubro: "10", novembro: "11", dezembro: "12",
+};
+const toIsoDate = (raw?: string): string | null => {
+  if (!raw) return null;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) return raw;
+  const m = raw
+    .toLowerCase()
+    .match(/(\d{1,2})\s+de\s+([a-zçã]+)\s+de\s+(\d{4})/i);
+  if (!m) return null;
+  const dia = m[1].padStart(2, "0");
+  const mes = MESES_PT[m[2]];
+  const ano = m[3];
+  if (!mes) return null;
+  return `${ano}-${mes}-${dia}`;
+};
+
+// Garante uma meta tag <meta name=".."/> ou <meta property=".."/> com o valor dado.
+const setMeta = (attr: "name" | "property", key: string, value: string) => {
+  let el = document.head.querySelector(`meta[${attr}="${key}"]`);
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute(attr, key);
+    document.head.appendChild(el);
+  }
+  el.setAttribute("content", value);
+};
+
+// Gera uma descrição a partir do início do conteúdo quando não há excerpt.
+const descFromContent = (content: string | null): string => {
+  if (!content) return "";
+  const firstText = content
+    .split("\n")
+    .map(l => l.trim())
+    .find(l => l && !l.startsWith("#") && !l.startsWith("|") && !l.startsWith("-") && !l.startsWith("*"));
+  if (!firstText) return "";
+  const clean = firstText.replace(/\*\*/g, "");
+  return clean.length > 160 ? clean.slice(0, 157).trimEnd() + "..." : clean;
+};
+
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getBlogPostBySlug(slug) : undefined;
@@ -20,6 +68,73 @@ const BlogPost = () => {
       });
     }
   }, [post]);
+
+  // SEO por post: title/description/OG únicos + JSON-LD BlogPosting.
+  // O prerender (puppeteer executa JS) captura esse <head> já preenchido.
+  useEffect(() => {
+    if (!post) return;
+
+    const url = `${SITE_URL}/blog/${post.id}/`;
+    const description = (post.excerpt && post.excerpt.trim()) || descFromContent(content);
+    // Título ~50-60 chars: título do artigo + marca. Encurta o título se muito longo.
+    const maxTitleLen = 60 - (BRAND.length + 3); // reserva " | Spier & Anorte"
+    const shortTitle =
+      post.title.length > maxTitleLen
+        ? post.title.slice(0, maxTitleLen - 1).trimEnd() + "…"
+        : post.title;
+    const fullTitle = `${shortTitle} | ${BRAND}`;
+    const image = post.image ? `${SITE_URL}${post.image}` : `${SITE_URL}/og-image.jpg`;
+    const datePublished = toIsoDate(post.date);
+
+    document.title = fullTitle;
+    setMeta("name", "description", description);
+    setMeta("property", "og:title", fullTitle);
+    setMeta("property", "og:description", description);
+    setMeta("property", "og:type", "article");
+    setMeta("property", "og:url", url);
+    setMeta("property", "og:image", image);
+    setMeta("name", "twitter:title", fullTitle);
+    setMeta("name", "twitter:description", description);
+    setMeta("name", "twitter:image", image);
+
+    // JSON-LD BlogPosting específico do post.
+    const ld: Record<string, unknown> = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: post.title.length > 110 ? post.title.slice(0, 110) : post.title,
+      description,
+      inLanguage: "pt-BR",
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+      author: { "@type": "Organization", name: "Spier & Anorte Sociedade de Advogados", url: SITE_URL },
+      publisher: {
+        "@type": "Organization",
+        name: "Spier & Anorte Sociedade de Advogados",
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/favicon.png` },
+      },
+      articleSection: post.category,
+      image,
+    };
+    if (datePublished) {
+      ld.datePublished = datePublished;
+      ld.dateModified = datePublished;
+    }
+    const LD_ID = "ld-blogposting";
+    let script = document.getElementById(LD_ID) as HTMLScriptElement | null;
+    if (!script) {
+      script = document.createElement("script");
+      script.type = "application/ld+json";
+      script.id = LD_ID;
+      document.head.appendChild(script);
+    }
+    script.textContent = JSON.stringify(ld);
+
+    return () => {
+      // Restaura og:type ao sair do post (evita "article" vazar para outras rotas em SPA).
+      setMeta("property", "og:type", "website");
+      const s = document.getElementById(LD_ID);
+      if (s) s.remove();
+    };
+  }, [post, content]);
 
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
