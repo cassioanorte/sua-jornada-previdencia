@@ -69,6 +69,7 @@ const shortAliases: { keyword: string; slug: string }[] = [
 
 // External authoritative links (open in new tab)
 const externalLinks: { keyword: string; url: string }[] = [
+  { keyword: "Chamar no WhatsApp", url: "https://wa.me/555432867220" },
   { keyword: "portal Meu INSS", url: "https://meu.inss.gov.br" },
   { keyword: "Diário Oficial da União", url: "https://www.in.gov.br" },
   { keyword: "Superior Tribunal de Justiça", url: "https://www.stj.jus.br" },

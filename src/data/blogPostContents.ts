@@ -56,7 +56,7 @@ Se você sofreu um acidente, tratou, voltou a trabalhar e ficou com alguma limit
 
 A gente pode analisar o seu caso, ver os laudos e te dizer com clareza se há direito e como pedir. Sem promessa mágica: cada caso é avaliado individualmente, com honestidade sobre o que dá para fazer.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Ficou com dúvida sobre o seu caso? Chamar no WhatsApp e a gente te orienta, sem compromisso.
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "mae-desempregada-direito-salario-maternidade": `## O medo que paralisa na hora errada
