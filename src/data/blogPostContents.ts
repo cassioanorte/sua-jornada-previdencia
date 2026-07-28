@@ -1,5 +1,64 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-acidente-quem-tem-direito": `## Recuperado, mas o corpo não voltou a ser o mesmo
+
+O Marcelo caiu da moto voltando do trabalho. Fraturou o joelho, passou por cirurgia, ficou meses afastado. Com o tempo, voltou a andar, voltou a trabalhar. Só que o joelho nunca mais foi o mesmo: dói no fim do dia, trava quando ele agacha, não aguenta o ritmo de antes.
+
+O Marcelo achou que, como tinha voltado ao serviço, não tinha mais direito a nada do INSS. Estava enganado. Situações como a dele são exatamente o que o **auxílio-acidente** existe para cobrir, e muita gente que tem direito nunca chega a pedir.
+
+Se você ficou com alguma sequela depois de um acidente e ainda sente os efeitos no dia a dia do trabalho, vale entender como esse benefício funciona.
+
+## O que é o auxílio-acidente
+
+O auxílio-acidente é uma **indenização paga pelo INSS** a quem sofreu um acidente e ficou com uma sequela permanente que **reduz** a capacidade de trabalho. A base legal está no art. 86 da Lei 8.213/91.
+
+Repare em duas palavras importantes: indenização e reduz. Ele não é um benefício para quem está incapaz de trabalhar. É um valor para compensar quem consegue continuar trabalhando, só que com mais esforço, mais dificuldade ou limitação por causa da sequela.
+
+E não precisa ser acidente de trabalho. Vale para acidente de **qualquer natureza**: trânsito, queda em casa, acidente no lazer. O que importa é a sequela que ficou, não onde o acidente aconteceu.
+
+## Quem tem direito
+
+Para ter direito ao auxílio-acidente, três pontos precisam estar presentes ao mesmo tempo:
+
+- **Lesão consolidada:** a lesão já estabilizou, ou seja, o tratamento chegou no limite do que era possível. Enquanto você ainda está em tratamento e incapaz de trabalhar, o caso é de auxílio-doença, não de auxílio-acidente.
+- **Sequela permanente que reduz a capacidade:** ficou uma limitação que não vai mais melhorar e que atrapalha o seu trabalho. Não precisa impedir de trabalhar, basta reduzir.
+- **Nexo causal:** existe uma ligação clara entre a sequela e o acidente que você sofreu.
+
+Cada caso é analisado individualmente, porque a perícia do INSS avalia o grau da sequela e o quanto ela afeta o seu trabalho. Por isso é importante ter laudos, exames e o histórico médico bem organizados.
+
+## Quanto vale e por quanto tempo
+
+O valor do auxílio-acidente é de **50% do salário de benefício**. Não é o valor do seu salário atual, é um cálculo feito sobre suas contribuições, então varia de pessoa para pessoa.
+
+Aqui está um dos pontos que mais surpreende: por ter natureza de indenização, o auxílio-acidente é pago **junto com o seu salário**. Você continua trabalhando e recebendo normalmente, e ainda assim recebe o benefício todo mês.
+
+Ele dura enquanto você continua na ativa, mas **cessa quando você se aposenta**. O auxílio-acidente não se soma à aposentadoria: quando a aposentadoria começa, esse benefício termina.
+
+## Auxílio-acidente ou auxílio-doença?
+
+Os nomes são parecidos e isso confunde muita gente, mas funcionam em momentos diferentes.
+
+O **auxílio-doença** é pago enquanto você está incapaz e afastado do trabalho, durante o período em que ainda está se tratando. É temporário e existe para o momento em que você não consegue trabalhar.
+
+O **auxílio-acidente** vem depois. É um valor mensal pela sequela que já se consolidou, com você já de volta ao trabalho. Um substitui o salário durante o afastamento, o outro complementa a renda pela limitação que ficou.
+
+## E os valores atrasados?
+
+Muita gente descobre o direito ao auxílio-acidente anos depois do acidente. A boa notícia é que dá para buscar os **valores retroativos**.
+
+A lei permite receber os atrasados de até **5 anos** para trás, por causa da chamada prescrição quinquenal. Ou seja, mesmo que sua sequela já exista há um bom tempo, ainda pode haver um valor acumulado a receber.
+
+Cada situação é diferente e precisa ser analisada individualmente, mas vale a pena verificar antes de deixar esse direito passar.
+
+## Como saber se é o seu caso
+
+Se você sofreu um acidente, tratou, voltou a trabalhar e ficou com alguma limitação que atrapalha o serviço, existe uma boa chance de você ter direito ao auxílio-acidente e nem saber.
+
+A gente pode analisar o seu caso, ver os laudos e te dizer com clareza se há direito e como pedir. Sem promessa mágica: cada caso é avaliado individualmente, com honestidade sobre o que dá para fazer.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "mae-desempregada-direito-salario-maternidade": `## O medo que paralisa na hora errada
 
 Camila ficou desempregada no quinto mês de gravidez. O empregador soube da gravidez e, de forma irregular, encerrou o contrato. Camila entrou em desespero: achava que ao perder o emprego, perdia também o direito ao salário-maternidade.

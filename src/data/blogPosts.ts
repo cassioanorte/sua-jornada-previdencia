@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-quem-tem-direito",
+    image: "/blog/auxilio-acidente-quem-tem-direito.jpg",
+    title: "Auxílio-Acidente: quem tem direito e como funciona",
+    excerpt: "Auxílio-acidente é a indenização paga pelo INSS a quem ficou com sequela permanente depois de um acidente. Veja quem tem direito, o valor e como pedir.",
+    date: "28 de julho de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "mae-desempregada-direito-salario-maternidade",
     image: "/blog/mae-desempregada-direito-salario-maternidade.jpg",
     title: "Mãe desempregada tem direito ao salário-maternidade? Entenda o período de graça",
