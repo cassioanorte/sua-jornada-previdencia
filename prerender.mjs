@@ -122,8 +122,16 @@ async function run() {
       // Corrige canonical/og:url por rota. O template index.html traz esses
       // valores fixos apontando para a home; sem isso, o Google trata toda
       // página como duplicata da home e não indexa (canonical = home).
+      //
+      // CONVENÇÃO CANÔNICA = COM BARRA FINAL (trailing slash).
+      // O prerender grava dist/<rota>/index.html (diretório), e o Netlify serve
+      // essa página em /<rota>/ com HTTP 200. A URL SEM barra sofre 301 -> /<rota>/.
+      // Por isso canonical e og:url DEVEM terminar em "/" para bater exatamente
+      // com a URL 200 servida (sem redirect intermediário). O sitemap.xml também
+      // usa barra final. Assim sitemap == URL servida == canonical, sem loop.
       const canonicalUrl =
-        "https://spiereanorte.adv.br" + (route === "/" ? "/" : route);
+        "https://spiereanorte.adv.br" +
+        (route === "/" ? "/" : route.replace(/\/?$/, "/"));
       html = html.replace(
         /(<link[^>]*rel=["']canonical["'][^>]*href=["'])[^"']*(["'])/i,
         `$1${canonicalUrl}$2`

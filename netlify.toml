@@ -7,6 +7,24 @@
   NODE_OPTIONS = "--max-old-space-size=4096"
 
 # ---------------------------------------------------------------------------
+# CONVENÇÃO DE URL: COM BARRA FINAL (trailing slash) — CANÔNICA DO SITE
+#
+# O prerender grava dist/<rota>/index.html (diretório). O Netlify serve essa
+# página em /<rota>/ com HTTP 200. Mantemos pretty_urls = true (padrão): a URL
+# SEM barra faz 301 -> /<rota>/ (barra final), que é a forma canônica.
+#
+# Para NÃO haver redirect entre a URL divulgada e a página 200, TUDO aponta
+# para a versão COM barra:
+#   - sitemap.xml (public/sitemap.xml): todas as <loc> terminam em "/".
+#   - <link rel="canonical"> e og:url (gerados no prerender.mjs): terminam em "/".
+#   - servidor: /<rota>/ responde 200 direto (sem 301).
+# Assim sitemap == URL servida == canonical. Sem sinal circular, sem loop.
+[build.processing]
+  skip_processing = false
+[build.processing.html]
+  pretty_urls = true
+
+# ---------------------------------------------------------------------------
 # CONTENT-TYPE / HEADERS
 #
 # REGRA DE OURO (lição do deploy quebrado de 2026-05-29):
