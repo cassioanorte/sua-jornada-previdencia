@@ -75,6 +75,28 @@ function readRoutes() {
 
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Procura um Chromium do Playwright no cache do usuário atual (fallback local).
+// Retorna o caminho do binário executável mais recente, ou null se não achar.
+function findLocalChromium() {
+  const home = process.env.HOME || "";
+  const base = path.join(home, ".cache", "ms-playwright");
+  try {
+    if (!fs.existsSync(base)) return null;
+    const dirs = fs.readdirSync(base)
+      .filter((d) => d.startsWith("chromium-"))
+      .sort()
+      .reverse(); // versão mais recente primeiro
+    for (const d of dirs) {
+      const bin = path.join(base, d, "chrome-linux64", "chrome");
+      try {
+        fs.accessSync(bin, fs.constants.X_OK);
+        return bin;
+      } catch {}
+    }
+  } catch {}
+  return null;
+}
+
 async function run() {
   const server = serve();
   await new Promise((r) => server.listen(PORT, r));
@@ -85,8 +107,40 @@ async function run() {
   // funciona em ambientes de build/CI (Netlify, GitHub Actions, lambda) que NÃO têm
   // as bibliotecas de sistema do Chromium (libatk, libgbm, etc.) instaladas.
   // Permite override via PUPPETEER_EXECUTABLE_PATH (Chrome do sistema) quando existir.
-  const executablePath =
+  let executablePath =
     process.env.PUPPETEER_EXECUTABLE_PATH || (await chromium.executablePath());
+
+  // Fallback defensivo (ambiente local multi-usuário): o @sparticuz/chromium extrai
+  // sempre para /tmp/chromium. Se esse arquivo já existir e pertencer a OUTRO usuário
+  // (ex.: /tmp/chromium do naialex, modo 700), o spawn falha com EACCES. Nesse caso,
+  // sem PUPPETEER_EXECUTABLE_PATH definido, procuramos um Chromium do Playwright no
+  // cache do usuário atual. No CI (Netlify/Actions) o /tmp/chromium é acessível, então
+  // este bloco NÃO dispara e o comportamento original é preservado.
+  if (!process.env.PUPPETEER_EXECUTABLE_PATH) {
+    try {
+      fs.accessSync(executablePath, fs.constants.X_OK);
+    } catch {
+      const fb = findLocalChromium();
+      if (fb) {
+        console.warn(`[prerender] ${executablePath} inacessível (EACCES); usando fallback local: ${fb}`);
+        executablePath = fb;
+        // O Chromium do Playwright precisa de libs de sistema que, nesta VPS sem sudo,
+        // vivem em local persistente (/opt/athena/tools/chrome-libs). Injeta no
+        // LD_LIBRARY_PATH se existirem, para o binário conseguir subir.
+        const libBase = "/opt/athena/tools/chrome-libs";
+        const libDirs = [
+          `${libBase}/playwright-libs/usr/lib/x86_64-linux-gnu`,
+          `${libBase}/atk-libs/usr/lib/x86_64-linux-gnu`,
+        ].filter((d) => fs.existsSync(d));
+        if (libDirs.length) {
+          process.env.LD_LIBRARY_PATH = process.env.LD_LIBRARY_PATH
+            ? `${libDirs.join(":")}:${process.env.LD_LIBRARY_PATH}`
+            : libDirs.join(":");
+          console.warn(`[prerender] LD_LIBRARY_PATH ajustado para libs locais: ${libDirs.join(":")}`);
+        }
+      }
+    }
+  }
 
   const browser = await puppeteer.launch({
     executablePath,
