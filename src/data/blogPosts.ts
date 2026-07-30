@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "recebi-alta-do-inss-mas-fiquei-com-sequela",
+    image: "/blog/recebi-alta-do-inss-mas-fiquei-com-sequela.jpg",
+    title: "Recebi alta do INSS mas fiquei com uma sequela",
+    excerpt: "Recebeu alta do INSS, voltou a trabalhar mas ficou com uma sequela? Você pode ter direito ao auxílio-acidente e nem saber. Entenda o benefício e como pedir.",
+    date: "29 de julho de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-acidente-quem-tem-direito",
     image: "/blog/auxilio-acidente-quem-tem-direito.jpg",
     title: "Auxílio-Acidente: quem tem direito e como funciona",

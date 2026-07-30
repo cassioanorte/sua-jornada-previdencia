@@ -1,5 +1,72 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "recebi-alta-do-inss-mas-fiquei-com-sequela": `## A alta chegou, mas a dor ficou
+
+A Sônia trabalha como auxiliar de cozinha. Um ano atrás, torceu feio o ombro carregando uma caixa e o INSS a afastou. Fez tratamento, fisioterapia, e um dia veio a carta: alta. Ela voltou ao serviço no dia seguinte.
+
+Só que o ombro não voltou junto. Sônia sente dor quando levanta o braço, não aguenta uma jornada inteira sem travar, e no fim do turno mal consegue mexer. Ela achou que, como o INSS tinha dado alta, o assunto estava encerrado. Afinal, ela tinha sido considerada apta a trabalhar.
+
+Se essa história parece a sua, presta atenção no que vem agora. Receber alta e ainda ficar com uma limitação é exatamente a situação que o **auxílio-acidente** foi feito para cobrir. E muita gente que se encaixa nisso nunca chega a pedir.
+
+## Alta não é o mesmo que "estou 100%"
+
+Aqui mora a confusão que faz muita gente perder um direito.
+
+A alta do INSS significa uma coisa só: você não está mais incapaz de trabalhar. Ou seja, dá para voltar ao serviço. Ela não significa que você ficou perfeito, sem sequela, do jeito que era antes do acidente.
+
+São duas perguntas diferentes. Uma é "essa pessoa consegue trabalhar?". A outra é "essa pessoa ficou com alguma limitação permanente por causa do acidente?". Dá para responder sim para as duas ao mesmo tempo.
+
+E é justamente aí que o auxílio-acidente entra: quando você volta ao trabalho, mas carrega uma sequela que atrapalha o dia a dia.
+
+## O gatilho é a sequela, não a incapacidade
+
+O auxílio-acidente é uma **indenização paga pelo INSS** a quem ficou com uma sequela permanente que **reduz** a capacidade de trabalho. A base está no art. 86 da Lei 8.213/91.
+
+Repare: reduz, não impede. Ele não é para quem está sem conseguir trabalhar. É para quem voltou à ativa, só que agora com mais esforço, mais dor ou mais dificuldade por causa daquilo que ficou.
+
+Por isso a alta não elimina o direito. Pelo contrário: em muitos casos, é exatamente a alta que abre a porta para o auxílio-acidente. Enquanto você estava afastado e em tratamento, o caso era de auxílio-doença. Quando a lesão se estabiliza e você volta com uma limitação, muda a figura.
+
+Se você quer entender melhor quem tem direito, veja também nosso artigo **Auxílio-Acidente: quem tem direito e como funciona**.
+
+## Como saber se é o seu caso
+
+Três pontos precisam estar juntos:
+
+- **Lesão consolidada:** o tratamento já chegou no limite do que dava para fazer. Foi mais ou menos isso que a alta sinalizou.
+- **Sequela permanente que reduz a capacidade:** ficou uma limitação que não melhora mais e que atrapalha o seu trabalho. Não precisa impedir, basta atrapalhar.
+- **Nexo causal:** existe uma ligação clara entre essa sequela e o acidente que você sofreu.
+
+E não precisa ter sido acidente de trabalho. Vale acidente de **qualquer natureza**: trânsito, queda em casa, lazer. O que importa é a sequela, não o lugar onde aconteceu.
+
+Cada caso é analisado individualmente, porque a perícia avalia o grau da sequela e o quanto ela afeta o seu serviço. Por isso vale reunir laudos, exames e o histórico médico com calma.
+
+## Voltar a trabalhar não tira o seu direito
+
+Muita gente evita procurar informação com medo de que, por estar trabalhando de novo, não tem mais nada a receber. É o contrário.
+
+O auxílio-acidente tem natureza de indenização, então é pago **junto com o seu salário**. Você continua trabalhando e recebendo normalmente, e ainda assim recebe o benefício todos os meses. O valor é de **50% do salário de benefício**, um cálculo feito sobre suas contribuições, então varia de pessoa para pessoa.
+
+Uma ressalva importante para não gerar expectativa errada: o auxílio-acidente **não se acumula com a aposentadoria**. Quando a aposentadoria começa, ele termina. Ele não é vitalício.
+
+## E se já faz tempo que recebi alta?
+
+Essa é a parte que costuma surpreender. Mesmo que sua alta e sua sequela sejam de anos atrás, ainda pode haver um valor acumulado a receber.
+
+A lei permite buscar os atrasados de até **5 anos** para trás. Ou seja, o tempo que passou não apaga tudo automaticamente, e pode existir um retroativo esperando.
+
+Cada situação é diferente e precisa ser analisada com cuidado, mas vale verificar antes de deixar esse direito passar.
+
+## O próximo passo
+
+Se você recebeu alta, voltou a trabalhar e ficou com uma limitação que atrapalha o serviço, existe uma boa chance de você ter direito ao auxílio-acidente e nem saber.
+
+A gente pode olhar o seu caso, analisar os laudos e te dizer com clareza se há direito e como pedir. Sem promessa mágica: cada caso é avaliado individualmente, com honestidade sobre o que dá para fazer.
+
+Fale com a equipe da Spier & Anorte:
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-acidente-quem-tem-direito": `## Recuperado, mas o corpo não voltou a ser o mesmo
 
 O Marcelo caiu da moto voltando do trabalho. Fraturou o joelho, passou por cirurgia, ficou meses afastado. Com o tempo, voltou a andar, voltou a trabalhar. Só que o joelho nunca mais foi o mesmo: dói no fim do dia, trava quando ele agacha, não aguenta o ritmo de antes.
