@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-valor-atrasados-5-anos",
+    image: "/blog/auxilio-acidente-valor-atrasados-5-anos.jpg",
+    title: "Auxílio-acidente: o valor e os atrasados de até 5 anos",
+    excerpt: "Auxílio-acidente é pago junto com o salário e pode ter atrasados de até 5 anos. Entenda como o valor é calculado e por que tanta gente descobre esse direito tarde.",
+    date: "31 de julho de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "recebi-alta-do-inss-mas-fiquei-com-sequela",
     image: "/blog/recebi-alta-do-inss-mas-fiquei-com-sequela.jpg",
     title: "Recebi alta do INSS mas fiquei com uma sequela",

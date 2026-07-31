@@ -1,5 +1,66 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-acidente-valor-atrasados-5-anos": `## O acerto que veio anos depois do acidente
+
+A Regina trabalha como costureira desde os vinte anos. Numa tarde qualquer, escorregou no banheiro de casa e caiu de mau jeito sobre a mão direita. Fratura feia, cirurgia, pinos. Ela tratou, se recuperou e voltou para a máquina de costura.
+
+Só que a mão nunca mais fechou por completo. A força diminuiu, os dedos travam, e no fim do expediente a dor aparece sem falta. A Regina foi tocando a vida assim, achando que era só conviver com a limitação.
+
+O que ela não sabia é que essa sequela podia dar direito ao **auxílio-acidente**, e que havia um valor acumulado esperando por ela. Quando descobriu, o acidente já tinha acontecido fazia mais de três anos.
+
+Se a sua história tem algo parecido com a da Regina, vale entender como o valor desse benefício é calculado e o que são os famosos atrasados.
+
+## Como o valor do auxílio-acidente é calculado
+
+O auxílio-acidente corresponde a **50% do salário de benefício**. Essa é a regra do art. 86 da Lei 8.213/91.
+
+Só que aqui mora uma confusão comum. Muita gente pensa que é metade do salário atual. Não é. O salário de benefício é um cálculo feito sobre o histórico das suas contribuições ao INSS, não sobre o que você recebe hoje na empresa.
+
+Por isso não existe um valor fixo. Cada pessoa tem uma média de contribuições diferente, e o resultado muda de caso para caso. Ninguém sério consegue te dizer um número exato antes de olhar o seu histórico. O que dá para explicar com clareza é o critério, e o critério é esse: metade do salário de benefício.
+
+## O benefício que soma com o salário
+
+Esse é o ponto que mais surpreende quem descobre o auxílio-acidente.
+
+Por ter natureza de **indenização**, ele é pago **junto com o seu salário**. Você continua trabalhando e recebendo normalmente, e ainda assim recebe o benefício todo mês. Não é preciso parar de trabalhar para ter direito.
+
+Uma observação importante para não gerar expectativa errada: o auxílio-acidente **não se soma à aposentadoria**. Ele acompanha você enquanto está na ativa e cessa quando a aposentadoria começa. Por isso é melhor não chamar de vitalício, porque ele tem um fim previsto.
+
+## Os atrasados de até 5 anos
+
+Agora a parte que faz muita gente prestar atenção.
+
+É comum a pessoa só descobrir o direito ao auxílio-acidente anos depois do acidente, como aconteceu com a Regina. Quando isso acontece, existe a possibilidade de buscar os **valores retroativos**, ou seja, o período em que o benefício já era devido mas não estava sendo pago.
+
+A lei permite alcançar os atrasados de até **5 anos** para trás. É a chamada prescrição quinquenal. Na prática, mesmo que a sua sequela exista há um bom tempo, ainda pode haver um período acumulado a ser considerado.
+
+Não dá para prometer um valor, porque isso depende do cálculo individual e da data em que o direito começou. Mas dá para dizer com segurança que deixar o tempo passar só faz esse período de trás encolher, já que a cada mês que passa você perde o mês mais antigo dentro dessa janela de cinco anos.
+
+## Serve para acidente de qualquer natureza
+
+Repare que a Regina não sofreu acidente de trabalho. Foi uma queda dentro de casa. E ainda assim o direito existe.
+
+O auxílio-acidente vale para acidente de **qualquer natureza**: trânsito, queda em casa, acidente no lazer, esporte. O que o INSS avalia não é onde o acidente aconteceu, e sim se ficaram três coisas presentes ao mesmo tempo: a **lesão já consolidada**, uma **sequela permanente que reduz** a capacidade de trabalho e o **nexo** entre essa sequela e o acidente.
+
+Se você quiser entender melhor quem se encaixa nesses requisitos, já falamos sobre isso em "Auxílio-Acidente: quem tem direito e como funciona".
+
+## E se o INSS já tinha me dado alta?
+
+Muita gente perde o direito justamente aqui. A pessoa recebe alta, o perito não registra a sequela, e ela vai embora achando que está tudo encerrado. Não está.
+
+Falamos sobre isso no artigo "Recebi alta do INSS mas fiquei com uma sequela", que explica por que a alta muitas vezes é o começo do direito ao auxílio-acidente, e não o fim.
+
+## Como saber se há um valor esperando por você
+
+Se você sofreu um acidente, tratou, voltou a trabalhar e ficou com uma limitação que atrapalha o serviço, existe uma boa chance de haver direito ao auxílio-acidente, e talvez um período retroativo a considerar.
+
+A gente pode analisar o seu caso, olhar os laudos e te dizer com honestidade se há direito e como pedir. Sem número mágico e sem promessa: cada caso é avaliado individualmente.
+
+Ficou com dúvida sobre o seu caso? Chamar no WhatsApp e a gente te orienta, sem compromisso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "recebi-alta-do-inss-mas-fiquei-com-sequela": `## A alta chegou, mas a dor ficou
 
 A Sônia trabalha como auxiliar de cozinha. Um ano atrás, torceu feio o ombro carregando uma caixa e o INSS a afastou. Fez tratamento, fisioterapia, e um dia veio a carta: alta. Ela voltou ao serviço no dia seguinte.
