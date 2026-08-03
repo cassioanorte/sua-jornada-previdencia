@@ -1,5 +1,65 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "inss-negou-auxilio-doenca-o-que-fazer": `## A carta que dizia não, mesmo com ele doente
+
+O Roberto é pedreiro há mais de vinte anos. Machucou a coluna carregando saco de cimento e chegou num ponto em que não conseguia mais se abaixar sem sentir uma fisgada que travava o corpo inteiro. O médico afastou, ele parou de trabalhar e pediu o auxílio-doença ao INSS.
+
+Semanas depois veio a resposta: benefício negado. No papel, dizia que ele não estava incapaz para o trabalho. O Roberto tinha o atestado do médico dele na mão, não entendeu nada e quase jogou a carta fora, achando que não havia mais o que fazer.
+
+Havia. E é justamente disso que este texto trata: o que fazer quando o **auxílio-doença negado** aparece na sua frente.
+
+## Auxílio-doença negado não significa que você não tem direito
+
+Primeiro, um alívio: uma negativa do INSS não é uma sentença definitiva. É a decisão de uma perícia, num dia, com base no que estava na mesa naquele momento.
+
+O auxílio-doença, hoje chamado oficialmente de auxílio por incapacidade temporária (art. 59 da Lei 8.213/91), é o benefício para quem fica incapaz de trabalhar por um período, com expectativa de recuperação. Ou seja, é um afastamento temporário, não permanente.
+
+Muitas negativas acontecem não porque a pessoa está bem, mas porque a incapacidade não ficou comprovada do jeito que a perícia esperava. Isso tem conserto.
+
+## Por que o INSS nega tanto
+
+Os motivos mais comuns de uma negativa costumam ser estes:
+
+- **A perícia não reconheceu a incapacidade.** O perito avaliou e concluiu que você poderia trabalhar, mesmo que o seu médico pense diferente.
+- **Falta de documento.** Laudos genéricos, sem CID, sem descrição da limitação, ou exames que não foram levados no dia.
+- **Falta de carência.** Em regra são necessárias 12 contribuições mensais antes do afastamento (art. 25, I, da Lei 8.213/91). Há exceções que dispensam a carência: acidentes de qualquer natureza (inclusive fora do trabalho), doenças profissionais e do trabalho, e algumas doenças graves previstas em lista oficial (art. 26, II).
+- **Perda da qualidade de segurado.** A pessoa parou de contribuir muito tempo antes e, quando a incapacidade começou, já não estava mais coberta.
+
+Repare que boa parte disso não é sobre estar ou não doente. É sobre o que foi apresentado e como. Por isso a negativa muitas vezes se reverte.
+
+## Os dois caminhos para reverter
+
+Quando o auxílio é negado, existem basicamente duas frentes.
+
+A primeira é o **recurso administrativo**, feito dentro do próprio INSS e julgado pelo Conselho de Recursos da Previdência Social (art. 126 da Lei 8.213/91). É a chance de rediscutir a decisão sem sair da esfera administrativa, apresentando novos documentos e argumentos.
+
+A segunda é a **ação judicial**, ajuizada na Justiça Federal. Nela, em regra, é feita uma nova perícia, agora por um médico nomeado pelo juiz, independente do INSS. Para muita gente é aqui que a incapacidade finalmente é reconhecida.
+
+Qual caminho faz mais sentido depende do seu caso. Cada situação é analisada individualmente, e não existe uma resposta única que sirva para todo mundo.
+
+## O erro mais caro: desistir
+
+O que mais tira direito das pessoas não é a negativa em si. É a desistência depois dela.
+
+A pessoa recebe o não, se sente injustiçada, acha que brigar com o INSS é perda de tempo e volta a se virar como pode, mesmo doente. Enquanto isso, o direito fica ali parado.
+
+Não estamos prometendo que todo recurso ou ação vai dar certo, porque isso ninguém honesto pode garantir. O que dá para dizer com segurança é que uma negativa examinada por quem entende costuma revelar caminhos que a pessoa sozinha não enxerga.
+
+## Antes de recorrer, entenda a perícia
+
+Como boa parte das negativas nasce da perícia médica, vale entender como ela funciona e como se preparar para ela. Falamos disso em "Perícia médica do INSS: por que negam e como se preparar".
+
+E se o seu caso for de uma limitação que não vai mais melhorar, talvez a conversa não seja sobre auxílio-doença, e sim sobre outro benefício. Explicamos essa diferença em "Auxílio-doença ou aposentadoria por invalidez? Entenda a diferença".
+
+## Como a gente pode ajudar
+
+Se o seu auxílio-doença foi negado, traga a carta de indeferimento e seus laudos. A gente analisa o que aconteceu, te explica com clareza se há caminho pelo recurso ou pela via judicial e o que dá para fazer, sem enrolação e sem promessa mágica. Cada caso é avaliado individualmente.
+
+Ficou com dúvida sobre o seu caso? Fale com a equipe da Spier & Anorte, sem compromisso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-acidente-valor-atrasados-5-anos": `## O acerto que veio anos depois do acidente
 
 A Regina trabalha como costureira desde os vinte anos. Numa tarde qualquer, escorregou no banheiro de casa e caiu de mau jeito sobre a mão direita. Fratura feia, cirurgia, pinos. Ela tratou, se recuperou e voltou para a máquina de costura.

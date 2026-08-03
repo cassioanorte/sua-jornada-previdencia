@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "inss-negou-auxilio-doenca-o-que-fazer",
+    image: "/blog/inss-negou-auxilio-doenca-o-que-fazer.jpg",
+    title: "INSS negou seu auxílio-doença? Veja o que fazer agora",
+    excerpt: "Auxílio-doença negado não é o fim. Entenda por que o INSS nega, como funciona o recurso e a via judicial, e por que muita gente desiste sem precisar.",
+    date: "03 de agosto de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-acidente-valor-atrasados-5-anos",
     image: "/blog/auxilio-acidente-valor-atrasados-5-anos.jpg",
     title: "Auxílio-acidente: o valor e os atrasados de até 5 anos",
