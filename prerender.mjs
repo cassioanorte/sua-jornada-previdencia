@@ -209,6 +209,20 @@ async function run() {
 
   await browser.close();
   server.close();
+
+  // SPA fallback para GitHub Pages: rotas desconhecidas caem em 404.html.
+  // Copiamos o index.html (home) para dist/404.html; o React assume e roteia
+  // client-side. Rotas conhecidas continuam servidas pelos index.html prerender.
+  try {
+    const rootIndex = path.join(DIST, "index.html");
+    if (fs.existsSync(rootIndex)) {
+      fs.copyFileSync(rootIndex, path.join(DIST, "404.html"));
+      console.log("ok 404.html (SPA fallback)");
+    }
+  } catch (e) {
+    console.log(`FALHA 404.html: ${e.message}`);
+  }
+
   console.log(`Prerender concluído: ${ok}/${routes.length} rotas.`);
 }
 

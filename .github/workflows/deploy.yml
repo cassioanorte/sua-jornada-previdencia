@@ -1,12 +1,22 @@
-name: Deploy para Netlify
+name: Deploy para GitHub Pages
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Permite uma execução concorrente; não cancela deploy em andamento.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,17 +31,26 @@ jobs:
       - name: Instalar dependências
         run: npm ci
 
-      - name: Build
+      - name: Build (vite build && prerender)
         run: npm run build
         env:
           NODE_ENV: production
 
-      - name: Deploy para Netlify
-        uses: nwtgck/actions-netlify@v3
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload do artefato (dist)
+        uses: actions/upload-pages-artifact@v3
         with:
-          publish-dir: './dist'
-          production-branch: main
-          production-deploy: true
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

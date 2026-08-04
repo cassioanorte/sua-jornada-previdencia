@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+deploy.zip
+wordpress-home.html
+bun.lockb
+bun.lock
+.git
+.github
+.netlify
+*.log
