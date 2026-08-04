@@ -429,6 +429,80 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Direito Público Municipal — 2ª área (secundária) */}
+      <section style={{ backgroundColor: "#1f1a15", padding: "88px 24px" }}>
+        <div className="mx-auto" style={{ maxWidth: 1320 }}>
+          <div
+            className="grid grid-cols-1 lg:grid-cols-[1fr_320px]"
+            style={{
+              gap: 40,
+              alignItems: "center",
+              border: "1px solid rgba(184,153,104,0.18)",
+              borderRadius: 6,
+              padding: "48px 44px",
+              backgroundColor: "#14110e",
+            }}
+          >
+            <div>
+              <div
+                className="font-mono uppercase"
+                style={{ fontSize: 11, letterSpacing: "0.32em", color: "#d4b888", marginBottom: 20 }}
+              >
+                Também atuamos em · desde 2012
+              </div>
+              <h2
+                className="font-display"
+                style={{
+                  fontSize: "clamp(30px, 4vw, 46px)",
+                  fontWeight: 400,
+                  lineHeight: 1.08,
+                  color: "#f4ede0",
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                Direito Público e Administrativo{" "}
+                <em style={{ fontStyle: "italic", color: "#d4b888" }}>Municipal</em>.
+              </h2>
+              <p
+                className="font-editorial"
+                style={{
+                  fontSize: 18,
+                  lineHeight: 1.6,
+                  color: "#b8b1a9",
+                  maxWidth: 720,
+                  marginTop: 20,
+                  textAlign: "justify",
+                }}
+              >
+                Assessoria permanente a Prefeituras e Câmaras — Executivo e Legislativo municipais —
+                em licitações e contratos (Lei 14.133/2021), Tribunais de Contas, processo legislativo,
+                pareceres de alta complexidade e contencioso estratégico.
+              </p>
+            </div>
+            <div className="lg:text-right">
+              <Link
+                to="/direito-publico-municipal"
+                className="inline-flex items-center transition-colors hover:bg-[rgba(212,184,136,0.08)]"
+                style={{
+                  border: "1px solid rgba(212,184,136,0.45)",
+                  color: "#f4ede0",
+                  padding: "16px 28px",
+                  borderRadius: 999,
+                  gap: 10,
+                }}
+              >
+                <span
+                  className="font-mono uppercase"
+                  style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.18em" }}
+                >
+                  Saiba mais →
+                </span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Sócios — Capítulo III (cream surface) */}
       <section style={{ backgroundColor: "#f4ede0", color: "#1a1614", padding: "120px 24px" }}>
         <div className="mx-auto" style={{ maxWidth: 1320 }}>

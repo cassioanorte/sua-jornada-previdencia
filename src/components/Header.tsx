@@ -8,6 +8,7 @@ const Header = () => {
 
   const navigation = [
     { name: "Áreas", href: "/areas-de-atuacao" },
+    { name: "Direito Público", href: "/direito-publico-municipal" },
     { name: "Sócios", href: "/quem-somos" },
     { name: "Casos", href: "/quem-somos#casos" },
     { name: "Conteúdo", href: "/blog" },

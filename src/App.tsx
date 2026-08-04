@@ -12,6 +12,7 @@ import Index from "./pages/Index";
 const pageImports = {
   QuemSomos: () => import("./pages/QuemSomos"),
   AreasDeAtuacao: () => import("./pages/AreasDeAtuacao"),
+  DireitoPublicoMunicipal: () => import("./pages/DireitoPublicoMunicipal"),
   AuxilioDoenca: () => import("./pages/AuxilioDoenca"),
   AuxilioMaternidade: () => import("./pages/AuxilioMaternidade"),
   QuizAuxilioDoenca: () => import("./pages/QuizAuxilioDoenca"),
@@ -36,6 +37,7 @@ const pageImports = {
 
 const QuemSomos = lazy(pageImports.QuemSomos);
 const AreasDeAtuacao = lazy(pageImports.AreasDeAtuacao);
+const DireitoPublicoMunicipal = lazy(pageImports.DireitoPublicoMunicipal);
 const AuxilioDoenca = lazy(pageImports.AuxilioDoenca);
 const AuxilioMaternidade = lazy(pageImports.AuxilioMaternidade);
 const QuizAuxilioDoenca = lazy(pageImports.QuizAuxilioDoenca);
@@ -106,6 +108,7 @@ const App = () => {
             <Route path="/index.html" element={<Navigate to="/" replace />} />
             <Route path="/quem-somos" element={<QuemSomos />} />
             <Route path="/areas-de-atuacao" element={<AreasDeAtuacao />} />
+            <Route path="/direito-publico-municipal" element={<DireitoPublicoMunicipal />} />
             <Route path="/auxilio-doenca" element={<AuxilioDoenca />} />
             <Route path="/auxilio-maternidade" element={<AuxilioMaternidade />} />
             <Route path="/quiz-auxilio-doenca" element={<QuizAuxilioDoenca />} />
