@@ -1,5 +1,60 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "pericia-medica-inss-por-que-negam-como-se-preparar": `## Dez minutos que decidiram tudo
+
+A Cleusa trabalha na limpeza de um hospital e desenvolveu um problema sério no ombro, daqueles que impedem de levantar o braço acima da linha da cabeça. Levou meses de dor até conseguir marcar a perícia do INSS.
+
+No dia, chegou nervosa, sentou, o perito fez algumas perguntas rápidas, pediu para ela mexer o braço e, em poucos minutos, estava tudo encerrado. Semanas depois, o benefício foi negado. A Cleusa saiu de lá sem entender o que tinha acontecido, e sem ter mostrado metade dos exames que tinha em casa.
+
+A **perícia médica do INSS** é o momento que decide o seu auxílio-doença, e chegar despreparado nela custa caro. Este texto é sobre como não repetir o que aconteceu com a Cleusa.
+
+## O que a perícia médica realmente avalia
+
+A perícia não avalia se você tem uma doença. Isso o seu atestado já diz. Ela avalia uma coisa específica: se essa doença te deixa **incapaz de trabalhar** neste momento.
+
+É uma distinção que muita gente não entende e que faz toda a diferença. Você pode ter um diagnóstico grave e mesmo assim ter o benefício negado, se o perito concluir que aquilo não te impede de exercer a sua atividade.
+
+Por isso não basta provar que você está doente. É preciso mostrar, com documento, que a doença gera incapacidade para o seu trabalho, e por quanto tempo. O auxílio-doença, oficialmente auxílio por incapacidade temporária (art. 59 da Lei 8.213/91), existe exatamente para esse afastamento temporário.
+
+## Por que tanta gente é negada
+
+Boa parte das negativas na perícia não vem de má-fé do perito. Vem de falha na preparação. Os motivos mais comuns:
+
+- **Laudo fraco.** Um atestado que só diz "afastar por 15 dias" sem CID, sem descrever a limitação e sem dizer por que você não consegue trabalhar dá pouca base para o perito.
+- **Documento que ficou em casa.** Exames de imagem, resultados e relatórios que não foram levados no dia simplesmente não entram na avaliação.
+- **Histórico desorganizado.** Papéis soltos, sem ordem, dificultam mostrar a evolução da doença.
+- **Falta de clareza na hora de responder.** Minimizar a dor ou não conseguir explicar como a doença atrapalha o trabalho pesa contra você.
+
+## Como se preparar para o dia
+
+Dá para chegar muito melhor preparado do que a Cleusa chegou. Algumas orientações práticas:
+
+- **Leve todos os laudos e exames**, inclusive os antigos, organizados por data. Mostre a história completa da sua doença, não só o momento atual.
+- **Peça ao seu médico um laudo detalhado**, com o CID, a descrição da limitação e uma frase clara sobre por que você está incapaz para a sua atividade e por quanto tempo.
+- **Descreva o seu trabalho de verdade.** O perito precisa entender o esforço que a sua função exige. Um pedreiro, uma faxineira e um motorista têm limitações diferentes para a mesma doença.
+- **Seja honesto e concreto sobre a dor.** Não exagere, mas também não minimize. Diga o que você não consegue mais fazer no dia a dia.
+
+## E se, mesmo assim, negarem?
+
+Preparação ajuda muito, mas não elimina o risco de uma negativa. E, se ela vier, isso não encerra o assunto.
+
+Uma perícia negativa pode ser rediscutida por recurso no próprio INSS, julgado pelo Conselho de Recursos da Previdência Social, e também na Justiça Federal, onde costuma haver uma nova perícia com médico nomeado pelo juiz, independente do INSS. Explicamos esses caminhos em "INSS negou seu auxílio-doença? Veja o que fazer agora".
+
+Não prometemos resultado, porque isso depende de cada caso e é avaliado individualmente. Mas uma negativa bem analisada muitas vezes tem para onde ir.
+
+## Quando a incapacidade não é temporária
+
+Vale um alerta. Se a sua condição não tem mais expectativa de melhora, a discussão pode não ser sobre auxílio-doença, e sim sobre a aposentadoria por incapacidade permanente. São benefícios diferentes, e tratamos disso em "Auxílio-doença ou aposentadoria por invalidez? Entenda a diferença".
+
+## A gente pode revisar sua documentação antes
+
+Se você tem perícia marcada ou já foi negado nela, a gente pode olhar seus laudos e exames com antecedência e te dizer com honestidade se estão fortes o suficiente ou se falta alguma coisa. Sem promessa de resultado, cada caso é analisado individualmente.
+
+Ficou com dúvida sobre a sua perícia? Fale com a equipe da Spier & Anorte, sem compromisso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "inss-negou-auxilio-doenca-o-que-fazer": `## A carta que dizia não, mesmo com ele doente
 
 O Roberto é pedreiro há mais de vinte anos. Machucou a coluna carregando saco de cimento e chegou num ponto em que não conseguia mais se abaixar sem sentir uma fisgada que travava o corpo inteiro. O médico afastou, ele parou de trabalhar e pediu o auxílio-doença ao INSS.

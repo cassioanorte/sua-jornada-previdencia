@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "pericia-medica-inss-por-que-negam-como-se-preparar",
+    image: "/blog/pericia-medica-inss-por-que-negam-como-se-preparar.jpg",
+    title: "Perícia médica do INSS: por que negam e como se preparar",
+    excerpt: "A perícia médica do INSS decide seu auxílio-doença em minutos. Entenda por que tanta gente é negada e como levar os documentos certos para o dia.",
+    date: "05 de agosto de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "inss-negou-auxilio-doenca-o-que-fazer",
     image: "/blog/inss-negou-auxilio-doenca-o-que-fazer.jpg",
     title: "INSS negou seu auxílio-doença? Veja o que fazer agora",
