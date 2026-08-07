@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-doenca-ou-aposentadoria-invalidez-diferenca",
+    image: "/blog/auxilio-doenca-ou-aposentadoria-invalidez-diferenca.jpg",
+    title: "Auxílio-doença ou aposentadoria por invalidez: a diferença",
+    excerpt: "Auxílio-doença é temporário e aposentadoria por invalidez é permanente. Entenda a diferença entre os dois benefícios do INSS e qual pode ser o seu caso.",
+    date: "07 de agosto de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "pericia-medica-inss-por-que-negam-como-se-preparar",
     image: "/blog/pericia-medica-inss-por-que-negam-como-se-preparar.jpg",
     title: "Perícia médica do INSS: por que negam e como se preparar",

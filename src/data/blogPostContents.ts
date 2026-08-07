@@ -1,5 +1,61 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-doenca-ou-aposentadoria-invalidez-diferenca": `## Um afastamento que já durava anos
+
+O Vanderlei era motorista de caminhão. Um AVC o afastou do trabalho e ele passou a receber o auxílio-doença. Só que a recuperação não veio como todo mundo esperava: ficaram sequelas que comprometeram o movimento e a fala, e voltar ao volante deixou de ser possível.
+
+Mesmo assim, a cada poucos meses ele era chamado para uma nova perícia, vivia na incerteza de ter o benefício prorrogado, e ninguém tinha explicado a ele que talvez o caso já não fosse mais de um afastamento temporário.
+
+A dúvida do Vanderlei é a mesma de muita gente: **auxílio-doença ou aposentadoria por invalidez**? A diferença entre os dois muda tudo, e é sobre isso que vamos falar.
+
+## Auxílio-doença: incapacidade temporária
+
+O auxílio-doença, hoje chamado oficialmente de auxílio por incapacidade temporária (art. 59 da Lei 8.213/91), é o benefício para quem fica incapaz de trabalhar por um período, mas com **expectativa de recuperação**.
+
+A palavra-chave é temporário. A ideia é que você se afasta, se trata, melhora e volta ao trabalho. Por isso o INSS costuma marcar perícias de revisão de tempos em tempos, para verificar se você já pode retornar.
+
+É o benefício mais comum quando a pessoa se machuca ou adoece e precisa parar, mas ainda existe caminho de melhora.
+
+## Aposentadoria por invalidez: incapacidade permanente
+
+Já a aposentadoria por invalidez, hoje chamada oficialmente de aposentadoria por incapacidade permanente (art. 42 da Lei 8.213/91), é para quem está incapaz de forma **permanente** e **não tem como ser reabilitado** para outra atividade que garanta o próprio sustento.
+
+Aqui a lógica é diferente. Não se espera mais o retorno ao trabalho, porque a perícia concluiu que a incapacidade não vai mais melhorar e que não há função compatível para a qual a pessoa possa ser reabilitada.
+
+É o caso em que o afastamento deixa de ser uma pausa e passa a ser definitivo.
+
+## A diferença que muda tudo
+
+Colocando lado a lado fica mais claro:
+
+- **Auxílio-doença:** incapacidade temporária, com expectativa de recuperação, revisões periódicas e foco no retorno ao trabalho.
+- **Aposentadoria por invalidez:** incapacidade permanente, sem perspectiva de melhora, sem reabilitação possível para outra atividade.
+
+Não é a pessoa que escolhe entre um e outro. Quem define é a avaliação médico-pericial sobre a natureza da incapacidade. Mas entender essa diferença ajuda você a saber se está no benefício certo ou se o seu caso talvez precise ser reavaliado, como acontecia com o Vanderlei.
+
+## Um benefício pode virar o outro
+
+Um ponto importante: os dois não são caixas fechadas.
+
+É comum alguém começar no auxílio-doença e, com o tempo, ficar claro que a incapacidade é permanente, o que pode levar à conversão em aposentadoria por invalidez. O contrário também existe, quando há melhora inesperada.
+
+Por isso quem está há muito tempo em auxílio-doença, vivendo de perícia em perícia sem sinal de melhora, precisa entender se não é caso de discutir a aposentadoria. Cada situação é analisada individualmente, e essa análise faz diferença real na vida da pessoa.
+
+## E se o INSS negou?
+
+Vale lembrar que negativa não é ponto final, nos dois benefícios. Uma decisão pode ser rediscutida por recurso no próprio INSS e na Justiça Federal. Falamos disso em "INSS negou seu auxílio-doença? Veja o que fazer agora".
+
+E, como quase tudo se decide na perícia, entender esse momento ajuda bastante. Reunimos orientações em "Perícia médica do INSS: por que negam e como se preparar".
+
+## Como saber qual é o seu caso
+
+Se você está afastado e não sabe se o seu caso é de auxílio-doença ou de aposentadoria por invalidez, ou se já está há tempo demais em revisão de perícia, a gente pode analisar sua situação e te explicar com honestidade em que ponto você está. Sem promessa de resultado, cada caso é avaliado individualmente.
+
+Ficou com dúvida sobre o seu benefício? Fale com a equipe da Spier & Anorte, sem compromisso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "pericia-medica-inss-por-que-negam-como-se-preparar": `## Dez minutos que decidiram tudo
 
 A Cleusa trabalha na limpeza de um hospital e desenvolveu um problema sério no ombro, daqueles que impedem de levantar o braço acima da linha da cabeça. Levou meses de dor até conseguir marcar a perícia do INSS.
