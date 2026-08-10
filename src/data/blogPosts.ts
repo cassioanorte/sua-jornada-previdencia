@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "urgencia-auxilio-doenca-velocidade-entrada",
+    image: "/blog/urgencia-auxilio-doenca-velocidade-entrada.jpg",
+    title: "Quando cada dia conta: por que a velocidade de dar entrada no auxílio-doença faz diferença",
+    excerpt: "Estar doente e sem renda é uma corrida contra o tempo. Entenda a diferença entre rapidez na entrada do processo e promessa de resultado, e por que começar rápido é uma forma de respeito.",
+    date: "10 de agosto de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "auxilio-doenca-ou-aposentadoria-invalidez-diferenca",
     image: "/blog/auxilio-doenca-ou-aposentadoria-invalidez-diferenca.jpg",
     title: "Auxílio-doença ou aposentadoria por invalidez: a diferença",

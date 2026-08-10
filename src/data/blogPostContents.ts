@@ -1,5 +1,34 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "urgencia-auxilio-doenca-velocidade-entrada": `## Quem precisa do auxílio-doença quase nunca está confortável
+
+Vale começar pela realidade humana, porque é dela que tudo parte. Quem precisa do auxílio por incapacidade temporária, o antigo auxílio-doença, dificilmente está numa situação tranquila. Em geral é alguém adoecido, muitas vezes sem poder trabalhar e sem renda entrando em casa.
+
+Nesse contexto, cada semana de espera não é só um número no calendário. É conta de luz que vence, é remédio que precisa comprar, é família que depende daquela pessoa. Reconhecer isso não é detalhe: é o ponto de partida de um atendimento que respeita quem está do outro lado.
+
+Quando a gente entende que por trás de um pedido de benefício existe uma pessoa fragilizada, a pressa deixa de ser marketing e vira cuidado. É com essa lente que a Spier & Anorte trata a urgência de quem procura ajuda.
+
+## O que a gente controla e o que a gente não controla
+
+Aqui é preciso ser honesto, e a gente faz questão disso. O tempo que a Justiça e o INSS levam pra analisar e decidir um caso não está nas mãos do escritório. Ninguém sério promete prazo de resultado, porque cada caso é analisado individualmente, com base nas provas, nos laudos e na situação de cada pessoa.
+
+Mas existe uma etapa que depende só do escritório: transformar os documentos do cliente em um processo efetivamente distribuído na Justiça. E é justamente aí que entra o nosso compromisso. Com os documentos completos e conferidos, a gente distribui o processo em até 60 minutos e envia o número ao cliente na hora.
+
+Isso é possível porque somos especialistas na área e temos o fluxo organizado e automatizado. A gente consegue eliminar aquela demora que costuma existir só pra começar, aquele período em que o processo fica parado esperando o escritório agir. Essa demora, na nossa casa, não existe.
+
+## Distribuir rápido não é ganhar rápido, e a gente deixa isso claro
+
+É importante não confundir as duas coisas. Distribuir o processo em até 60 minutos não é conseguir o benefício em 60 minutos, e a gente jamais venderia essa ideia. O que esse compromisso garante é outra coisa, igualmente valiosa: fazer o relógio da Justiça começar a correr o quanto antes.
+
+Enquanto o processo não é distribuído, nada anda. Depois que ele entra, os prazos passam a valer, o juiz é acionado, a perícia pode ser marcada. Começar rápido é encurtar a única parte da espera que realmente depende de quem você contratou.
+
+E tem um efeito humano nisso que a gente valoriza muito: a pessoa deixa de viver a angústia de não saber se alguém está cuidando do caso dela. Receber o número do processo no mesmo dia é a prova concreta de que a sua urgência foi tratada como urgência.
+
+Se você está doente, sem conseguir trabalhar, e precisa entender o seu caso, converse com a equipe da Spier & Anorte, sem compromisso. Cada situação é analisada individualmente.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-doenca-ou-aposentadoria-invalidez-diferenca": `## Um afastamento que já durava anos
 
 O Vanderlei era motorista de caminhão. Um AVC o afastou do trabalho e ele passou a receber o auxílio-doença. Só que a recuperação não veio como todo mundo esperava: ficaram sequelas que comprometeram o movimento e a fala, e voltar ao volante deixou de ser possível.
