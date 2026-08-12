@@ -1,5 +1,38 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "limbo-previdenciario-sem-salario-sem-beneficio": `## Um beco sem saída que tem nome
+
+Existe uma situação que muita gente vive sem nem saber que ela tem nome. Funciona assim: o INSS examina o trabalhador, entende que ele já está apto e corta o auxílio por incapacidade temporária, o antigo auxílio-doença.
+
+Só que, quando essa pessoa tenta voltar ao trabalho, o médico do trabalho da empresa a examina e conclui que ela ainda não tem condição de retornar. A empresa, então, não a deixa trabalhar.
+
+O resultado é cruel: a pessoa fica sem o benefício, porque o INSS cortou, e sem o salário, porque a empresa não a aceita de volta. Ela fica presa no meio, sem renda nenhuma, num momento em que já está fragilizada de saúde. Isso é o limbo previdenciário.
+
+## Você não fez nada de errado. A máquina falhou em duas pontas
+
+Quem vive o limbo costuma se sentir sozinho e até culpado, como se tivesse feito alguma coisa errada. Não fez. O que acontece é que dois sistemas, o do INSS e o da medicina do trabalho da empresa, chegaram a conclusões opostas sobre a mesma pessoa, ao mesmo tempo. Um diz que está apto, o outro diz que não está. E quem paga a conta dessa contradição é o trabalhador.
+
+A boa notícia é que os tribunais, sobretudo a Justiça do Trabalho, costumam reconhecer essa injustiça. O entendimento protetivo e majoritário caminha no sentido de que, se a empresa não reintegra nem readapta o empregado depois da cessação do benefício, ela pode responder pelos salários daquele período de limbo. A base jurídica está no art. 476 da CLT, que trata da suspensão do contrato de trabalho enquanto dura o benefício previdenciário: cessado o benefício e não havendo o retorno efetivo, discute-se de quem é a responsabilidade por aquele intervalo.
+
+Na outra ponta, também é possível discutir o restabelecimento do benefício contra o próprio INSS, quando a incapacidade de fato persiste. Ou seja, há caminhos dos dois lados. Qual deles faz sentido depende da sua situação concreta, e cada caso é analisado individualmente, sem garantia de resultado.
+
+## O primeiro passo: reunir a documentação das duas pontas
+
+Como o limbo nasce de duas decisões opostas, é preciso reunir a prova das duas. De um lado, o que o INSS decidiu: a carta ou o comunicado de cessação do benefício, com a data em que ele foi cortado. Do outro, o que a medicina do trabalho da empresa registrou: o atestado de saúde ocupacional ou o parecer que barrou o seu retorno.
+
+Com esses dois documentos na mão, fica possível mostrar, de forma clara, o beco em que você foi colocado: apto para um, inapto para o outro, e sem renda por causa disso. É essa fotografia que sustenta a discussão, seja na frente trabalhista, seja na previdenciária.
+
+## Por que a rapidez importa tanto aqui
+
+Numa situação em que a pessoa está literalmente sem renda, o tempo é o inimigo. Cada semana parado é conta que vence sem dinheiro pra pagar. Por isso o nosso compromisso de, com os documentos conferidos, distribuir o processo em até 60 minutos e mandar o número na hora existe justamente pra casos como esse.
+
+Não é promessa de ganhar. É a garantia de que ninguém vai ficar um dia a mais parado esperando o escritório começar a agir. A parte que depende da gente, a gente resolve rápido, porque entende a urgência de quem está sem chão.
+
+Se você está vivendo essa situação, com a alta do INSS de um lado e a recusa da empresa do outro, fale com a equipe da Spier & Anorte. A gente olha a sua situação com atenção. Cada caso é analisado individualmente.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "urgencia-auxilio-doenca-velocidade-entrada": `## Quem precisa do auxílio-doença quase nunca está confortável
 
 Vale começar pela realidade humana, porque é dela que tudo parte. Quem precisa do auxílio por incapacidade temporária, o antigo auxílio-doença, dificilmente está numa situação tranquila. Em geral é alguém adoecido, muitas vezes sem poder trabalhar e sem renda entrando em casa.

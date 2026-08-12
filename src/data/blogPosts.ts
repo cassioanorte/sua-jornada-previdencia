@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "limbo-previdenciario-sem-salario-sem-beneficio",
+    image: "/blog/limbo-previdenciario-sem-salario-sem-beneficio.jpg",
+    title: "Limbo previdenciário: quando você fica sem salário e sem benefício ao mesmo tempo",
+    excerpt: "O INSS diz que você está apto e corta o benefício. A empresa diz que você ainda não pode voltar. Resultado: sem renda nenhuma. Entenda o limbo previdenciário e o que dá pra fazer.",
+    date: "12 de agosto de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "urgencia-auxilio-doenca-velocidade-entrada",
     image: "/blog/urgencia-auxilio-doenca-velocidade-entrada.jpg",
     title: "Quando cada dia conta: por que a velocidade de dar entrada no auxílio-doença faz diferença",
