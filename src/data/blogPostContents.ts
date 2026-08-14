@@ -1,5 +1,34 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "transparencia-acompanhe-processo-tempo-real": `## A queixa que mais se repete: o advogado que some
+
+Talvez a reclamação mais comum de quem já contratou um advogado seja esta: entrou com o processo e depois ficou no escuro. Passaram semanas, meses, e nenhuma notícia. Pra conseguir uma informação simples, a pessoa precisava ligar várias vezes, deixar recado, esperar um retorno que às vezes nem vinha.
+
+Quem está esperando uma decisão importante pra própria vida não merece ser tratado assim. Silêncio, nesse momento, não é neutralidade. É uma forma de desrespeito com quem confiou em você justamente porque estava vulnerável.
+
+A gente ouve isso o tempo todo, e decidiu trabalhar de um jeito diferente. Não porque é bonito no anúncio, mas porque é o mínimo que uma pessoa preocupada com o próprio caso merece.
+
+## A informação é do cliente, e fica à disposição dele
+
+No nosso escritório a informação do processo pertence ao cliente e fica disponível pra ele o tempo todo. A gente tem um aplicativo com área do cliente: a pessoa cadastra o CPF, ou o CNPJ se for empresa, e passa a acompanhar todos os seus processos, apenas os dela, com as movimentações sempre atualizadas, direto no celular.
+
+Não é preciso ligar. Não é preciso pedir favor. Não é preciso esperar alguém do escritório lembrar de avisar. A informação está ali, no momento em que a pessoa quiser olhar. Deu uma novidade importante no processo, ela aparece na tela.
+
+Repare que isso não é um enfeite tecnológico. É uma mudança de postura: em vez de o cliente correr atrás da informação, a informação vai até ele. A tecnologia só serve pra tornar esse respeito possível na prática, todos os dias, sem depender da boa vontade de ninguém.
+
+## Acompanhar o próprio processo dá tranquilidade, e tranquilidade é cuidado
+
+Ver o próprio processo andando traz uma coisa que vale muito pra quem está num momento delicado: tranquilidade. Saber em que pé está, enxergar que o caso está vivo e sendo conduzido, tira o peso da incerteza que corrói por dentro.
+
+A ansiedade de quem não sabe de nada é real. A pessoa fica imaginando que foi esquecida, que o processo empacou, que ninguém está cuidando. Poder abrir o app e ver, com os próprios olhos, que tudo segue seu curso desarma boa parte dessa angústia. Isso é tecnologia a serviço de gente, e não o contrário.
+
+Vale lembrar, com honestidade, que transparência sobre o andamento não é promessa sobre o resultado. Acompanhar cada passo não muda o fato de que cada caso é analisado individualmente, dentro do que a lei e as provas permitem. O que a área do cliente garante é clareza sobre o caminho, não uma garantia sobre o destino. E clareza, num momento difícil, já é um alívio enorme.
+
+Se você quer conhecer a área do cliente e entender como acompanhar o seu caso em tempo real, fale com a equipe da Spier & Anorte. A gente te mostra como funciona, sem compromisso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "limbo-previdenciario-sem-salario-sem-beneficio": `## Um beco sem saída que tem nome
 
 Existe uma situação que muita gente vive sem nem saber que ela tem nome. Funciona assim: o INSS examina o trabalhador, entende que ele já está apto e corta o auxílio por incapacidade temporária, o antigo auxílio-doença.

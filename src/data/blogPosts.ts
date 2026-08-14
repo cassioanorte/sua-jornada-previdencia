@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "transparencia-acompanhe-processo-tempo-real",
+    image: "/blog/transparencia-acompanhe-processo-tempo-real.jpg",
+    title: "Transparência de verdade: como você acompanha seu processo em tempo real, sem depender de ninguém",
+    excerpt: "A queixa mais comum de quem já contratou advogado é ficar no escuro depois que o processo entra. Veja como a área do cliente por CPF devolve ao cliente o direito de acompanhar tudo.",
+    date: "14 de agosto de 2026",
+    category: "Atendimento",
+    author: "Equipe Spier & Anorte",
+    cluster: "planejamento"
+  },
+  {
     id: "limbo-previdenciario-sem-salario-sem-beneficio",
     image: "/blog/limbo-previdenciario-sem-salario-sem-beneficio.jpg",
     title: "Limbo previdenciário: quando você fica sem salário e sem benefício ao mesmo tempo",
