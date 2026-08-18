@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-especial-idade-minima-stf",
+    image: "/blog/aposentadoria-especial-idade-minima-stf.jpg",
+    title: "Aposentadoria especial e a idade mínima: o que o STF decidiu",
+    excerpt: "O STF declarou inconstitucional a idade mínima criada pela reforma da Previdência para a aposentadoria especial de quem trabalha exposto a agentes nocivos. Entenda o que muda e quem pode ser beneficiado.",
+    date: "14 de agosto de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte",
+    cluster: "aposentadoria-especial"
+  },
+  {
     id: "transparencia-acompanhe-processo-tempo-real",
     image: "/blog/transparencia-acompanhe-processo-tempo-real.jpg",
     title: "Transparência de verdade: como você acompanha seu processo em tempo real, sem depender de ninguém",

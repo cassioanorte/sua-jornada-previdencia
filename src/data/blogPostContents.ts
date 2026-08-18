@@ -1,5 +1,61 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-especial-idade-minima-stf": `## Uma decisão que mexe com quem trabalha exposto à saúde
+
+O Antônio trabalha há mais de vinte anos numa metalúrgica, exposto a ruído e calor todos os dias. Ele já tinha juntado o tempo de trabalho especial necessário para se aposentar, mas esbarrava num obstáculo criado em 2019: além do tempo, a reforma da Previdência passou a exigir uma **idade mínima** para quem quisesse a aposentadoria especial. O Antônio tinha o tempo, mas não tinha a idade. E, para completar essa idade, teria que seguir mais anos respirando o mesmo ambiente que estava adoecendo ele.
+
+Esse ponto acabou de mudar. O Supremo Tribunal Federal decidiu sobre a idade mínima da aposentadoria especial, e a decisão pode beneficiar muita gente na situação do Antônio.
+
+## O que é a aposentadoria especial
+
+A aposentadoria especial é o benefício de quem trabalha exposto de forma habitual e permanente a **agentes nocivos** à saúde, como ruído, calor, produtos químicos, poeiras ou agentes biológicos.
+
+A lógica dela é simples: quem passa anos exposto a esse tipo de risco tem o direito de sair mais cedo desse ambiente, justamente para proteger a saúde. Por isso o tempo exigido é menor: em regra, 15, 20 ou 25 anos de atividade especial, dependendo do grau de risco.
+
+## O que a reforma de 2019 mudou
+
+A reforma da Previdência (Emenda Constitucional 103/2019) manteve a aposentadoria especial, mas criou uma exigência que não existia antes: além do tempo de exposição, passou a cobrar uma **idade mínima**.
+
+Pela regra criada em 2019, a idade mínima variava conforme o grau de risco da atividade:
+
+- **55 anos** para atividades de maior risco (com 15 anos de trabalho especial);
+- **58 anos** para risco médio (com 20 anos);
+- **60 anos** para risco menor (com 25 anos).
+
+Na prática, isso obrigava o trabalhador que já tinha o tempo a continuar exposto ao agente nocivo por mais anos, só para atingir a idade. Foi justamente esse ponto que gerou a discussão no Supremo.
+
+## O que o STF decidiu
+
+Em julgamento concluído em junho de 2026, na **ADI 6309**, o Supremo Tribunal Federal declarou **inconstitucional a exigência de idade mínima** para a aposentadoria especial de quem trabalha exposto a agentes nocivos.
+
+O entendimento que prevaleceu foi o de que exigir uma idade mínima **contraria a própria razão de existir** da aposentadoria especial, que é retirar mais cedo o trabalhador do ambiente que faz mal à saúde. Obrigar a pessoa a ficar exposta por mais tempo, só para completar idade, vai contra esse objetivo de proteção.
+
+Em termos práticos, a decisão beneficia principalmente quem **já completou** o tempo de atividade especial exigido (15, 20 ou 25 anos), mas ainda não tinha a idade que a regra de 2019 passou a cobrar.
+
+## O que continua valendo
+
+É importante deixar claro o que a decisão **não** derrubou. O STF manteve outras regras trazidas pela reforma, entre elas:
+
+- a proibição de converter tempo especial em tempo comum para períodos trabalhados depois de 13 de novembro de 2019;
+- as novas regras de cálculo do valor do benefício.
+
+Ou seja, a idade mínima caiu, mas nem tudo o que a reforma mudou foi afetado. Cada caso continua tendo suas particularidades.
+
+## Um ponto que ainda precisa de atenção
+
+Quando este texto foi escrito, um detalhe importante ainda dependia dos termos finais do julgamento: a chamada **modulação dos efeitos**, ou seja, a partir de quando exatamente a idade deixa de ser exigida e como fica a situação de quem já poderia ter se aposentado antes, inclusive quanto a valores atrasados.
+
+Por isso, o mais prudente é não tratar nenhum caso como automático. A decisão é um avanço importante para quem trabalha em condições de risco, mas o efeito prático em cada situação precisa ser analisado individualmente, olhando o tempo de contribuição, o tipo de exposição e a documentação de cada pessoa.
+
+## Como saber se isso vale para o seu caso
+
+Se você trabalha ou trabalhou exposto a agentes nocivos, como ruído, calor, produtos químicos ou agentes biológicos, e já tem um bom tempo nessas condições, vale entender se essa decisão do STF pode ajudar no seu caso.
+
+A gente pode analisar o seu histórico de trabalho, verificar a documentação da exposição e te explicar com honestidade em que ponto você está, sem promessa de resultado. Cada caso é avaliado individualmente.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "transparencia-acompanhe-processo-tempo-real": `## A queixa que mais se repete: o advogado que some
 
 Talvez a reclamação mais comum de quem já contratou um advogado seja esta: entrou com o processo e depois ficou no escuro. Passaram semanas, meses, e nenhuma notícia. Pra conseguir uma informação simples, a pessoa precisava ligar várias vezes, deixar recado, esperar um retorno que às vezes nem vinha.
