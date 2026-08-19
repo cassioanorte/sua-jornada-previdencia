@@ -1,5 +1,53 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-acidente-ou-auxilio-doenca-diferenca": `## Dois nomes parecidos que confundem muita gente
+
+O Sérgio machucou o ombro num acidente de trabalho. Ficou afastado uns meses, recebendo um benefício do INSS enquanto se tratava. Quando teve alta, voltou ao serviço, só que o ombro ficou com uma limitação: não levanta mais o braço como antes e sente dor quando força.
+
+No caminho, o Sérgio ouviu falar de dois benefícios com nomes quase iguais: auxílio-doença e auxílio-acidente. Achou que fossem a mesma coisa. Não são. Eles funcionam em **momentos diferentes** da vida da pessoa, e entender essa diferença muda o que você tem direito a receber.
+
+Se você se machucou, ficou afastado ou ficou com alguma sequela, vale entender qual é qual.
+
+## Auxílio-doença: enquanto você está incapaz de trabalhar
+
+O auxílio-doença, hoje chamado oficialmente de auxílio por incapacidade temporária (art. 59 da Lei 8.213/91), é o benefício pago **enquanto você está afastado e incapaz de trabalhar** por causa de uma doença ou de um acidente.
+
+A palavra-chave aqui é temporário. A ideia é que você para, se trata, melhora e volta ao trabalho. Por isso o INSS costuma marcar perícias de revisão de tempos em tempos, para verificar se você já está apto a retornar.
+
+Ele substitui a sua renda no período em que você não consegue trabalhar. Quando você recebe alta e volta ao serviço, o auxílio-doença cessa.
+
+## Auxílio-acidente: pela sequela que ficou depois
+
+O auxílio-acidente (art. 86 da Lei 8.213/91) é diferente. Ele não é para o período em que você está afastado. Ele entra **depois**, quando o tratamento chegou ao limite e ficou uma **sequela permanente que reduz** a sua capacidade de trabalho.
+
+Repare: reduz, não impede. O auxílio-acidente é para quem consegue voltar a trabalhar, só que com mais dificuldade, mais esforço ou limitação por causa da sequela. Ele tem natureza de **indenização**, uma compensação por essa perda.
+
+E por ser indenização, ele é pago **junto com o seu salário**. Você trabalha, recebe normalmente, e ainda recebe o benefício todo mês.
+
+## A diferença que muda tudo
+
+Colocando lado a lado fica mais claro:
+
+- **Auxílio-doença:** pago enquanto você está afastado e incapaz de trabalhar. É temporário e existe para o período do tratamento. Substitui a sua renda.
+- **Auxílio-acidente:** pago depois, pela sequela permanente que reduziu sua capacidade, com você já de volta ao trabalho. Tem natureza de indenização e é pago junto com o salário.
+
+Um cobre o momento em que você não pode trabalhar. O outro compensa a limitação que ficou quando você voltou. Em muitos casos, a mesma pessoa passa pelos dois: primeiro o auxílio-doença durante o afastamento, depois o auxílio-acidente pela sequela.
+
+## Um detalhe que faz diferença no bolso
+
+O auxílio-doença termina quando você tem alta. Já o auxílio-acidente dura enquanto você continua na ativa, mas **cessa quando você se aposenta**, porque ele não se soma à aposentadoria.
+
+Outro ponto importante: muita gente que teve alta e voltou ao trabalho com uma sequela nunca chega a pedir o auxílio-acidente, porque acha que, tendo voltado ao serviço, não tem mais direito a nada. Nem sempre é assim. Quando fica uma limitação permanente, pode haver direito, e às vezes até com valores atrasados a receber.
+
+## Como saber qual é o seu caso
+
+Se você se machucou, ficou afastado, teve alta e ficou com alguma limitação que atrapalha o trabalho, pode ser que exista um direito que você ainda não pediu. Cada situação é diferente e precisa ser analisada individualmente.
+
+A gente pode olhar os seus laudos, entender o seu histórico e te explicar com honestidade em qual dos dois benefícios o seu caso se encaixa, sem promessa de resultado.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-especial-idade-minima-stf": `## Uma decisão que mexe com quem trabalha exposto à saúde
 
 O Antônio trabalha há mais de vinte anos numa metalúrgica, exposto a ruído e calor todos os dias. Ele já tinha juntado o tempo de trabalho especial necessário para se aposentar, mas esbarrava num obstáculo criado em 2019: além do tempo, a reforma da Previdência passou a exigir uma **idade mínima** para quem quisesse a aposentadoria especial. O Antônio tinha o tempo, mas não tinha a idade. E, para completar essa idade, teria que seguir mais anos respirando o mesmo ambiente que estava adoecendo ele.

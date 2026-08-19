@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-ou-auxilio-doenca-diferenca",
+    image: "/blog/auxilio-acidente-ou-auxilio-doenca-diferenca.jpg",
+    title: "Auxílio-acidente ou auxílio-doença: qual é a diferença",
+    excerpt: "Os nomes são parecidos, mas os benefícios funcionam em momentos diferentes. Entenda a diferença entre auxílio-acidente e auxílio-doença do INSS e qual pode ser o seu caso.",
+    date: "14 de agosto de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-especial-idade-minima-stf",
     image: "/blog/aposentadoria-especial-idade-minima-stf.jpg",
     title: "Aposentadoria especial e a idade mínima: o que o STF decidiu",
