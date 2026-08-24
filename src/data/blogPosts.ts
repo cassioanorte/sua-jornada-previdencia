@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-tempo-contribuicao-regras-transicao",
+    image: "/blog/aposentadoria-tempo-contribuicao-regras-transicao.jpg",
+    title: "Aposentadoria por tempo de contribuição: as regras de transição depois da reforma",
+    excerpt: "A reforma de 2019 acabou com a aposentadoria só por tempo de contribuição. Mas quem já contribuía antes tem quatro regras de transição para se aposentar. Entenda qual pode ser a sua.",
+    date: "24 de agosto de 2026",
+    category: "Tempo de Contribuição",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-acidente-ou-auxilio-doenca-diferenca",
     image: "/blog/auxilio-acidente-ou-auxilio-doenca-diferenca.jpg",
     title: "Auxílio-acidente ou auxílio-doença: qual é a diferença",

@@ -1,5 +1,42 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-tempo-contribuicao-regras-transicao": `## Você contribuiu a vida toda. E agora, quando dá pra parar?
+
+O José começou a trabalhar de carteira assinada com dezoito anos. Passou décadas contribuindo, sempre com aquela conta na cabeça: quando juntar trinta e cinco anos de contribuição, para. Era assim que funcionava. Aí veio 2019, a regra mudou, e o José ficou perdido. Ainda dá pra se aposentar por tempo de contribuição? A resposta é sim, mas o caminho mudou.
+
+## O que a reforma de 2019 mudou
+
+Antes da reforma da Previdência (Emenda Constitucional 103/2019), existia a aposentadoria por tempo de contribuição pura: bastava juntar o tempo, sem idade mínima. Trinta e cinco anos para o homem, trinta anos para a mulher, e pronto.
+
+Essa aposentadoria pura acabou. Quem começou a contribuir a partir de 13 de novembro de 2019 só se aposenta pela regra permanente, que exige idade mínima: 65 anos para o homem e 62 anos para a mulher, mais um tempo mínimo de contribuição.
+
+Mas atenção a esta parte, porque é ela que muda tudo: quem **já contribuía antes** de 13 de novembro de 2019 não foi jogado direto para a regra nova. Essas pessoas têm direito às chamadas **regras de transição**, pensadas justamente para quem estava no meio do caminho quando a lei mudou.
+
+## As quatro regras de transição
+
+Existem quatro caminhos de transição. Em todos eles, o tempo mínimo de contribuição continua sendo 35 anos para o homem e 30 anos para a mulher. O que muda é a exigência extra de cada um. Você não escolhe no chute: normalmente se calcula qual regra você cumpre primeiro.
+
+**1. Regra dos pontos.** Aqui soma-se a idade com o tempo de contribuição. Se a conta bater o número de pontos exigido, você se aposenta. O detalhe importante: esse número de pontos **sobe um pouco a cada ano**. Ou seja, quanto mais o tempo passa, mais pontos são exigidos, até chegar a um teto. Vale a pena verificar o número do ano em que você pretende dar entrada.
+
+**2. Idade mínima progressiva.** Aqui você precisa do tempo mínimo (35 ou 30 anos) mais uma idade mínima. Essa idade também **sobe seis meses a cada ano**, subindo aos poucos até um teto. É outra forma de chegar lá, e às vezes é mais vantajosa que a dos pontos.
+
+**3. Pedágio de 50%.** Essa regra é para quem estava **quase se aposentando** na data da reforma, faltando dois anos ou menos para completar o tempo mínimo. Nesse caso, você cumpre o tempo que faltava mais um pedágio de metade desse tempo. É um grupo específico, mas para quem se encaixa costuma ser um caminho rápido.
+
+**4. Pedágio de 100%.** Aqui exige-se uma idade mínima (60 anos para o homem, 57 para a mulher), o tempo mínimo de contribuição e um pedágio igual ao tempo que faltava na data da reforma. Parece mais pesado, mas em muitos casos gera um valor de benefício melhor.
+
+## Os erros mais comuns
+
+O primeiro erro é achar que a aposentadoria por tempo de contribuição acabou de vez. Não acabou para quem já contribuía antes de 2019. O segundo é dar entrada na primeira regra que aparece, sem comparar as quatro. A diferença entre elas pode significar anos a mais ou a menos de trabalho, e um valor de benefício bem diferente. O terceiro erro é não conferir o tempo que o INSS reconhece. Muita gente tem períodos antigos, trabalho rural, tempo especial ou contribuições que não estão certas no sistema, e isso muda toda a conta.
+
+## Como saber qual regra é a sua
+
+Não existe resposta única. A regra ideal depende da sua data de filiação, de quanto tempo você já tinha em novembro de 2019 e de quanto contribuiu desde então. Por isso a conta precisa ser feita olhando o seu histórico real, e não um número genérico.
+
+A gente pode levantar o seu tempo de contribuição, comparar as quatro regras de transição e te dizer com honestidade qual é o caminho mais vantajoso, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-acidente-ou-auxilio-doenca-diferenca": `## Dois nomes parecidos que confundem muita gente
 
 O Sérgio machucou o ombro num acidente de trabalho. Ficou afastado uns meses, recebendo um benefício do INSS enquanto se tratava. Quando teve alta, voltou ao serviço, só que o ombro ficou com uma limitação: não levanta mais o braço como antes e sente dor quando força.
