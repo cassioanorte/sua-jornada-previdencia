@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-pessoa-com-deficiencia-lc-142",
+    image: "/blog/aposentadoria-pessoa-com-deficiencia-lc-142.jpg",
+    title: "Aposentadoria da pessoa com deficiência: um direito que a reforma manteve",
+    excerpt: "Quem tem deficiência pode se aposentar mais cedo, com menos tempo de contribuição ou com idade menor. A reforma de 2019 não mexeu nesse direito. Entenda quem tem e como comprovar.",
+    date: "25 de agosto de 2026",
+    category: "Pessoa com Deficiência",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-tempo-contribuicao-regras-transicao",
     image: "/blog/aposentadoria-tempo-contribuicao-regras-transicao.jpg",
     title: "Aposentadoria por tempo de contribuição: as regras de transição depois da reforma",

@@ -1,5 +1,48 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-pessoa-com-deficiencia-lc-142": `## Um direito que muita gente tem e não sabe
+
+A Marta tem uma deficiência desde nova. Trabalhou a vida inteira, sempre achando que teria que esperar a mesma idade que todo mundo para se aposentar. Ela não sabia que existe uma aposentadoria pensada especialmente para a pessoa com deficiência, que permite parar mais cedo. E não sabia de outra coisa importante: quando veio a reforma da Previdência em 2019, esse direito foi mantido.
+
+## O que é a aposentadoria da pessoa com deficiência
+
+É um benefício específico para quem tem deficiência e contribui para o INSS. A lógica é reconhecer que a pessoa com deficiência enfrenta barreiras a mais no dia a dia e no trabalho, e por isso pode se aposentar em condições mais favoráveis do que a regra geral.
+
+Ela está prevista na Lei Complementar 142 de 2013. E aqui vai um ponto que tranquiliza muita gente: a reforma da Previdência de 2019 **não elevou a idade** dessa aposentadoria. Ela continua valendo nos termos dessa lei. Ou seja, quem tem deficiência não foi prejudicado pela reforma nesse ponto.
+
+## Existem dois caminhos
+
+**1. Por tempo de contribuição.** Aqui o tempo exigido é menor do que o da aposentadoria comum, e varia conforme o grau da deficiência:
+
+- Deficiência **grave**: 25 anos para o homem e 20 anos para a mulher.
+- Deficiência **média**: 29 anos para o homem e 24 anos para a mulher.
+- Deficiência **leve**: 33 anos para o homem e 28 anos para a mulher.
+
+Em todos os casos é preciso ter pelo menos 180 meses de carência, ou seja, 15 anos de contribuições.
+
+**2. Por idade.** Nesse caminho, a idade é menor que a comum: 60 anos para o homem e 55 anos para a mulher, com 15 anos (180 meses) de contribuição, sendo esse tempo cumprido **na condição de pessoa com deficiência**.
+
+## Como se prova a deficiência e o grau
+
+Este é o ponto que mais gera dúvida. O grau da deficiência (leve, médio ou grave) **não é você que decide**, e também não é só o médico do INSS sozinho. Ele sai de uma avaliação chamada **biopsicossocial**, feita por uma equipe multiprofissional do INSS, que junta a perícia médica com o serviço social.
+
+Essa avaliação usa um instrumento técnico próprio para medir o impacto da deficiência na vida e no trabalho da pessoa. É desse resultado que sai o grau, e é o grau que define quanto tempo de contribuição vai ser exigido. Por isso essa etapa é tão importante: um grau reconhecido a menos pode significar anos a mais de trabalho.
+
+## Os erros mais comuns
+
+O erro mais frequente é a pessoa nem tentar, por acreditar que não se encaixa. Deficiência não é só o caso mais visível. Muitas condições podem ser reconhecidas, e quem decide isso é a avaliação técnica, não o senso comum.
+
+Outro erro é chegar à avaliação sem levar a documentação médica completa da sua condição, com histórico, laudos e exames. A avaliação olha a sua realidade, e quanto melhor documentada ela estiver, mais justa tende a ser. Um terceiro erro é confundir essa aposentadoria com o BPC/LOAS, o benefício assistencial, que é uma coisa diferente e para outra situação.
+
+## Como saber se você tem direito
+
+Se você tem alguma deficiência e contribui ou já contribuiu para o INSS, vale a pena verificar se um desses dois caminhos se aplica ao seu caso. A conta depende do grau que for reconhecido, do seu tempo de contribuição e da sua documentação médica.
+
+A gente pode analisar a sua situação, entender a sua condição e te orientar sobre o melhor caminho e sobre como se preparar para a avaliação do INSS, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-tempo-contribuicao-regras-transicao": `## Você contribuiu a vida toda. E agora, quando dá pra parar?
 
 O José começou a trabalhar de carteira assinada com dezoito anos. Passou décadas contribuindo, sempre com aquela conta na cabeça: quando juntar trinta e cinco anos de contribuição, para. Era assim que funcionava. Aí veio 2019, a regra mudou, e o José ficou perdido. Ainda dá pra se aposentar por tempo de contribuição? A resposta é sim, mas o caminho mudou.
