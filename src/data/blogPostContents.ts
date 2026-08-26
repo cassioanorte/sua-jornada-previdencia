@@ -1,5 +1,46 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-especial-agente-nocivo-como-comprovar": `## Quem trabalha em risco tem o direito de sair mais cedo
+
+O Paulo passou mais de vinte anos numa fábrica, com o ruído das máquinas o dia inteiro no ouvido. O colega do lado trabalhava com produtos químicos. Os dois têm algo em comum: passaram anos expondo a saúde a agentes nocivos. E a lei reconhece isso. Para quem trabalha nessas condições, existe a aposentadoria especial, que permite parar antes de quem trabalha em ambiente comum.
+
+## O que é a aposentadoria especial
+
+É o benefício de quem trabalha exposto de forma **habitual e permanente** a agentes nocivos à saúde. Esses agentes podem ser químicos (produtos, poeiras, vapores), físicos (ruído, calor, vibração) ou biológicos (contato com material contaminado, comum na área da saúde e na limpeza).
+
+A ideia por trás dela é justa: quem passa anos nesse tipo de ambiente adoece mais cedo, e por isso tem direito de sair antes, para proteger a saúde. Por isso o tempo de trabalho exigido é menor, e varia conforme o grau de risco: 15, 20 ou 25 anos de atividade especial.
+
+## O que a reforma de 2019 mudou
+
+Antes da reforma, bastava juntar o tempo de exposição, sem idade mínima. A reforma da Previdência de 2019 manteve a aposentadoria especial, mas mudou o desenho dela. Passou a existir uma regra permanente e uma regra de transição para quem já estava na ativa.
+
+Na **regra permanente**, além do tempo de exposição, passou a existir uma idade mínima que acompanha o grau de risco: em geral, quanto menor o tempo de exposição exigido, maior a idade pedida.
+
+Na **regra de transição**, para quem já trabalhava exposto na data da reforma, o caminho é por um sistema de pontos, que soma a idade com o tempo de contribuição, com números diferentes conforme o tempo de atividade especial (15, 20 ou 25 anos).
+
+Existe um ponto sensível e em constante discussão nos tribunais sobre a idade mínima nessa aposentadoria. Por isso, mais do que decorar número, o importante é ter o seu caso analisado com a regra vigente na data em que você for dar entrada.
+
+## O PPP: a peça-chave de tudo
+
+Aqui está o coração da aposentadoria especial. Não basta você saber que trabalhava exposto. É preciso **provar**. E a prova principal é um documento chamado **PPP, o Perfil Profissiográfico Previdenciário**.
+
+O PPP é um documento que a empresa emite descrevendo, ano a ano, a que agentes nocivos você ficou exposto, em que intensidade e com que proteção. Ele é lastreado em um laudo técnico das condições do ambiente de trabalho. Sem um PPP correto e bem preenchido, mesmo quem trabalhou anos exposto pode ter o pedido negado.
+
+## Os erros mais comuns
+
+O primeiro é não guardar nem pedir o PPP quando sai da empresa. Depois de anos, ou quando a empresa fecha, conseguir esse documento fica muito mais difícil. O segundo erro é aceitar um PPP mal preenchido, que não descreve direito a exposição ou que diz que o equipamento de proteção eliminava o risco quando não eliminava. Esse detalhe muda o resultado.
+
+Outro ponto importante: a conversão do tempo especial em tempo comum, que era usada para somar vantagem em outra aposentadoria, foi **vedada para períodos trabalhados a partir de 13 de novembro de 2019**. Já os períodos trabalhados **antes** dessa data continuam podendo ser aproveitados, o que muitas vezes é decisivo. Por isso o histórico completo, com os períodos antigos, precisa ser levantado com cuidado.
+
+## Como saber se você tem direito
+
+Se você trabalha ou já trabalhou exposto a ruído, calor, produtos químicos, poeira ou agentes biológicos, vale muito verificar se tem direito à aposentadoria especial, ou se esse tempo pode melhorar a sua aposentadoria.
+
+A gente pode analisar o seu histórico de trabalho, conferir os seus PPPs, identificar falhas na documentação e te explicar em que ponto você está, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-pessoa-com-deficiencia-lc-142": `## Um direito que muita gente tem e não sabe
 
 A Marta tem uma deficiência desde nova. Trabalhou a vida inteira, sempre achando que teria que esperar a mesma idade que todo mundo para se aposentar. Ela não sabia que existe uma aposentadoria pensada especialmente para a pessoa com deficiência, que permite parar mais cedo. E não sabia de outra coisa importante: quando veio a reforma da Previdência em 2019, esse direito foi mantido.

@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-especial-agente-nocivo-como-comprovar",
+    image: "/blog/aposentadoria-especial-agente-nocivo-como-comprovar.jpg",
+    title: "Aposentadoria especial: quem trabalha exposto a risco pode sair mais cedo",
+    excerpt: "Ruído, calor, produtos químicos, agentes biológicos. Quem trabalha exposto a agentes nocivos tem direito de se aposentar antes. Entenda os requisitos e por que o PPP é a peça-chave.",
+    date: "26 de agosto de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte",
+    cluster: "aposentadoria-especial"
+  },
+  {
     id: "aposentadoria-pessoa-com-deficiencia-lc-142",
     image: "/blog/aposentadoria-pessoa-com-deficiencia-lc-142.jpg",
     title: "Aposentadoria da pessoa com deficiência: um direito que a reforma manteve",
