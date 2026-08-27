@@ -1,5 +1,50 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-professor-regra-antiga-nova-magisterio": `## Quem passou a vida em sala de aula merece parar antes
+
+A Cláudia deu aula de português no ensino fundamental por mais de vinte anos. Corrigiu prova de madrugada, aguentou turma cheia, se dedicou a cada aluno. A lei reconhece esse desgaste e dá ao professor da educação básica o direito de se aposentar cinco anos antes dos demais trabalhadores. Mas a reforma de 2019 mudou o caminho, e hoje é preciso entender qual regra vale para você.
+
+## Por que o professor se aposenta mais cedo
+
+O professor tem uma redução de cinco anos por trabalhar exclusivamente em funções de magistério na **educação básica**, ou seja, na educação infantil, no ensino fundamental e no ensino médio. Esse é um ponto importante: o redutor vale para a educação básica. O professor do ensino superior não entra nessa regra.
+
+A partir daí, existe uma diferença fundamental: a regra antiga, para quem já tinha o direito antes da reforma, e a regra nova, para quem entrou depois. E ainda há as regras de transição, para quem estava no meio do caminho.
+
+## A regra antiga
+
+Antes de 13 de novembro de 2019, a aposentadoria do professor era só por tempo de contribuição em magistério, **sem idade mínima**: 30 anos para o homem e 25 anos para a mulher. Quem já tinha cumprido esses requisitos até essa data tem **direito adquirido**, ou seja, pode se aposentar por essa regra mesmo hoje. Se você já tinha o tempo completo antes da reforma, isso precisa ser verificado com atenção, porque é uma condição favorável.
+
+## A regra nova e as transições
+
+Para quem se filiou a partir da reforma, passou a valer a regra permanente, que agora **exige idade mínima**: 60 anos para o homem e 57 anos para a mulher, com 25 anos de contribuição exclusiva em magistério.
+
+Para quem já era professor em 2019, mas ainda não tinha completado o tempo, existem regras de transição, entre elas:
+
+- Uma regra de **pontos**, que soma idade e tempo de magistério, e cujo número **sobe um pouco a cada ano** até um teto.
+- Uma regra de **idade mínima progressiva**, em que a idade também sobe aos poucos, ano a ano.
+- Uma regra de **pedágio de 100%**, com idade mínima menor, mais o pedágio do tempo que faltava na data da reforma.
+
+Como esses números das regras progressivas mudam a cada ano, o mais seguro é conferir o valor vigente no ano em que você pretende dar entrada, olhando o seu caso concreto.
+
+## O detalhe que muitos professores não sabem: magistério não é só sala de aula
+
+Este ponto já beneficiou muita gente. Por muito tempo, o INSS só contava como magistério o tempo de sala de aula, deixando de fora quem virou diretor, coordenador ou assessor pedagógico. O Supremo Tribunal Federal decidiu que isso está errado.
+
+Segundo o STF, contam como tempo de magistério, além da docência, as funções de **direção de unidade escolar, coordenação e assessoramento pedagógico**, desde que exercidas por professor, em estabelecimento de educação básica, sem quebra da carreira do magistério. Ou seja, se você foi professor e depois assumiu a direção ou a coordenação da escola, esse tempo pode contar para a sua aposentadoria de professor.
+
+## Os erros mais comuns
+
+O primeiro é o professor que virou diretor ou coordenador achar que perdeu o direito ao redutor. Não perdeu, e esse tempo pode ser somado. O segundo é não verificar o direito adquirido pela regra antiga, o que pode ser muito mais vantajoso para quem já tinha o tempo em 2019. O terceiro é confundir a regra permanente com a de transição e dar entrada no caminho errado.
+
+## Como saber qual regra é a sua
+
+A resposta depende de quando você começou a lecionar, de quanto tempo você já tinha em 2019 e das funções que você exerceu na escola ao longo da carreira. Tudo isso muda a conta.
+
+A gente pode levantar o seu tempo de magistério, incluindo períodos de direção e coordenação, verificar se você tem direito adquirido e comparar as regras para dizer qual é a mais vantajosa, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-especial-agente-nocivo-como-comprovar": `## Quem trabalha em risco tem o direito de sair mais cedo
 
 O Paulo passou mais de vinte anos numa fábrica, com o ruído das máquinas o dia inteiro no ouvido. O colega do lado trabalhava com produtos químicos. Os dois têm algo em comum: passaram anos expondo a saúde a agentes nocivos. E a lei reconhece isso. Para quem trabalha nessas condições, existe a aposentadoria especial, que permite parar antes de quem trabalha em ambiente comum.

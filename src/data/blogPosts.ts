@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-professor-regra-antiga-nova-magisterio",
+    image: "/blog/aposentadoria-professor-regra-antiga-nova-magisterio.jpg",
+    title: "Aposentadoria do professor: regra antiga, regra nova e o que conta como magistério",
+    excerpt: "Professor da educação básica tem direito de se aposentar cinco anos antes. Mas a reforma de 2019 mudou as regras. Entenda a diferença entre a regra antiga e a nova e o que o STF decidiu sobre o tempo de magistério.",
+    date: "27 de agosto de 2026",
+    category: "Aposentadoria do Professor",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-especial-agente-nocivo-como-comprovar",
     image: "/blog/aposentadoria-especial-agente-nocivo-como-comprovar.jpg",
     title: "Aposentadoria especial: quem trabalha exposto a risco pode sair mais cedo",
