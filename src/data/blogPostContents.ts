@@ -1,5 +1,56 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-rural-segurado-especial-como-comprovar": `## Quem tirou o sustento da terra também tem direito
+
+O Sebastião trabalhou a vida toda na lavoura, em regime de agricultura familiar. Plantou, colheu, cuidou do gado, tudo com a família, para o próprio sustento. Ele nunca teve carteira assinada nem carnê de contribuição, e por isso achava que nunca iria se aposentar. Estava enganado. Quem trabalha na roça em regime familiar é chamado de **segurado especial** e tem direito à aposentadoria rural.
+
+## O que é a aposentadoria rural
+
+É a aposentadoria de quem exerce atividade rural em regime de economia familiar, sem empregados permanentes, tirando da terra o próprio sustento. Isso inclui o agricultor familiar, o pescador artesanal, o extrativista e o indígena que vive dessa atividade.
+
+O grande diferencial é este: o segurado especial pode se aposentar **mesmo sem nunca ter recolhido contribuição em dinheiro**. A lógica é que ele contribui com o resultado do próprio trabalho na terra. Por isso é uma aposentadoria tão importante para o interior e para a nossa região.
+
+## Os requisitos
+
+Os requisitos são mais simples que os de outras aposentadorias, e a boa notícia é que a reforma de 2019 **não elevou a idade** da aposentadoria rural. Ela continua sendo:
+
+- Idade: **60 anos para o homem** e **55 anos para a mulher**.
+- Tempo de atividade rural: **15 anos (180 meses)** de efetivo exercício, ainda que de forma descontínua, no período imediatamente anterior ao pedido.
+
+Ou seja, não precisa ser tempo corrido sem parar. O que importa é comprovar que você viveu da roça por esse período no total.
+
+## O verdadeiro desafio: a prova
+
+Aqui está o ponto que decide todo pedido de aposentadoria rural. Como o segurado especial normalmente não tem contribuições registradas, o INSS pede que você **prove** que trabalhou na roça. E provar isso é onde a maioria das pessoas encontra dificuldade.
+
+A comprovação funciona assim: existe uma autodeclaração do trabalhador rural, que precisa ser confirmada por uma entidade pública credenciada, e ela tem que estar apoiada em um **início de prova material**, ou seja, documentos. A sua palavra sozinha não basta, e testemunha sozinha também não resolve.
+
+## Que documentos ajudam a provar
+
+Vale a pena guardar e reunir tudo que ligue você e sua família à terra ao longo dos anos, como:
+
+- Nota fiscal de produtor rural, bloco de produtor.
+- Contrato de arrendamento, comodato ou parceria rural.
+- Documentos do sindicato de trabalhadores rurais.
+- Registro do INCRA, ITR, escritura ou documento da propriedade.
+- Certidões (de casamento, de nascimento dos filhos) que tragam a profissão de agricultor ou lavrador.
+- Registros escolares dos filhos em escola rural, documentos de saúde.
+
+Quanto mais documentos ao longo do tempo, mais forte fica a prova. Um detalhe: para períodos mais recentes, a atividade rural passou a ser comprovada preferencialmente por um cadastro do próprio segurado especial, o que reforça a importância de manter tudo em dia.
+
+## Os erros mais comuns
+
+O primeiro erro é não guardar nenhum documento, achando que o trabalho na roça se prova só falando. O segundo é a mulher agricultora achar que não tem direito próprio porque o documento da terra está no nome do marido. Ela tem direito próprio, e há formas de comprovar isso. O terceiro é desistir depois de uma primeira negativa do INSS, quando muitas vezes o que faltou foi organizar melhor a prova.
+
+## Como saber se você tem direito
+
+Se você trabalhou na roça em regime familiar, mesmo sem nunca ter contribuído em dinheiro, vale a pena verificar o seu direito à aposentadoria rural. O ponto central vai ser reunir e organizar a prova do seu tempo de atividade.
+
+A gente pode analisar a sua situação, verificar os documentos que você tem, orientar sobre o que ainda dá para reunir e montar o pedido da forma mais forte possível, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-professor-regra-antiga-nova-magisterio": `## Quem passou a vida em sala de aula merece parar antes
 
 A Cláudia deu aula de português no ensino fundamental por mais de vinte anos. Corrigiu prova de madrugada, aguentou turma cheia, se dedicou a cada aluno. A lei reconhece esse desgaste e dá ao professor da educação básica o direito de se aposentar cinco anos antes dos demais trabalhadores. Mas a reforma de 2019 mudou o caminho, e hoje é preciso entender qual regra vale para você.

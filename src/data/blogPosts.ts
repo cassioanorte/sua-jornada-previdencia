@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-rural-segurado-especial-como-comprovar",
+    image: "/blog/aposentadoria-rural-segurado-especial-como-comprovar.jpg",
+    title: "Aposentadoria rural: quem trabalha na roça pode se aposentar mais cedo",
+    excerpt: "Quem vive da agricultura familiar pode se aposentar aos 60 anos (homem) ou 55 (mulher), mesmo sem nunca ter contribuído em dinheiro. O desafio é comprovar o tempo de roça. Entenda como.",
+    date: "28 de agosto de 2026",
+    category: "Aposentadoria Rural",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-professor-regra-antiga-nova-magisterio",
     image: "/blog/aposentadoria-professor-regra-antiga-nova-magisterio.jpg",
     title: "Aposentadoria do professor: regra antiga, regra nova e o que conta como magistério",
