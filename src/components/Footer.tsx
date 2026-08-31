@@ -118,6 +118,35 @@ const Footer = () => {
             </a>
             <span style={linkStyle}>Gramado · RS</span>
             <span style={linkStyle}>Nova Petrópolis · RS</span>
+
+            <div style={{ ...colHeader, marginTop: 28 }}>Redes</div>
+            <a
+              href="https://www.instagram.com/spiereanorte"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={linkStyle}
+              className="hover:text-[#d4b888] transition-colors"
+            >
+              Instagram · @spiereanorte
+            </a>
+            <a
+              href="https://www.facebook.com/SAAdvogadosAssociados"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={linkStyle}
+              className="hover:text-[#d4b888] transition-colors"
+            >
+              Facebook
+            </a>
+            <a
+              href="https://maps.google.com/maps?cid=15623944043400337509"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={linkStyle}
+              className="hover:text-[#d4b888] transition-colors"
+            >
+              Google · Maps
+            </a>
           </div>
         </div>
 

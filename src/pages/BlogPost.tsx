@@ -7,6 +7,7 @@ import { ArrowLeft, Calendar, Tag, MessageCircle } from "lucide-react";
 import { getBlogPostBySlug } from "@/data/blogPosts";
 import RelatedPosts from "@/components/RelatedPosts";
 import ArticleContent from "@/components/ArticleContent";
+import { cityPages } from "@/data/cityPages";
 
 const SITE_URL = "https://spiereanorte.adv.br";
 const BRAND = "Spier & Anorte";
@@ -218,6 +219,34 @@ const BlogPost = () => {
                   <MessageCircle className="w-5 h-5 mr-2" />
                   Fale com um Advogado Agora
                 </Button>
+              </div>
+            </div>
+
+            {/* Atendimento local (blog -> páginas de cidade) */}
+            <div className="mt-12 pt-8 border-t border-border">
+              <h3 className="text-lg font-bold mb-2 text-foreground">
+                Atendimento previdenciário na sua cidade
+              </h3>
+              <p className="text-muted-foreground mb-4 text-sm">
+                Somos um escritório da Serra Gaúcha com atuação exclusiva em Direito Previdenciário.
+                Veja o atendimento na sua região:
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {cityPages.slice(0, 8).map((city) => (
+                  <Link
+                    key={city.slug}
+                    to={`/advogado-previdenciario/${city.slug}`}
+                    className="text-sm px-3 py-1.5 rounded-full border border-primary/20 text-primary hover:bg-primary/5 transition-colors"
+                  >
+                    Advogado previdenciário em {city.name}
+                  </Link>
+                ))}
+                <Link
+                  to="/advogado-previdenciario-rs"
+                  className="text-sm px-3 py-1.5 rounded-full border border-primary/20 text-primary hover:bg-primary/5 transition-colors"
+                >
+                  Todas as cidades do RS →
+                </Link>
               </div>
             </div>
 
