@@ -1,5 +1,85 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "por-que-inss-nega-aposentadoria-rural": `## O direito existia. Faltou provar do jeito certo
+
+Muita gente trabalhou a vida inteira na lavoura, chegou na idade certa, pediu a aposentadoria rural e ouviu um "indeferido" do INSS. O pior é que, na maioria das vezes, o direito existia. O que faltou foi provar do jeito que o INSS e a Justiça exigem.
+
+Neste post você vai entender os erros que mais derrubam um pedido de aposentadoria rural e o que fazer para chegar no INSS com o caso já bem montado.
+
+## Antes dos erros: como funciona a aposentadoria rural
+
+A aposentadoria do trabalhador rural na condição de segurado especial (quem produz em regime de economia familiar, sem empregado fixo) tem regras próprias:
+
+- Homem se aposenta aos **60 anos**, mulher aos **55 anos**.
+- É preciso comprovar **180 meses** de atividade rural (15 anos), que **não precisam ser seguidos**. Pode ter parado um tempo e voltado.
+- O segurado especial **não paga uma guia todo mês** como o trabalhador da cidade. A contribuição dele acontece sobre a comercialização da produção.
+
+Ou seja, o direito não depende de carnê pago. Depende de uma coisa só: prova de que você trabalhou na roça pelo tempo exigido. E é exatamente aí que os pedidos costumam morrer.
+
+## Erro 1: achar que a idade basta
+
+Completar 60 ou 55 anos não aposenta ninguém sozinho. A idade é só metade do caminho. A outra metade é comprovar o tempo de trabalho rural. Chegar no INSS apenas com o documento de identidade e a boa vontade é o começo de um indeferimento.
+
+## Erro 2: não ter início de prova material
+
+Esse é o erro que mais nega aposentadoria rural. A lei e a Justiça exigem o chamado **início de prova material**: algum documento, mesmo que antigo ou incompleto, que aponte para a sua vida no campo.
+
+A **Súmula 149 do STJ** é clara: prova só de testemunha, sem nenhum documento, não serve para reconhecer tempo rural. Precisa ter papel.
+
+### O que conta como início de prova material
+
+Vale mais documento do que você imagina. Alguns exemplos:
+
+- Bloco de produtor rural ou notas de venda da produção.
+- Contrato de arrendamento, comodato ou parceria da terra.
+- Documentos do INCRA ou do sindicato rural.
+- Certidão de casamento ou de nascimento dos filhos com a profissão "lavrador" ou "agricultor".
+- Ficha de matrícula da escola dos filhos na zona rural.
+- Título de eleitor antigo com endereço rural.
+
+Guarde tudo. Um documento de 20, 30 anos atrás pode ser a peça que salva o pedido.
+
+## Erro 3: apostar todas as fichas na testemunha
+
+Testemunha ajuda, e muito. Mas ela funciona para **confirmar e ampliar** o período que os documentos já indicam, não para provar tudo do zero.
+
+Então a conta certa é: início de prova material **mais** testemunhas que conhecem a sua história na roça. Os dois juntos formam um caso forte. Um sozinho costuma não segurar.
+
+## Erro 4: pensar que precisa pagar guia todos os meses
+
+Muita gente deixa de pedir a aposentadoria por acreditar que "nunca contribuiu". No caso do segurado especial, isso é um mal-entendido. Você não precisava recolher uma guia mensal. A sua contribuição está ligada à venda da produção.
+
+Então não é porque você nunca levou um carnê no banco que você não tem direito. Tem, sim, desde que comprove o trabalho rural.
+
+## Erro 5: ignorar a autodeclaração e o CadÚnico
+
+Desde a **Lei 13.846/2019**, o INSS passou a usar a **autodeclaração do segurado** junto com o **Cadastro Único (CadÚnico)** e outras bases do governo para ajudar a confirmar a atividade rural.
+
+Atenção a dois pontos:
+
+1. Essa lei **não acabou com a prova testemunhal**. Ela continua valendo, junto com os documentos.
+2. Se os seus dados no CadÚnico estão desatualizados ou não batem com a sua realidade rural, isso pode atrapalhar. Vale conferir e corrigir antes de entrar com o pedido.
+
+## Como aumentar as suas chances
+
+Antes de bater na porta do INSS, faça o dever de casa:
+
+- Junte todo documento antigo que ligue você ao campo, mesmo que pareça sem importância.
+- Organize os períodos: onde trabalhou, com quem, em qual terra, de quando a quando.
+- Liste as pessoas que podem testemunhar a sua vida na roça.
+- Confira se o seu cadastro nas bases do governo está coerente.
+
+Caso bem montado é caso que passa. Caso montado às pressas é caso que volta indeferido.
+
+## Fale com quem entende de aposentadoria rural
+
+Se você trabalhou na roça e tem dúvida se já pode se aposentar, ou se o INSS já negou o seu pedido, a equipe da Spier & Anorte pode analisar a sua situação e dizer o que ainda dá para fazer.
+
+Chame no WhatsApp e conte a sua história. A gente te diz, sem enrolação, se o seu direito está de pé e quais documentos vão fazer a diferença.
+
+[Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-rural-segurado-especial-como-comprovar": `## Quem tirou o sustento da terra também tem direito
 
 O Sebastião trabalhou a vida toda na lavoura, em regime de agricultura familiar. Plantou, colheu, cuidou do gado, tudo com a família, para o próprio sustento. Ele nunca teve carteira assinada nem carnê de contribuição, e por isso achava que nunca iria se aposentar. Estava enganado. Quem trabalha na roça em regime familiar é chamado de **segurado especial** e tem direito à aposentadoria rural.

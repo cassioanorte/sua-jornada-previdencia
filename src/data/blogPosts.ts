@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "por-que-inss-nega-aposentadoria-rural",
+    image: "/blog/por-que-inss-nega-aposentadoria-rural.jpg",
+    title: "Por que o INSS nega a aposentadoria rural (e como não cair em cada erro)",
+    excerpt: "Veja os erros mais comuns que levam o INSS a negar a aposentadoria rural e quais documentos realmente provam o seu tempo de roça.",
+    date: "1 de setembro de 2026",
+    category: "Aposentadoria Rural",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-rural-segurado-especial-como-comprovar",
     image: "/blog/aposentadoria-rural-segurado-especial-como-comprovar.jpg",
     title: "Aposentadoria rural: quem trabalha na roça pode se aposentar mais cedo",
