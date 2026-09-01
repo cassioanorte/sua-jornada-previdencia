@@ -15,17 +15,15 @@ O grande diferencial é este: o segurado especial pode se aposentar **mesmo sem 
 Os requisitos são mais simples que os de outras aposentadorias, e a boa notícia é que a reforma de 2019 **não elevou a idade** da aposentadoria rural. Ela continua sendo:
 
 - Idade: **60 anos para o homem** e **55 anos para a mulher**.
-- Tempo de atividade rural: **15 anos, o que dá 180 meses** de efetivo exercício na roça.
+- Tempo de atividade rural: **15 anos (180 meses)** de efetivo exercício, ainda que de forma descontínua, no período imediatamente anterior ao pedido.
 
-Aqui vai um ponto que confunde muita gente e que precisa ficar bem claro: esses 180 meses **não precisam ser corridos, sem parar**. A lei aceita que sejam **descontínuos**. Você pode ter trabalhado na roça, parado um tempo, voltado, e o que conta é a soma. A única exigência é que esse tempo esteja no **período imediatamente anterior ao seu pedido** de aposentadoria. Ou seja, o que importa é comprovar que você viveu da terra por esse total de tempo, mesmo com idas e vindas.
+Ou seja, não precisa ser tempo corrido sem parar. O que importa é comprovar que você viveu da roça por esse período no total.
 
 ## O verdadeiro desafio: a prova
 
 Aqui está o ponto que decide todo pedido de aposentadoria rural. Como o segurado especial normalmente não tem contribuições registradas, o INSS pede que você **prove** que trabalhou na roça. E provar isso é onde a maioria das pessoas encontra dificuldade.
 
-Existe uma regra antiga e muito consolidada na Justiça: só a palavra e só a testemunha não bastam. É preciso apresentar um **início de prova material**, ou seja, algum documento que ligue você à atividade rural. Essa exigência não é nova nem veio da reforma. Ela já vem lá do artigo 55, parágrafo 3º, da Lei 8.213 de 1991, e está firmada na **Súmula 149 do STJ**, que diz que a prova exclusivamente testemunhal não serve para comprovar tempo de serviço rural. Traduzindo: a testemunha é importante, mas ela entra para **confirmar e completar** um documento, nunca sozinha.
-
-O que mudou mais recentemente foi outra coisa. A Lei 13.846 de 2019 criou a **autodeclaração do segurado especial**, um documento em que o próprio trabalhador declara a sua atividade rural, que passa a ser confrontada com bancos de dados públicos, como o **CadÚnico** (o Cadastro Único dos programas sociais). Atenção a este ponto, porque muita gente entende errado: essa lei **não proibiu a prova testemunhal**. Ela criou uma forma a mais de o trabalhador registrar a sua atividade. A testemunha continua valendo, dentro daquela lógica de completar a prova documental.
+A comprovação funciona assim: existe uma autodeclaração do trabalhador rural, que precisa ser confirmada por uma entidade pública credenciada, e ela tem que estar apoiada em um **início de prova material**, ou seja, documentos. A sua palavra sozinha não basta, e testemunha sozinha também não resolve.
 
 ## Que documentos ajudam a provar
 

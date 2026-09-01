@@ -26,7 +26,7 @@ export const blogPosts: BlogPost[] = [
     image: "/blog/aposentadoria-rural-segurado-especial-como-comprovar.jpg",
     title: "Aposentadoria rural: quem trabalha na roça pode se aposentar mais cedo",
     excerpt: "Quem vive da agricultura familiar pode se aposentar aos 60 anos (homem) ou 55 (mulher), mesmo sem nunca ter contribuído em dinheiro. O desafio é comprovar o tempo de roça. Entenda como.",
-    date: "1 de setembro de 2026",
+    date: "28 de agosto de 2026",
     category: "Aposentadoria Rural",
     author: "Equipe Spier & Anorte"
   },
