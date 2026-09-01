@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-pcd-dois-caminhos-grau-deficiencia",
+    image: "/blog/aposentadoria-pcd-dois-caminhos-grau-deficiencia.jpg",
+    title: "Aposentadoria da pessoa com deficiência: os 2 caminhos e como o INSS mede o seu grau",
+    excerpt: "Entenda os dois caminhos da aposentadoria da pessoa com deficiência e como o INSS avalia se o grau é leve, moderado ou grave.",
+    date: "1 de setembro de 2026",
+    category: "Pessoa com Deficiência",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "por-que-inss-nega-aposentadoria-rural",
     image: "/blog/por-que-inss-nega-aposentadoria-rural.jpg",
     title: "Por que o INSS nega a aposentadoria rural (e como não cair em cada erro)",

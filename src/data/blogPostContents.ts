@@ -1,5 +1,72 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-pcd-dois-caminhos-grau-deficiencia": `Quem tem alguma deficiência pode ter direito a se aposentar mais cedo. Isso está na **Lei Complementar 142/2013**. O que quase ninguém explica direito é que existem **dois caminhos** diferentes, e que o valor do benefício e o tempo exigido mudam conforme o **grau** da deficiência.
+
+Neste post você vai entender os dois caminhos e como o INSS decide se a sua deficiência é leve, moderada ou grave.
+
+## Primeiro, o que a lei considera
+
+A aposentadoria da pessoa com deficiência não é a mesma coisa que aposentadoria por invalidez. Você pode estar trabalhando normalmente e, ainda assim, ter direito, porque a lei reconhece que conviver com uma deficiência exige mais esforço ao longo da vida.
+
+Ela vale para deficiência física, mental, intelectual ou sensorial, avaliada em conjunto com as barreiras que você enfrenta no dia a dia.
+
+## Caminho 1: aposentadoria por tempo de contribuição
+
+Aqui, quanto mais séria a deficiência, menos tempo de contribuição é exigido. Funciona assim:
+
+- **Deficiência grave:** 25 anos de contribuição (homem) e 20 anos (mulher).
+- **Deficiência moderada:** 29 anos (homem) e 24 anos (mulher).
+- **Deficiência leve:** 33 anos (homem) e 28 anos (mulher).
+
+Neste caminho **não existe idade mínima**. O que conta é o tempo de contribuição somado ao grau reconhecido.
+
+## Caminho 2: aposentadoria por idade
+
+Este caminho é mais simples de entender:
+
+- **Idade:** 60 anos (homem) e 55 anos (mulher).
+- **Tempo:** pelo menos 15 anos de contribuição, com deficiência comprovada durante todo esse período.
+
+Aqui o grau não muda a idade nem o tempo. Ele influencia principalmente no cálculo do valor.
+
+## Como saber qual caminho é melhor para você
+
+Não existe resposta única. Depende de quanto tempo você já contribuiu, da sua idade e do grau reconhecido. Em muitos casos, o caminho por tempo de contribuição antecipa bastante a aposentadoria. Em outros, o caminho por idade é o que fecha a conta mais rápido.
+
+Por isso vale fazer as duas simulações antes de dar entrada. Escolher o caminho errado pode significar anos a mais de trabalho sem necessidade.
+
+## A parte que decide tudo: o grau da deficiência
+
+Como você viu, o grau (leve, moderado ou grave) muda o tempo exigido no primeiro caminho e pesa no valor do benefício. Então é natural perguntar: quem decide o meu grau?
+
+O grau **não é definido só pelo seu laudo médico particular**. O INSS faz uma avaliação própria, com duas partes:
+
+### Avaliação médica
+
+Um perito do INSS analisa a sua condição de saúde, os documentos, exames e laudos que você apresentar.
+
+### Avaliação funcional (social)
+
+Além do lado médico, a lei manda olhar o impacto da deficiência na sua vida: quais barreiras você enfrenta para trabalhar, se locomover, se comunicar e participar da sociedade.
+
+Esse olhar mais amplo, que junta saúde e vida real, é o que define se a deficiência é leve, moderada ou grave. Por isso, chegar bem documentado faz toda a diferença.
+
+## O que separar antes de pedir
+
+Para não ser subclassificado (ter um grau reconhecido menor do que a sua realidade), organize:
+
+- Laudos médicos detalhados, com data de início da deficiência.
+- Exames que comprovem a condição ao longo do tempo.
+- Relatórios que mostrem como a deficiência afeta o seu dia a dia e o seu trabalho.
+- Histórico de contribuições, para saber em quanto tempo você chega em cada caminho.
+
+Quanto mais clara for a sua história, menor a chance de o INSS enquadrar você num grau mais brando do que o real.
+
+## Fale com quem entende do assunto
+
+A aposentadoria da pessoa com deficiência tem detalhe demais para resolver no chute. Escolher o caminho certo e garantir o grau correto pode adiantar anos e aumentar o valor do benefício.
+
+**Chame a equipe da Spier & Anorte no WhatsApp (54) 3286-7220.** A gente analisa o seu caso, faz as simulações dos dois caminhos e te mostra o cenário mais vantajoso para você.`,
   "por-que-inss-nega-aposentadoria-rural": `## O direito existia. Faltou provar do jeito certo
 
 Muita gente trabalhou a vida inteira na lavoura, chegou na idade certa, pediu a aposentadoria rural e ouviu um "indeferido" do INSS. O pior é que, na maioria das vezes, o direito existia. O que faltou foi provar do jeito que o INSS e a Justiça exigem.
