@@ -1,5 +1,55 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-acidente-sequela-permanente-o-que-e": `## Um benefício que quase ninguém conhece
+
+O José sofreu um acidente de moto a caminho do trabalho. Tratou, se recuperou e voltou para o serviço. Mas ficou uma sequela no braço que nunca mais foi a mesma coisa. Ele achava que, como tinha voltado a trabalhar, não tinha mais nada a receber do INSS. José estava enganado. Existe um benefício pensado exatamente para a situação dele, e a maior parte das pessoas nunca ouviu falar dele. Chama auxílio-acidente.
+
+## O que é o auxílio-acidente
+
+O auxílio-acidente é um benefício que o INSS paga quando um acidente ou uma doença deixa uma **sequela permanente** que **reduz a capacidade** de a pessoa continuar exercendo o trabalho que fazia. Repare bem na palavra: reduz. Não é preciso ficar totalmente incapaz. Basta que aquela sequela dificulte, atrapalhe ou faça a pessoa render menos naquilo que fazia antes.
+
+Ele tem uma característica que surpreende quase todo mundo: é um benefício de **caráter indenizatório**. Isso significa que ele não substitui o seu salário, ele **soma** ao seu salário. A pessoa pode continuar trabalhando normalmente e, ainda assim, receber o auxílio-acidente todo mês. O valor corresponde a **50% do salário de benefício** e **não exige carência**, ou seja, não é preciso um número mínimo de contribuições para ter direito. É por isso que muita gente tem direito e nem imagina.
+
+Um ponto de atenção: como ele soma ao salário, o auxílio-acidente **acompanha a pessoa enquanto ela trabalha**, mas **cessa quando ela se aposenta**. Ou seja, ele não se acumula com a aposentadoria, embora possa entrar no cálculo dela.
+
+## Como ele é diferente do auxílio-doença
+
+Aqui está a confusão mais comum, e vale a pena separar bem as duas coisas.
+
+- O **auxílio-doença** cobre o período em que a pessoa está afastada do trabalho porque está incapaz de forma **temporária**. É um benefício que substitui o salário enquanto dura a recuperação.
+- O **auxílio-acidente** é outra coisa. Ele entra depois, quando sobrou uma **sequela permanente**. Ele não cobre afastamento nenhum, ele indeniza o fato de a pessoa ter ficado com uma limitação para o resto da vida no seu trabalho.
+
+Resumindo em uma frase: um cobre o tempo parado, o outro compensa a sequela que ficou.
+
+## Quem pode ter direito
+
+Antes de tudo, é importante saber quem se enquadra. Têm direito ao auxílio-acidente o **empregado**, o **trabalhador avulso** e o **segurado especial** (o trabalhador rural em regime familiar) e, desde a Lei Complementar 150 de 2015, também o **empregado doméstico**. Já o **contribuinte individual** (o autônomo) e o **facultativo** não têm direito a esse benefício. Vale conferir em qual grupo você se encaixa.
+
+De forma geral, o auxílio-acidente é voltado para quem, depois de se recuperar de um acidente ou de uma doença, ficou com uma sequela que consolidou e reduziu a capacidade para o trabalho habitual. Alguns pontos importantes:
+
+- Não é só acidente de trabalho. Um acidente de trânsito, uma queda em casa, qualquer acidente de qualquer natureza que deixe sequela pode dar direito.
+- Também pode ser uma doença que evoluiu e deixou uma limitação permanente.
+- A sequela precisa estar **consolidada**, ou seja, o tratamento chegou até onde dava e sobrou aquela limitação.
+
+Quem decide se existe a sequela e se ela reduz a capacidade é a **perícia médica do INSS**. Por isso a forma como o seu caso é apresentado e documentado faz toda a diferença.
+
+## Os erros mais comuns
+
+O primeiro erro é o mais óbvio: **nem pedir**. Como quase ninguém sabe que o benefício existe, a maioria das pessoas volta a trabalhar depois do acidente e nunca dá entrada no que teria direito.
+
+O segundo erro é achar que, por ter voltado a trabalhar, perdeu o direito. É o contrário: o auxílio-acidente foi feito justamente para quem volta a trabalhar carregando uma sequela.
+
+O terceiro erro é ir à perícia sem a documentação médica que comprova a sequela e a sua ligação com o acidente. Laudos, exames, atestados e o histórico do tratamento são o que sustenta o pedido.
+
+## Como saber se você tem direito
+
+Se você sofreu um acidente, de qualquer tipo, ou teve uma doença que deixou uma sequela permanente, e sente que isso afeta o seu trabalho, vale muito verificar se você tem direito ao auxílio-acidente. É um benefício que soma renda e que muita gente deixa passar por pura falta de informação.
+
+A gente pode analisar a sua situação, olhar a sua documentação médica e te explicar em que ponto você está, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a sua situação de segurado e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-pcd-dois-caminhos-grau-deficiencia": `Quem tem alguma deficiência pode ter direito a se aposentar mais cedo. Isso está na **Lei Complementar 142/2013**. O que quase ninguém explica direito é que existem **dois caminhos** diferentes, e que o valor do benefício e o tempo exigido mudam conforme o **grau** da deficiência.
 
 Neste post você vai entender os dois caminhos e como o INSS decide se a sua deficiência é leve, moderada ou grave.

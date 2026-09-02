@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-sequela-permanente-o-que-e",
+    image: "/blog/auxilio-acidente-sequela-permanente-o-que-e.jpg",
+    title: "Auxílio-acidente: o benefício que o INSS paga junto com o seu salário",
+    excerpt: "Ficou com uma sequela permanente depois de um acidente? Existe um benefício que o INSS pode pagar todo mês junto com o seu salário, e quase ninguém pede. Entenda o auxílio-acidente.",
+    date: "2 de setembro de 2026",
+    category: "Auxílio-acidente",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-pcd-dois-caminhos-grau-deficiencia",
     image: "/blog/aposentadoria-pcd-dois-caminhos-grau-deficiencia.jpg",
     title: "Aposentadoria da pessoa com deficiência: os 2 caminhos e como o INSS mede o seu grau",
