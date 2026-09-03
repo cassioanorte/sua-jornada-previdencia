@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-doenca-incapacidade-temporaria-inss",
+    image: "/blog/auxilio-doenca-incapacidade-temporaria-inss.jpg",
+    title: "Auxílio-doença: o que fazer quando você precisa se afastar do trabalho",
+    excerpt: "Afastado do trabalho por doença ou lesão? O INSS pode pagar o auxílio por incapacidade temporária, o antigo auxílio-doença. E se negaram o seu, isso não é o fim. Entenda.",
+    date: "3 de setembro de 2026",
+    category: "Auxílio-doença",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "auxilio-acidente-sequela-permanente-o-que-e",
     image: "/blog/auxilio-acidente-sequela-permanente-o-que-e.jpg",
     title: "Auxílio-acidente: o benefício que o INSS paga junto com o seu salário",

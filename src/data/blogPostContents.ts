@@ -1,5 +1,48 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-doenca-incapacidade-temporaria-inss": `## Quando o corpo pede uma pausa
+
+A Rosane trabalhava normalmente até uma lesão na coluna a obrigar a parar. O médico foi claro: precisava se afastar por um tempo até se recuperar. A primeira preocupação dela não foi nem a dor, foi o dinheiro. Como ia pagar as contas sem poder trabalhar? É exatamente para esse momento que existe o auxílio-doença, hoje chamado oficialmente de **auxílio por incapacidade temporária**.
+
+## O que é o auxílio-doença
+
+É o benefício que o INSS paga para o trabalhador que fica **temporariamente incapaz** de trabalhar por causa de uma doença ou de uma lesão. A palavra-chave aqui é **temporária**. A ideia é dar um sustento durante o período em que a pessoa não pode trabalhar, até que ela se recupere e volte, ou até que a situação se defina de outra forma.
+
+Ele substitui a renda de quem precisou parar. Não é um favor nem uma ajuda, é um direito de quem contribui para a Previdência e, num momento de necessidade, fica impedido de exercer o próprio trabalho. O valor do benefício corresponde a **91% do salário de benefício**, com um limite: ele não pode passar da média dos seus **12 últimos salários de contribuição**.
+
+Para ter direito, em regra é preciso ter cumprido uma **carência de 12 contribuições mensais**. Existe, porém, uma exceção importante: em casos de **acidente de qualquer natureza** e em algumas **doenças graves previstas em lei**, essa carência é dispensada.
+
+## Quando o benefício entra
+
+Um ponto que gera muita dúvida é o prazo. Para quem é empregado com carteira assinada, os **primeiros 15 dias** de afastamento são pagos pela própria empresa. É a partir do **16º dia** que o INSS assume o pagamento, desde que a incapacidade continue. Já quem é autônomo (contribuinte individual) ou segurado facultativo não passa por essa regra dos 15 dias: nesses casos, o INSS paga **desde o início** do afastamento.
+
+Outro detalhe importante é que não basta se sentir mal. Quem confirma a incapacidade é a **perícia médica do INSS**. Por isso, chegar à perícia com a documentação médica bem organizada, com laudos, exames e relatórios que mostrem a sua real condição, é o que mais pesa no resultado.
+
+## E se o INSS negar? Isso não é o fim
+
+Aqui está uma das mensagens mais importantes deste texto. Muita gente recebe uma negativa do INSS e desiste na hora, achando que acabou. Não acabou.
+
+Uma negativa de auxílio-doença **pode ser revista**. Acontece com frequência de a perícia não enxergar toda a gravidade do quadro, de a documentação apresentada não ter sido suficiente, ou de o caso ter sido avaliado de forma que não reflete a realidade da pessoa. Em muitas dessas situações, é possível questionar a decisão, seja administrativamente, seja pela via judicial, com a prova médica bem construída.
+
+O que não dá é aceitar a primeira negativa como se fosse palavra final, sem entender o motivo dela.
+
+## Os erros mais comuns
+
+O primeiro erro é ir à perícia sem documentação. A perícia do INSS avalia o que está na sua frente. Sem laudos e exames que mostrem a incapacidade, fica muito mais difícil.
+
+O segundo erro é deixar a **qualidade de segurado** cair. Para ter direito ao benefício, é preciso estar em dia com a sua condição de segurado. Quem para de contribuir por muito tempo pode perder essa proteção, embora exista um chamado **período de graça**, em que a pessoa continua protegida por algum tempo mesmo sem contribuir. As regras variam conforme a situação de cada um.
+
+O terceiro erro, já citado, é desistir na primeira negativa. Boa parte dos casos que a gente vê poderia ter tido outro desfecho se a pessoa não tivesse abandonado o pedido.
+
+## Como saber se você tem direito
+
+Se você precisou se afastar do trabalho por uma doença ou lesão, ou se pediu o auxílio e o INSS negou, vale a pena verificar a sua situação com atenção. O ponto central quase sempre é a prova da incapacidade e a sua condição de segurado.
+
+A gente pode analisar o seu caso, entender a sua condição de saúde e a sua situação junto ao INSS, e te explicar quais são os caminhos, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a sua situação de segurado e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-acidente-sequela-permanente-o-que-e": `## Um benefício que quase ninguém conhece
 
 O José sofreu um acidente de moto a caminho do trabalho. Tratou, se recuperou e voltou para o serviço. Mas ficou uma sequela no braço que nunca mais foi a mesma coisa. Ele achava que, como tinha voltado a trabalhar, não tinha mais nada a receber do INSS. José estava enganado. Existe um benefício pensado exatamente para a situação dele, e a maior parte das pessoas nunca ouviu falar dele. Chama auxílio-acidente.
