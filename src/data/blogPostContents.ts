@@ -1,5 +1,63 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "ppp-ltcat-aposentadoria-especial-empresa-fechou": `Quem trabalhou exposto a agentes nocivos (ruído, calor, produtos químicos, agentes biológicos, entre outros) pode ter direito à aposentadoria especial, que exige menos tempo de trabalho do que a comum. Mas tem um detalhe que trava muita gente: sem os documentos certos, o INSS não reconhece a exposição.
+
+Neste post você vai entender os dois documentos que mais pesam nesse pedido, o PPP e o LTCAT, e o que fazer quando a empresa fechou ou se recusa a fornecer.
+
+## O que é a aposentadoria especial
+
+É a aposentadoria de quem trabalhou em condições que prejudicam a saúde. Conforme o grau de risco da atividade, o tempo exigido pode ser de 15, 20 ou 25 anos de exposição.
+
+> Atenção: com a Reforma da Previdência (Emenda Constitucional 103/2019), o tempo de exposição a agentes nocivos (15, 20 ou 25 anos) deixou de ser suficiente sozinho. Quem completou esse tempo até 13 de novembro de 2019 mantém o direito pela regra antiga. Para os demais, passou a existir também uma exigência de idade mínima ou de pontuação (soma de idade e tempo de contribuição), que varia conforme o caso. Por isso, cada situação precisa de análise individual.
+
+A ideia é justa: quem passou anos exposto a algo perigoso não deveria trabalhar o mesmo tempo que alguém em atividade tranquila. O problema é que "estar exposto" precisa ser provado com papel técnico. E é aí que entram o PPP e o LTCAT.
+
+## PPP: o documento que resume a sua exposição
+
+O **PPP (Perfil Profissiográfico Previdenciário)** é o documento que a empresa emite reunindo o seu histórico de trabalho: funções, setores, e principalmente os agentes nocivos a que você ficou exposto, com as medições.
+
+É esse papel que o INSS lê para decidir se o seu tempo conta como especial. Um PPP bem preenchido, com os agentes e as intensidades corretas, é meio caminho andado.
+
+## LTCAT: a base técnica por trás do PPP
+
+O **LTCAT (Laudo Técnico das Condições Ambientais do Trabalho)** é o laudo feito por engenheiro ou médico do trabalho que mede, no ambiente, os agentes nocivos.
+
+Na prática, o PPP é o resumo e o LTCAT é a prova técnica que sustenta esse resumo. Quando os dois estão coerentes, o pedido fica sólido. Quando o PPP diz uma coisa e o laudo não confirma, o INSS costuma negar.
+
+## E se a empresa não quer fornecer o PPP?
+
+Fornecer o PPP é obrigação da empresa. Se ela enrola ou se recusa, você não está sem saída:
+
+- Peça formalmente, por escrito, guardando o protocolo do pedido.
+- A recusa injustificada pode ser levada à Justiça, que obriga a empresa a entregar.
+- Órgãos de fiscalização do trabalho também podem ser acionados.
+
+Registrar o pedido por escrito é importante: mostra que a falta do documento não foi culpa sua.
+
+## E se a empresa fechou?
+
+Esse é o medo de muita gente, mas empresa fechada não significa direito perdido. Existem vários caminhos para reconstruir a prova:
+
+- **Massa falida ou administrador:** quando a empresa faliu, muitas vezes há um responsável legal que ainda guarda documentos.
+- **Documentos que sobraram com você:** contracheques, crachá, carteira de trabalho, ficha de registro, tudo ajuda a mostrar a função.
+- **Laudo de empresa parecida (paradigma):** em alguns casos, é possível usar o laudo técnico de uma empresa do mesmo ramo e função para indicar a exposição.
+- **Sindicato da categoria:** costuma ter laudos coletivos e informações sobre as condições daquele tipo de trabalho.
+- **Perícia judicial:** a Justiça pode determinar uma perícia para avaliar a atividade, inclusive em locais semelhantes.
+- **Testemunhas:** colegas que trabalharam com você ajudam a confirmar as condições, sempre acompanhadas de algum documento.
+
+Ou seja, mesmo sem o PPP original, dá para montar a prova por outros meios. Dá mais trabalho, mas é possível.
+
+## O erro que faz muita gente perder tempo
+
+Muitos trabalhadores desistem ao ouvir "a empresa fechou" ou "não acho o documento". Aí deixam de pedir uma aposentadoria que poderia sair anos mais cedo.
+
+Antes de desistir, vale reunir o que existe e avaliar quais caminhos alternativos cabem no seu caso. Cada situação tem uma estratégia diferente.
+
+## Fale com quem entende de aposentadoria especial
+
+Se você trabalhou exposto a ruído, calor, produtos químicos ou outros agentes nocivos, o seu tempo pode valer mais do que você imagina. E mesmo sem o PPP em mãos, quase sempre há um caminho.
+
+**Chame a Spier & Anorte no WhatsApp (54) 3286-7220.** A gente analisa os seus documentos, mostra o que ainda dá para buscar e te diz se a aposentadoria especial está ao seu alcance.`,
   "auxilio-doenca-incapacidade-temporaria-inss": `## Quando o corpo pede uma pausa
 
 A Rosane trabalhava normalmente até uma lesão na coluna a obrigar a parar. O médico foi claro: precisava se afastar por um tempo até se recuperar. A primeira preocupação dela não foi nem a dor, foi o dinheiro. Como ia pagar as contas sem poder trabalhar? É exatamente para esse momento que existe o auxílio-doença, hoje chamado oficialmente de **auxílio por incapacidade temporária**.

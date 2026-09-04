@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "ppp-ltcat-aposentadoria-especial-empresa-fechou",
+    image: "/blog/ppp-ltcat-aposentadoria-especial-empresa-fechou.jpg",
+    title: "PPP e LTCAT: os documentos que decidem a aposentadoria especial (e o que fazer se a empresa fechou)",
+    excerpt: "Saiba o que são PPP e LTCAT, por que decidem a aposentadoria especial e o que fazer quando a empresa fechou ou não fornece o documento.",
+    date: "4 de setembro de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte",
+    cluster: "aposentadoria-especial"
+  },
+  {
     id: "auxilio-doenca-incapacidade-temporaria-inss",
     image: "/blog/auxilio-doenca-incapacidade-temporaria-inss.jpg",
     title: "Auxílio-doença: o que fazer quando você precisa se afastar do trabalho",
