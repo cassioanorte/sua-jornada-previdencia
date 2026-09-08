@@ -129,11 +129,34 @@ const BlogPost = () => {
     }
     script.textContent = JSON.stringify(ld);
 
+    // JSON-LD BreadcrumbList (Início > Blog > Artigo). Reforça a hierarquia
+    // interna para o Google e habilita breadcrumb rich result na SERP.
+    const breadcrumb = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Início", item: `${SITE_URL}/` },
+        { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog/` },
+        { "@type": "ListItem", position: 3, name: post.title, item: url },
+      ],
+    };
+    const BC_ID = "ld-breadcrumb";
+    let bcScript = document.getElementById(BC_ID) as HTMLScriptElement | null;
+    if (!bcScript) {
+      bcScript = document.createElement("script");
+      bcScript.type = "application/ld+json";
+      bcScript.id = BC_ID;
+      document.head.appendChild(bcScript);
+    }
+    bcScript.textContent = JSON.stringify(breadcrumb);
+
     return () => {
       // Restaura og:type ao sair do post (evita "article" vazar para outras rotas em SPA).
       setMeta("property", "og:type", "website");
       const s = document.getElementById(LD_ID);
       if (s) s.remove();
+      const bc = document.getElementById(BC_ID);
+      if (bc) bc.remove();
     };
   }, [post, content]);
 

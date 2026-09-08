@@ -50,8 +50,52 @@ const CityLandingPage = () => {
         meta.content = cityData.keywords;
         document.head.appendChild(meta);
       }
+
+      // OG/Twitter por cidade (o template index.html traz valores fixos da home;
+      // sem isso, o compartilhamento de uma página de cidade mostra o texto da home).
+      const setMeta = (attr: "name" | "property", key: string, value: string) => {
+        let el = document.head.querySelector(`meta[${attr}="${key}"]`);
+        if (!el) {
+          el = document.createElement("meta");
+          el.setAttribute(attr, key);
+          document.head.appendChild(el);
+        }
+        el.setAttribute("content", value);
+      };
+      setMeta("property", "og:title", cityData.title);
+      setMeta("property", "og:description", cityData.metaDescription);
+      setMeta("name", "twitter:title", cityData.title);
+      setMeta("name", "twitter:description", cityData.metaDescription);
+
+      // JSON-LD BreadcrumbList (Início > Advogado Previdenciário no RS > Cidade).
+      // O prerender (puppeteer) captura esse <head> já preenchido.
+      const SITE_URL = "https://spiereanorte.adv.br";
+      const cityUrl = `${SITE_URL}/advogado-previdenciario/${cityData.slug}/`;
+      const breadcrumb = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Início", item: `${SITE_URL}/` },
+          { "@type": "ListItem", position: 2, name: "Advogado Previdenciário no RS", item: `${SITE_URL}/advogado-previdenciario-rs/` },
+          { "@type": "ListItem", position: 3, name: `Advogado Previdenciário em ${cityData.name}`, item: cityUrl },
+        ],
+      };
+      const BC_ID = "ld-breadcrumb";
+      let bcScript = document.getElementById(BC_ID) as HTMLScriptElement | null;
+      if (!bcScript) {
+        bcScript = document.createElement("script");
+        bcScript.type = "application/ld+json";
+        bcScript.id = BC_ID;
+        document.head.appendChild(bcScript);
+      }
+      bcScript.textContent = JSON.stringify(breadcrumb);
     }
     window.scrollTo(0, 0);
+
+    return () => {
+      const bc = document.getElementById("ld-breadcrumb");
+      if (bc) bc.remove();
+    };
   }, [cityData]);
 
   if (!cityData) {
