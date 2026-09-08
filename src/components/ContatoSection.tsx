@@ -18,6 +18,11 @@ const contactItems = [
     sub: "Resposta em ~2h úteis",
   },
   {
+    label: "Telefone fixo",
+    value: "(54) 3286-7220",
+    sub: "Horário comercial",
+  },
+  {
     label: "E-mail",
     value: "cassio@spiereanorte.adv.br",
     sub: "Para envio de documentos",

@@ -110,6 +110,15 @@ const Footer = () => {
               (54) 99987-0786
             </a>
             <a
+              href="https://wa.me/555432867220"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={linkStyle}
+              className="hover:text-[#d4b888] transition-colors"
+            >
+              (54) 3286-7220
+            </a>
+            <a
               href="mailto:cassio@spiereanorte.adv.br"
               style={linkStyle}
               className="hover:text-[#d4b888] transition-colors"

@@ -82,12 +82,20 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Telefone / WhatsApp</h3>
-                    <button 
+                    <button
                       onClick={handleWhatsApp}
-                      className="text-muted-foreground hover:text-primary transition-smooth"
+                      className="text-muted-foreground hover:text-primary transition-smooth block"
                     >
                       (54) 99987-0786
                     </button>
+                    <a
+                      href="https://wa.me/555432867220"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-smooth block mt-1"
+                    >
+                      (54) 3286-7220
+                    </a>
                   </div>
                 </div>
 
