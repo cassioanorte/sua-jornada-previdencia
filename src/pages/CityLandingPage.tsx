@@ -89,12 +89,38 @@ const CityLandingPage = () => {
         document.head.appendChild(bcScript);
       }
       bcScript.textContent = JSON.stringify(breadcrumb);
+
+      // JSON-LD Service: reforça a relevância local (areaServed = a cidade da
+      // página) ligando o serviço ao organization/#id já definido no index.html.
+      // Mesmo padrão de injeção do breadcrumb acima; capturado pelo prerender.
+      const service = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": `${cityUrl}#service`,
+        serviceType: "Advogado Previdenciário",
+        name: `Advogado Previdenciário em ${cityData.name}`,
+        description: cityData.metaDescription,
+        url: cityUrl,
+        areaServed: { "@type": "City", name: cityData.name, containedInPlace: { "@type": "State", name: "Rio Grande do Sul" } },
+        provider: { "@id": `${SITE_URL}/#organization` },
+      };
+      const SVC_ID = "ld-city-service";
+      let svcScript = document.getElementById(SVC_ID) as HTMLScriptElement | null;
+      if (!svcScript) {
+        svcScript = document.createElement("script");
+        svcScript.type = "application/ld+json";
+        svcScript.id = SVC_ID;
+        document.head.appendChild(svcScript);
+      }
+      svcScript.textContent = JSON.stringify(service);
     }
     window.scrollTo(0, 0);
 
     return () => {
       const bc = document.getElementById("ld-breadcrumb");
       if (bc) bc.remove();
+      const svc = document.getElementById("ld-city-service");
+      if (svc) svc.remove();
     };
   }, [cityData]);
 
