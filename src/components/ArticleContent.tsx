@@ -21,6 +21,7 @@ const shortAliases: { keyword: string; slug: string }[] = [
   // Auxílio-acidente
   { keyword: "auxílio-acidente", slug: "auxilio-acidente-inss-quem-tem-direito" },
   { keyword: "auxílio acidente", slug: "auxilio-acidente-inss-quem-tem-direito" },
+  { keyword: "checklist de documentos do auxílio-acidente", slug: "documentos-auxilio-acidente-checklist" },
   { keyword: "DPVAT", slug: "auxilio-acidente-e-dpvat" },
   { keyword: "Tema 416", slug: "stj-beneficio-lesao-minima" },
   { keyword: "lesão mínima", slug: "stj-beneficio-lesao-minima" },
@@ -69,7 +70,7 @@ const shortAliases: { keyword: string; slug: string }[] = [
 
 // External authoritative links (open in new tab)
 const externalLinks: { keyword: string; url: string }[] = [
-  { keyword: "Chamar no WhatsApp", url: "https://wa.me/555432867220" },
+  { keyword: "Chamar no WhatsApp", url: "https://wa.me/5554999870786" },
   { keyword: "portal Meu INSS", url: "https://meu.inss.gov.br" },
   { keyword: "Diário Oficial da União", url: "https://www.in.gov.br" },
   { keyword: "Superior Tribunal de Justiça", url: "https://www.stj.jus.br" },
