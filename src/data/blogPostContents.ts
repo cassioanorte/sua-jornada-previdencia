@@ -98,7 +98,7 @@ Se você precisou se afastar do trabalho por uma doença ou lesão, ou se pediu 
 
 A gente pode analisar o seu caso, entender a sua condição de saúde e a sua situação junto ao INSS, e te explicar quais são os caminhos, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a sua situação de segurado e a data do requerimento.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-acidente-sequela-permanente-o-que-e": `## Um benefício que quase ninguém conhece
@@ -148,7 +148,7 @@ Se você sofreu um acidente, de qualquer tipo, ou teve uma doença que deixou um
 
 A gente pode analisar a sua situação, olhar a sua documentação médica e te explicar em que ponto você está, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a sua situação de segurado e a data do requerimento.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-pcd-dois-caminhos-grau-deficiencia": `Quem tem alguma deficiência pode ter direito a se aposentar mais cedo. Isso está na **Lei Complementar 142/2013**. O que quase ninguém explica direito é que existem **dois caminhos** diferentes, e que o valor do benefício e o tempo exigido mudam conforme o **grau** da deficiência.
@@ -295,7 +295,7 @@ Se você trabalhou na roça e tem dúvida se já pode se aposentar, ou se o INSS
 
 Chame no WhatsApp e conte a sua história. A gente te diz, sem enrolação, se o seu direito está de pé e quais documentos vão fazer a diferença.
 
-[Chamar no WhatsApp](https://wa.me/555432867220)
+Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-rural-segurado-especial-como-comprovar": `## Quem tirou o sustento da terra também tem direito
@@ -346,7 +346,7 @@ Se você trabalhou na roça em regime familiar, mesmo sem nunca ter contribuído
 
 A gente pode analisar a sua situação, verificar os documentos que você tem, orientar sobre o que ainda dá para reunir e montar o pedido da forma mais forte possível, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-professor-regra-antiga-nova-magisterio": `## Quem passou a vida em sala de aula merece parar antes
@@ -391,7 +391,7 @@ A resposta depende de quando você começou a lecionar, de quanto tempo você j�
 
 A gente pode levantar o seu tempo de magistério, incluindo períodos de direção e coordenação, verificar se você tem direito adquirido e comparar as regras para dizer qual é a mais vantajosa, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-especial-agente-nocivo-como-comprovar": `## Quem trabalha em risco tem o direito de sair mais cedo
@@ -432,7 +432,7 @@ Se você trabalha ou já trabalhou exposto a ruído, calor, produtos químicos, 
 
 A gente pode analisar o seu histórico de trabalho, conferir os seus PPPs, identificar falhas na documentação e te explicar em que ponto você está, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-pessoa-com-deficiencia-lc-142": `## Um direito que muita gente tem e não sabe
@@ -475,7 +475,7 @@ Se você tem alguma deficiência e contribui ou já contribuiu para o INSS, vale
 
 A gente pode analisar a sua situação, entender a sua condição e te orientar sobre o melhor caminho e sobre como se preparar para a avaliação do INSS, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-tempo-contribuicao-regras-transicao": `## Você contribuiu a vida toda. E agora, quando dá pra parar?
@@ -512,7 +512,7 @@ Não existe resposta única. A regra ideal depende da sua data de filiação, de
 
 A gente pode levantar o seu tempo de contribuição, comparar as quatro regras de transição e te dizer com honestidade qual é o caminho mais vantajoso, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-acidente-ou-auxilio-doenca-diferenca": `## Dois nomes parecidos que confundem muita gente
@@ -560,7 +560,7 @@ Se você se machucou, ficou afastado, teve alta e ficou com alguma limitação q
 
 A gente pode olhar os seus laudos, entender o seu histórico e te explicar com honestidade em qual dos dois benefícios o seu caso se encaixa, sem promessa de resultado.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-especial-idade-minima-stf": `## Uma decisão que mexe com quem trabalha exposto à saúde
@@ -616,7 +616,7 @@ Se você trabalha ou trabalhou exposto a agentes nocivos, como ruído, calor, pr
 
 A gente pode analisar o seu histórico de trabalho, verificar a documentação da exposição e te explicar com honestidade em que ponto você está, sem promessa de resultado. Cada caso é avaliado individualmente.
 
-Fale com a equipe da Spier & Anorte pelo WhatsApp: [Chamar no WhatsApp](https://wa.me/555432867220)
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "transparencia-acompanhe-processo-tempo-real": `## A queixa que mais se repete: o advogado que some
