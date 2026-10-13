@@ -5980,7 +5980,7 @@ Se você tem situação parecida, algumas providências podem fazer diferença:
 📄 **Fonte:** TRF4 — Apelação Cível nº 5023732-24.2020.4.04.7000/PR  
 🗓 **Julgamento:** 17/03/2026 | **Relatora:** Juíza Federal Aline Lazzaron
 
-Tem dúvidas sobre tempo rural, atividade especial ou quer revisar sua aposentadoria? [Fale com um especialista agora](https://wa.me/5554999870786).
+Tem dúvidas sobre tempo rural, atividade especial ou quer revisar sua aposentadoria? Fale com um especialista agora (Chamar no WhatsApp).
 
 ---
 
