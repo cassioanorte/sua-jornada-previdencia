@@ -1,5 +1,85 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "stj-eletricidade-periculosidade-aposentadoria-especial": `## Uma decisão que interessa a quem trabalha com eletricidade
+
+Eletricista de manutenção, técnico de rede, instalador, quem trabalha em subestação ou em linha de distribuição. Quem passa o dia perto de energia elétrica sabe que um descuido pode custar a vida. A pergunta que muita gente faz é se esse risco conta para a aposentadoria especial.
+
+Essa pergunta agora está nas mãos do Superior Tribunal de Justiça. E, enquanto a resposta não sai, os processos sobre o assunto ficam parados.
+
+## O que aconteceu no STJ
+
+Em 7 de outubro de 2026, a 1ª Seção do STJ levou o Recurso Especial 2.267.903/GO ao regime de relevância. O tribunal vai decidir se a periculosidade por exposição à eletricidade pode servir de base para reconhecer atividade especial, nos termos dos artigos 57 e 58 da Lei 8.213/91.
+
+Junto com isso, a 1ª Seção determinou a **suspensão dos processos** que discutem essa mesma questão, inclusive nos Juizados Especiais Federais.
+
+O ponto mais importante: **o mérito ainda não foi julgado**. A suspensão não significa que o STJ reconheceu o direito, e também não significa que negou. Significa apenas que o tribunal vai dar uma resposta única, que depois deve orientar os demais casos.
+
+## Por que essa discussão existe
+
+Periculosidade é diferente de insalubridade. Insalubre é o trabalho que vai prejudicando a saúde aos poucos, como o contato com ruído, produtos químicos ou agentes biológicos. Perigoso é o trabalho em que existe risco de um acidente grave a qualquer momento, como acontece com a eletricidade.
+
+A discussão gira em torno do trabalho feito depois do Decreto 2.172/97, que mudou a lista de agentes que contam para a aposentadoria especial. Sobre esse período, o próprio STJ já tinha decidido, no Tema 534 (REsp 1.306.113/SC, julgado em 2012), que a lista de agentes nocivos do regulamento é exemplificativa e que a eletricidade pode contar mesmo depois do Decreto 2.172/97, desde que a exposição seja permanente, não ocasional nem intermitente, e comprovada tecnicamente.
+
+Agora a 1ª Seção vai analisar a questão de novo, pelo novo regime. Até o julgamento, não dá para dizer qual será a resposta.
+
+## Quem pode ser afetado
+
+De forma geral, trabalhadores que ficaram expostos a risco de choque elétrico na rotina de serviço, por exemplo:
+
+- eletricistas de empresas e de manutenção industrial;
+- trabalhadores de concessionárias de energia;
+- técnicos que atuam em redes, subestações e painéis elétricos.
+
+A função, sozinha, não decide nada. O que costuma pesar é a prova de como era o trabalho de verdade, no dia a dia.
+
+## O que fazer enquanto o STJ não decide
+
+### Se você já tem processo sobre o tema
+
+É possível que ele fique suspenso até o julgamento. Isso não quer dizer que o seu processo foi perdido nem encerrado. Converse com o seu advogado para entender a situação do seu caso.
+
+### Se você ainda vai pedir a aposentadoria
+
+Use o tempo a seu favor e organize a prova:
+
+- **PPP** (Perfil Profissiográfico Previdenciário) de cada empresa em que trabalhou exposto à eletricidade;
+- **LTCAT** ou outro laudo técnico da empresa, quando houver;
+- carteira de trabalho, contracheques e documentos que mostrem a função e o setor;
+- certificados de cursos e treinamentos de segurança em eletricidade, se tiver.
+
+Confira também se os vínculos aparecem no seu extrato do INSS. Um período bem documentado faz diferença, qualquer que seja a decisão do STJ.
+
+### Antes de decidir qualquer coisa, faça as contas
+
+Em muitos casos, a aposentadoria especial é só uma das possibilidades. Pode existir outra regra que leve a um resultado melhor para você. Um planejamento compara as opções com base nos seus documentos, sem depender de uma única tese.
+
+## Perguntas frequentes
+
+### O STJ já decidiu se eletricidade dá aposentadoria especial?
+
+Não. Em 7 de outubro de 2026, o tribunal só decidiu que vai julgar a questão e suspendeu os processos sobre o tema. O mérito ainda será julgado.
+
+### Meu processo vai ficar parado?
+
+Se ele discute exatamente essa questão, pode ficar suspenso até a decisão do STJ, inclusive no Juizado Especial Federal. O seu advogado consegue confirmar isso no seu caso.
+
+### Ainda vale a pena juntar documentos?
+
+Sim. Qualquer que seja a decisão, quem tiver o PPP e os laudos organizados estará mais preparado para o próximo passo.
+
+### Tem data para o julgamento?
+
+Até a publicação deste texto, não havia data definida.
+
+## Fale com a Spier & Anorte
+
+Se você trabalhou ou trabalha com eletricidade e quer entender como fica a sua aposentadoria, a equipe da Spier & Anorte Advogados pode analisar os seus documentos e explicar as opções com clareza, sem promessa de resultado.
+
+Fale com a gente: Chamar no WhatsApp
+
+WhatsApp (54) 99987-0786. Número oficial do escritório: (54) 3286-7220.
+
+Fonte: Previdenciarista, "STJ vai decidir se periculosidade por eletricidade permite aposentadoria".`,
   "ppp-ltcat-aposentadoria-especial-empresa-fechou": `Quem trabalhou exposto a agentes nocivos (ruído, calor, produtos químicos, agentes biológicos, entre outros) pode ter direito à aposentadoria especial, que exige menos tempo de trabalho do que a comum. Mas tem um detalhe que trava muita gente: sem os documentos certos, o INSS não reconhece a exposição.
 
 Neste post você vai entender os dois documentos que mais pesam nesse pedido, o PPP e o LTCAT, e o que fazer quando a empresa fechou ou se recusa a fornecer.

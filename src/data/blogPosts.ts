@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "stj-eletricidade-periculosidade-aposentadoria-especial",
+    image: "/blog/stj-eletricidade-periculosidade-aposentadoria-especial.jpg",
+    title: "Eletricidade e aposentadoria especial: o que o STJ vai decidir",
+    excerpt: "O STJ vai decidir se o trabalho com eletricidade conta como atividade especial e suspendeu os processos sobre o tema. Entenda o que muda e o que fazer agora.",
+    date: "14 de outubro de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte",
+    cluster: "aposentadoria-especial"
+  },
+  {
     id: "ppp-ltcat-aposentadoria-especial-empresa-fechou",
     image: "/blog/ppp-ltcat-aposentadoria-especial-empresa-fechou.jpg",
     title: "PPP e LTCAT: os documentos que decidem a aposentadoria especial (e o que fazer se a empresa fechou)",
