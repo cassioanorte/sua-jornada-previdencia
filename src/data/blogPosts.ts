@@ -933,7 +933,7 @@ export const blogPosts: BlogPost[] = [
     date: "15 de maio de 2026",
     category: "Aposentadoria",
     author: "Equipe Spier & Anorte",
-    conteudo_ref: "post_contribuindo_errado_para_o_inss",
+    cluster: "aposentadorias"
   }
 ,
   {
@@ -944,7 +944,7 @@ export const blogPosts: BlogPost[] = [
     date: "18 de maio de 2026",
     category: "Benefícios por Incapacidade",
     author: "Equipe Spier & Anorte",
-    conteudo_ref: "post_auxilio_acidente_o_que_e_quem_tem_direito",
+    cluster: "acidente"
   }
 ,
   {
@@ -955,7 +955,7 @@ export const blogPosts: BlogPost[] = [
     date: "20 de maio de 2026",
     category: "Benefícios por Incapacidade",
     author: "Equipe Spier & Anorte",
-    conteudo_ref: "post_tipos_de_acidente_que_dao_auxilio_acidente",
+    cluster: "acidente"
   }
 ];
 
