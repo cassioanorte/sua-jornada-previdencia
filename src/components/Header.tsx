@@ -12,6 +12,7 @@ const Header = () => {
     { name: "Sócios", href: "/quem-somos" },
     { name: "Casos", href: "/quem-somos#casos" },
     { name: "Conteúdo", href: "/blog" },
+    { name: "Descubra seu Direito", href: "/descubra-seus-direitos" },
     { name: "FAQ", href: "/contato#faq" },
   ];
 

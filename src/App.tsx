@@ -18,6 +18,7 @@ const pageImports = {
   QuizAuxilioDoenca: () => import("./pages/QuizAuxilioDoenca"),
   QuizAuxilioMaternidade: () => import("./pages/QuizAuxilioMaternidade"),
   QuizAuxilioAcidente: () => import("./pages/QuizAuxilioAcidente"),
+  DescubraSeusDireitos: () => import("./pages/DescubraSeusDireitos"),
   AuxilioAcidente: () => import("./pages/AuxilioAcidente"),
   AposentadoriaIdade: () => import("./pages/AposentadoriaIdade"),
   AposentadoriaTempo: () => import("./pages/AposentadoriaTempo"),
@@ -43,6 +44,7 @@ const AuxilioMaternidade = lazy(pageImports.AuxilioMaternidade);
 const QuizAuxilioDoenca = lazy(pageImports.QuizAuxilioDoenca);
 const QuizAuxilioMaternidade = lazy(pageImports.QuizAuxilioMaternidade);
 const QuizAuxilioAcidente = lazy(pageImports.QuizAuxilioAcidente);
+const DescubraSeusDireitos = lazy(pageImports.DescubraSeusDireitos);
 const AuxilioAcidente = lazy(pageImports.AuxilioAcidente);
 const AposentadoriaIdade = lazy(pageImports.AposentadoriaIdade);
 const AposentadoriaTempo = lazy(pageImports.AposentadoriaTempo);
@@ -113,6 +115,7 @@ const App = () => {
             <Route path="/auxilio-maternidade" element={<AuxilioMaternidade />} />
             <Route path="/quiz-auxilio-doenca" element={<QuizAuxilioDoenca />} />
             <Route path="/quiz-auxilio-maternidade" element={<QuizAuxilioMaternidade />} />
+            <Route path="/descubra-seus-direitos" element={<DescubraSeusDireitos />} />
             <Route path="/auxilio-acidente" element={<AuxilioAcidente />} />
             <Route path="/quiz-auxilio-acidente" element={<QuizAuxilioAcidente />} />
             <Route path="/aposentadoria-idade" element={<AposentadoriaIdade />} />
