@@ -1,5 +1,105 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "como-pedir-auxilio-acidente-passo-a-passo": `## Voltou a trabalhar, mas a sequela ficou
+
+A Dona Lurdes escorregou no piso molhado da cozinha da empresa, quebrou o punho e ficou afastada alguns meses. Fez cirurgia, fisioterapia, voltou para a linha de produção. Só que a mão direita não fecha mais como antes, e o trabalho que ela fazia em uma hora agora leva bem mais.
+
+Ela nunca ouviu falar em auxílio-acidente. E é justamente para situações como essa que o benefício existe: para quem voltou a trabalhar, mas carrega uma limitação permanente por causa do acidente.
+
+Neste texto você vai entender quem pode pedir, quanto o INSS paga e como fazer o pedido sem se perder no caminho.
+
+## O que é o auxílio-acidente, em poucas palavras
+
+É uma indenização paga pelo INSS a quem sofreu um acidente e ficou com uma sequela permanente que reduz a capacidade para o trabalho que fazia. Está no art. 86 da Lei 8.213/91.
+
+Três pontos precisam aparecer juntos:
+
+- **A lesão já se consolidou**, ou seja, o tratamento chegou ao limite e a sequela não vai mais melhorar.
+- **A sequela reduz a sua capacidade de trabalho.** Não precisa impedir, basta reduzir.
+- **Existe ligação entre a sequela e o acidente**, o chamado nexo causal.
+
+O acidente não precisa ser de trabalho. Queda em casa, acidente de trânsito ou no lazer também contam. O que importa é a sequela que ficou.
+
+## Quem pode pedir
+
+Nem todo segurado do INSS tem acesso a esse benefício. Pela lei, podem receber o auxílio-acidente o empregado com carteira assinada, o empregado doméstico, o trabalhador avulso e o segurado especial (trabalhador rural ou pescador artesanal que trabalha sozinho ou em regime de economia familiar). É o que diz o art. 18, § 1º, da Lei 8.213/91.
+
+Quem contribui como contribuinte individual (autônomo) ou como facultativo, em regra, fica de fora. Se esse for o seu caso, vale conversar com um advogado antes de concluir qualquer coisa, porque a situação de cada pessoa na época do acidente faz diferença.
+
+Outro ponto que costuma surpreender: o auxílio-acidente não exige um número mínimo de contribuições, a chamada carência. (art. 26, I, da Lei 8.213/91)
+
+## Quanto o INSS paga
+
+O valor é de **50% do salário de benefício**, que é uma média calculada sobre as suas contribuições. Não é metade do seu salário atual. Por isso o valor muda de pessoa para pessoa (art. 86, § 1º, da Lei 8.213/91).
+
+Algumas características importantes:
+
+- É pago **junto com o salário**. Você continua trabalhando e recebe o benefício todo mês.
+- Termina quando você se aposenta. Ele não se soma à aposentadoria.
+- Quando a pessoa estava recebendo auxílio por incapacidade temporária (o antigo auxílio-doença), o auxílio-acidente começa no dia seguinte ao fim desse benefício (art. 86, § 2º, da Lei 8.213/91).
+
+E se o acidente aconteceu há anos? A lei permite buscar valores atrasados de até 5 anos para trás. Cada caso precisa ser analisado com cuidado, mas vale verificar antes de deixar o tempo passar.
+
+## Passo a passo do pedido
+
+### 1. Reúna os documentos antes de tudo
+
+A perícia decide com base no que você leva. Antes de pedir, separe documentos pessoais, carteira de trabalho, registro do acidente (CAT, boletim de ocorrência ou atendimento de emergência), laudos, exames, receitas e o histórico do tratamento. A lista completa está no nosso checklist de documentos do auxílio-acidente, que você pode imprimir e ir marcando.
+
+Se você já passou por afastamento, organizar um dossiê médico com tudo em ordem de data ajuda o perito a entender a sua história do começo ao fim.
+
+### 2. Confira o seu CNIS
+
+O CNIS é o extrato das suas contribuições e vínculos no INSS. Confira se o emprego da época do acidente aparece certinho. Um vínculo faltando pode atrapalhar o pedido.
+
+### 3. Faça o pedido pela Central 135
+
+O pedido de auxílio-acidente é feito por telefone, na Central 135 do INSS. Guarde o número do protocolo. Depois, acompanhe o andamento e o resultado da perícia pelo Meu INSS, na opção "Consultar Pedidos".
+
+### 4. Prepare-se para a perícia
+
+Na perícia do INSS, leve os documentos originais e explique, com palavras simples, o que você não consegue mais fazer no trabalho como antes. Fale da tarefa concreta: carregar peso, ficar em pé, fazer força com a mão, subir escada. O perito precisa entender o impacto da sequela na sua rotina de serviço.
+
+### 5. Acompanhe a resposta
+
+O resultado aparece no Meu INSS. Se o pedido for negado, leia com atenção o motivo. Muitas negativas acontecem por falta de documento ou por uma perícia que não avaliou bem a sequela. Existe caminho de recurso e também a via judicial, e cada caso pede uma análise própria.
+
+## Erros que mais atrapalham
+
+- Chegar na perícia sem laudo atualizado, só com exames antigos.
+- Não levar nada que prove o acidente e a data em que ele aconteceu.
+- Confundir com o auxílio-doença. O auxílio-doença é para quem está afastado e sem condições de trabalhar. O auxílio-acidente vem depois, para quem já voltou com a sequela.
+- Achar que, por estar trabalhando, não tem mais direito a nada.
+
+## Perguntas frequentes
+
+### Posso receber auxílio-acidente e continuar trabalhando?
+
+Sim. O benefício é uma indenização e é pago junto com o salário.
+
+### Preciso ter sofrido acidente de trabalho?
+
+Não. Acidente de qualquer natureza pode dar direito, desde que a sequela permanente reduza a capacidade para o trabalho.
+
+### O auxílio-acidente é vitalício?
+
+Ele é pago enquanto você está na ativa e termina quando você se aposenta.
+
+### Sou autônomo. Tenho direito?
+
+Em regra, o contribuinte individual não tem acesso a esse benefício. A situação na data do acidente precisa ser analisada caso a caso.
+
+### O INSS negou. E agora?
+
+Veja o motivo da negativa e reúna o que faltou. Há possibilidade de recurso administrativo e de ação judicial, e um advogado pode avaliar qual caminho faz mais sentido no seu caso.
+
+## Quer ajuda para organizar o seu pedido?
+
+A equipe da Spier & Anorte Advogados pode olhar os seus documentos e explicar, com clareza e sem promessa de resultado, se há direito e qual o melhor caminho. Cada caso é analisado individualmente.
+
+Fale com a gente: Chamar no WhatsApp
+
+WhatsApp (54) 99987-0786. Número oficial do escritório: (54) 3286-7220.`,
   "stj-eletricidade-periculosidade-aposentadoria-especial": `## Uma decisão que interessa a quem trabalha com eletricidade
 
 Eletricista de manutenção, técnico de rede, instalador, quem trabalha em subestação ou em linha de distribuição. Quem passa o dia perto de energia elétrica sabe que um descuido pode custar a vida. A pergunta que muita gente faz é se esse risco conta para a aposentadoria especial.

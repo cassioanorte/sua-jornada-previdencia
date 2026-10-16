@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "como-pedir-auxilio-acidente-passo-a-passo",
+    image: "/blog/como-pedir-auxilio-acidente-passo-a-passo.jpg",
+    title: "Como pedir auxílio-acidente no INSS: passo a passo",
+    excerpt: "Ficou com sequela depois de um acidente e voltou a trabalhar? Veja quem pode pedir auxílio-acidente, quanto o INSS paga e o passo a passo do pedido.",
+    date: "16 de outubro de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte",
+    cluster: "acidente"
+  },
+  {
     id: "stj-eletricidade-periculosidade-aposentadoria-especial",
     image: "/blog/stj-eletricidade-periculosidade-aposentadoria-especial.jpg",
     title: "Eletricidade e aposentadoria especial: o que o STJ vai decidir",
