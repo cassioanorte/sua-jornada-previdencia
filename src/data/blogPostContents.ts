@@ -1,5 +1,57 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-especial-soldador-metalurgico": `## Trinta anos de maçarico e ninguém falou da especial
+
+O Valdir passou mais de vinte e cinco anos dentro de uma metalúrgica, com o maçarico na mão, soldando peça atrás de peça. Calor de dar tontura, fumaça metálica subindo o dia inteiro e o barulho das máquinas que ele nem escutava mais de tão acostumado. Quando foi pedir aposentadoria, pediu por tempo de contribuição comum, como todo mundo fazia na firma dele. Só depois descobriu que boa parte daqueles anos podia valer como tempo especial, o que mudaria completamente a data em que ele poderia parar de trabalhar.
+
+Esse é um erro que se repete muito com quem trabalha com solda e metal. A pessoa passa a vida exposta a agentes nocivos e nem sabe que isso dá direito a uma aposentadoria diferente, que chega mais cedo.
+
+## O que é a aposentadoria especial
+
+A aposentadoria especial é aquela destinada a quem trabalhou exposto de forma habitual e permanente a agentes nocivos à saúde, como ruído, calor, produtos químicos e outros. A ideia por trás dela é simples e justa: quem passou anos num ambiente que agride o corpo não deveria precisar trabalhar o mesmo tempo que alguém num escritório tranquilo.
+
+Por isso ela permite a aposentadoria com menos tempo de atividade. Em regra, são **25 anos de exposição** para a maioria dos agentes, que é o caso típico do soldador e do metalúrgico.
+
+## Por que o soldador costuma ter direito
+
+O trabalho de solda e o ambiente da metalúrgica concentram vários agentes nocivos ao mesmo tempo, e normalmente é possível enquadrar pelo menos um deles:
+
+- **Ruído** acima dos limites permitidos, por conta das máquinas, esmeril, marteladas e prensas. Hoje o limite é de 85 decibéis; em períodos mais antigos, era outro.
+- **Calor** acima dos limites das normas do trabalho, especialmente para quem trabalha perto de fornos, caldeiras e no próprio processo de solda.
+- **Fumos metálicos**, que são as partículas finas liberadas quando o metal é derretido, contendo substâncias como manganês e outros compostos. A lista oficial cita expressamente o uso de eletrodos com manganês.
+- **Radiação não ionizante** da luz da solda, discutida principalmente para períodos antigos, porque não está na lista atual do regulamento.
+
+Não é preciso estar exposto a todos. Basta comprovar a exposição a um agente nocivo, de forma habitual e permanente, acima do limite de tolerância, para que aquele período possa ser reconhecido como especial. Para períodos até 28 de abril de 1995, a regra era mais flexível: algumas profissões eram reconhecidas como especiais pela própria atividade.
+
+## O documento que decide tudo: o PPP
+
+O pedido de aposentadoria especial gira em torno de um documento chamado **PPP (Perfil Profissiográfico Previdenciário)**. É a empresa que emite esse papel, e nele constam os agentes nocivos a que você ficou exposto, a intensidade de cada um e a técnica usada para medir.
+
+O PPP precisa estar apoiado em medições reais, feitas por responsável técnico, e por isso costuma ser a peça central do processo. No ruído, a forma de medir também conta: desde 2003 o regulamento exige o nível de exposição normalizado (NEN), pela metodologia da Fundacentro. Junto dele, muitas vezes aparece o LTCAT, que é o laudo técnico das condições do ambiente de trabalho. Sem esses documentos, ou com eles mal preenchidos, o INSS tende a negar o enquadramento como especial.
+
+Um ponto importante: se a empresa fechou ou se recusa a entregar o PPP, isso não significa que você perdeu o direito. Existem outros caminhos para comprovar a exposição, inclusive por via judicial e por perícia técnica.
+
+## O que mudou com a reforma de 2019
+
+A reforma da Previdência, de novembro de 2019, é onde muita gente se confunde. Na regra nova, além dos 25 anos de exposição, passou a existir uma idade mínima de 60 anos. O cálculo também mudou: o valor parte de 60% da média de todas as contribuições e sobe 2% por ano que passar de 20 anos de contribuição, no caso dos homens, ou de 15 anos, no caso das mulheres.
+
+Quem já contribuía antes da reforma tem uma regra de transição por pontos: a soma da idade com o tempo de contribuição precisa chegar a 86 pontos, com pelo menos 25 anos de exposição. E quem já tinha completado os 25 anos de atividade especial antes da reforma pode se aposentar pelas regras antigas, sem idade mínima. Por isso a data em que você completou os requisitos faz muita diferença.
+
+## Os erros mais comuns de quem é soldador
+
+O primeiro erro é pedir aposentadoria comum sem nem verificar se os anos de solda poderiam entrar como especiais. O segundo é aceitar um PPP preenchido de qualquer jeito, sem conferir se os agentes nocivos foram corretamente registrados. O terceiro é achar que, por usar equipamento de proteção, perdeu o direito automaticamente. O uso de EPI é discutido caso a caso, e nem sempre ele afasta o reconhecimento do tempo especial, principalmente quando se trata de ruído. Quando há dúvida real sobre se o equipamento protegia de verdade, essa dúvida pesa a favor do trabalhador.
+
+Há ainda quem tenha trabalhado em várias empresas ao longo da vida e nunca tenha somado todos esses períodos de exposição. Reunir essa história completa é o que costuma fortalecer o pedido.
+
+## Como saber se você tem direito
+
+Se você trabalhou como soldador, caldeireiro, esmerilhador, prensista ou em qualquer função de metalúrgica exposto a ruído, calor ou fumos metálicos, vale a pena verificar se parte da sua vida de trabalho pode ser reconhecida como tempo especial. Isso pode tanto antecipar a sua aposentadoria quanto, em alguns casos, aumentar o tempo de contribuição com a conversão do tempo especial em comum, que hoje só vale para os períodos trabalhados até a reforma de novembro de 2019.
+
+A gente pode analisar o seu CNIS, conferir os PPPs que você tem, identificar os períodos com potencial de enquadramento e orientar sobre o que ainda dá para reunir, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data em que você completou os requisitos e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "como-pedir-auxilio-acidente-passo-a-passo": `## Voltou a trabalhar, mas a sequela ficou
 
 A Dona Lurdes escorregou no piso molhado da cozinha da empresa, quebrou o punho e ficou afastada alguns meses. Fez cirurgia, fisioterapia, voltou para a linha de produção. Só que a mão direita não fecha mais como antes, e o trabalho que ela fazia em uma hora agora leva bem mais.

@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-especial-soldador-metalurgico",
+    image: "/blog/aposentadoria-especial-soldador-metalurgico.jpg",
+    title: "Aposentadoria especial do soldador e do metalúrgico no INSS",
+    excerpt: "Soldador e metalúrgico que trabalham expostos a calor, fumos metálicos e ruído podem ter direito à aposentadoria especial e se aposentar mais cedo. Saiba como comprovar.",
+    date: "23 de outubro de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte",
+    cluster: "aposentadoria-especial"
+  },
+  {
     id: "como-pedir-auxilio-acidente-passo-a-passo",
     image: "/blog/como-pedir-auxilio-acidente-passo-a-passo.jpg",
     title: "Como pedir auxílio-acidente no INSS: passo a passo",
