@@ -33,9 +33,9 @@ Um ponto importante: se a empresa fechou ou se recusa a entregar o PPP, isso nã
 
 ## O que mudou com a reforma de 2019
 
-A reforma da Previdência, de novembro de 2019, é onde muita gente se confunde. Na regra nova, além dos 25 anos de exposição, passou a existir uma idade mínima de 60 anos. O cálculo também mudou: o valor parte de 60% da média de todas as contribuições e sobe 2% por ano que passar de 20 anos de contribuição, no caso dos homens, ou de 15 anos, no caso das mulheres.
+A reforma da Previdência, de novembro de 2019, tinha criado uma idade mínima para a aposentadoria especial: 60 anos, no caso de quem precisa de 25 anos de exposição. Só que o Supremo Tribunal Federal julgou essa exigência inconstitucional (ADI 6.309, com acórdão publicado em outubro de 2026). Hoje, a aposentadoria especial volta a depender do tempo de exposição: quem completa os 25 anos de atividade especial não precisa esperar chegar a uma idade mínima.
 
-Quem já contribuía antes da reforma tem uma regra de transição por pontos: a soma da idade com o tempo de contribuição precisa chegar a 86 pontos, com pelo menos 25 anos de exposição. E quem já tinha completado os 25 anos de atividade especial antes da reforma pode se aposentar pelas regras antigas, sem idade mínima. Por isso a data em que você completou os requisitos faz muita diferença.
+O STF manteve duas mudanças da reforma. O cálculo continua o novo: o valor parte de 60% da média de todas as contribuições e sobe 2% por ano que passar de 20 anos de contribuição, no caso dos homens, ou de 15 anos, no caso das mulheres. E a conversão de tempo especial em comum só vale para os períodos trabalhados até a reforma. Se você teve a aposentadoria especial negada só porque não tinha a idade mínima, vale a pena rever o seu caso. Cada situação precisa ser analisada, porque a data em que você completou os requisitos faz diferença.
 
 ## Os erros mais comuns de quem é soldador
 
