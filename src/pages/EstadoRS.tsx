@@ -114,7 +114,7 @@ const EstadoRS = () => {
               Especialistas em Direito Previdenciário em Todo o RS
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              A Spier & Anorte Advogados Associados é referência em Direito Previdenciário no Rio Grande do Sul. Com escritórios físicos em Gramado e Nova Petrópolis, atendemos presencialmente moradores da Serra Gaúcha, Vale do Paranhana e Região Metropolitana de Porto Alegre, além de oferecer atendimento 100% online para todo o estado.
+              A Spier & Anorte Sociedade de Advogados é referência em Direito Previdenciário no Rio Grande do Sul. Com escritórios físicos em Gramado e Nova Petrópolis, atendemos presencialmente moradores da Serra Gaúcha, Vale do Paranhana e Região Metropolitana de Porto Alegre, além de oferecer atendimento 100% online para todo o estado.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Nossa equipe é formada por advogados com registro na OAB/RS e dedicação exclusiva ao Direito Previdenciário. Isso significa que cada caso recebe atenção especializada, desde a análise do CNIS até a conclusão do processo junto ao INSS, garantindo a melhor estratégia para conquistar o benefício que você merece.

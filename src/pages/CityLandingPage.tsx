@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, CheckCircle, Scale, Clock, Users, Shield, FileText, Building } from "lucide-react";
 import { getCityBySlug, cityPages } from "@/data/cityPages";
+import { getCityExtra } from "@/data/cityPagesExtra";
 
 const services = [
   { name: "Aposentadoria por Idade", href: "/aposentadoria-idade", description: "Para quem atingiu a idade mínima e tempo de contribuição exigidos." },
@@ -21,13 +22,14 @@ const services = [
 const differentials = [
   { icon: Clock, title: "13+ Anos de Experiência", description: "Mais de uma década atuando exclusivamente em Direito Previdenciário." },
   { icon: Users, title: "Equipe Especializada", description: "Advogados com registro na OAB/RS dedicados ao seu caso." },
-  { icon: Shield, title: "Transparência Total", description: "Acompanhamento em tempo real de cada etapa do seu processo." },
+  { icon: Shield, title: "Transparência", description: "Você acompanha cada etapa do seu pedido ou processo." },
   { icon: FileText, title: "Análise Completa", description: "Revisão detalhada do CNIS e de toda documentação antes do pedido." },
 ];
 
 const CityLandingPage = () => {
   const { city } = useParams<{ city: string }>();
   const cityData = city ? getCityBySlug(city) : undefined;
+  const extra = cityData ? getCityExtra(cityData.slug) : undefined;
 
   useEffect(() => {
     if (cityData) {
@@ -113,6 +115,67 @@ const CityLandingPage = () => {
         document.head.appendChild(svcScript);
       }
       svcScript.textContent = JSON.stringify(service);
+
+      // JSON-LD LegalService (LocalBusiness) da página da cidade: nome oficial,
+      // mesmos telefones/endereço do site, areaServed = cidade + vizinhas.
+      const officeAddress = cityData.slug === "nova-petropolis"
+        ? { streetAddress: "Av. 15 de Novembro, 1924, Sala 304, Centro", addressLocality: "Nova Petrópolis", postalCode: "95150-000" }
+        : { streetAddress: "R. Berna, 715 - Vila Suíça", addressLocality: "Gramado", postalCode: "95670-554" };
+      const extraData = getCityExtra(cityData.slug);
+      const neighborNames = (extraData?.neighbors ?? [])
+        .map((s) => getCityBySlug(s)?.name)
+        .filter(Boolean) as string[];
+      const legal = {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "@id": `${cityUrl}#legalservice`,
+        name: "Spier & Anorte Sociedade de Advogados",
+        alternateName: `Spier & Anorte Sociedade de Advogados - Advogado Previdenciário em ${cityData.name}`,
+        description: cityData.metaDescription,
+        url: cityUrl,
+        image: `${SITE_URL}/og-image.jpg`,
+        telephone: ["+55-54-99987-0786", "+55-54-3286-7220"],
+        email: "cassio@spiereanorte.adv.br",
+        address: { "@type": "PostalAddress", ...officeAddress, addressRegion: "RS", addressCountry: "BR" },
+        areaServed: [cityData.name, ...neighborNames].map((n) => ({
+          "@type": "City",
+          name: n,
+          containedInPlace: { "@type": "State", name: "Rio Grande do Sul" },
+        })),
+        knowsAbout: ["Direito Previdenciário", "Aposentadorias", "Auxílio-acidente", "Auxílio-doença", "BPC/LOAS", "Pensão por morte"],
+        parentOrganization: { "@id": `${SITE_URL}/#organization` },
+      };
+      const LEGAL_ID = "ld-city-legalservice";
+      let legalScript = document.getElementById(LEGAL_ID) as HTMLScriptElement | null;
+      if (!legalScript) {
+        legalScript = document.createElement("script");
+        legalScript.type = "application/ld+json";
+        legalScript.id = LEGAL_ID;
+        document.head.appendChild(legalScript);
+      }
+      legalScript.textContent = JSON.stringify(legal);
+
+      // JSON-LD FAQPage (só nas cidades com FAQ própria).
+      const FAQ_ID = "ld-city-faq";
+      const oldFaq = document.getElementById(FAQ_ID);
+      if (oldFaq) oldFaq.remove();
+      if (extraData?.faq?.length) {
+        const faqSchema = {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "@id": `${cityUrl}#faq`,
+          mainEntity: extraData.faq.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        };
+        const faqScript = document.createElement("script");
+        faqScript.type = "application/ld+json";
+        faqScript.id = FAQ_ID;
+        faqScript.textContent = JSON.stringify(faqSchema);
+        document.head.appendChild(faqScript);
+      }
     }
     window.scrollTo(0, 0);
 
@@ -121,6 +184,10 @@ const CityLandingPage = () => {
       if (bc) bc.remove();
       const svc = document.getElementById("ld-city-service");
       if (svc) svc.remove();
+      const legal = document.getElementById("ld-city-legalservice");
+      if (legal) legal.remove();
+      const faq = document.getElementById("ld-city-faq");
+      if (faq) faq.remove();
     };
   }, [cityData]);
 
@@ -132,30 +199,35 @@ const CityLandingPage = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
 
-  const otherCities = cityPages.filter((c) => c.slug !== cityData.slug).slice(0, 5);
+  const neighborCities = (extra?.neighbors ?? [])
+    .map((s) => cityPages.find((c) => c.slug === s))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c));
+  const otherCities = neighborCities.length
+    ? neighborCities
+    : cityPages.filter((c) => c.slug !== cityData.slug).slice(0, 5);
 
   return (
     <div className="min-h-screen bg-background">
       <Header />
 
       {/* Hero */}
-      <section className="pt-32 pb-16 hero-gradient text-primary-foreground">
+      <section className="pt-32 pb-16 hero-gradient text-[#f4ede0]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#f4ede0]/10 border border-[#f4ede0]/20 mb-6">
               <MapPin className="w-4 h-4" />
               <span className="text-sm font-medium">{cityData.hasOffice ? `Escritório em ${cityData.name}` : `Atendemos ${cityData.name}`}</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 font-display">
               Advogado Previdenciário em {cityData.name}
             </h1>
-            <p className="text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-[#f4ede0]/90 mb-8 max-w-3xl mx-auto">
               {cityData.heroSubtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="xl" onClick={handleWhatsApp}>
                 <Phone className="w-5 h-5" />
-                Consulta Gratuita
+                Fale com a equipe
               </Button>
             </div>
           </div>
@@ -175,6 +247,53 @@ const CityLandingPage = () => {
         </div>
       </section>
 
+      {extra && (
+        <section className="py-12">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-card rounded-2xl p-8 card-shadow border border-border">
+                <h2 className="text-xl font-bold text-foreground mb-3 font-display">
+                  INSS para quem mora em {cityData.name}
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">{extra.inssInfo}</p>
+              </div>
+              <div className="bg-card rounded-2xl p-8 card-shadow border border-border">
+                <h2 className="text-xl font-bold text-foreground mb-3 font-display">
+                  Como atendemos {cityData.name}
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">{extra.howWeServe}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {extra && (
+        <section className="py-16 bg-secondary/30">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-4 text-center text-foreground font-display">
+                Benefícios do INSS mais procurados em {cityData.name}
+              </h2>
+              <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
+                Informações gerais sobre cada benefício. Cada caso depende da análise individual dos documentos.
+              </p>
+              <div className="space-y-6">
+                {extra.services.map((svc) => (
+                  <div key={svc.title} className="bg-card rounded-xl p-6 border border-border card-shadow">
+                    <h3 className="text-xl font-semibold text-foreground mb-2 font-display">{svc.title}</h3>
+                    <p className="text-muted-foreground leading-relaxed mb-3">{svc.text}</p>
+                    <Link to={`${svc.href}/`} className="text-sm font-medium text-primary hover:underline">
+                      Saiba mais sobre este benefício →
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Office or Proximity Info */}
       {cityData.hasOffice ? (
         <section className="py-12 bg-secondary/30">
@@ -185,13 +304,13 @@ const CityLandingPage = () => {
                   <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
                     <Building className="w-7 h-7 text-primary" />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <h3 className="text-xl font-bold text-foreground mb-2 font-display">
                       Nosso Escritório em {cityData.name}
                     </h3>
                     <p className="text-muted-foreground text-lg">{cityData.officeAddress}</p>
                     <p className="text-muted-foreground">{cityData.officeCep}</p>
-                    <Button variant="cta" size="lg" onClick={handleWhatsApp} className="mt-4">
+                    <Button variant="cta" size="lg" onClick={handleWhatsApp} className="mt-4 whitespace-normal h-auto py-3 text-center">
                       <Phone className="w-4 h-4" />
                       Agendar Atendimento Presencial
                     </Button>
@@ -246,7 +365,7 @@ const CityLandingPage = () => {
               {services.map((service) => (
                 <Link
                   key={service.name}
-                  to={service.href}
+                  to={`${service.href}/`}
                   className="bg-card rounded-xl p-6 border border-border hover:border-primary/30 card-shadow hover:shadow-md transition-all group"
                 >
                   <div className="flex items-start gap-3">
@@ -273,7 +392,7 @@ const CityLandingPage = () => {
               Por que Escolher a Spier & Anorte?
             </h2>
             <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-              Diferenciais que fazem a diferença no resultado do seu processo previdenciário.
+              Como conduzimos cada caso previdenciário, do primeiro contato ao acompanhamento do pedido.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {differentials.map((item) => (
@@ -324,35 +443,73 @@ const CityLandingPage = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-16 hero-gradient text-primary-foreground">
+      <section className="py-16 hero-gradient text-[#f4ede0]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4 font-display">
               Precisa de um Advogado Previdenciário em {cityData.name}?
             </h2>
-            <p className="text-lg text-primary-foreground/90 mb-8">
-              Fale com nossa equipe e descubra como podemos ajudar você a conquistar seu benefício do INSS.
+            <p className="text-lg text-[#f4ede0]/90 mb-8">
+              Fale com a nossa equipe para entender quais benefícios do INSS podem se aplicar ao seu caso.
             </p>
             <Button variant="hero" size="xl" onClick={handleWhatsApp}>
               <Phone className="w-5 h-5" />
-              Consulta Gratuita via WhatsApp
+              Fale com a equipe pelo WhatsApp
             </Button>
           </div>
         </div>
       </section>
+
+      {extra && (
+        <section id="faq" className="py-16 bg-secondary/30 scroll-mt-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-4 text-center text-foreground font-display">
+                Perguntas frequentes de quem mora em {cityData.name}
+              </h2>
+              <p className="text-center text-muted-foreground mb-10">
+                As respostas têm caráter informativo e cada caso é avaliado individualmente.
+              </p>
+              <div className="space-y-4">
+                {extra.faq.map((item, index) => (
+                  <details
+                    key={item.question}
+                    className="group bg-card rounded-xl border border-border card-shadow"
+                    {...(index === 0 ? { open: true } : {})}
+                  >
+                    <summary className="flex items-center justify-between gap-4 cursor-pointer list-none p-6">
+                      <h3 className="text-lg font-semibold text-foreground">{item.question}</h3>
+                      <span
+                        className="flex-shrink-0 text-primary transition-transform group-open:rotate-45"
+                        aria-hidden="true"
+                        style={{ fontSize: 24, lineHeight: 1 }}
+                      >
+                        +
+                      </span>
+                    </summary>
+                    <div className="px-6 pb-6 -mt-2">
+                      <p className="text-muted-foreground leading-relaxed">{item.answer}</p>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Other Cities */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-xl font-bold mb-6 text-foreground font-display">
-              Também Atendemos na Serra Gaúcha
+              {neighborCities.length ? `Cidades vizinhas de ${cityData.name} que também atendemos` : "Também Atendemos na Serra Gaúcha"}
             </h3>
             <div className="flex flex-wrap justify-center gap-3">
               {otherCities.map((c) => (
                 <Link
                   key={c.slug}
-                  to={`/advogado-previdenciario/${c.slug}`}
+                  to={`/advogado-previdenciario/${c.slug}/`}
                   className="px-4 py-2 rounded-full bg-secondary border border-border text-sm text-foreground hover:border-primary/30 hover:text-primary transition-colors"
                 >
                   {c.name}
@@ -360,7 +517,7 @@ const CityLandingPage = () => {
               ))}
               {cityPages.length - 1 > 5 && (
                 <Link
-                  to="/areas-de-atuacao"
+                  to="/advogado-previdenciario-rs/"
                   className="px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-sm text-primary font-medium hover:bg-primary/20 transition-colors"
                 >
                   Ver Todas →
@@ -381,6 +538,20 @@ const CityLandingPage = () => {
             <p className="text-muted-foreground mb-6 text-sm">
               Publicamos conteúdo previdenciário atualizado para quem mora em {cityData.name} e região.
             </p>
+            {extra && (
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 text-left">
+                {extra.blog.map((b) => (
+                  <li key={b.slug}>
+                    <Link
+                      to={`/blog/${b.slug}/`}
+                      className="block bg-card rounded-xl p-4 border border-border text-sm text-foreground hover:border-primary/30 hover:text-primary transition-colors"
+                    >
+                      {b.label} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
             <div className="flex flex-wrap justify-center gap-3">
               <Link
                 to="/blog/"
@@ -389,19 +560,19 @@ const CityLandingPage = () => {
                 Ver o blog previdenciário →
               </Link>
               <Link
-                to="/auxilio-doenca"
+                to="/auxilio-doenca/"
                 className="px-4 py-2 rounded-full bg-secondary border border-border text-sm text-foreground hover:border-primary/30 hover:text-primary transition-colors"
               >
                 Auxílio-doença
               </Link>
               <Link
-                to="/aposentadoria-rural"
+                to="/aposentadoria-rural/"
                 className="px-4 py-2 rounded-full bg-secondary border border-border text-sm text-foreground hover:border-primary/30 hover:text-primary transition-colors"
               >
                 Aposentadoria rural
               </Link>
               <Link
-                to="/bpc-loas"
+                to="/bpc-loas/"
                 className="px-4 py-2 rounded-full bg-secondary border border-border text-sm text-foreground hover:border-primary/30 hover:text-primary transition-colors"
               >
                 BPC/LOAS

@@ -55,7 +55,7 @@ const Footer = () => {
               className="font-mono uppercase"
               style={{ fontSize: 9, letterSpacing: "0.32em", color: "#d4b888", marginTop: 10 }}
             >
-              Advogados Associados · OAB/RS 4.809
+              Sociedade de Advogados · OAB/RS 4.809
             </div>
             <p
               className="font-editorial italic"
@@ -208,7 +208,7 @@ const Footer = () => {
             className="font-mono uppercase"
             style={{ fontSize: 10, letterSpacing: "0.18em", color: "#87807a" }}
           >
-            © {new Date().getFullYear()} Spier &amp; Anorte Advogados Associados
+            © {new Date().getFullYear()} Spier &amp; Anorte Sociedade de Advogados
           </span>
           <span
             className="font-mono uppercase"
