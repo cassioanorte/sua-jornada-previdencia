@@ -173,7 +173,7 @@ const BlogPost = () => {
           <p className="text-muted-foreground mb-8">
             O artigo que você está procurando não existe ou foi removido.
           </p>
-          <Link to="/blog">
+          <Link to="/blog/">
             <Button variant="default">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Voltar ao Blog
@@ -194,7 +194,7 @@ const BlogPost = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <Link
-              to="/blog"
+              to="/blog/"
               className="inline-flex items-center text-primary-foreground/80 hover:text-primary-foreground mb-6 transition-colors"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
@@ -278,7 +278,7 @@ const BlogPost = () => {
 
             {/* Back to Blog */}
             <div className="mt-12 pt-8 border-t border-border">
-              <Link to="/blog">
+              <Link to="/blog/">
                 <Button variant="outline" size="lg">
                   <ArrowLeft className="w-4 h-4 mr-2" />
                   Ver todos os artigos

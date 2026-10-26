@@ -11,12 +11,13 @@ const Header = () => {
     { name: "Direito Público", href: "/direito-publico-municipal" },
     { name: "Sócios", href: "/quem-somos" },
     { name: "Casos", href: "/quem-somos#casos" },
-    { name: "Conteúdo", href: "/blog" },
+    { name: "Conteúdo", href: "/blog/" },
     { name: "Descubra seu Direito", href: "/descubra-seus-direitos" },
     { name: "FAQ", href: "/contato#faq" },
   ];
 
-  const isActive = (path: string) => location.pathname === path;
+  const stripSlash = (p: string) => (p.length > 1 ? p.replace(/\/+$/, "") : p);
+  const isActive = (path: string) => stripSlash(location.pathname) === stripSlash(path);
 
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");

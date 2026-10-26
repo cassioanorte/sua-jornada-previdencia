@@ -19,7 +19,7 @@ const RelatedPosts = ({ currentPostId }: RelatedPostsProps) => {
       </h3>
       <div className="grid md:grid-cols-3 gap-6">
         {related.map((post) => (
-          <Link key={post.id} to={`/blog/${post.id}`}>
+          <Link key={post.id} to={`/blog/${post.id}/`}>
             <Card className="card-shadow hover:card-shadow-hover transition-smooth cursor-pointer group h-full flex flex-col overflow-hidden">
               {post.image && (
                 <div className="aspect-[16/9] overflow-hidden flex-shrink-0">

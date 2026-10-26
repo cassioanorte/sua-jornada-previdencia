@@ -170,7 +170,7 @@ const ArticleContent = ({ content, currentPostId }: ArticleContentProps) => {
           newResult.push(
             <Link
               key={`${keyPrefix}-int-${target}`}
-              to={`/blog/${target}`}
+              to={`/blog/${target}/`}
               className="text-primary hover:underline font-medium"
             >
               {match}
@@ -306,7 +306,7 @@ const ArticleContent = ({ content, currentPostId }: ArticleContentProps) => {
         {relatedPosts.map(rp => (
           <li key={rp.id}>
             <Link
-              to={`/blog/${rp.id}`}
+              to={`/blog/${rp.id}/`}
               className="group flex items-start gap-2 text-foreground hover:text-primary transition-colors"
             >
               <ArrowRight className="w-4 h-4 mt-1 flex-shrink-0 text-primary group-hover:translate-x-1 transition-transform" />

@@ -29,7 +29,7 @@ const areas = [
 
 const escritorio = [
   { label: "Sócios", to: "/quem-somos" },
-  { label: "Conteúdo", to: "/blog" },
+  { label: "Conteúdo", to: "/blog/" },
   { label: "Casos", to: "/quem-somos#casos" },
   { label: "FAQ", to: "/contato#faq" },
   { label: "Privacidade", to: "/contato" },
