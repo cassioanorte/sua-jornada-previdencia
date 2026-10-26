@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "aposentadoria-idade-hibrida-rural-urbano",
+    image: "/blog/aposentadoria-idade-hibrida-rural-urbano.jpg",
+    title: "Aposentadoria por idade híbrida: some o tempo rural e o urbano",
+    excerpt: "Quem trabalhou parte da vida na roça e parte na cidade pode somar os dois tempos na aposentadoria por idade híbrida. Veja como funciona e quem tem direito.",
+    date: "26 de outubro de 2026",
+    category: "Aposentadoria por Idade",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-especial-soldador-metalurgico",
     image: "/blog/aposentadoria-especial-soldador-metalurgico.jpg",
     title: "Aposentadoria especial do soldador e do metalúrgico no INSS",

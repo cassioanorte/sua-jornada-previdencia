@@ -1,5 +1,56 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "aposentadoria-idade-hibrida-rural-urbano": `## A roça de menino, a fábrica de adulto
+
+A dona Marli começou cedo na lavoura, ajudando os pais na agricultura familiar desde criança. Já moça, mudou para a cidade, arrumou carteira assinada e passou anos trabalhando em comércio e em serviços. Quando foi pedir aposentadoria, ouviu que não tinha tempo rural suficiente para a aposentadoria rural e nem tempo urbano suficiente para a aposentadoria comum. Ficou no meio do caminho, achando que tinha perdido os dois. Não tinha. O que faltava era somar as duas histórias numa só, na chamada aposentadoria por idade híbrida.
+
+Essa situação é muito comum na nossa região. Gente que começou na terra, migrou para a cidade e, na hora de se aposentar, não sabe que pode juntar tudo.
+
+## O que é a aposentadoria por idade híbrida
+
+A aposentadoria por idade híbrida é aquela que permite **somar o tempo rural com o tempo urbano** para atingir a carência necessária. Em vez de escolher um dos dois caminhos, você aproveita os dois períodos da sua vida de trabalho de uma vez só.
+
+Ela foi pensada justamente para quem teve uma trajetória mista, que é a realidade de milhões de brasileiros: nasceu e trabalhou no campo, depois foi para a cidade, ou o contrário. Nenhum dos períodos sozinho fecharia a conta, mas juntos eles fecham.
+
+## Os requisitos
+
+De forma geral, a aposentadoria por idade híbrida exige:
+
+- **Idade**: 65 anos para o homem e, desde 2023, 62 anos para a mulher. Essa idade é a urbana, mais alta que a da aposentadoria rural pura. A idade da mulher era de 60 anos e subiu aos poucos depois da reforma da Previdência de 2019; quem completou todos os requisitos antes da reforma continua com a regra antiga.
+- **Carência**: em regra, 180 meses (15 anos), somando contribuições urbanas e tempo de atividade rural. Para quem só começou a contribuir depois da reforma, as exigências de tempo são outras.
+
+O ponto central é esse: o tempo de roça, mesmo sem contribuição em dinheiro, pode ser contado junto com o tempo de cidade para completar os 15 anos. É isso que salva o pedido de quem não fecharia a conta de nenhum outro jeito.
+
+Vale lembrar que a ordem não importa. Tanto faz ter começado no campo e ido para a cidade, ou ter começado na cidade e ido para o campo, e também não importa qual dos dois trabalhos você exercia quando completou a idade. O tempo rural pode contar mesmo que seja antigo, de antes de 1991, e mesmo que tenha sido interrompido. O que vale é a soma dos dois tempos.
+
+## A prova do tempo rural continua sendo o desafio
+
+Mesmo na híbrida, o tempo urbano é fácil de provar, porque está registrado no CNIS pelas contribuições. O desafio continua sendo o tempo rural, que normalmente não aparece em contribuição nenhuma.
+
+Para comprovar os anos de roça, vale o mesmo cuidado da aposentadoria rural: é preciso um início de prova material, ou seja, documentos da época que liguem você à terra. Ajudam muito:
+
+- Notas de produtor rural, bloco de produtor, documentos de sindicato rural.
+- Contratos de arrendamento, comodato ou parceria.
+- Certidões que tragam a profissão de agricultor ou lavrador.
+- Registros escolares em escola rural, documentos da propriedade.
+
+Quanto mais documentos ao longo dos anos, mais forte fica o reconhecimento do período rural. A palavra sozinha não basta, e a lei não aceita prova só por testemunha: as testemunhas servem para confirmar e completar o que os documentos da época já mostram.
+
+## Os erros mais comuns
+
+O primeiro erro é desistir ao ouvir que não tem tempo suficiente num dos regimes, sem saber que existe a soma dos dois. Muita gente vai embora do INSS achando que não tem direito a nada. O segundo é não guardar documentos do tempo de roça, imaginando que aquele período da juventude não conta mais. Ele pode contar, desde que bem comprovado, e a idade a partir da qual o trabalho na roça é aceito é um ponto que precisa ser analisado no seu caso. O terceiro é confundir a híbrida com a rural pura e esperar a idade reduzida de 60 anos para o homem e 55 para a mulher, quando na híbrida a idade é a urbana.
+
+Há ainda quem tenha o tempo rural antigo e não saiba que ele pode ser aproveitado mesmo sem ter contribuído naquela época. Reunir essa história completa, do campo e da cidade, é o que costuma destravar o pedido.
+
+## Como saber se você tem direito
+
+Se você trabalhou parte da vida na roça e parte na cidade, e nenhuma das aposentadorias sozinha parece fechar a conta, vale a pena verificar a aposentadoria por idade híbrida. Muitas vezes o direito existe e está escondido justamente na soma dos dois períodos.
+
+A gente pode analisar o seu CNIS, verificar o tempo urbano já registrado, avaliar os documentos que comprovam a atividade rural e orientar sobre o que ainda dá para reunir para somar tudo da melhor forma, sem promessa de resultado. Cada caso é analisado individualmente, e as regras variam conforme a data de filiação e a data do requerimento.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-especial-soldador-metalurgico": `## Trinta anos de maçarico e ninguém falou da especial
 
 O Valdir passou mais de vinte e cinco anos dentro de uma metalúrgica, com o maçarico na mão, soldando peça atrás de peça. Calor de dar tontura, fumaça metálica subindo o dia inteiro e o barulho das máquinas que ele nem escutava mais de tão acostumado. Quando foi pedir aposentadoria, pediu por tempo de contribuição comum, como todo mundo fazia na firma dele. Só depois descobriu que boa parte daqueles anos podia valer como tempo especial, o que mudaria completamente a data em que ele poderia parar de trabalhar.
