@@ -1,5 +1,64 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-acidente-perda-auditiva-pair": `## Ele começou a pedir pra repetir tudo
+
+A esposa do Antônio foi a primeira a perceber. Ele aumentava o volume da televisão, pedia pra repetir as frases e já não escutava direito quando chamavam do outro cômodo. Antônio trabalhou anos numa indústria, perto de máquinas barulhentas, sem proteção adequada boa parte do tempo. Para ele, aquilo era só idade chegando. Era mais que isso. Era uma perda auditiva ligada ao ruído do trabalho, e por causa dela ele podia ter direito a um benefício que nem sabia que existia: o auxílio-acidente.
+
+## O que é a PAIR
+
+PAIR é a sigla para Perda Auditiva Induzida por Ruído. É uma lesão da audição causada pela exposição prolongada a barulho alto, muito comum em quem trabalhou na indústria, na metalúrgica, na construção civil, com máquinas pesadas, em marcenarias, em frigoríficos e em tantos outros ambientes ruidosos.
+
+Essa perda costuma ser lenta e silenciosa. Vai avançando ano após ano, e a pessoa só percebe quando a dificuldade já atrapalha o dia a dia. Por ser ligada ao trabalho, ela é tratada como uma doença ocupacional, equiparada a acidente de trabalho para fins previdenciários.
+
+## O que é o auxílio-acidente
+
+O auxílio-acidente é um benefício pago pelo INSS a quem fica com uma **sequela permanente** que reduz a capacidade de trabalho, depois de um acidente ou de uma doença ocupacional. A perda auditiva por ruído entra exatamente nessa lógica.
+
+Ele tem algumas características que surpreendem muita gente:
+
+- É pago **junto com o salário**. Você continua trabalhando e recebendo normalmente, e o auxílio-acidente vem por cima, como uma indenização mensal.
+- Tem natureza de **compensação**, não de substituição de renda. Ou seja, não exige que você pare de trabalhar.
+- Corresponde, em regra, a **50% do salário de benefício** e é pago até a véspera de qualquer aposentadoria.
+- Não exige carência, ou seja, não depende de um número mínimo de contribuições.
+
+Por isso ele é tão subestimado. A pessoa segue trabalhando, não imagina que tem algo a receber, e deixa passar um direito que poderia estar na conta todo mês.
+
+## Quais são os requisitos
+
+Para ter direito ao auxílio-acidente por PAIR, em linhas gerais, é preciso reunir três elementos:
+
+- **Qualidade de segurado**, ou seja, estar vinculado ao INSS na época. Atenção: o auxílio-acidente é para quem trabalha como empregado, inclusive o doméstico, para o trabalhador avulso e para o segurado especial rural. Quem contribui como autônomo (contribuinte individual) ou como facultativo não tem direito a ele.
+- Uma **sequela permanente**, no caso a perda auditiva consolidada e irreversível.
+- O **nexo** entre essa perda e a exposição ao ruído, mostrando que o barulho do trabalho é causa relevante da lesão.
+
+É importante entender uma coisa: nem toda perda de audição gera o benefício. A lei diz que a perda auditiva, em qualquer grau, só dá direito ao auxílio-acidente quando, além da ligação com o trabalho, ela comprovadamente reduz a capacidade para o trabalho que a pessoa fazia. Ou seja, o que pesa não é só o tamanho da perda, e sim o reflexo dela no seu trabalho: uma redução pequena pode bastar, mas uma perda que não atrapalha em nada a sua atividade não gera o benefício. Por isso a prova técnica é decisiva.
+
+## As provas que fazem diferença
+
+Aqui está o ponto que costuma definir o resultado do pedido. A audição precisa ser documentada com exames e o nexo com o trabalho precisa ser demonstrado. Ajudam muito:
+
+- **Audiometrias**, de preferência ao longo do tempo, mostrando a evolução da perda.
+- **PPP e LTCAT** das empresas, comprovando a exposição ao ruído acima dos limites.
+- Laudos médicos otorrinolaringológicos descrevendo o tipo e o grau da perda.
+- Histórico das funções e dos ambientes de trabalho onde havia barulho intenso.
+
+Quanto mais consistente for esse conjunto, mais sólido fica o pedido diante da perícia do INSS.
+
+## Os erros mais comuns
+
+O primeiro erro é confundir perda auditiva com envelhecimento e nunca procurar o direito. Muita gente acha que é natural e deixa passar. O segundo é pedir aposentadoria por invalidez ou auxílio-doença (hoje chamados de aposentadoria por incapacidade permanente e auxílio por incapacidade temporária) quando o caso é de auxílio-acidente, benefícios diferentes, com requisitos diferentes. O terceiro é desistir após a primeira negativa da perícia, que muitas vezes ocorre por falta de documentação técnica, e não por ausência de direito.
+
+Há também quem já esteja aposentado e ache que perdeu a chance. Nesse ponto é preciso atenção: hoje a lei não permite receber o auxílio-acidente junto com aposentadoria, e só casos bem antigos, de antes da mudança da lei em 1997, têm tratamento diferente. Mesmo assim, o momento em que a sequela se consolidou e a data da aposentadoria podem fazer diferença, e cada situação precisa ser analisada individualmente.
+
+## Como saber se você tem direito
+
+Se você trabalhou exposto a ruído e vem percebendo que a audição não é mais a mesma, vale a pena investigar se o caso é de perda auditiva induzida por ruído e se ela gera direito ao auxílio-acidente. Esse é um benefício que pode ser recebido junto com o salário, então vale conferir.
+
+A gente pode analisar os seus exames, verificar o histórico de exposição ao ruído nas empresas, avaliar os documentos que você tem e orientar sobre o que ainda dá para reunir para fortalecer o pedido, sem promessa de resultado. Cada caso é analisado individualmente, e o reconhecimento depende do grau da perda e da prova do nexo com o trabalho.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "aposentadoria-idade-hibrida-rural-urbano": `## A roça de menino, a fábrica de adulto
 
 A dona Marli começou cedo na lavoura, ajudando os pais na agricultura familiar desde criança. Já moça, mudou para a cidade, arrumou carteira assinada e passou anos trabalhando em comércio e em serviços. Quando foi pedir aposentadoria, ouviu que não tinha tempo rural suficiente para a aposentadoria rural e nem tempo urbano suficiente para a aposentadoria comum. Ficou no meio do caminho, achando que tinha perdido os dois. Não tinha. O que faltava era somar as duas histórias numa só, na chamada aposentadoria por idade híbrida.

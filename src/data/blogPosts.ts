@@ -22,6 +22,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-perda-auditiva-pair",
+    image: "/blog/auxilio-acidente-perda-auditiva-pair.jpg",
+    title: "Auxílio-acidente por perda auditiva (PAIR) causada por ruído",
+    excerpt: "Quem perdeu parte da audição por causa do ruído no trabalho pode ter direito ao auxílio-acidente, um benefício pago junto com o salário. Entenda como funciona a PAIR.",
+    date: "28 de outubro de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte"
+  },
+  {
     id: "aposentadoria-idade-hibrida-rural-urbano",
     image: "/blog/aposentadoria-idade-hibrida-rural-urbano.jpg",
     title: "Aposentadoria por idade híbrida: some o tempo rural e o urbano",
