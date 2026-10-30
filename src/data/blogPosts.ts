@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "agentes-de-saude-nova-aposentadoria-ec-140",
+    image: "/blog/agentes-de-saude-nova-aposentadoria-ec-140.jpg",
+    title: "Nova aposentadoria dos agentes de saúde: o que muda com a EC 140/2026",
+    excerpt: "A Emenda Constitucional 140/2026 criou uma aposentadoria própria para agentes comunitários de saúde e de combate às endemias. Veja idades, tempo exigido e documentos.",
+    date: "30 de outubro de 2026",
+    category: "Aposentadoria Especial",
+    author: "Equipe Spier & Anorte",
+    cluster: "aposentadoria-especial"
+  },
+  {
     id: "auxilio-acidente-perda-auditiva-pair",
     image: "/blog/auxilio-acidente-perda-auditiva-pair.jpg",
     title: "Auxílio-acidente por perda auditiva (PAIR) causada por ruído",

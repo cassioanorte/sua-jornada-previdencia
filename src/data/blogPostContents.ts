@@ -1,5 +1,107 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "agentes-de-saude-nova-aposentadoria-ec-140": `## Vinte anos batendo de porta em porta
+
+A dona Rosângela é agente comunitária de saúde há mais de vinte anos. Conhece cada rua do bairro, sabe quem é hipertenso, quem está grávida, qual criança está com a vacina atrasada. Faz sol, faz chuva, ela está lá, de colete e prancheta. Durante muito tempo, sempre que pensava na aposentadoria, ouvia a mesma coisa: que a regra para a categoria era confusa, que ninguém sabia ao certo quando ela poderia parar.
+
+Em outubro de 2026 essa conversa mudou. Uma emenda à Constituição criou uma regra própria de aposentadoria para os agentes de saúde. E a primeira pergunta que muita gente como a dona Rosângela está fazendo é simples: e agora, isso vale para mim?
+
+## O que é a Emenda Constitucional 140
+
+A Emenda Constitucional 140 foi promulgada em 16 de outubro de 2026. Ela criou uma aposentadoria com regras próprias para quem trabalha como agente de saúde, reconhecendo que é uma função com características diferentes das outras.
+
+A Emenda vale para quatro categorias:
+
+- **agentes comunitários de saúde (ACS)**;
+- **agentes de combate às endemias (ACE)**;
+- **agentes indígenas de saúde**;
+- **agentes indígenas de saneamento**.
+
+E vale tanto para quem contribui para o **INSS** quanto para quem está vinculado a um **regime próprio de estado ou de município**. Ou seja, não importa se o seu vínculo é pela CLT, por contrato ou como servidor público: a regra foi pensada para a função que você exerce.
+
+## Quem já era agente: a regra de transição
+
+Para quem já trabalhava como agente em 16 de outubro de 2026, a Emenda criou uma regra de transição, com idades que sobem aos poucos ao longo dos anos. No INSS, vale para quem começou na atividade até essa data. No regime próprio, para quem entrou no cargo efetivo até essa data ou for efetivado com base na própria Emenda. Funciona assim:
+
+- **até 31 de dezembro de 2030**: mulher com 50 anos de idade e homem com 52;
+- **de 2031 a 2035**: mulher com 52 anos e homem com 54;
+- **de 2036 a 2040**: mulher com 54 anos e homem com 56;
+- **a partir de 2041**: mulher com 57 anos e homem com 60.
+
+Em outras palavras, quanto mais cedo a pessoa completar os requisitos, menor é a idade exigida. Por isso, quem está perto de fechar o tempo precisa olhar com atenção para o ano em que vai completar cada exigência.
+
+## Quem entrar na função depois da Emenda
+
+Quem começar a trabalhar como agente depois de 16 de outubro de 2026 não entra na transição. Para essas pessoas, a regra já é a definitiva: **57 anos para a mulher e 60 anos para o homem**, com os mesmos 25 anos de contribuição e de exercício na função.
+
+## O tempo exigido: são duas contas, não uma
+
+Além da idade, a Emenda exige dois tempos ao mesmo tempo:
+
+- **25 anos de contribuição**;
+- **25 anos de efetivo exercício na função de agente**.
+
+Esse é o ponto que mais gera confusão. Não basta ter 25 anos de contribuição em qualquer trabalho. Também é preciso ter 25 anos trabalhando de fato como agente. Quem passou parte da vida no comércio, por exemplo, e só depois entrou na saúde, pode ter os 25 anos de contribuição e ainda não ter os 25 anos na função.
+
+Na regra de transição há também uma vantagem para quem trabalhou mais tempo: **para cada ano de contribuição e de exercício na função que passar dos 25, a idade mínima cai 1 ano, até o limite de 5 anos**. A redução vale em qualquer degrau da tabela de transição. Por exemplo, uma agente que em 2029 já tenha 28 anos de contribuição e 28 anos na função tem a idade mínima de 50 anos reduzida em 3, ou seja, 47 anos. Atenção: os anos a mais precisam contar nas duas contas ao mesmo tempo, e essa redução está prevista só para a transição. Na regra definitiva, de quem entrar na função depois da Emenda, o texto não prevê esse desconto.
+
+## Uma segunda opção para quem tem menos tempo na função
+
+Para quem já era agente em 16 de outubro de 2026, a Emenda trouxe ainda uma outra regra de transição, pensada para quem não chega aos 25 anos na função. Ela exige, ao mesmo tempo:
+
+- **60 anos de idade para a mulher e 63 para o homem**;
+- **15 anos de contribuição**;
+- **10 anos de exercício na função de agente**;
+- **83 pontos para a mulher e 86 para o homem**, somando a idade e o tempo de contribuição.
+
+É o caso, por exemplo, de quem trabalhou muitos anos em outra área e entrou na saúde mais tarde. Vale fazer a conta pelas duas regras para ver qual chega antes.
+
+## Afastamentos que também contam
+
+Muitos agentes passaram algum período fora da rua, e a Emenda trouxe uma proteção importante para eles. Contam os períodos de:
+
+- **afastamento para exercer mandato classista da categoria**, como no sindicato;
+- **readaptação decorrente de acidente de trabalho, doença profissional ou doença do trabalho**.
+
+Na prática, quem precisou mudar de atividade depois de se machucar ou adoecer no trabalho, ou quem representou a categoria no sindicato, não perde esse tempo. Mas é preciso ter como comprovar esses períodos.
+
+## Não precisa provar exposição a agente nocivo
+
+Quem conhece a aposentadoria especial sabe que, em geral, ela depende de provar a exposição a algum agente nocivo, como ruído, produtos químicos ou agentes biológicos. Essa prova costuma ser feita pelo PPP, o Perfil Profissiográfico Previdenciário, um documento que muitas vezes é difícil de conseguir.
+
+A Emenda 140 não coloca essa prova entre os requisitos. A Constituição passou a dizer que o direito vem dos riscos próprios da função, e os requisitos da nova aposentadoria são a idade, o tempo de contribuição e o tempo de exercício na função. Ou seja, **o texto não exige PPP para mostrar exposição a agente nocivo**. O que vai pesar é comprovar que você trabalhou, de fato, como agente.
+
+Um cuidado: para períodos e pedidos anteriores à Emenda 140, a situação é outra. A regra antiga sobre o tema, de 2022, está em discussão no Supremo Tribunal Federal (Tema 1.470), e a Turma Nacional de Uniformização (TNU) vinha exigindo o PPP nesses casos. Quem já tem pedido ou processo antigo precisa de uma análise específica.
+
+## Os documentos que vale a pena separar desde já
+
+Como a regra é nova, o melhor caminho é se organizar com antecedência. Ajudam muito:
+
+- **comprovantes do vínculo e da função**: contrato de trabalho, portaria de nomeação, contracheques e outros documentos que mostrem que você trabalhava como agente;
+- **o CNIS**, que é o extrato das suas contribuições no INSS, ou, para quem é servidor, **o extrato do regime próprio**;
+- **comprovantes de afastamento por mandato sindical ou de readaptação** por acidente ou doença do trabalho, se for o seu caso.
+
+Um cuidado importante: confira se o seu cargo aparece corretamente nos documentos. Às vezes o vínculo está registrado com um nome genérico, e isso pode dificultar mostrar que você exercia, de fato, a função de agente.
+
+## O INSS já está aplicando a nova regra?
+
+Essa é uma pergunta que muita gente está fazendo, e a resposta honesta é que ainda é cedo para dizer. A Emenda é muito recente e, quando este texto foi escrito, o INSS ainda não tinha publicado norma detalhando como vai analisar esses pedidos. A forma como o INSS e os regimes próprios vão aplicar a nova regra no dia a dia ainda precisa ser acompanhada.
+
+Por isso, a recomendação é não esperar. Organizar a documentação agora, conferir o CNIS e corrigir eventuais falhas no registro do vínculo são passos que fazem diferença na hora de pedir o benefício, seja agora ou daqui a alguns anos.
+
+## Os erros mais comuns
+
+O primeiro erro é achar que a nova regra vale automaticamente sem conferir os dois tempos, o de contribuição e o da função, ou descartar o direito sem fazer a conta também pela regra de pontos. O segundo é deixar para procurar os documentos só na hora de pedir, quando contratos antigos e contracheques já se perderam. O terceiro é esquecer dos períodos de readaptação ou de mandato sindical, que contam e podem completar a conta.
+
+## Como saber como a nova regra fica no seu caso
+
+Se você é ou já foi agente comunitário de saúde, agente de combate às endemias, agente indígena de saúde ou agente indígena de saneamento, vale a pena entender como a Emenda 140 se aplica à sua história.
+
+A gente pode analisar o seu CNIS ou o extrato do regime próprio, conferir o tempo de contribuição e o tempo na função, avaliar os documentos do vínculo e dos afastamentos e orientar sobre o que ainda dá para reunir, sem promessa de resultado. Cada caso é analisado individualmente, e o enquadramento depende da data em que você começou na função e do momento em que completa cada requisito.
+
+Fale com a equipe da Spier & Anorte pelo WhatsApp: Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-acidente-perda-auditiva-pair": `## Ele começou a pedir pra repetir tudo
 
 A esposa do Antônio foi a primeira a perceber. Ele aumentava o volume da televisão, pedia pra repetir as frases e já não escutava direito quando chamavam do outro cômodo. Antônio trabalhou anos numa indústria, perto de máquinas barulhentas, sem proteção adequada boa parte do tempo. Para ele, aquilo era só idade chegando. Era mais que isso. Era uma perda auditiva ligada ao ruído do trabalho, e por causa dela ele podia ter direito a um benefício que nem sabia que existia: o auxílio-acidente.
