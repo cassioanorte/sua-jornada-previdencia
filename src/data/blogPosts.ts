@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-acidente-sem-carteira-assinada-periodo-de-graca",
+    image: "/blog/auxilio-acidente-sem-carteira-assinada-periodo-de-graca.jpg",
+    title: "Auxílio-acidente sem carteira assinada: quem tem direito",
+    excerpt: "Sofreu acidente depois de sair do emprego ou sem carteira assinada? Entenda o período de graça e quem pode ter direito ao auxílio-acidente do INSS.",
+    date: "4 de novembro de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte",
+    cluster: "acidente"
+  },
+  {
     id: "agentes-de-saude-nova-aposentadoria-ec-140",
     image: "/blog/agentes-de-saude-nova-aposentadoria-ec-140.jpg",
     title: "Nova aposentadoria dos agentes de saúde: o que muda com a EC 140/2026",

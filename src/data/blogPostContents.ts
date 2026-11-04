@@ -1,5 +1,96 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-acidente-sem-carteira-assinada-periodo-de-graca": `## O acidente veio depois da demissão
+
+O Marcelo trabalhou seis anos de carteira assinada numa transportadora. Em março, a empresa cortou pessoal e ele foi dispensado. Enquanto procurava outro emprego, vivia das verbas da rescisão e do seguro-desemprego.
+
+Em agosto, caiu de uma escada enquanto consertava o telhado da própria casa. Quebrou o tornozelo, precisou de cirurgia e, mesmo depois de recuperado, ficou com o pé rígido. Não consegue mais subir em andaime nem ficar muitas horas em pé.
+
+A primeira coisa que ele pensou foi: "Eu estava desempregado, sem carteira. O INSS não tem nada a ver com isso."
+
+Pode ter, sim. E é exatamente sobre isso que vamos falar.
+
+## Primeiro, o que é o auxílio-acidente
+
+O **auxílio-acidente** é um benefício do INSS de natureza indenizatória. Ele é pago a quem sofreu um acidente de qualquer natureza, tratou, mas ficou com uma **sequela permanente que reduz a capacidade** para o trabalho que fazia.
+
+Ele não exige que a pessoa pare de trabalhar e não exige carência, ou seja, não pede um número mínimo de contribuições. O que ele exige é que a pessoa seja **segurada do INSS** na data do acidente e esteja numa das categorias que a lei protege.
+
+Se você quiser entender os requisitos com mais calma, já explicamos em "Auxílio-Acidente: quem tem direito e como funciona".
+
+## O que é o período de graça
+
+Aqui está o ponto que muita gente desconhece.
+
+Quando alguém deixa de trabalhar e de contribuir, não perde a proteção do INSS no dia seguinte. A lei prevê um tempo em que a pessoa **continua sendo segurada** mesmo sem contribuir. Esse tempo é chamado de **período de graça**.
+
+Em linhas gerais, a regra funciona assim:
+
+- Para quem deixa de trabalhar, em regra a qualidade de segurado se mantém por até **12 meses** depois que as contribuições param.
+- Esse prazo pode ser **ampliado** para quem já tem muitos anos de contribuição sem ter perdido a qualidade de segurado.
+- Pode ser ampliado também para quem comprova a situação de **desemprego**, por exemplo com o registro no SINE ou o recebimento do seguro-desemprego.
+
+Cada uma dessas situações tem detalhes próprios, e a contagem exata depende do histórico de cada pessoa. Mas a ideia central é simples: sair do emprego não significa sair do INSS na mesma hora.
+
+## Acidente durante o período de graça
+
+A regulamentação do INSS admite o auxílio-acidente quando o acidente acontece durante o período de graça, desde que as demais condições do benefício estejam presentes.
+
+Um detalhe importante: o INSS leva em conta a **última atividade exercida** pela pessoa. No caso do Marcelo, a última atividade era de empregado com carteira assinada, uma categoria que tem direito ao auxílio-acidente. Se ele estivesse trabalhando por conta própria no dia do acidente, a análise poderia ser outra. Por isso o caso dele merece ser analisado com atenção.
+
+## Quem tem direito e quem não tem
+
+A lei não cobre todo mundo que contribui. Pela lei, o auxílio-acidente é devido a estas categorias:
+
+- **Empregado** com carteira assinada, inclusive o trabalhador temporário.
+- **Empregado doméstico**, como empregadas domésticas, babás e cuidadores com carteira assinada.
+- **Trabalhador avulso**, aquele que presta serviço intermediado por sindicato ou órgão gestor, como no porto.
+- **Segurado especial**, o trabalhador rural que produz em regime de economia familiar, e também o pescador artesanal.
+
+Ficam de fora, pela regra atual:
+
+- O **contribuinte individual**, que é o autônomo que paga o próprio carnê.
+- O **MEI**, que também é contribuinte individual.
+- O **segurado facultativo**, como a dona de casa que contribui por conta própria.
+
+Essa diferença costuma pegar muita gente de surpresa. Uma pessoa pode ter contribuído a vida inteira como autônoma e, mesmo assim, não ter direito ao auxílio-acidente.
+
+## E quem trabalhava sem registro?
+
+Existe ainda outra situação: a pessoa que trabalhava como empregada, com horário, chefe e salário, mas o patrão nunca assinou a carteira.
+
+Nesse caso, o problema não é a falta de direito. É a falta de registro. Quando o vínculo de emprego existiu de verdade, é possível buscar o seu **reconhecimento** com provas como mensagens, comprovantes de pagamento, testemunhas e registros de ponto. Reconhecido o vínculo, a pessoa pode ser tratada como empregada para fins previdenciários.
+
+É um caminho que exige prova bem organizada, e cada caso tem suas particularidades. Mas ele existe, e vale conhecer.
+
+## O trabalhador rural também está protegido
+
+O agricultor que trabalha com a família na própria terra muitas vezes acha que, por não ter carteira nem carnê, não tem nada no INSS. Não é verdade.
+
+O **segurado especial** comprova a sua condição pela atividade rural, com documentos como notas de produtor, cadastros e declarações, e tem direito ao auxílio-acidente quando cumpre os requisitos. Sobre como se faz essa prova, temos um artigo específico: "Por que o INSS nega a aposentadoria rural (e como não cair em cada erro)".
+
+## O que fazer se essa é a sua situação
+
+Se você sofreu um acidente depois de sair do emprego, ou trabalhava sem registro, alguns passos ajudam a não perder o direito:
+
+- Guarde a carteira de trabalho, o termo de rescisão e o extrato do FGTS.
+- Consulte o seu **CNIS** no Meu INSS para ver a data da última contribuição.
+- Junte todos os documentos médicos do acidente: atendimento de emergência, exames, cirurgia e laudos.
+- Se trabalhava sem registro, reúna tudo que prova o vínculo.
+
+Com isso em mãos, dá para verificar se o acidente aconteceu dentro do período de graça e se a sua categoria tem direito ao benefício.
+
+## Cada caso precisa ser olhado de perto
+
+O período de graça tem contagens diferentes conforme o histórico de cada pessoa, e um mês para mais ou para menos muda tudo. Por isso não existe resposta pronta.
+
+A gente pode olhar o seu CNIS, os seus laudos e a data do acidente para te dizer com clareza se há um caminho possível. Sem promessa e sem número mágico: cada caso é avaliado individualmente.
+
+Ficou com dúvida sobre o seu caso? Chamar no WhatsApp e a gente te orienta.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "agentes-de-saude-nova-aposentadoria-ec-140": `## Vinte anos batendo de porta em porta
 
 A dona Rosângela é agente comunitária de saúde há mais de vinte anos. Conhece cada rua do bairro, sabe quem é hipertenso, quem está grávida, qual criança está com a vacina atrasada. Faz sol, faz chuva, ela está lá, de colete e prancheta. Durante muito tempo, sempre que pensava na aposentadoria, ouvia a mesma coisa: que a regra para a categoria era confusa, que ninguém sabia ao certo quando ela poderia parar.
