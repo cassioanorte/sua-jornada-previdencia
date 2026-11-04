@@ -1,10 +1,14 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BenefitFaq from "@/components/BenefitFaq";
+import { benefitFaqs } from "@/data/benefitFaqs";
+import { useSeo } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Phone, FileText, Calendar, Shield, ClipboardList } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const AuxilioDoenca = () => {
+  useSeo('Auxílio-Doença: Requisitos e Perícia | Spier & Anorte', 'Requisitos do auxílio-doença (incapacidade temporária), como funciona a perícia do INSS e o que fazer se for negado. Spier & Anorte, Gramado e Nova Petrópolis.');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -126,6 +130,8 @@ const AuxilioDoenca = () => {
       </section>
 
       {/* CTA */}
+      <BenefitFaq id="auxilio-doenca" items={benefitFaqs["auxilio-doenca"]} />
+
       <section className="py-16 hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">

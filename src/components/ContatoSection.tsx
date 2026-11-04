@@ -1,4 +1,5 @@
 import { useState, FormEvent } from "react";
+import { trackEvent } from "@/lib/analytics";
 
 const benefitOptions = [
   "Aposentadoria",
@@ -15,7 +16,7 @@ const contactItems = [
   {
     label: "WhatsApp",
     value: "(54) 99987-0786",
-    sub: "Resposta em ~2h úteis",
+    sub: "Retornamos em até 24 horas úteis",
   },
   {
     label: "Telefone fixo",
@@ -85,6 +86,7 @@ const ContatoSection = () => {
       `\n${form.message}\n\n` +
       (form.email ? `E-mail: ${form.email}\n` : "") +
       (form.phone ? `Telefone: ${form.phone}` : "");
+    trackEvent("formulario_envio", { formulario: "home_consulta" });
     const url = `https://wa.me/5554999870786?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
   };
@@ -126,7 +128,7 @@ const ContatoSection = () => {
                 textAlign: "justify",
               }}
             >
-              Em até 24 horas úteis, um dos sócios retorna com uma leitura honesta — viável,
+              Retornamos em até 24 horas úteis, com uma leitura honesta: viável,
               inviável ou dependente de mais informação.
             </p>
 

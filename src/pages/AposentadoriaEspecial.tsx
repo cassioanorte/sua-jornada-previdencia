@@ -1,9 +1,13 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BenefitFaq from "@/components/BenefitFaq";
+import { benefitFaqs } from "@/data/benefitFaqs";
+import { useSeo } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 
 const AposentadoriaEspecial = () => {
+  useSeo('Aposentadoria Especial: Como Funciona | Spier & Anorte', 'Saiba o que é a aposentadoria especial, como comprovar a exposição a agentes nocivos (PPP e LTCAT) e o que mudou. Spier & Anorte, Gramado e Nova Petrópolis.');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -65,6 +69,8 @@ const AposentadoriaEspecial = () => {
           </div>
         </div>
       </section>
+
+      <BenefitFaq id="aposentadoria-especial" items={benefitFaqs["aposentadoria-especial"]} />
 
       <section className="py-16 hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 text-center">

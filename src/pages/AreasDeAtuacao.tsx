@@ -1,9 +1,11 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { useSeo } from "@/lib/seo";
 import ServiceCard from "@/components/ServiceCard";
 import { Heart, Clock, Shield, Users, Briefcase, FileText, Baby, Home } from "lucide-react";
 
 const AreasDeAtuacao = () => {
+  useSeo('Áreas de Atuação | Direito Previdenciário | Spier & Anorte', 'Aposentadorias, auxílios por incapacidade, BPC/LOAS, pensão por morte, salário-maternidade e revisões do INSS. Spier & Anorte, Gramado e Nova Petrópolis (RS).');
   const services = [
     {
       title: "Auxílio Doença",

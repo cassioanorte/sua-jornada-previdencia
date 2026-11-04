@@ -32,7 +32,7 @@ const escritorio = [
   { label: "Conteúdo", to: "/blog/" },
   { label: "Casos", to: "/quem-somos#casos" },
   { label: "FAQ", to: "/contato#faq" },
-  { label: "Privacidade", to: "/contato" },
+  { label: "Privacidade", to: "/privacidade/" },
 ];
 
 const Footer = () => {

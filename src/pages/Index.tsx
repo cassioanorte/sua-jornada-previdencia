@@ -1,5 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BenefitFaq from "@/components/BenefitFaq";
+import { homeFaq } from "@/data/benefitFaqs";
+import { useSeo } from "@/lib/seo";
 import AposentadoriaSimulator from "@/components/AposentadoriaSimulator";
 import ContatoSection from "@/components/ContatoSection";
 
@@ -24,6 +27,7 @@ import socioCassio from "@/assets/socio-cassio.png";
 import { Link } from "react-router-dom";
 
 const Index = () => {
+  useSeo('Spier & Anorte | Advogados Previdenciários em Gramado, RS', 'Atuação exclusiva em Direito Previdenciário há mais de 13 anos. Aposentadorias, auxílios, BPC/LOAS e pensões. Sedes em Gramado e Nova Petrópolis (RS) e online.');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -89,7 +93,7 @@ const Index = () => {
     "Mais de 13 anos de experiência exclusiva em Direito Previdenciário",
     "Escritórios em Gramado e Nova Petrópolis · Atendimento online em todo o Brasil",
     "Transparência e honestidade em primeiro lugar",
-    "Primeira conversa sem compromisso pelo WhatsApp"
+    "Primeira conversa pelo WhatsApp para entender seu caso"
   ];
 
   return (
@@ -255,9 +259,9 @@ const Index = () => {
           >
             {[
               { num: "13", label: "Anos", desc: "atuando exclusivamente em previdenciário" },
-              { num: "1.4k+", label: "Casos", desc: "concluídos com benefício concedido" },
               { num: "2", label: "Sedes", desc: "Gramado e Nova Petrópolis · RS · atendimento remoto" },
-              { num: "96%", label: "Satisfação", desc: "de clientes em pesquisa anual" },
+              { num: "3", label: "Sócios", desc: "acompanham cada caso de perto" },
+              { num: "24h", label: "Retorno", desc: "úteis para o primeiro retorno do atendimento" },
             ].map((m, i) => (
               <div
                 key={i}
@@ -691,7 +695,7 @@ const Index = () => {
 
           <div className="grid grid-cols-2 lg:grid-cols-4" style={{ gap: 24 }}>
             {[
-              { n: "01", title: "Conversa inicial", desc: "Você nos manda um WhatsApp com o que está acontecendo. Sem custo, sem compromisso." },
+              { n: "01", title: "Conversa inicial", desc: "Você nos manda um WhatsApp com o que está acontecendo. Primeira conversa para entender seu caso." },
               { n: "02", title: "Análise do CNIS", desc: "Lemos seu CNIS página por página, identificamos vínculos, períodos especiais e lacunas." },
               { n: "03", title: "Estratégia honesta", desc: "Te dizemos o que é viável, o que não é e o que precisa de mais informação." },
               { n: "04", title: "Defesa ativa", desc: "Administrativo e judicial. Acompanhamento de perícia. Recursos. Sempre com sócio responsável." },
@@ -724,139 +728,9 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <AposentadoriaSimulator />
+            <AposentadoriaSimulator />
 
-      {/* Casos & Depoimentos — Capítulo VI */}
-      <section style={{ backgroundColor: "#14110e", padding: "120px 24px" }}>
-        <div className="mx-auto" style={{ maxWidth: 1320 }}>
-          {/* Header */}
-          <div style={{ marginBottom: 64 }}>
-            <div
-              className="font-mono uppercase"
-              style={{ fontSize: 11, letterSpacing: "0.32em", color: "#d4b888", marginBottom: 24 }}
-            >
-              Capítulo VI — Casos
-            </div>
-            <h2
-              className="font-display"
-              style={{
-                fontSize: "clamp(48px, 7vw, 84px)",
-                fontWeight: 400,
-                lineHeight: 1.02,
-                color: "#f4ede0",
-                letterSpacing: "-0.01em",
-                maxWidth: 1100,
-              }}
-            >
-              <em style={{ fontStyle: "italic", color: "#d4b888" }}>Histórias</em> que viraram benefícios.
-            </h2>
-          </div>
-
-          {/* Editorial list */}
-          <div style={{ borderTop: "1px solid rgba(184,153,104,0.18)" }}>
-            {[
-              {
-                year: "2025",
-                title: "Auxílio-doença restabelecido após 4 negativas administrativas",
-                desc: "Cliente com fibromialgia severa havia tido o benefício cessado três vezes. Reverteu-se em juízo com perícia judicial — retroativos de R$ 47.000.",
-                tag: "Incapacidade · TRF4",
-              },
-              {
-                year: "2024",
-                title: "Aposentadoria especial a soldador (32 anos de exposição)",
-                desc: "Reconhecimento integral de tempo especial por agentes nocivos, com conversão e revisão da RMI.",
-                tag: "Especial · INSS",
-              },
-              {
-                year: "2024",
-                title: "Salário-maternidade rural sem documentação cartorial",
-                desc: "Comprovação por início de prova material + testemunhal robusta para segurada especial no Vale do Taquari.",
-                tag: "Rural · JEF",
-              },
-            ].map((c, i) => (
-              <div
-                key={i}
-                className="grid grid-cols-1 md:grid-cols-[120px_1fr_240px]"
-                style={{
-                  padding: "32px 0",
-                  borderBottom: "1px solid rgba(184,153,104,0.18)",
-                  gap: 24,
-                  alignItems: "start",
-                }}
-              >
-                <div
-                  className="font-display italic"
-                  style={{ fontSize: 56, color: "#d4b888", fontWeight: 400, lineHeight: 1 }}
-                >
-                  {c.year}
-                </div>
-                <div>
-                  <h3
-                    className="font-display"
-                    style={{ fontSize: 28, fontWeight: 400, color: "#f4ede0", lineHeight: 1.2, marginBottom: 12 }}
-                  >
-                    {c.title}
-                  </h3>
-                  <p
-                    className="font-editorial"
-                    style={{ fontSize: 17, lineHeight: 1.55, color: "#b8b1a9", textAlign: "justify" }}
-                  >
-                    {c.desc}
-                  </p>
-                </div>
-                <div
-                  className="font-mono uppercase md:text-right"
-                  style={{ fontSize: 10, letterSpacing: "0.22em", color: "#d4b888", paddingTop: 12 }}
-                >
-                  {c.tag}
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Depoimentos */}
-          <div
-            className="grid grid-cols-1 md:grid-cols-2"
-            style={{
-              marginTop: 80,
-              paddingTop: 48,
-              borderTop: "1px solid rgba(184,153,104,0.18)",
-              gap: 64,
-            }}
-          >
-            {[
-              {
-                quote:
-                  "Achei que tinha perdido meu auxílio para sempre. Em três meses, o Dr. Cássio não só recuperou como conseguiu retroativos que eu nem sabia que tinha direito.",
-                sign: "— Sandra L., Caxias do Sul",
-              },
-              {
-                quote:
-                  "Outro escritório tinha desistido do meu caso. O Dr. Rodrigo leu meu CNIS página por página e encontrou tempo especial que ninguém viu.",
-                sign: "— Antônio P., Pelotas",
-              },
-            ].map((d, i) => (
-              <figure key={i}>
-                <blockquote
-                  className="font-editorial italic"
-                  style={{ fontSize: 22, lineHeight: 1.5, color: "#f4ede0", textAlign: "justify" }}
-                >
-                  <span style={{ color: "#d4b888" }}>“</span>
-                  {d.quote}
-                  <span style={{ color: "#d4b888" }}>”</span>
-                </blockquote>
-                <figcaption
-                  className="font-mono uppercase"
-                  style={{ fontSize: 10, letterSpacing: "0.24em", color: "#d4b888", marginTop: 24 }}
-                >
-                  {d.sign}
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-        </div>
-      </section>
+      <BenefitFaq id="home" dark items={homeFaq} />
 
       <ContatoSection />
 

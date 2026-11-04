@@ -34,6 +34,9 @@ const MIME = {
 
 // Servidor SPA: arquivos reais servem direto; qualquer rota desconhecida cai no index.html.
 function serve() {
+  // Template pristino: capturado ANTES do prerender sobrescrever dist/index.html com a home
+  // renderizada. Sem isso, cada rota seguinte herdava o <head> da home (inclusive JSON-LD de FAQ).
+  const TEMPLATE = fs.readFileSync(path.join(DIST, "index.html"));
   return http.createServer((req, res) => {
     try {
       const urlPath = decodeURIComponent(req.url.split("?")[0]);
@@ -46,7 +49,7 @@ function serve() {
       }
       // fallback SPA
       res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-      fs.createReadStream(path.join(DIST, "index.html")).pipe(res);
+      res.end(TEMPLATE);
     } catch (e) {
       res.writeHead(500);
       res.end("err");

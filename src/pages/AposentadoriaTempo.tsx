@@ -1,9 +1,13 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BenefitFaq from "@/components/BenefitFaq";
+import { benefitFaqs } from "@/data/benefitFaqs";
+import { useSeo } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 
 const AposentadoriaTempo = () => {
+  useSeo('Aposentadoria por Tempo de Contribuição | Spier & Anorte', 'Como ficou a aposentadoria por tempo de contribuição após a Reforma e quais regras de transição existem. Spier & Anorte, em Gramado e Nova Petrópolis (RS).');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -47,6 +51,8 @@ const AposentadoriaTempo = () => {
           </div>
         </div>
       </section>
+
+      <BenefitFaq id="aposentadoria-tempo" items={benefitFaqs["aposentadoria-tempo"]} />
 
       <section className="py-16 hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 text-center">

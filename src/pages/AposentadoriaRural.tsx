@@ -1,9 +1,13 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BenefitFaq from "@/components/BenefitFaq";
+import { benefitFaqs } from "@/data/benefitFaqs";
+import { useSeo } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 
 const AposentadoriaRural = () => {
+  useSeo('Aposentadoria Rural: Requisitos | Spier & Anorte', 'Entenda quem pode pedir a aposentadoria rural, como comprovar a atividade no campo e quais documentos ajudam. Atendimento em Gramado, Nova Petrópolis e online.');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -48,6 +52,8 @@ const AposentadoriaRural = () => {
           </div>
         </div>
       </section>
+
+      <BenefitFaq id="aposentadoria-rural" items={benefitFaqs["aposentadoria-rural"]} />
 
       <section className="py-16 hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 text-center">

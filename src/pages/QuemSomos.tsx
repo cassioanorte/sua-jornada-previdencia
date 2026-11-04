@@ -1,10 +1,12 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { useSeo } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Shield, Heart, Zap, Users, Phone } from "lucide-react";
 import teamImage from "@/assets/team.jpg";
 
 const QuemSomos = () => {
+  useSeo('Quem Somos | Spier & Anorte Advogados Previdenciários', 'Conheça os sócios e a atuação exclusiva em Direito Previdenciário da Spier & Anorte Sociedade de Advogados, com sedes em Gramado e Nova Petrópolis (RS).');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };

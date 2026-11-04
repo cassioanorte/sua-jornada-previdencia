@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { useSeo } from "@/lib/seo";
 import Quiz, { QuizQuestion, QuizResult } from "@/components/Quiz";
 import { Heart, UserCheck, Clock, DollarSign, Baby, FileText, Shield, Scale } from "lucide-react";
 
@@ -146,6 +147,7 @@ const features = [
 ];
 
 const QuizAuxilioMaternidade = () => {
+  useSeo('Quiz Salário-Maternidade: Teste Informativo | Spier & Anorte', 'Responda perguntas rápidas e entenda, de forma informativa, os requisitos do salário-maternidade. Spier & Anorte, Gramado e Nova Petrópolis (RS).');
   return (
     <div className="min-h-screen bg-background">
       <Header />

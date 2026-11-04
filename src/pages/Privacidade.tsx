@@ -1,19 +1,22 @@
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { useSeo } from "@/lib/seo";
 
 const Privacidade = () => {
-  useEffect(() => {
-    document.title = "Política de Privacidade | Spier & Anorte Advocacia";
-  }, []);
+  useSeo(
+    "Política de Privacidade | Spier & Anorte",
+    "Como a Spier & Anorte Sociedade de Advogados trata os dados pessoais recebidos pelo site, WhatsApp e e-mail, em conformidade com a LGPD (Lei 13.709/2018)."
+  );
 
   return (
     <div className="min-h-screen bg-white py-16 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Política de Privacidade</h1>
-        <p className="text-sm text-gray-500 mb-8">Última atualização: maio de 2026</p>
+        <p className="text-sm text-gray-500 mb-8">Última atualização: novembro de 2026</p>
 
         <section className="prose prose-gray max-w-none space-y-6 text-gray-700 leading-relaxed">
           <p>
-            O escritório <strong>Spier & Anorte Advocacia</strong> (CNPJ: a informar) respeita sua
+            O escritório <strong>Spier & Anorte Sociedade de Advogados</strong> (CNPJ 18.382.306/0001-15),
+            com sede na Avenida 15 de Novembro, 1924, Sala 304, Centro, Nova Petrópolis/RS, respeita sua
             privacidade e está comprometido com a proteção dos seus dados pessoais, em conformidade
             com a Lei Geral de Proteção de Dados (Lei 13.709/2018 — LGPD).
           </p>
@@ -56,8 +59,8 @@ const Privacidade = () => {
           <ul className="list-disc pl-5 mt-2 space-y-1">
             <li>
               E-mail:{" "}
-              <a href="mailto:contato@spiereanorte.adv.br" className="text-amber-700 underline">
-                contato@spiereanorte.adv.br
+              <a href="mailto:cassio@spiereanorte.adv.br" className="text-amber-700 underline">
+                cassio@spiereanorte.adv.br
               </a>
             </li>
             <li>WhatsApp: (54) 99987-0786</li>
@@ -65,8 +68,11 @@ const Privacidade = () => {
 
           <h2 className="text-xl font-semibold text-gray-800 mt-6">6. Cookies</h2>
           <p>
-            O site utiliza apenas cookies técnicos essenciais para funcionamento. Não utilizamos
-            cookies de rastreamento ou publicidade comportamental.
+            O site utiliza cookies técnicos essenciais para funcionamento e o Google Analytics (GA4)
+            para medir, de forma agregada, o uso do site: páginas visitadas e cliques nos botões de
+            contato (WhatsApp, telefone, e-mail e formulário). Não enviamos ao Google Analytics seu
+            nome, telefone, e-mail nem o conteúdo das suas mensagens. Não utilizamos publicidade
+            comportamental. Você pode bloquear ou apagar cookies nas configurações do seu navegador.
           </p>
 
           <h2 className="text-xl font-semibold text-gray-800 mt-6">7. Alterações nesta política</h2>
@@ -75,6 +81,9 @@ const Privacidade = () => {
             relevantes serão comunicadas pelo site ou pelo WhatsApp.
           </p>
         </section>
+        <p className="mt-10 text-sm">
+          <Link to="/" className="text-amber-700 underline">Voltar ao início</Link>
+        </p>
       </div>
     </div>
   );

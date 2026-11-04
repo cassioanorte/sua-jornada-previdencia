@@ -1,9 +1,13 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BenefitFaq from "@/components/BenefitFaq";
+import { benefitFaqs } from "@/data/benefitFaqs";
+import { useSeo } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 
 const PensaoMorte = () => {
+  useSeo('Pensão por Morte: Dependentes e Requisitos | Spier & Anorte', 'Saiba quem tem direito à pensão por morte, prazos para pedir e documentos necessários ao INSS. Spier & Anorte, em Gramado e Nova Petrópolis (RS) e online.');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -47,6 +51,8 @@ const PensaoMorte = () => {
           </div>
         </div>
       </section>
+
+      <BenefitFaq id="pensao-morte" items={benefitFaqs["pensao-morte"]} />
 
       <section className="py-16 hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 text-center">

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { useSeo } from "@/lib/seo";
 import FaqSection from "@/components/FaqSection";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -9,6 +10,7 @@ import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
+import { trackEvent } from "@/lib/analytics";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Nome é obrigatório").max(100, "Nome muito longo"),
@@ -18,6 +20,7 @@ const contactSchema = z.object({
 });
 
 const Contato = () => {
+  useSeo('Contato | Spier & Anorte, Gramado e Nova Petrópolis RS', 'Fale com a Spier & Anorte pelo WhatsApp, telefone ou e-mail. Escritórios em Gramado e Nova Petrópolis (RS) e atendimento online em todo o Brasil.');
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -36,6 +39,7 @@ const Contato = () => {
       contactSchema.parse(formData);
       
       const message = `Olá! Meu nome é ${formData.name}.%0A%0A${formData.message}%0A%0AE-mail: ${formData.email}%0ATelefone: ${formData.phone}`;
+      trackEvent("formulario_envio", { formulario: "contato" });
       window.open("https://wa.link/hdn70i", "_blank");
       
       setFormData({ name: "", email: "", phone: "", message: "" });
@@ -163,8 +167,8 @@ const Contato = () => {
               <div className="p-6 bg-accent/5 rounded-xl border border-accent/20">
                 <p className="text-foreground/80 text-sm">
                   <strong className="text-foreground">Atendimento rápido, honesto e 100% online.</strong><br />
-                  A primeira consulta é sem compromisso. 
-                  Fale com um especialista agora mesmo!
+                  A primeira conversa serve para entender o seu caso. 
+                  Fale com um especialista!
                 </p>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { useSeo } from "@/lib/seo";
 import Quiz, { QuizQuestion, QuizResult } from "@/components/Quiz";
 import { Stethoscope } from "lucide-react";
 
@@ -103,6 +104,7 @@ const getResult = (answers: Record<string, string>, totalPoints: number): QuizRe
 };
 
 const QuizAuxilioDoenca = () => {
+  useSeo('Quiz Auxílio-Doença: Teste Informativo | Spier & Anorte', 'Responda perguntas rápidas e entenda, de forma informativa, se o seu caso pode se enquadrar no auxílio-doença. Spier & Anorte, Gramado e Nova Petrópolis (RS).');
   return (
     <div className="min-h-screen bg-background">
       <Header />

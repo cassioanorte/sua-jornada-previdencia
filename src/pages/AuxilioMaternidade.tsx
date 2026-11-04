@@ -1,10 +1,14 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BenefitFaq from "@/components/BenefitFaq";
+import { benefitFaqs } from "@/data/benefitFaqs";
+import { useSeo } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Phone, ClipboardList } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const AuxilioMaternidade = () => {
+  useSeo('Salário-Maternidade: Quem Pode Pedir | Spier & Anorte', 'Saiba quem pode receber o salário-maternidade, carência, duração e documentos para o pedido ao INSS. Atendimento em Gramado, Nova Petrópolis (RS) e online.');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -55,6 +59,8 @@ const AuxilioMaternidade = () => {
           </div>
         </div>
       </section>
+
+      <BenefitFaq id="auxilio-maternidade" items={benefitFaqs["auxilio-maternidade"]} />
 
       <section className="py-16 hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 text-center">

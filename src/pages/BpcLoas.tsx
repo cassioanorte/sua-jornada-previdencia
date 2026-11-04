@@ -1,9 +1,13 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BenefitFaq from "@/components/BenefitFaq";
+import { benefitFaqs } from "@/data/benefitFaqs";
+import { useSeo } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 
 const BpcLoas = () => {
+  useSeo('BPC/LOAS: Requisitos e Como Pedir | Spier & Anorte', 'Entenda o BPC/LOAS para idosos e pessoas com deficiência: requisitos, critério de renda, CadÚnico e documentos. Spier & Anorte, Gramado e Nova Petrópolis (RS).');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -71,6 +75,8 @@ const BpcLoas = () => {
           </div>
         </div>
       </section>
+
+      <BenefitFaq id="bpc-loas" items={benefitFaqs["bpc-loas"]} />
 
       <section className="py-16 hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
