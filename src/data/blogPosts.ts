@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-doenca-prorrogacao-como-pedir",
+    image: "/blog/auxilio-doenca-prorrogacao-como-pedir.jpg",
+    title: "Auxílio-doença vai acabar? Como pedir a prorrogação",
+    excerpt: "O auxílio-doença tem data para acabar, mas você ainda não se recuperou? Entenda o pedido de prorrogação, o prazo de 15 dias e o que fazer se ele for negado.",
+    date: "6 de novembro de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "auxilio-acidente-sem-carteira-assinada-periodo-de-graca",
     image: "/blog/auxilio-acidente-sem-carteira-assinada-periodo-de-graca.jpg",
     title: "Auxílio-acidente sem carteira assinada: quem tem direito",

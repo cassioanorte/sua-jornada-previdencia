@@ -1,5 +1,90 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-doenca-prorrogacao-como-pedir": `## A data chegou, mas a recuperação não
+
+O Antônio é mecânico. Teve uma hérnia de disco e o INSS concedeu o auxílio-doença por quatro meses. Ele fez fisioterapia, tomou os remédios, seguiu tudo o que o médico mandou.
+
+Faltando pouco mais de uma semana para o fim do benefício, a dor continuava. Ele ainda não conseguia ficar abaixado embaixo de um carro nem levantar peso. Voltar para a oficina naquele estado era arriscado.
+
+O Antônio não sabia que podia pedir para o benefício continuar. Deixou a data passar, o pagamento parou, e ele precisou começar tudo de novo, com um novo pedido e meses de espera.
+
+Essa situação é muito mais comum do que parece. E boa parte dela pode ser evitada com uma informação simples: existe o **pedido de prorrogação**.
+
+## O auxílio-doença tem data para acabar
+
+Hoje, o nome oficial do auxílio-doença é **benefício por incapacidade temporária**. E, como o nome diz, ele é pensado para durar um tempo.
+
+Quando o INSS concede o benefício, ele já fixa uma data prevista para o fim. Essa data se chama **DCB**, a Data de Cessação do Benefício. Ela aparece na carta de concessão e também no Meu INSS.
+
+Quando a decisão não fixa uma data, a lei prevê que o benefício dure, em regra, 120 dias, salvo se a pessoa pedir a prorrogação.
+
+A lógica é que, na data marcada, a pessoa já esteja recuperada. Só que o corpo não segue calendário. Às vezes o tratamento demora mais, aparece uma complicação ou a cirurgia é marcada para depois.
+
+## O que é o pedido de prorrogação
+
+O pedido de prorrogação serve justamente para isso. Se você chega perto da DCB e ainda não tem condições de voltar ao trabalho, pode pedir ao INSS que o benefício continue.
+
+O ponto mais importante é o **prazo**: o pedido deve ser feito nos **15 dias que antecedem a data de cessação**. Não antes, não depois.
+
+Feito dentro do prazo, em regra o benefício continua sendo pago até a realização de uma nova perícia, que vai avaliar se a incapacidade ainda existe.
+
+## Como fazer o pedido
+
+O pedido pode ser feito de duas formas:
+
+- Pelo site ou aplicativo **Meu INSS**, na opção de pedir prorrogação do benefício por incapacidade.
+- Se tiver dificuldade com o aplicativo, ligue para a **Central 135**, que orienta sobre o pedido.
+
+Depois do pedido, o INSS agenda a nova perícia. Fique atento às notificações do Meu INSS e ao telefone, para não perder a data marcada.
+
+## O que levar na nova perícia
+
+A nova perícia é o momento de mostrar que a incapacidade continua. E o que mais pesa é a documentação médica **atualizada**.
+
+- Um **laudo recente** do seu médico explicando o diagnóstico, o tratamento em andamento e por que você ainda não pode trabalhar.
+- Exames feitos depois da concessão do benefício.
+- Receitas, encaminhamentos e comprovantes de sessões de fisioterapia ou outros tratamentos.
+- Se houver cirurgia marcada, o documento que comprova o agendamento.
+
+Laudo antigo, aquele que você já mostrou na primeira perícia, ajuda pouco. O perito quer saber como você está agora. Temos um artigo com dicas práticas: "Perícia médica do INSS: dicas práticas para se preparar e evitar indeferimentos".
+
+## E se eu perdi o prazo?
+
+Se a data de cessação passou e você não pediu a prorrogação, o benefício é encerrado.
+
+Nesse caso, o caminho costuma ser fazer um **novo requerimento** de auxílio-doença, com nova perícia. O problema é o intervalo: entre o fim do benefício e o novo pedido, você pode ficar sem receber. Por isso vale anotar a DCB num lugar visível e se programar com antecedência.
+
+## E se a prorrogação for negada?
+
+Pode acontecer de o perito entender que você já está apto, mesmo você não se sentindo em condições.
+
+Quando isso acontece, existem caminhos:
+
+- **Recurso administrativo**, que deve ser apresentado em até 30 dias da ciência da decisão.
+- **Ação judicial**, em que a incapacidade é avaliada por um perito nomeado pelo juiz.
+
+A escolha do caminho depende do caso, dos documentos e da urgência. Falamos mais sobre isso em "INSS negou seu auxílio-doença? Veja o que fazer agora".
+
+## Uma situação delicada: voltar sem condições
+
+Algumas pessoas recebem alta do INSS, mas o médico da empresa não libera o retorno. Ficam no meio do caminho, sem benefício e sem salário. Essa situação tem nome e explicamos em "Limbo previdenciário: quando você fica sem salário e sem benefício ao mesmo tempo".
+
+E se você voltou ao trabalho, mas ficou com uma sequela de acidente que reduziu a sua capacidade, pode existir direito a outro benefício. Leia "Recebi alta do INSS mas fiquei com uma sequela".
+
+## Resumo para não esquecer
+
+- Confira a data de cessação no Meu INSS assim que o benefício for concedido.
+- Se ainda não tiver condições de trabalhar, peça a prorrogação nos 15 dias antes dessa data.
+- Leve documentação médica atualizada na nova perícia.
+- Se a prorrogação for negada, ainda existem caminhos.
+
+Cada caso tem a sua história, e não dá para saber de antemão o que a perícia vai decidir. Mas estar bem informado e bem documentado faz diferença.
+
+Ficou com dúvida sobre o seu benefício? Chamar no WhatsApp e a gente te orienta.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-acidente-sem-carteira-assinada-periodo-de-graca": `## O acidente veio depois da demissão
 
 O Marcelo trabalhou seis anos de carteira assinada numa transportadora. Em março, a empresa cortou pessoal e ele foi dispensado. Enquanto procurava outro emprego, vivia das verbas da rescisão e do seguro-desemprego.
