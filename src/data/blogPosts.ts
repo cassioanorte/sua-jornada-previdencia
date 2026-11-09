@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "recebi-dpvat-posso-pedir-auxilio-acidente",
+    image: "/blog/recebi-dpvat-posso-pedir-auxilio-acidente.jpg",
+    title: "Recebi o DPVAT. Ainda posso pedir o auxílio-acidente?",
+    excerpt: "Recebeu a indenização do seguro de trânsito e ficou com sequela? Saiba por que o DPVAT e o auxílio-acidente do INSS são coisas diferentes e um não exclui o outro.",
+    date: "9 de novembro de 2026",
+    category: "Auxílio-Acidente",
+    author: "Equipe Spier & Anorte",
+    cluster: "acidente"
+  },
+  {
     id: "auxilio-doenca-prorrogacao-como-pedir",
     image: "/blog/auxilio-doenca-prorrogacao-como-pedir.jpg",
     title: "Auxílio-doença vai acabar? Como pedir a prorrogação",

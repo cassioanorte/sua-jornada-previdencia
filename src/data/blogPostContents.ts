@@ -1,5 +1,83 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "recebi-dpvat-posso-pedir-auxilio-acidente": `## "Já recebi o seguro, então acabou"
+
+A Juliana trabalha como atendente numa farmácia, com carteira assinada. Voltando do serviço de moto, foi fechada por um carro e caiu. Fraturou o punho, ficou afastada pelo INSS, operou e depois recebeu alta.
+
+Alguns meses depois, conseguiu receber a indenização do seguro obrigatório de trânsito, o conhecido DPVAT. Para ela, a história estava encerrada: o seguro pagou, o INSS deu alta, ponto final.
+
+Só que o punho nunca voltou a ser o mesmo. Ela perdeu força, sente dor ao carregar caixas e demora mais para fazer tarefas que antes eram automáticas.
+
+A dúvida que muita gente tem é a mesma: **quem recebeu o DPVAT ainda pode pedir o auxílio-acidente?** A resposta curta é que uma coisa não impede a outra. E vale entender por quê.
+
+## São duas coisas completamente diferentes
+
+O erro mais comum é achar que o DPVAT e o auxílio-acidente são o mesmo benefício, ou que um substitui o outro. Não são.
+
+O **DPVAT** era um **seguro obrigatório** ligado aos veículos. Ele indenizava vítimas de acidentes de trânsito em casos de morte, invalidez permanente e despesas médicas. Não importava se a vítima trabalhava, se contribuía para o INSS ou se estava desempregada.
+
+O **auxílio-acidente** é um **benefício previdenciário** pago pelo INSS. Ele existe para quem é segurado da Previdência e ficou com uma sequela permanente que reduz a capacidade para o trabalho. Vale para acidente de qualquer natureza, não só de trânsito.
+
+Em resumo:
+
+- O DPVAT vem de um seguro. O auxílio-acidente vem da Previdência Social.
+- O DPVAT era uma indenização paga de uma vez. O auxílio-acidente é pago mês a mês.
+- O DPVAT não dependia de contribuição ao INSS. O auxílio-acidente depende de a pessoa ser segurada.
+- Cada um tem os seus próprios requisitos, perícias e prazos.
+
+Por serem de naturezas diferentes, ter recebido um **não impede** de pedir o outro.
+
+## Uma observação sobre o seguro de trânsito
+
+O seguro obrigatório de trânsito passou por mudanças na lei nos últimos anos, e as regras para pedir a indenização dependem da data do acidente.
+
+Se você ainda não pediu o seguro e quer saber se tem direito, o melhor é se informar pelos canais oficiais, observando os prazos. Aqui no artigo o nosso foco é o lado do INSS, que não mudou por causa disso.
+
+## O que o INSS avalia no auxílio-acidente
+
+Para o auxílio-acidente, o INSS não pergunta se você recebeu seguro. Ele avalia, basicamente, três pontos:
+
+- Se a lesão já está **consolidada**, ou seja, se o tratamento terminou.
+- Se ficou uma **sequela permanente** que reduz a capacidade para o trabalho que você fazia.
+- Se existe **ligação** entre a sequela e o acidente.
+
+Além disso, é preciso que você estivesse numa categoria protegida na data do acidente. Empregados com carteira assinada, empregados domésticos, trabalhadores avulsos e segurados especiais têm direito. Autônomos, MEIs e contribuintes facultativos ficam de fora pela regra atual.
+
+## O caso do motociclista autônomo
+
+Aqui aparece uma diferença importante entre os dois.
+
+Imagine um motoboy que trabalha por conta própria, como MEI, e sofre uma queda. Dependendo da data do acidente, ele pode ter direito à indenização do seguro de trânsito, que nunca dependeu de vínculo com o INSS. Mas, como MEI, pela regra atual ele não tem direito ao auxílio-acidente.
+
+Já a Juliana, que tem carteira assinada, pode ter direito aos dois, cada um com seus requisitos.
+
+Por isso a pergunta certa não é "recebi o seguro?", e sim "qual era a minha situação no INSS no dia do acidente?".
+
+## Os documentos do seguro podem ajudar
+
+Quem pediu o DPVAT normalmente juntou boletim de ocorrência, atendimento hospitalar, exames e laudos médicos. Esses papéis contam a história do acidente e da lesão, e podem ser úteis também no pedido ao INSS.
+
+Mas atenção: o INSS faz a **sua própria perícia** e tem os seus critérios. Um laudo do seguro apontando invalidez parcial não basta, sozinho, para conseguir o auxílio-acidente, assim como a falta dele não impede o pedido. O que pesa é a prova da sequela e de como ela afeta o seu trabalho.
+
+Se quiser se organizar, temos um passo a passo em "Como pedir auxílio-acidente no INSS: passo a passo".
+
+## E se o INSS já deu alta?
+
+Esse é o momento em que mais gente perde o direito. A pessoa recebe alta do auxílio-doença e acha que tudo terminou. Na verdade, a alta com sequela é justamente a situação em que o auxílio-acidente costuma aparecer.
+
+Explicamos isso em detalhe em "Recebi alta do INSS mas fiquei com uma sequela".
+
+## Vale a pena olhar o seu caso
+
+Se você sofreu um acidente de trânsito, recebeu ou não o seguro, e ficou com alguma limitação no trabalho, vale verificar se existe direito ao auxílio-acidente. Ele é pago junto com o salário e, em muitos casos, a pessoa nem sabe que pode pedir.
+
+A gente pode analisar os seus documentos e te dizer com honestidade se há um caminho. Cada caso é avaliado individualmente, sem promessa de resultado.
+
+Ficou com dúvida sobre o seu caso? Chamar no WhatsApp e a gente te orienta.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "auxilio-doenca-prorrogacao-como-pedir": `## A data chegou, mas a recuperação não
 
 O Antônio é mecânico. Teve uma hérnia de disco e o INSS concedeu o auxílio-doença por quatro meses. Ele fez fisioterapia, tomou os remédios, seguiu tudo o que o médico mandou.
