@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "mei-inss-o-que-cobre-e-o-que-nao-cobre",
+    image: "/blog/mei-inss-o-que-cobre-e-o-que-nao-cobre.jpg",
+    title: "MEI e INSS: o que o DAS cobre e o que fica de fora",
+    excerpt: "Quem é MEI contribui para o INSS dentro do DAS, mas a proteção tem limites. Veja quais benefícios o MEI tem, quais não tem e quando vale complementar.",
+    date: "11 de novembro de 2026",
+    category: "Planejamento Previdenciário",
+    author: "Equipe Spier & Anorte",
+    cluster: "planejamento"
+  },
+  {
     id: "recebi-dpvat-posso-pedir-auxilio-acidente",
     image: "/blog/recebi-dpvat-posso-pedir-auxilio-acidente.jpg",
     title: "Recebi o DPVAT. Ainda posso pedir o auxílio-acidente?",

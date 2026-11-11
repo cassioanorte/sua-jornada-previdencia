@@ -1,5 +1,81 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "mei-inss-o-que-cobre-e-o-que-nao-cobre": `## "Pago o DAS todo mês, então estou coberto"
+
+O Rogério é eletricista e virou MEI há cinco anos. Paga o DAS certinho todo mês, e na cabeça dele isso resolvia tudo: estava em dia com o governo e protegido pelo INSS.
+
+Um dia, caiu de uma escada num serviço e machucou o ombro. Ficou meses sem conseguir trabalhar. Aí começaram as dúvidas. Tinha direito a receber algo do INSS? Quanto? E depois, quando voltou com o ombro limitado, tinha direito a mais alguma coisa?
+
+As respostas surpreenderam. Algumas coisas o DAS cobre. Outras, não.
+
+## O que é a contribuição do MEI
+
+Dentro do DAS, aquele boleto mensal do MEI, existe uma parte que vai para o INSS. Essa parte corresponde a **5% do salário mínimo**.
+
+É uma contribuição bem menor do que a de outros trabalhadores, e isso tem um motivo: o MEI está num **plano simplificado** da Previdência. Ele paga menos, e em troca a proteção é mais enxuta.
+
+Pagando o DAS em dia, o MEI é segurado do INSS como **contribuinte individual**. Isso abre a porta para vários benefícios, mas não para todos.
+
+## O que o MEI tem direito
+
+Com o DAS em dia e cumpridos os requisitos de cada benefício, o MEI pode ter acesso a:
+
+- **Aposentadoria por idade**, com a idade mínima e o tempo de contribuição exigidos pela regra aplicável. Hoje, a idade mínima é de 62 anos para mulheres e 65 anos para homens.
+- **Auxílio-doença**, hoje chamado de benefício por incapacidade temporária, quando fica sem condições de trabalhar por um período. Em regra, exige 12 contribuições, com exceções previstas em lei.
+- **Aposentadoria por incapacidade permanente**, a antiga aposentadoria por invalidez, quando a incapacidade é total e definitiva.
+- **Salário-maternidade**, que, desde a decisão do Supremo Tribunal Federal de 2024, não exige mais um número mínimo de contribuições. Temos um artigo só sobre o salário-maternidade da MEI grávida, com as regras e o passo a passo do pedido.
+
+E para a família:
+
+- **Pensão por morte** para os dependentes.
+- **Auxílio-reclusão** para os dependentes, nos casos previstos em lei.
+
+Um ponto que muita gente não percebe: quando a contribuição é feita só pelo DAS, os benefícios costumam ser calculados com base no **salário mínimo**. Contribuir pelo mínimo gera, em regra, benefício no valor mínimo.
+
+## O que o MEI não tem direito
+
+Aqui estão as limitações que mais pegam de surpresa.
+
+**Aposentadoria por tempo de contribuição.** Desde a Reforma da Previdência de 2019, ela deixou de existir para quem começou a contribuir depois da reforma. Continua possível só para quem já tinha cumprido os requisitos até 13 de novembro de 2019 ou para quem se encaixa nas regras de transição. No plano simplificado, a contribuição de 5% não conta para essas modalidades. Para que esse tempo conte, é preciso complementar.
+
+**Auxílio-acidente.** Esse benefício é pago a quem fica com sequela permanente depois de um acidente. A lei prevê o auxílio-acidente para o empregado, ao doméstico, ao avulso e ao segurado especial. O contribuinte individual, categoria em que o MEI se enquadra, fica de fora pela regra atual.
+
+Foi o caso do Rogério. Durante o afastamento, ele podia ter direito ao auxílio-doença. Mas, quando voltou a trabalhar com o ombro limitado, a sequela não dava direito ao auxílio-acidente, porque ele contribuía apenas como MEI.
+
+**Uso do tempo em regime próprio.** Quem pretende levar esse tempo para um regime de servidor público, por meio da certidão de tempo de contribuição, também precisa complementar os 5%.
+
+## E se o MEI também tem carteira assinada?
+
+Muita gente é MEI e, ao mesmo tempo, trabalha com carteira assinada em outro lugar. Nesse caso, a pessoa tem as duas condições.
+
+Se o acidente acontece e ela é empregada com carteira na mesma época, a proteção do emprego entra em cena, inclusive para o auxílio-acidente. Por isso vale sempre olhar o histórico completo, e não só o DAS.
+
+## Dá para complementar?
+
+Sim. O MEI pode pagar uma **complementação** de 15% sobre o salário mínimo da época, com juros, para que aquele período passe a valer nas regras de aposentadoria por tempo de contribuição que ainda se aplicam ao seu caso e na certidão de tempo de contribuição.
+
+Também é possível, em determinadas situações, contribuir sobre um valor maior, o que pode impactar o valor de benefícios futuros. Cada escolha tem custo e efeito diferentes, e o que vale a pena para um pode não valer para outro.
+
+Esse tipo de decisão funciona melhor com um planejamento feito a partir do seu histórico. Falamos sobre os erros mais comuns em "Contribuindo errado para o INSS? Como descobrir antes que seja tarde".
+
+## Pagar em dia faz diferença
+
+Um cuidado simples: mantenha o DAS em dia. Os atrasos podem afetar a contagem de carência e até a qualidade de segurado. Na hora em que você mais precisa do INSS, como numa doença ou na gravidez, cada contribuição conta.
+
+Vale também consultar o **CNIS** no Meu INSS de tempos em tempos para conferir se os pagamentos estão aparecendo corretamente.
+
+## Resumo para o MEI
+
+- O DAS inclui uma contribuição ao INSS de 5% do salário mínimo.
+- Ela dá acesso à aposentadoria por idade, ao auxílio-doença, à aposentadoria por incapacidade permanente e ao salário-maternidade, além de pensão por morte e auxílio-reclusão para a família.
+- Não conta para as regras de aposentadoria por tempo de contribuição, sem complementação, e não dá acesso ao auxílio-acidente.
+- É possível complementar, e a decisão deve ser tomada olhando o seu caso.
+
+Quer entender como está a sua situação no INSS? Chamar no WhatsApp e a gente te orienta.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "recebi-dpvat-posso-pedir-auxilio-acidente": `## "Já recebi o seguro, então acabou"
 
 A Juliana trabalha como atendente numa farmácia, com carteira assinada. Voltando do serviço de moto, foi fechada por um carro e caiu. Fraturou o punho, ficou afastada pelo INSS, operou e depois recebeu alta.
