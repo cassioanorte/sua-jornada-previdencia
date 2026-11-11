@@ -126,7 +126,14 @@ const Privacidade = () => {
           </p>
 
           <H2>9. Contato e encarregado pelo tratamento de dados</H2>
-          <p>Pedidos sobre os seus dados e o contato com o encarregado (art. 41 da LGPD) são recebidos por:</p>
+          <p>
+            <strong>Encarregado pelo tratamento de dados pessoais:</strong> Cassio Fraga Anorte, e-mail{" "}
+            <a href="mailto:cassio@spiereanorte.adv.br" className="text-amber-700 underline">
+              cassio@spiereanorte.adv.br
+            </a>
+            .
+          </p>
+          <p className="mt-2">Pedidos sobre os seus dados e o contato com o encarregado (art. 41 da LGPD) são recebidos por:</p>
           <ul className="list-disc pl-5 mt-2 space-y-1">
             <li>
               E-mail:{" "}
