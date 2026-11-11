@@ -28,12 +28,12 @@ const quizzes = [
 
 const DescubraSeusDireitos = () => {
   useEffect(() => {
-    document.title = "Descubra Seus Direitos | Teste Grátis de Benefícios do INSS | Spier & Anorte";
+    document.title = "Descubra Seus Direitos | Teste Informativo de Benefícios do INSS | Spier & Anorte";
     const desc = document.querySelector('meta[name="description"]');
     if (desc) {
       desc.setAttribute(
         "content",
-        "Responda alguns minutos e descubra se você tem direito a auxílio-acidente, auxílio-doença ou salário-maternidade. Teste gratuito do escritório Spier & Anorte."
+        "Responda alguns minutos e descubra se você tem direito a auxílio-acidente, auxílio-doença ou salário-maternidade. Teste informativo do escritório Spier & Anorte."
       );
     }
   }, []);
@@ -76,7 +76,7 @@ const DescubraSeusDireitos = () => {
             ))}
           </div>
           <p className="text-sm text-muted-foreground text-center max-w-2xl mx-auto mt-10">
-            O teste é gratuito, leva poucos minutos e tem caráter meramente informativo. Não substitui a análise individual do seu caso por um advogado.
+            O teste leva poucos minutos e tem caráter meramente informativo. Não substitui a análise individual do seu caso por um advogado.
           </p>
         </div>
       </section>

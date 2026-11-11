@@ -60,7 +60,7 @@ const PensaoMorte = () => {
             Precisa de Orientação?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Estamos aqui para ajudar você neste momento difícil, garantindo seus direitos com respeito e empatia.
+            Estamos aqui para ajudar você neste momento difícil, orientando sobre seus direitos com respeito e empatia.
           </p>
           <Button variant="hero" size="xl" onClick={handleWhatsApp}>
             <Phone className="w-5 h-5" />

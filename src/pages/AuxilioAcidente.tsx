@@ -34,7 +34,7 @@ const AuxilioAcidente = () => {
     {
       icon: <Shield className="w-8 h-8" />,
       title: "Defesa Jurídica",
-      description: "Entramos com o pedido administrativo ou ação judicial para garantir seu direito"
+      description: "Entramos com o pedido administrativo ou a ação judicial cabível"
     }
   ];
 
@@ -55,12 +55,12 @@ const AuxilioAcidente = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="xl" onClick={handleWhatsApp}>
                 <Phone className="w-5 h-5" />
-                Fale com Especialista
+                Fale com a equipe
               </Button>
               <Button variant="hero" size="xl" asChild className="bg-accent hover:bg-accent-hover">
                 <Link to="/quiz-auxilio-acidente">
                   <ClipboardList className="w-5 h-5" />
-                  Faça o Quiz Gratuito
+                  Faça o Quiz Informativo
                 </Link>
               </Button>
             </div>
@@ -142,7 +142,7 @@ const AuxilioAcidente = () => {
           </p>
           <Button variant="hero" size="xl" onClick={handleWhatsApp}>
             <Phone className="w-5 h-5" />
-            Fale com um Especialista Agora
+            Fale com a equipe
           </Button>
         </div>
       </section>

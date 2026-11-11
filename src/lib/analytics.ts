@@ -4,12 +4,14 @@ declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
     __trackingReady?: boolean;
+    __gaLoaded?: boolean;
   }
 }
 
 export const trackEvent = (name: string, params: Record<string, string> = {}) => {
   try {
-    if (typeof window.gtag === "function") {
+    // Só envia evento se o visitante aceitou os cookies (GA4 carregado).
+    if (window.__gaLoaded && typeof window.gtag === "function") {
       window.gtag("event", name, { pagina: window.location.pathname, ...params });
     }
   } catch {

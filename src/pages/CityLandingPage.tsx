@@ -359,7 +359,7 @@ const CityLandingPage = () => {
               Serviços Previdenciários em {cityData.name}
             </h2>
             <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-              Atuamos em todas as áreas do Direito Previdenciário para garantir seus direitos junto ao INSS.
+              Atuamos em todas as áreas do Direito Previdenciário para orientar você sobre seus direitos junto ao INSS.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.map((service) => (

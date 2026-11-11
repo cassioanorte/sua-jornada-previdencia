@@ -1,5 +1,6 @@
 import { useState, FormEvent } from "react";
 import { trackEvent } from "@/lib/analytics";
+import ConsentCheckbox from "@/components/ConsentCheckbox";
 
 const benefitOptions = [
   "Aposentadoria",
@@ -70,12 +71,14 @@ const ContatoSection = () => {
     benefit: "",
     message: "",
   });
+  const [consent, setConsent] = useState(false);
 
   const update = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
     setForm({ ...form, [k]: e.target.value });
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
+    if (!consent) return;
     if (!form.name.trim() || !form.message.trim()) {
       window.open("https://wa.link/hdn70i", "_blank");
       return;
@@ -233,10 +236,15 @@ const ContatoSection = () => {
               />
             </div>
 
+            <ConsentCheckbox id="consent-home" checked={consent} onChange={setConsent} tone="dark" />
+
             <button
               type="submit"
+              disabled={!consent}
               className="w-full font-mono uppercase transition-opacity hover:opacity-90"
               style={{
+                opacity: consent ? 1 : 0.55,
+                cursor: consent ? "pointer" : "not-allowed",
                 backgroundColor: "#d4b888",
                 color: "#14110e",
                 padding: "18px 24px",

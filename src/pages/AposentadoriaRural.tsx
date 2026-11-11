@@ -23,7 +23,7 @@ const AposentadoriaRural = () => {
               Aposentadoria Rural
             </h1>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Direitos garantidos para trabalhadores rurais
+              Orientação previdenciária para trabalhadores rurais
             </p>
             <Button variant="hero" size="xl" onClick={handleWhatsApp}>
               <Phone className="w-5 h-5" />
@@ -65,7 +65,7 @@ const AposentadoriaRural = () => {
           </p>
           <Button variant="hero" size="xl" onClick={handleWhatsApp}>
             <Phone className="w-5 h-5" />
-            Fale com um Especialista
+            Fale com a equipe
           </Button>
         </div>
       </section>

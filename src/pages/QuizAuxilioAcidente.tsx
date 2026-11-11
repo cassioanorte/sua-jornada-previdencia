@@ -81,22 +81,22 @@ const getResult = (answers: Record<string, string>, totalPoints: number): QuizRe
   if (totalPoints >= 12) {
     return {
       level: "high",
-      title: "Você tem fortes indícios de direito ao Auxílio Acidente!",
-      description: "Com base nas suas respostas, você apresenta características que indicam possível direito ao benefício. Recomendamos uma avaliação detalhada do seu caso por nossos especialistas.",
+      title: "Suas respostas apontam requisitos do auxílio-acidente",
+      description: "Com base nas suas respostas, você apresenta características que indicam possível direito ao benefício. Somente a análise individual do caso, com os documentos, permite confirmar o direito.",
       highlights
     };
   } else if (totalPoints >= 7) {
     return {
       level: "medium",
-      title: "Seu caso merece uma análise especializada!",
-      description: "Suas respostas indicam que você pode ter direito ao benefício, mas alguns pontos precisam ser avaliados por um advogado especialista.",
+      title: "Alguns pontos precisam de análise",
+      description: "Suas respostas indicam que você pode ter direito ao benefício, mas alguns pontos precisam ser avaliados por um advogado com atuação em Direito Previdenciário.",
       highlights
     };
   } else {
     return {
       level: "low",
       title: "Vamos analisar seu caso com atenção",
-      description: "Com o novo entendimento do STJ, mesmo sequelas mínimas podem garantir o direito ao benefício. Consulte nossos especialistas para uma avaliação completa.",
+      description: "Com o novo entendimento do STJ, sequelas mínimas também podem ser consideradas. A análise individual do caso esclarece se há direito ao benefício.",
       highlights
     };
   }
@@ -123,8 +123,8 @@ const infoCards = [
 const features = [
   {
     icon: UserCheck,
-    title: "Especialistas no Tema",
-    description: "Advogados especializados em direito previdenciário com ampla experiência em casos de auxílio-acidente."
+    title: "Atuação Previdenciária",
+    description: "Advogados com atuação exclusiva em Direito Previdenciário, incluindo casos de auxílio-acidente."
   },
   {
     icon: Clock,
@@ -133,8 +133,8 @@ const features = [
   },
   {
     icon: DollarSign,
-    title: "Sem Custos Iniciais",
-    description: "Atendemos com honorários condicionados ao sucesso da sua solicitação. Você não paga nada antecipadamente."
+    title: "Informação Clara",
+    description: "Explicamos cada etapa do pedido e as condições do atendimento antes de qualquer contratação."
   }
 ];
 
@@ -170,7 +170,7 @@ const QuizAuxilioAcidente = () => {
               <AlertTriangle className="w-8 h-8" />
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              Auxílio Acidente: Garanta o seu direito!
+              Auxílio-Acidente: conheça seus direitos
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/90">
               O novo entendimento sobre o auxílio-acidente ampliou significativamente o número de segurados com direito ao benefício, alcançando também aqueles que ficaram com sequelas leves ou mínimas.
@@ -290,10 +290,10 @@ const QuizAuxilioAcidente = () => {
               Importante: Novo Entendimento Amplia Direitos
             </h2>
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-4">
-              Com a decisão do STJ, mesmo sequelas consideradas "leves" ou "mínimas" agora podem garantir o direito ao auxílio-acidente.
+              Com a decisão do STJ, mesmo sequelas consideradas "leves" ou "mínimas" podem ser consideradas para o auxílio-acidente.
             </p>
             <p className="text-lg text-primary-foreground/80">
-              Isso significa que se você sofreu um acidente e ficou com qualquer tipo de limitação, por menor que seja, você pode ter direito ao benefício. Não deixe de buscar seus direitos!
+              Isso significa que se você sofreu um acidente e ficou com qualquer tipo de limitação, por menor que seja, vale verificar se há direito ao benefício. Cada caso depende de análise individual.
             </p>
           </div>
         </div>

@@ -24,12 +24,12 @@ const AuxilioMaternidade = () => {
               Auxílio Maternidade
             </h1>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Garantia dos direitos das mães trabalhadoras
+              Orientação sobre os direitos das mães trabalhadoras
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="xl" onClick={handleWhatsApp}>
                 <Phone className="w-5 h-5" />
-                Fale com Especialista
+                Fale com a equipe
               </Button>
               <Button variant="hero" size="xl" asChild className="bg-accent hover:bg-accent-hover">
                 <Link to="/quiz-auxilio-maternidade" className="max-w-[300px] !h-auto !py-4 text-center !whitespace-normal !leading-tight">

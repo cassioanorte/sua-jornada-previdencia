@@ -1,19 +1,21 @@
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { useSeo } from "@/lib/seo";
 
 const Termos = () => {
-  useEffect(() => {
-    document.title = "Termos de Uso | Spier & Anorte Advocacia";
-  }, []);
+  useSeo(
+    "Termos de Uso | Spier & Anorte",
+    "Termos de uso do site e dos conteúdos digitais da Spier & Anorte Sociedade de Advogados (CNPJ 18.382.306/0001-15, OAB/RS 4.809)."
+  );
 
   return (
     <div className="min-h-screen bg-white py-16 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Termos de Uso</h1>
-        <p className="text-sm text-gray-500 mb-8">Última atualização: maio de 2026</p>
+        <p className="text-sm text-gray-500 mb-8">Última atualização: novembro de 2026</p>
 
         <section className="prose prose-gray max-w-none space-y-6 text-gray-700 leading-relaxed">
           <p>
-            Ao utilizar os serviços digitais do escritório <strong>Spier & Anorte Advocacia</strong>,
+            Ao utilizar os serviços digitais do escritório <strong>Spier & Anorte Sociedade de Advogados</strong> (CNPJ 18.382.306/0001-15, OAB/RS 4.809),
             incluindo o site <strong>spiereanorte.adv.br</strong> e os conteúdos publicados em
             plataformas de mídia social, você concorda com os termos descritos abaixo.
           </p>
@@ -52,11 +54,16 @@ const Termos = () => {
           <h2 className="text-xl font-semibold text-gray-800 mt-6">5. Contato</h2>
           <p>
             Dúvidas sobre estes termos podem ser enviadas para:{" "}
-            <a href="mailto:contato@spiereanorte.adv.br" className="text-amber-700 underline">
-              contato@spiereanorte.adv.br
+            <a href="mailto:cassio@spiereanorte.adv.br" className="text-amber-700 underline">
+              cassio@spiereanorte.adv.br
             </a>
+            . O tratamento de dados pessoais está descrito na{" "}
+            <Link to="/privacidade/" className="text-amber-700 underline">Política de Privacidade</Link>.
           </p>
         </section>
+        <p className="mt-10 text-sm">
+          <Link to="/" className="text-amber-700 underline">Voltar ao início</Link>
+        </p>
       </div>
     </div>
   );

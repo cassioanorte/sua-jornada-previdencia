@@ -82,22 +82,22 @@ const getResult = (answers: Record<string, string>, totalPoints: number): QuizRe
   if (totalPoints >= 12) {
     return {
       level: "high",
-      title: "Boa notícia!",
-      description: `Você tem ALTA PROBABILIDADE de ter direito ao Auxílio Doença! Suas respostas indicam que você atende aos principais requisitos do benefício.`,
+      title: "Suas respostas apontam requisitos do benefício",
+      description: `Suas respostas indicam pontos compatíveis com os requisitos do auxílio-doença. Somente a análise individual do caso, com os documentos, permite confirmar o direito.`,
       highlights
     };
   } else if (totalPoints >= 8) {
     return {
       level: "medium",
-      title: "Caso promissor!",
-      description: `Você tem MÉDIA PROBABILIDADE de ter direito ao benefício. Alguns pontos precisam ser avaliados por um especialista para confirmar sua elegibilidade.`,
+      title: "Alguns pontos precisam de análise",
+      description: `Parte dos requisitos aparece nas suas respostas. Alguns pontos precisam ser avaliados por um advogado com atuação em Direito Previdenciário.`,
       highlights
     };
   } else {
     return {
       level: "low",
       title: "Vamos analisar seu caso",
-      description: `Seu caso NECESSITA DE ANÁLISE especializada. Recomendamos uma consulta para avaliar todas as possibilidades e alternativas disponíveis.`,
+      description: `Seu caso precisa de análise individual. Recomendamos uma consulta para avaliar todas as possibilidades e alternativas disponíveis.`,
       highlights
     };
   }

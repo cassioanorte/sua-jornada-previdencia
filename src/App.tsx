@@ -5,6 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
+import CookieBanner from "./components/CookieBanner";
 
 import Index from "./pages/Index";
 
@@ -135,6 +136,7 @@ const App = () => {
           </Routes>
         </Suspense>
         <FloatingWhatsApp />
+        <CookieBanner />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

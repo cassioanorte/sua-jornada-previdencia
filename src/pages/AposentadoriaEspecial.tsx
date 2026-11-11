@@ -83,7 +83,7 @@ const AposentadoriaEspecial = () => {
           </p>
           <Button variant="hero" size="xl" onClick={handleWhatsApp}>
             <Phone className="w-5 h-5" />
-            Consulte um Especialista
+            Agende um atendimento
           </Button>
         </div>
       </section>

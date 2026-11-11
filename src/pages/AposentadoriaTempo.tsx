@@ -57,11 +57,11 @@ const AposentadoriaTempo = () => {
       <section className="py-16 hero-gradient text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Não Perca Dinheiro!
+            Planejamento evita erros no cálculo
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             Uma análise incorreta pode resultar em anos recebendo um valor menor. 
-            Garanta o melhor benefício possível.
+            A análise do histórico contributivo ajuda a identificar a regra mais adequada ao seu caso.
           </p>
           <Button variant="hero" size="xl" onClick={handleWhatsApp}>
             <Phone className="w-5 h-5" />

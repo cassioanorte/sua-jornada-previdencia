@@ -15,7 +15,7 @@ const AreasDeAtuacao = () => {
     },
     {
       title: "Auxílio Maternidade",
-      description: "Garantia dos direitos das mães trabalhadoras durante o período de licença maternidade.",
+      description: "Orientação sobre os direitos das mães trabalhadoras durante a licença-maternidade.",
       icon: <Baby className="w-6 h-6" />,
       href: "/auxilio-maternidade"
     },
@@ -51,7 +51,7 @@ const AreasDeAtuacao = () => {
     },
     {
       title: "BPC/LOAS",
-      description: "Assistência para garantir o benefício de prestação continuada para idosos e pessoas com deficiência.",
+      description: "Assistência no pedido do benefício de prestação continuada para idosos e pessoas com deficiência.",
       icon: <FileText className="w-6 h-6" />,
       href: "/bpc-loas"
     },
@@ -75,7 +75,7 @@ const AreasDeAtuacao = () => {
               Áreas de Atuação
             </h1>
             <p className="text-xl text-primary-foreground/90">
-              Especialistas em todos os tipos de benefícios previdenciários
+              Atuação exclusiva em benefícios previdenciários
             </p>
           </div>
         </div>
@@ -110,7 +110,7 @@ const AreasDeAtuacao = () => {
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
               Entre em contato conosco. Estamos prontos para analisar seu caso 
-              e encontrar a melhor solução para garantir seus direitos.
+              e orientar você sobre os caminhos possíveis.
             </p>
           </div>
         </div>

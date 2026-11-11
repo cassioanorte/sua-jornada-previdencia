@@ -35,13 +35,13 @@ const Index = () => {
   const services = [
     {
       title: "Auxílio Doença",
-      description: "Garantimos seu direito ao benefício quando você mais precisa. Agilidade e transparência em todo o processo.",
+      description: "Orientação sobre o benefício para quem está temporariamente incapaz de trabalhar. Transparência em todo o processo.",
       icon: <Heart className="w-6 h-6" />,
       href: "/auxilio-doenca"
     },
     {
       title: "Auxílio Maternidade",
-      description: "Proteção para mães trabalhadoras. Garantimos seu salário-maternidade com segurança e agilidade.",
+      description: "Proteção para mães trabalhadoras. Orientamos o pedido do salário-maternidade com segurança.",
       icon: <Heart className="w-6 h-6" />,
       href: "/auxilio-maternidade"
     },
@@ -65,13 +65,13 @@ const Index = () => {
     },
     {
       title: "Aposentadoria Especial",
-      description: "Para quem trabalhou em condições especiais. Garantimos o reconhecimento do seu direito.",
+      description: "Para quem trabalhou em condições especiais. Analisamos o reconhecimento do tempo especial.",
       icon: <Shield className="w-6 h-6" />,
       href: "/aposentadoria-especial"
     },
     {
       title: "Aposentadoria Rural",
-      description: "Direitos garantidos para trabalhadores rurais. Experiência comprovada em casos rurais.",
+      description: "Orientação para trabalhadores rurais e segurados especiais.",
       icon: <Briefcase className="w-6 h-6" />,
       href: "/aposentadoria-rural"
     },
@@ -559,7 +559,7 @@ const Index = () => {
                 initials: "PS",
                 role: "Advogada Sênior",
                 oab: "OAB/RS 125.105",
-                bio: "Especialista em revisões e cálculos previdenciários. Coordena a carteira de revisão da vida toda e teto do escritório.",
+                bio: "Atua em revisões e cálculos previdenciários. Coordena a carteira de revisão da vida toda e teto do escritório.",
                 tags: ["Revisões", "Cálculos", "Recursos JR/CRPS"],
                 photo: socioPaloma,
               },

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { openCookiePreferences } from "@/components/CookieBanner";
 import { cityPages } from "@/data/cityPages";
 
 const colHeader: React.CSSProperties = {
@@ -33,6 +34,7 @@ const escritorio = [
   { label: "Casos", to: "/quem-somos#casos" },
   { label: "FAQ", to: "/contato#faq" },
   { label: "Privacidade", to: "/privacidade/" },
+  { label: "Termos de uso", to: "/termos/" },
 ];
 
 const Footer = () => {
@@ -208,8 +210,16 @@ const Footer = () => {
             className="font-mono uppercase"
             style={{ fontSize: 10, letterSpacing: "0.18em", color: "#87807a" }}
           >
-            © {new Date().getFullYear()} Spier &amp; Anorte Sociedade de Advogados
+            © {new Date().getFullYear()} Spier &amp; Anorte Sociedade de Advogados · CNPJ 18.382.306/0001-15 · OAB/RS 4.809
           </span>
+          <button
+            type="button"
+            onClick={openCookiePreferences}
+            className="font-mono uppercase hover:text-[#d4b888] transition-colors"
+            style={{ fontSize: 10, letterSpacing: "0.18em", color: "#87807a", background: "none", border: "none", padding: 0, cursor: "pointer", textAlign: "left" }}
+          >
+            Preferências de cookies
+          </button>
           <span
             className="font-mono uppercase"
             style={{ fontSize: 10, letterSpacing: "0.18em", color: "#87807a" }}

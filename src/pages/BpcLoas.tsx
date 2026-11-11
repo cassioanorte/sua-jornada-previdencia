@@ -84,7 +84,7 @@ const BpcLoas = () => {
             Teve o BPC/LOAS Negado?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Muitos pedidos são negados indevidamente. Podemos reverter essa decisão e garantir seu direito.
+            Muitos pedidos são negados indevidamente. Analisamos o caso e os recursos cabíveis contra a decisão.
           </p>
           <Button variant="hero" size="xl" onClick={handleWhatsApp}>
             <Phone className="w-5 h-5" />

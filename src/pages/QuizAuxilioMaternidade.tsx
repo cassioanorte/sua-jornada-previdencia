@@ -84,7 +84,7 @@ const getResult = (answers: Record<string, string>, totalPoints: number): QuizRe
   if (totalPoints >= 10) {
     return {
       level: "high",
-      title: "Parabéns! Você tem grandes chances de receber o auxílio maternidade!",
+      title: "Suas respostas apontam requisitos do salário-maternidade",
       description: "Com base nas suas respostas, você atende aos principais requisitos para solicitar o benefício. Entre em contato conosco para uma análise detalhada do seu caso.",
       highlights
     };
@@ -92,14 +92,14 @@ const getResult = (answers: Record<string, string>, totalPoints: number): QuizRe
     return {
       level: "medium",
       title: "Seu caso merece atenção!",
-      description: "Suas respostas indicam que você pode ter direito ao benefício, mas alguns pontos precisam ser analisados por um especialista.",
+      description: "Suas respostas indicam que você pode ter direito ao benefício, mas alguns pontos precisam ser analisados por um advogado com atuação em Direito Previdenciário.",
       highlights
     };
   } else {
     return {
       level: "low",
       title: "Vamos analisar seu caso com cuidado",
-      description: "Seu caso requer uma avaliação especializada. Existem situações e exceções que podem garantir seu direito ao benefício.",
+      description: "Seu caso requer análise individual. Existem situações e exceções previstas em lei que podem ser avaliadas.",
       highlights
     };
   }
@@ -131,8 +131,8 @@ const updates = [
 const features = [
   {
     icon: UserCheck,
-    title: "Especialistas no Tema",
-    description: "Advogados especializados em direito previdenciário com anos de experiência em auxílio maternidade."
+    title: "Atuação Previdenciária",
+    description: "Advogados com atuação exclusiva em Direito Previdenciário, incluindo salário-maternidade."
   },
   {
     icon: Clock,
@@ -141,8 +141,8 @@ const features = [
   },
   {
     icon: DollarSign,
-    title: "Sem Custos Iniciais",
-    description: "Atendemos com honorários condicionados ao sucesso da sua solicitação. Você não paga nada antecipadamente."
+    title: "Informação Clara",
+    description: "Explicamos cada etapa do pedido e as condições do atendimento antes de qualquer contratação."
   }
 ];
 
@@ -160,10 +160,10 @@ const QuizAuxilioMaternidade = () => {
               <Heart className="w-8 h-8" />
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              Auxílio Maternidade - Seu Direito Garantido
+              Salário-Maternidade: conheça seus direitos
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/90">
-              Descubra agora mesmo se você pode receber o benefício e garanta seus direitos com nossa assessoria especializada.
+              Entenda os requisitos do benefício e veja se o seu caso merece uma análise individual.
             </p>
           </div>
         </div>

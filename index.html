@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GF59LDQ1BR"></script>
+    <!-- Google Analytics (GA4): só carrega após o aceite no banner de cookies (LGPD). Consent Mode v2 negado por padrão. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-GF59LDQ1BR');
+      gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied' });
+      window.__loadGA = function () {
+        if (window.__gaLoaded) return;
+        window.__gaLoaded = true;
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-GF59LDQ1BR';
+        document.head.appendChild(s);
+        gtag('js', new Date());
+        gtag('config', 'G-GF59LDQ1BR');
+      };
+      try { if (!navigator.webdriver && localStorage.getItem('sa_cookie_consent') === 'granted') window.__loadGA(); } catch (e) {}
     </script>
     <title>Spier & Anorte | Advogados Previdenciários em Gramado, RS</title>
     <meta name="description" content="Atuação exclusiva em Direito Previdenciário há mais de 13 anos. Aposentadorias, auxílios, BPC/LOAS e pensões. Sedes em Gramado e Nova Petrópolis (RS) e online." />

@@ -235,7 +235,7 @@ const BlogPost = () => {
                   Precisa de ajuda com seu benefício?
                 </h3>
                 <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                  Nossa equipe de advogados especialistas está pronta para analisar seu caso.
+                  Nossa equipe de advogados com atuação em Direito Previdenciário pode analisar o seu caso.
                   Entre em contato agora e descubra seus direitos.
                 </p>
                 <Button onClick={handleWhatsApp} variant="cta" size="xl">

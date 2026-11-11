@@ -5,6 +5,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { ChevronLeft, ChevronRight, Phone, RotateCcw, CheckCircle, AlertCircle, HelpCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
+import ConsentCheckbox from "@/components/ConsentCheckbox";
 
 export interface QuizOption {
   label: string;
@@ -38,6 +39,7 @@ const Quiz = ({ title, subtitle, questions, getResult, whatsappLink, benefitName
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [showResult, setShowResult] = useState(false);
+  const [consent, setConsent] = useState(false);
 
   const progress = ((currentStep + 1) / questions.length) * 100;
   const currentQuestion = questions[currentStep];
@@ -196,6 +198,9 @@ const Quiz = ({ title, subtitle, questions, getResult, whatsappLink, benefitName
         </RadioGroup>
       </div>
 
+      {/* Consentimento (LGPD art. 11: as respostas podem envolver dados de saúde) */}
+      <ConsentCheckbox id="consent-quiz" checked={consent} onChange={setConsent} />
+
       {/* Navigation */}
       <div className="flex justify-between gap-4">
         <Button
@@ -211,7 +216,7 @@ const Quiz = ({ title, subtitle, questions, getResult, whatsappLink, benefitName
         <Button
           variant="default"
           onClick={handleNext}
-          disabled={!selectedAnswer}
+          disabled={!selectedAnswer || !consent}
           className="flex-1"
         >
           {currentStep === questions.length - 1 ? "Ver Resultado" : "Próximo"}

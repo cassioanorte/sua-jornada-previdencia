@@ -64,7 +64,7 @@ const EstadoRS = () => {
   useEffect(() => {
     document.title = "Advogado Previdenciário RS | Spier & Anorte Advocacia";
     const metaDesc = document.querySelector('meta[name="description"]');
-    const content = "Advogado previdenciário no Rio Grande do Sul. Escritórios em Gramado e Nova Petrópolis. Atendemos Serra Gaúcha, Vale do Paranhana e Região Metropolitana. Consulta gratuita.";
+    const content = "Advogado previdenciário no Rio Grande do Sul. Escritórios em Gramado e Nova Petrópolis. Atendemos Serra Gaúcha, Vale do Paranhana e Região Metropolitana. Agende um atendimento.";
     if (metaDesc) {
       metaDesc.setAttribute("content", content);
     } else {
@@ -100,7 +100,7 @@ const EstadoRS = () => {
             </p>
             <Button variant="hero" size="xl" onClick={handleWhatsApp}>
               <Phone className="w-5 h-5" />
-              Consulta Gratuita
+              Agende um atendimento
             </Button>
           </div>
         </div>
@@ -111,13 +111,13 @@ const EstadoRS = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto" style={{ textAlign: "justify" }}>
             <h2 className="text-3xl font-bold mb-6 text-foreground font-display">
-              Especialistas em Direito Previdenciário em Todo o RS
+              Atuação em Direito Previdenciário em Todo o RS
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              A Spier & Anorte Sociedade de Advogados é referência em Direito Previdenciário no Rio Grande do Sul. Com escritórios físicos em Gramado e Nova Petrópolis, atendemos presencialmente moradores da Serra Gaúcha, Vale do Paranhana e Região Metropolitana de Porto Alegre, além de oferecer atendimento 100% online para todo o estado.
+              A Spier & Anorte Sociedade de Advogados atua em Direito Previdenciário no Rio Grande do Sul. Com escritórios físicos em Gramado e Nova Petrópolis, atendemos presencialmente moradores da Serra Gaúcha, Vale do Paranhana e Região Metropolitana de Porto Alegre, além de oferecer atendimento 100% online para todo o estado.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nossa equipe é formada por advogados com registro na OAB/RS e dedicação exclusiva ao Direito Previdenciário. Isso significa que cada caso recebe atenção especializada, desde a análise do CNIS até a conclusão do processo junto ao INSS, garantindo a melhor estratégia para conquistar o benefício que você merece.
+              Nossa equipe é formada por advogados com registro na OAB/RS e dedicação exclusiva ao Direito Previdenciário. Isso significa que cada caso recebe atenção especializada, desde a análise do CNIS até a conclusão do processo junto ao INSS, com análise individual de cada situação.
             </p>
           </div>
         </div>
@@ -185,7 +185,7 @@ const EstadoRS = () => {
               Nossos Serviços Previdenciários
             </h2>
             <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-              Atuamos em todas as áreas do Direito Previdenciário para garantir seus direitos junto ao INSS.
+              Atuamos em todas as áreas do Direito Previdenciário para orientar você sobre seus direitos junto ao INSS.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {services.map((service) => (
@@ -239,11 +239,11 @@ const EstadoRS = () => {
               Precisa de um Advogado Previdenciário no RS?
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8">
-              Fale com nossa equipe e descubra como podemos ajudar você a conquistar seu benefício do INSS, esteja você em qualquer cidade do Rio Grande do Sul.
+              Fale com nossa equipe e entenda como funciona o pedido do seu benefício do INSS, esteja você em qualquer cidade do Rio Grande do Sul.
             </p>
             <Button variant="hero" size="xl" onClick={handleWhatsApp}>
               <Phone className="w-5 h-5" />
-              Consulta Gratuita via WhatsApp
+              Fale com a equipe pelo WhatsApp
             </Button>
           </div>
         </div>

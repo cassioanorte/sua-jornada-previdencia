@@ -25,7 +25,7 @@ const QuemSomos = () => {
     {
       icon: <Heart className="w-8 h-8" />,
       title: "Empatia",
-      description: "Tratamos cada caso com a dedicação e o respeito que você merece."
+      description: "Tratamos cada caso com dedicação e respeito."
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -78,12 +78,12 @@ const QuemSomos = () => {
                 <strong className="text-primary"> assegurar que cada brasileiro tenha acesso aos seus direitos previdenciários de forma justa, transparente e digna</strong>.
               </p>
               <p>
-                Desde então, já ajudamos milhares de pessoas em todo o país a conquistarem seus benefícios junto ao INSS. 
+                Desde então, atendemos segurados de diversas regiões do país em pedidos de benefícios junto ao INSS. 
                 Cada história atendida reforça o nosso compromisso com a verdade, a ética e a responsabilidade — valores que não são apenas princípios, mas a base de tudo o que fazemos.
               </p>
               <p>
                 Acreditamos que <strong className="text-primary">o Direito deve ser um instrumento de transformação e dignidade, jamais um obstáculo</strong>. 
-                Por isso, escolhemos atuar de forma exclusiva no Direito Previdenciário, aprofundando nosso conhecimento e nos tornando especialistas em cada detalhe dessa área essencial para a vida das pessoas.
+                Por isso, escolhemos atuar de forma exclusiva no Direito Previdenciário, aprofundando nosso conhecimento em cada detalhe dessa área essencial para a vida das pessoas.
               </p>
               <p>
                 Com a evolução da tecnologia, ampliamos nossa atuação para todo o Brasil por meio de um atendimento 100% online — sem abrir mão do cuidado, da proximidade e da atenção individual. 
@@ -137,9 +137,9 @@ const QuemSomos = () => {
               </h2>
               <p className="text-lg text-foreground/80 mb-8 italic">
                 "Sabemos que lidar com questões previdenciárias pode ser desafiador e, muitas vezes, frustrante. 
-                É por isso que estamos aqui: para simplificar esse processo, lutar pelos seus direitos e 
-                garantir que você receba o que é seu por lei. Com honestidade, rapidez e dedicação, 
-                transformamos dificuldades em conquistas."
+                É por isso que estamos aqui: para simplificar esse processo, orientar você sobre os seus direitos 
+                com clareza. Com honestidade e dedicação, 
+                acompanhamos cada etapa do seu caso."
               </p>
               <Button variant="cta" size="lg" onClick={handleWhatsApp}>
                 <Phone className="w-5 h-5" />

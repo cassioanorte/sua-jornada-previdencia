@@ -50,17 +50,17 @@ const AuxilioDoenca = () => {
               Auxílio Doença
             </h1>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Garantimos seu direito ao benefício quando você mais precisa
+              Orientação sobre o benefício para quem não pode trabalhar temporariamente
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="xl" onClick={handleWhatsApp}>
                 <Phone className="w-5 h-5" />
-                Fale com Especialista
+                Fale com a equipe
               </Button>
               <Button variant="hero" size="xl" asChild className="bg-accent hover:bg-accent-hover">
                 <Link to="/quiz-auxilio-doenca">
                   <ClipboardList className="w-5 h-5" />
-                  Faça o Quiz Gratuito
+                  Faça o Quiz Informativo
                 </Link>
               </Button>
             </div>
@@ -142,7 +142,7 @@ const AuxilioDoenca = () => {
           </p>
           <Button variant="hero" size="xl" onClick={handleWhatsApp}>
             <Phone className="w-5 h-5" />
-            Fale com um Especialista Agora
+            Fale com a equipe
           </Button>
         </div>
       </section>

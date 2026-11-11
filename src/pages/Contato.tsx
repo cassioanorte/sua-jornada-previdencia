@@ -11,6 +11,7 @@ import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
 import { trackEvent } from "@/lib/analytics";
+import ConsentCheckbox from "@/components/ConsentCheckbox";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Nome é obrigatório").max(100, "Nome muito longo"),
@@ -27,6 +28,7 @@ const Contato = () => {
     phone: "",
     message: ""
   });
+  const [consent, setConsent] = useState(false);
 
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
@@ -34,6 +36,10 @@ const Contato = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!consent) {
+      toast.error("Marque a autorização de uso dos dados para continuar.");
+      return;
+    }
     
     try {
       contactSchema.parse(formData);
@@ -168,7 +174,7 @@ const Contato = () => {
                 <p className="text-foreground/80 text-sm">
                   <strong className="text-foreground">Atendimento rápido, honesto e 100% online.</strong><br />
                   A primeira conversa serve para entender o seu caso. 
-                  Fale com um especialista!
+                  Fale com a equipe.
                 </p>
               </div>
             </div>
@@ -234,7 +240,9 @@ const Contato = () => {
                     />
                   </div>
 
-                  <Button type="submit" variant="cta" size="lg" className="w-full">
+                  <ConsentCheckbox id="consent-contato" checked={consent} onChange={setConsent} />
+
+                  <Button type="submit" variant="cta" size="lg" className="w-full" disabled={!consent}>
                     <Phone className="w-5 h-5" />
                     Enviar pelo WhatsApp
                   </Button>
