@@ -1,5 +1,75 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "rpv-precatorio-quanto-tempo-receber-atrasados-inss": `## "Ganhei. E agora, quando cai?"
+
+A Dona Lurdes esperou quase dois anos pela decisão do processo de aposentadoria. Quando o advogado ligou dizendo que a sentença tinha sido favorável e que não cabia mais recurso, a primeira pergunta dela foi direta: "E quando eu recebo?"
+
+É uma pergunta justa. Depois de tanto tempo, a pessoa quer saber quando o benefício começa a cair na conta e quando chegam os valores que ficaram para trás.
+
+A resposta tem algumas etapas, e entender cada uma ajuda a ter expectativas realistas e a não cair em golpe.
+
+## Duas coisas diferentes: o benefício e os atrasados
+
+Quando a Justiça reconhece um benefício, normalmente acontecem duas coisas em momentos separados:
+
+- **A implantação do benefício:** o INSS passa a pagar o benefício mês a mês. Isso muitas vezes acontece antes do pagamento dos atrasados, e em alguns casos até antes do fim do processo, quando o juiz concede uma tutela de urgência.
+- **O pagamento dos atrasados:** são as parcelas que eram devidas desde a data reconhecida na decisão até a implantação. Esses valores seguem um caminho próprio, que vamos explicar agora.
+
+## O que é a execução invertida
+
+Depois que o processo termina, é preciso calcular quanto o INSS deve de atrasados.
+
+Na Justiça Federal, é comum que esse cálculo seja apresentado pelo próprio INSS. Essa prática é chamada de **execução invertida**: em vez de a pessoa apresentar a conta e o INSS contestar, o INSS apresenta a conta e a pessoa, por meio do seu advogado, confere.
+
+A conferência é importante. Se houver erro na data de início, nos índices de correção ou no período considerado, o advogado pode discordar e pedir ao juiz que o cálculo seja corrigido. Isso pode levar algum tempo, mas evita receber menos do que o devido.
+
+Quando os valores ficam definidos, o juiz determina a expedição do pagamento.
+
+## RPV ou precatório: o que muda
+
+O pagamento dos atrasados pela União e pelo INSS segue dois caminhos, conforme o valor total:
+
+- **RPV (Requisição de Pequeno Valor):** usada quando o total fica dentro do limite legal, que na Justiça Federal é de 60 salários mínimos. É o caminho mais rápido. A lei prevê o pagamento em até 60 dias depois da requisição.
+- **Precatório:** usado quando o valor passa desse limite. Segue um calendário previsto na Constituição. Pela regra atual da Constituição, os precatórios apresentados até 1º de fevereiro de um ano devem ser pagos até o fim do ano seguinte.
+
+Em alguns casos, quando o valor passa um pouco do limite, a pessoa pode optar por **renunciar ao excedente** para receber por RPV, que é mais rápida. É uma decisão que precisa ser bem pensada, com o cálculo na mão e com orientação do advogado, porque a renúncia é definitiva.
+
+## Então, quanto tempo demora?
+
+Não existe um prazo único. O tempo total depende de vários fatores:
+
+- Se o cálculo do INSS foi aceito de primeira ou se houve discussão.
+- Se o pagamento será por RPV ou por precatório.
+- A rotina da vara e do tribunal onde o processo está.
+- Questões de documentação, como dados bancários e cadastro atualizados.
+
+Por isso, desconfie de quem promete uma data exata. O que dá para fazer é acompanhar cada etapa e entender em qual delas o processo está.
+
+## Como o dinheiro chega
+
+Depois que o tribunal libera o pagamento, o valor é depositado em uma conta judicial em banco oficial, em nome do beneficiário, e o saque segue as regras do tribunal. O seu advogado acompanha essa liberação e informa quando o valor estiver disponível.
+
+## Cuidado com golpes
+
+Esse é um ponto que merece atenção. Há golpistas que acompanham processos públicos e entram em contato com quem tem valores a receber.
+
+A mensagem costuma ser parecida: alguém se diz do tribunal, do INSS ou do escritório e pede um pagamento para "liberar" a RPV ou o precatório.
+
+- **Tribunal e INSS não cobram taxa para liberar pagamento.**
+- Desconfie de qualquer pedido de depósito, PIX ou boleto para liberar valores.
+- Na dúvida, ligue para o escritório pelo número que você já conhece, e não pelo número que mandou a mensagem.
+
+## Acompanhar faz diferença
+
+Saber em que etapa o processo está tira muito da ansiedade da espera. Explicamos como funciona esse acompanhamento no artigo "Transparência de verdade: como você acompanha seu processo em tempo real, sem depender de ninguém".
+
+E se você ainda está no começo, querendo entender se tem atrasados a receber, o artigo "Auxílio-acidente: o valor e os atrasados de até 5 anos" mostra como funciona o limite de cinco anos para trás.
+
+Ficou com dúvida sobre o seu processo? Chamar no WhatsApp e a gente te orienta.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786`,
   "mei-inss-o-que-cobre-e-o-que-nao-cobre": `## "Pago o DAS todo mês, então estou coberto"
 
 O Rogério é eletricista e virou MEI há cinco anos. Paga o DAS certinho todo mês, e na cabeça dele isso resolvia tudo: estava em dia com o governo e protegido pelo INSS.

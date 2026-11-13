@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "rpv-precatorio-quanto-tempo-receber-atrasados-inss",
+    image: "/blog/rpv-precatorio-quanto-tempo-receber-atrasados-inss.jpg",
+    title: "Ganhei contra o INSS: quando recebo os atrasados?",
+    excerpt: "Venceu o processo contra o INSS e quer saber quando recebe os atrasados? Entenda execução invertida, RPV, precatório e as etapas até o pagamento.",
+    date: "13 de novembro de 2026",
+    category: "Processo Previdenciário",
+    author: "Equipe Spier & Anorte",
+    cluster: "legislacao"
+  },
+  {
     id: "mei-inss-o-que-cobre-e-o-que-nao-cobre",
     image: "/blog/mei-inss-o-que-cobre-e-o-que-nao-cobre.jpg",
     title: "MEI e INSS: o que o DAS cobre e o que fica de fora",
