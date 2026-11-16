@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "qualidade-de-segurado-periodo-de-graca-inss",
+    image: "/blog/qualidade-de-segurado-periodo-de-graca-inss.jpg",
+    title: "Parei de contribuir: ainda sou segurado do INSS? Entenda o período de graça",
+    excerpt: "Parar de contribuir não faz a pessoa perder o INSS na hora. Veja o que é o período de graça, os prazos de 12, 24 e 36 meses e como isso afeta o auxílio-doença e o auxílio-acidente.",
+    date: "16 de novembro de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "rpv-precatorio-quanto-tempo-receber-atrasados-inss",
     image: "/blog/rpv-precatorio-quanto-tempo-receber-atrasados-inss.jpg",
     title: "Ganhei contra o INSS: quando recebo os atrasados?",

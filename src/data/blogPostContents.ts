@@ -1,5 +1,65 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "qualidade-de-segurado-periodo-de-graca-inss": `## "Parei de pagar, então perdi o INSS"
+
+É uma das frases que mais ouvimos no escritório. A pessoa saiu do emprego, ficou um tempo sem contribuir, sofreu um acidente ou adoeceu e nem chegou a pedir o benefício, porque achou que já não era mais segurada.
+
+Muitas vezes, essa conclusão vem cedo demais. A lei prevê um prazo em que a pessoa continua protegida pelo INSS mesmo sem pagar. Esse prazo se chama **período de graça**.
+
+## O que é qualidade de segurado
+
+Qualidade de segurado é o vínculo da pessoa com a Previdência. É ela que permite pedir benefícios como o auxílio por incapacidade temporária (o antigo auxílio-doença), o auxílio-acidente e a aposentadoria por incapacidade permanente, e que permite à família pedir pensão por morte.
+
+Esse vínculo nasce com a contribuição ou com o trabalho. Mas ele **não termina no dia em que a contribuição para**.
+
+## O que é o período de graça
+
+O art. 15 da [Lei 8.213/91](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) diz que a pessoa mantém a qualidade de segurado, sem pagar, por alguns prazos. Durante esse tempo, ela conserva todos os direitos de segurado (§ 3º do mesmo artigo).
+
+Os prazos mais comuns são:
+
+- **Enquanto recebe benefício por incapacidade**: a qualidade se mantém sem limite de prazo (inciso I).
+- **12 meses** depois de parar de contribuir, para quem exercia atividade remunerada, como empregado, autônomo ou MEI (inciso II).
+- **6 meses** para quem contribuía como facultativo, por exemplo, a dona de casa que pagava por conta própria (inciso VI).
+
+## Quando o prazo aumenta: 24 e 36 meses
+
+O prazo de 12 meses pode ser prorrogado:
+
+- **Mais 12 meses** para quem já pagou **mais de 120 contribuições** sem ter perdido a qualidade de segurado no meio do caminho (§ 1º).
+- **Mais 12 meses** para quem está em **desemprego involuntário**, desde que isso seja comprovado (§ 2º).
+
+As duas prorrogações podem se somar. Por isso, em alguns casos, o período de graça chega a **36 meses**. Nesta semana, publicamos artigos próprios sobre cada uma dessas situações.
+
+## Um detalhe de contagem que faz diferença
+
+A perda da qualidade não acontece exatamente no último dia dos 12 meses. O § 4º do art. 15 diz que ela ocorre no dia seguinte ao fim do prazo para pagar a contribuição do mês seguinte ao término do período de graça. Na prática, isso dá um pouco mais de tempo. Quando o acidente ou a doença aconteceu perto do limite, essa conta precisa ser feita com cuidado.
+
+## E o auxílio-doença e o auxílio-acidente?
+
+Para o auxílio por incapacidade temporária, a regra geral é a carência de 12 contribuições. Mas a lei dispensa essa carência quando a incapacidade decorre de **acidente de qualquer natureza** (art. 26, II), entre outros casos previstos em lei. O auxílio-acidente também não exige carência.
+
+Isso não dispensa a qualidade de segurado. Ela continua sendo o ponto central: é preciso estar segurado na data do acidente ou do início da incapacidade. Por isso, saber se o fato aconteceu dentro do período de graça pode decidir o pedido.
+
+Sobre quem perdeu o emprego e sofreu um acidente depois, temos um artigo específico: [Auxílio-acidente sem carteira assinada: quem tem direito](https://spiereanorte.adv.br/blog/auxilio-acidente-sem-carteira-assinada-periodo-de-graca/).
+
+## Como conferir a sua situação
+
+1. Acesse o **Meu INSS** e baixe o extrato do **CNIS**. Ali aparecem os vínculos e as contribuições.
+2. Veja a data da última contribuição ou da saída do último emprego.
+3. Conte quantas contribuições você tem ao longo da vida e se houve algum intervalo grande entre elas.
+4. Separe os documentos da saída do emprego (termo de rescisão, carteira de trabalho) e os documentos médicos com datas.
+
+## Cada caso precisa ser analisado
+
+Os prazos dependem do histórico de cada pessoa, e um mês pode mudar a análise. Por isso não existe resposta pronta. Se você parou de contribuir e teve um acidente ou ficou doente, fale com a gente para analisar o seu caso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786
+
+Fontes oficiais: [Lei 8.213/91, arts. 15 e 26 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm).
+Conteúdo informativo. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "rpv-precatorio-quanto-tempo-receber-atrasados-inss": `## "Ganhei. E agora, quando cai?"
 
 A Dona Lurdes esperou quase dois anos pela decisão do processo de aposentadoria. Quando o advogado ligou dizendo que a sentença tinha sido favorável e que não cabia mais recurso, a primeira pergunta dela foi direta: "E quando eu recebo?"
