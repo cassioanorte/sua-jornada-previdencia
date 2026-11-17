@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "120-contribuicoes-periodo-de-graca-24-meses-tema-1352",
+    image: "/blog/120-contribuicoes-periodo-de-graca-24-meses-tema-1352.jpg",
+    title: "Mais de 120 contribuições: período de graça de 24 meses e o Tema 1.352 do STJ",
+    excerpt: "Quem tem mais de 120 contribuições pode ter o período de graça prorrogado para 24 meses. Entenda a regra, o Tema 255 da TNU e o julgamento do STJ de 11/11/2026.",
+    date: "17 de novembro de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "qualidade-de-segurado-periodo-de-graca-inss",
     image: "/blog/qualidade-de-segurado-periodo-de-graca-inss.jpg",
     title: "Parei de contribuir: ainda sou segurado do INSS? Entenda o período de graça",

@@ -1,5 +1,65 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "120-contribuicoes-periodo-de-graca-24-meses-tema-1352": `## Dez anos de trabalho contam mais do que parece
+
+Quem trabalhou muitos anos com carteira assinada e depois ficou sem contribuir costuma achar que, depois de um ano parado, perdeu o INSS. Para quem tem um histórico longo, a lei prevê um prazo maior.
+
+## A regra das 120 contribuições
+
+O art. 15, § 1º, da [Lei 8.213/91](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) diz que o período de graça de 12 meses é prorrogado por mais 12 meses quando a pessoa já pagou **mais de 120 contribuições mensais sem interrupção que acarrete a perda da qualidade de segurado**.
+
+Em outras palavras: com mais de 120 contribuições, sem ter perdido a qualidade no meio do caminho, a proteção depois de parar de contribuir passa de 12 para **24 meses**. Se, além disso, houver desemprego involuntário comprovado, pode chegar a 36 meses.
+
+Dois pontos de atenção:
+
+- As 120 contribuições não precisam ser de um único emprego. Podem somar vínculos diferentes.
+- O que não pode ter ocorrido é a **perda da qualidade de segurado** entre elas. Intervalos curtos, dentro do período de graça, não quebram a sequência.
+
+## A dúvida: a prorrogação vale de novo?
+
+Imagine alguém que trabalhou 12 anos, saiu do emprego, voltou a trabalhar por dois anos e saiu outra vez. Na segunda saída, ele ainda conta com os 24 meses? Ou precisaria de mais 120 contribuições novas?
+
+Essa pergunta chegou aos tribunais e teve respostas diferentes ao longo dos anos.
+
+## O que a TNU decidiu no Tema 255
+
+A Turma Nacional de Uniformização dos Juizados Especiais Federais julgou o [Tema 255](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-255) em 2020. O entendimento foi de que a prorrogação, uma vez conquistada, vale também nas filiações posteriores, independentemente do número de vezes em que for usada.
+
+Há um alerta importante: esse entendimento está **em revisão**, no [Tema 338 da TNU](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-338), porque havia decisões do STJ em sentido diferente. A revisão aguarda justamente o julgamento do STJ.
+
+## O julgamento do STJ no Tema 1.352
+
+O Superior Tribunal de Justiça afetou a questão como recurso repetitivo, o [Tema 1.352](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1352&cod_tema_final=1352), para definir se essa prorrogação se incorpora ao patrimônio jurídico do segurado e pode ser usada mais de uma vez, sem novo período de contribuições.
+
+O STJ julgou o tema em **11 de novembro de 2026**. A decisão **ainda será publicada**. Até a publicação do acórdão, não é possível dizer com precisão qual será o texto final da tese nem o seu alcance. Assim que for publicada, atualizaremos este artigo.
+
+Enquanto isso, um ponto prático: a suspensão determinada pelo STJ atingiu apenas os recursos especiais e agravos sobre o tema. Pedidos no INSS e ações em primeira instância seguem tramitando normalmente.
+
+## Por que isso importa para o auxílio-doença e o auxílio-acidente
+
+Para quem sofreu um acidente ou adoeceu entre 12 e 24 meses depois de parar de contribuir, a diferença é grande: com as 120 contribuições, a pessoa pode ainda estar dentro do período de graça. No caso de acidente de qualquer natureza, o auxílio-doença dispensa a carência (art. 26, II), e o que precisa ser analisado é justamente a qualidade de segurado na data.
+
+## Como conferir
+
+1. Baixe o **CNIS** no Meu INSS.
+2. Conte as contribuições mensais de todos os vínculos.
+3. Verifique se, em algum momento, houve um intervalo sem contribuição maior que o período de graça. Esse é o ponto que mais gera dúvida.
+4. Anote a data da última contribuição e a data do acidente ou do início da doença.
+
+Se o CNIS tiver falhas, como vínculos sem data de saída ou salários faltando, isso também precisa ser corrigido.
+
+## Cada caso precisa ser analisado
+
+A conta das 120 contribuições e dos intervalos é técnica, e o tema está em fase de definição nos tribunais. Fale com a gente para analisar o seu caso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786
+
+Leia também: [Parei de contribuir: ainda sou segurado do INSS?](https://spiereanorte.adv.br/blog/qualidade-de-segurado-periodo-de-graca-inss/)
+
+Fontes oficiais: [Lei 8.213/91 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) | [STJ, Tema 1.352](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1352&cod_tema_final=1352) | [Informativo STJ 854, afetação](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D021598) | [TNU, Tema 255](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-255) | [TNU, Tema 338](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-338).
+Conteúdo informativo. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "qualidade-de-segurado-periodo-de-graca-inss": `## "Parei de pagar, então perdi o INSS"
 
 É uma das frases que mais ouvimos no escritório. A pessoa saiu do emprego, ficou um tempo sem contribuir, sofreu um acidente ou adoeceu e nem chegou a pedir o benefício, porque achou que já não era mais segurada.
