@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "desemprego-involuntario-periodo-de-graca-tema-1360-stj",
+    image: "/blog/desemprego-involuntario-periodo-de-graca-tema-1360-stj.jpg",
+    title: "Desemprego e INSS: como provar para ter mais 12 meses de período de graça (Tema 1.360 do STJ)",
+    excerpt: "O desemprego involuntário prorroga o período de graça por 12 meses. Veja o que o STJ decidiu no Tema 1.360 e quais provas podem ser usadas além do registro no Ministério do Trabalho.",
+    date: "18 de novembro de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "120-contribuicoes-periodo-de-graca-24-meses-tema-1352",
     image: "/blog/120-contribuicoes-periodo-de-graca-24-meses-tema-1352.jpg",
     title: "Mais de 120 contribuições: período de graça de 24 meses e o Tema 1.352 do STJ",

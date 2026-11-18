@@ -1,5 +1,61 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "desemprego-involuntario-periodo-de-graca-tema-1360-stj": `## Demitido, sem trabalho, e depois veio o acidente
+
+A situação é comum: a pessoa é dispensada, passa meses procurando emprego, não consegue, e mais de um ano depois sofre um acidente ou fica doente. A primeira ideia é que, sem contribuir há mais de 12 meses, ela já não teria proteção do INSS.
+
+Nem sempre. A lei prevê uma prorrogação justamente para quem ficou desempregado sem querer.
+
+## O que diz a lei
+
+O art. 15, § 2º, da [Lei 8.213/91](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) acrescenta **12 meses** ao período de graça do segurado desempregado, desde que comprovada essa situação pelo registro no órgão próprio do Ministério do Trabalho e da Previdência Social.
+
+Na prática, o prazo de proteção depois de parar de contribuir passa de 12 para **24 meses**. Se a pessoa também tiver mais de 120 contribuições sem perda da qualidade, as prorrogações podem se somar e chegar a **36 meses**.
+
+## "Involuntário" quer dizer o quê
+
+A prorrogação é para quem **não escolheu** ficar sem trabalho. É o caso típico da dispensa sem justa causa. Em regra, quem pediu demissão não se encaixa. E a situação de desemprego precisa ser real: se a pessoa continuou trabalhando, mesmo sem registro, a análise é outra.
+
+## O que o STJ decidiu no Tema 1.360
+
+Por muito tempo, a dúvida foi: e quem não fez o registro no Ministério do Trabalho? A carteira sem nova anotação seria suficiente para provar o desemprego?
+
+O STJ resolveu a questão no [Tema 1.360](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1360&cod_tema_final=1360), em recurso repetitivo julgado em 11/03/2026, com trânsito em julgado em 21/05/2026. A tese fixada foi:
+
+> "Para fins de prorrogação do período de graça (art. 15, § 2º, da Lei 8.213/1991), o registro perante o Ministério do Trabalho e da Previdência Social pode ser suprido por outros meios de prova admitidos em Direito, tanto na via administrativa quanto na judicial, desde que demonstrada a situação de desemprego involuntário, não sendo suficiente para esse fim a mera ausência de anotações laborais na CTPS ou no CNIS."
+
+São duas mensagens:
+
+1. **O registro formal não é a única prova.** Outros meios valem, e valem também no pedido ao INSS, não só na Justiça.
+2. **A carteira em branco, sozinha, não basta.** Segundo a [notícia oficial do STJ](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16072026-Repetitivo-fixa-tese-sobre-prova-de-desemprego-para-extensao-do-periodo-de-graca-previdenciaria.aspx), é preciso trazer outros elementos que mostrem a falta real de renda e a procura de emprego.
+
+## Que provas podem ajudar
+
+Cada caso tem a sua realidade, mas alguns documentos costumam ser úteis:
+
+- **Termo de rescisão** do contrato, mostrando a dispensa.
+- **Comprovantes de procura de emprego**: currículos enviados por e-mail, cadastros em agências e sites de vagas, mensagens marcando entrevistas.
+- **Provas da falta de renda** no período.
+- **Testemunhas** que conheçam a situação, conforme o caso.
+
+O ideal é guardar tudo isso desde a saída do emprego. Muitas vezes, a prova se perde porque ninguém imaginava que ela seria necessária.
+
+## Por que isso importa para o auxílio-acidente e o auxílio-doença
+
+Para quem sofreu um acidente ou adoeceu entre 12 e 24 meses depois da demissão, a prorrogação pode fazer a diferença entre estar ou não segurado na data. E, no auxílio-doença decorrente de acidente de qualquer natureza, a lei dispensa a carência (art. 26, II). Sobre o auxílio-acidente de quem estava sem carteira assinada, veja também: [Auxílio-acidente sem carteira assinada: quem tem direito](https://spiereanorte.adv.br/blog/auxilio-acidente-sem-carteira-assinada-periodo-de-graca/).
+
+## Cada caso precisa ser analisado
+
+A prova do desemprego depende da história de cada pessoa, e há situações em que ela não é o melhor caminho. Fale com a gente para analisar o seu caso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786
+
+Leia também: [Parei de contribuir: ainda sou segurado do INSS?](https://spiereanorte.adv.br/blog/qualidade-de-segurado-periodo-de-graca-inss/) | [Mais de 120 contribuições e o Tema 1.352](https://spiereanorte.adv.br/blog/120-contribuicoes-periodo-de-graca-24-meses-tema-1352/)
+
+Fontes oficiais: [Lei 8.213/91 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) | [STJ, Tema 1.360](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1360&cod_tema_final=1360) | [Notícia STJ, 16/07/2026](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16072026-Repetitivo-fixa-tese-sobre-prova-de-desemprego-para-extensao-do-periodo-de-graca-previdenciaria.aspx) | [Notícia STJ, 30/03/2026](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/30032026-Comprovacao-da-situacao-de-desemprego-involuntario-e-o-novo-tema-da-Pagina-de-Repetitivos.aspx).
+Conteúdo informativo. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "120-contribuicoes-periodo-de-graca-24-meses-tema-1352": `## Dez anos de trabalho contam mais do que parece
 
 Quem trabalhou muitos anos com carteira assinada e depois ficou sem contribuir costuma achar que, depois de um ano parado, perdeu o INSS. Para quem tem um histórico longo, a lei prevê um prazo maior.
