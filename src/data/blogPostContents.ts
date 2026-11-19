@@ -1,5 +1,57 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "sumula-26-agu-parou-de-contribuir-doenca-qualidade-de-segurado": `## A doença veio antes do pedido
+
+Muita gente adoece, piora aos poucos, até que não consegue mais trabalhar. Sem trabalho, para de contribuir. Ocupada com o tratamento, não pede nada ao INSS. Quando finalmente pede, às vezes anos depois, recebe a resposta: "perda da qualidade de segurado".
+
+Essa resposta nem sempre se sustenta. Existe uma regra justamente para essa situação.
+
+## O que diz a Súmula 26 da AGU
+
+A Advocacia-Geral da União, órgão que defende o INSS na Justiça, editou a [Súmula 26](https://www.gov.br/agu/pt-br/composicao/cgu/cgu/sumula) em 2008. Ela foi mantida na consolidação das súmulas da AGU publicada no [Diário Oficial da União de 31/01/2025](https://www.in.gov.br/en/web/dou/-/sumulas-da-advocacia-geral-da-uniao-610271961). O texto oficial é:
+
+> "Para a concessão de benefício por incapacidade, não será considerada a perda da qualidade de segurado decorrente da própria moléstia incapacitante."
+
+A súmula tem como referência os arts. 15, I, e 102, § 1º, da [Lei 8.213/91](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm).
+
+## O que isso significa na prática
+
+Se a pessoa parou de contribuir **porque a doença a impediu de trabalhar**, essa interrupção não deve ser usada para negar um benefício por incapacidade, como o auxílio por incapacidade temporária (auxílio-doença) ou a aposentadoria por incapacidade permanente.
+
+A lógica é simples: quem não podia trabalhar por causa da doença não pode ser punido por não ter contribuído nesse período.
+
+## A condição mais importante: a data
+
+A súmula **não vale para qualquer caso**. Ela só se aplica quando a incapacidade começou **enquanto a pessoa ainda era segurada**, ou seja, durante o trabalho ou dentro do período de graça.
+
+Se a incapacidade começou depois que a qualidade de segurado já tinha se perdido, a súmula não ajuda. Por isso, o centro da discussão quase sempre é uma data: **quando a incapacidade começou**. Na perícia, isso aparece como a data de início da incapacidade.
+
+## As provas que fazem diferença
+
+Como tudo depende da data, os documentos médicos da época são a peça principal:
+
+- Atestados e afastamentos do trabalho.
+- Exames com data, mesmo os mais antigos.
+- Prontuários de hospital, posto de saúde ou clínica.
+- Receitas e registros de tratamento contínuo.
+- Laudos de especialistas que descrevam a evolução da doença.
+
+Vale buscar o prontuário completo no hospital ou no posto de saúde. Muitas vezes, é ele que mostra que a doença já impedia o trabalho antes do fim do período de graça.
+
+## E o acidente?
+
+Se a incapacidade veio de um acidente, a data costuma ser mais fácil de provar, e o auxílio-doença dispensa carência (art. 26, II). O ponto continua sendo a qualidade de segurado na data do acidente, que pode estar coberta pelo período de graça. Veja também: [Parei de contribuir: ainda sou segurado do INSS?](https://spiereanorte.adv.br/blog/qualidade-de-segurado-periodo-de-graca-inss/)
+
+## Cada caso precisa ser analisado
+
+Reconstruir quando a incapacidade começou exige olhar os documentos com cuidado, e cada história é diferente. Se você ou alguém da família parou de trabalhar por causa de uma doença, fale com a gente para analisar o caso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786
+
+Fontes oficiais: [Súmulas da AGU (gov.br)](https://www.gov.br/agu/pt-br/composicao/cgu/cgu/sumula) | [Consolidação no DOU, 31/01/2025](https://www.in.gov.br/en/web/dou/-/sumulas-da-advocacia-geral-da-uniao-610271961) | [Lei 8.213/91 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm).
+Conteúdo informativo. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "desemprego-involuntario-periodo-de-graca-tema-1360-stj": `## Demitido, sem trabalho, e depois veio o acidente
 
 A situação é comum: a pessoa é dispensada, passa meses procurando emprego, não consegue, e mais de um ano depois sofre um acidente ou fica doente. A primeira ideia é que, sem contribuir há mais de 12 meses, ela já não teria proteção do INSS.

@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "sumula-26-agu-parou-de-contribuir-doenca-qualidade-de-segurado",
+    image: "/blog/sumula-26-agu-parou-de-contribuir-doenca-qualidade-de-segurado.jpg",
+    title: "Parei de contribuir porque fiquei doente: perdi a qualidade de segurado? (Súmula 26 da AGU)",
+    excerpt: "Quem para de contribuir por causa da própria doença incapacitante não deve ser prejudicado por isso. Entenda a Súmula 26 da AGU, a condição de data e as provas médicas que importam.",
+    date: "19 de novembro de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "desemprego-involuntario-periodo-de-graca-tema-1360-stj",
     image: "/blog/desemprego-involuntario-periodo-de-graca-tema-1360-stj.jpg",
     title: "Desemprego e INSS: como provar para ter mais 12 meses de período de graça (Tema 1.360 do STJ)",
