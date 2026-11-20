@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "inss-negou-perda-qualidade-de-segurado-o-que-fazer",
+    image: "/blog/inss-negou-perda-qualidade-de-segurado-o-que-fazer.jpg",
+    title: "INSS negou por perda da qualidade de segurado? 4 regras para conferir e o que levar",
+    excerpt: "Auxílio-doença ou auxílio-acidente negado por perda da qualidade de segurado? Veja as regras do período de graça, os Temas 1.352 e 1.360 do STJ, a Súmula 26 da AGU e o checklist de documentos.",
+    date: "20 de novembro de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "sumula-26-agu-parou-de-contribuir-doenca-qualidade-de-segurado",
     image: "/blog/sumula-26-agu-parou-de-contribuir-doenca-qualidade-de-segurado.jpg",
     title: "Parei de contribuir porque fiquei doente: perdi a qualidade de segurado? (Súmula 26 da AGU)",

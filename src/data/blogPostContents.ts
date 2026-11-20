@@ -1,5 +1,80 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "inss-negou-perda-qualidade-de-segurado-o-que-fazer": `## Uma negativa comum, e nem sempre definitiva
+
+Entre os motivos de negativa de auxílio-doença e de auxílio-acidente, um aparece com frequência na carta do INSS: **perda da qualidade de segurado**. Muita gente lê isso e desiste, achando que ficou tempo demais sem contribuir.
+
+Antes de desistir, vale conferir quatro regras. Os exemplos abaixo são ilustrativos, com nomes fictícios, e servem para mostrar o tipo de pergunta que precisa ser feita. Não são casos reais nem indicam resultado.
+
+## Regra 1: o período de graça básico de 12 meses
+
+Quem trabalhava continua segurado por **12 meses** depois de parar de contribuir (art. 15, II, da [Lei 8.213/91](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm)), com todos os direitos de segurado.
+
+**Exemplo:** João saiu do emprego e sofreu um acidente de moto 10 meses depois. Ficou com sequela no joelho que reduziu a capacidade para o trabalho que fazia. A pergunta de análise é simples: 10 meses está dentro dos 12. No auxílio-acidente, não se exige carência.
+
+Explicamos essa regra em detalhes em [Parei de contribuir: ainda sou segurado do INSS?](https://spiereanorte.adv.br/blog/qualidade-de-segurado-periodo-de-graca-inss/)
+
+## Regra 2: mais de 120 contribuições (até 24 meses)
+
+Quem tem **mais de 120 contribuições** sem ter perdido a qualidade de segurado tem o prazo prorrogado para **24 meses** (§ 1º).
+
+**Exemplo:** Ana trabalhou 14 anos seguidos com carteira assinada. Depois ficou 4 anos sem contribuir e perdeu a qualidade de segurada. Voltou a trabalhar por 2 anos, pediu demissão e fraturou o braço 20 meses depois. Pela regra básica, ela já estaria fora dos 12 meses. A pergunta é se a prorrogação conquistada nos primeiros 14 anos vale de novo depois da volta ao trabalho. O STJ respondeu a essa pergunta no Tema 1.352: firmou a tese (acórdão publicado em 18/11/2026) de que a prorrogação para 24 meses, conquistada com mais de 120 contribuições sem perder a qualidade de segurado, passa a fazer parte do direito da pessoa e pode ser usada de novo depois que ela volta a contribuir. Cada caso precisa ser analisado com o histórico completo do CNIS.
+
+Detalhes em [Mais de 120 contribuições e o Tema 1.352 do STJ](https://spiereanorte.adv.br/blog/120-contribuicoes-periodo-de-graca-24-meses-tema-1352/).
+
+## Regra 3: desemprego involuntário (mais 12 meses)
+
+Quem ficou desempregado sem querer tem mais **12 meses** (§ 2º). O STJ fixou no [Tema 1.360](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1360&cod_tema_final=1360) que o registro no Ministério do Trabalho pode ser suprido por outros meios de prova, no INSS e na Justiça, mas que só a falta de anotação na carteira ou no CNIS não basta.
+
+**Exemplo:** Carlos trabalhou 6 anos com carteira e foi demitido sem justa causa. Mandou currículos e se cadastrou em agências de emprego por mais de um ano. Sofreu uma queda 18 meses depois da demissão e ficou com sequela. A pergunta é se as provas da procura de emprego demonstram o desemprego involuntário.
+
+Detalhes em [Desemprego e INSS: o Tema 1.360 do STJ](https://spiereanorte.adv.br/blog/desemprego-involuntario-periodo-de-graca-tema-1360-stj/).
+
+## Regra 4: parou de contribuir por causa da doença (Súmula 26 da AGU)
+
+A [Súmula 26 da AGU](https://www.gov.br/agu/pt-br/composicao/cgu/cgu/sumula) diz: "Para a concessão de benefício por incapacidade, não será considerada a perda da qualidade de segurado decorrente da própria moléstia incapacitante." Ela vale quando a incapacidade começou enquanto a pessoa ainda era segurada.
+
+**Exemplo:** Marta parou de trabalhar pela piora de uma doença na coluna e só pediu o benefício 3 anos depois. A pergunta é: os documentos médicos mostram que a incapacidade começou antes do fim do período de graça?
+
+Detalhes em [Parei de contribuir porque fiquei doente: a Súmula 26 da AGU](https://spiereanorte.adv.br/blog/sumula-26-agu-parou-de-contribuir-doenca-qualidade-de-segurado/).
+
+## As regras podem se somar
+
+As prorrogações do § 1º e do § 2º podem se somar, chegando a **36 meses**. E a Súmula 26 pode entrar mesmo quando o prazo já passou, se a incapacidade começou antes. Por isso a análise precisa olhar o histórico inteiro, e não só a data da última contribuição.
+
+Um cuidado: nem toda tese serve para todo caso. Há situações em que duas linhas de argumento se contradizem, como alegar desemprego e, ao mesmo tempo, trabalho sem registro no mesmo período. A estratégia depende dos fatos de cada pessoa.
+
+## Checklist: o que separar antes da análise
+
+**Histórico de contribuição**
+- Extrato do CNIS completo (Meu INSS).
+- Carteira de trabalho, inclusive as antigas.
+- Termo de rescisão e extrato do FGTS.
+- Carta de indeferimento do INSS, com o motivo da negativa.
+
+**Saúde e acidente**
+- Atestados, exames, prontuários e receitas, sempre com data.
+- Registro do acidente: atendimento de emergência, boletim de ocorrência, se houver.
+- Laudos que descrevam sequelas e limitações.
+
+**Desemprego e trabalho sem registro**
+- Comprovantes de procura de emprego: currículos enviados, cadastros, mensagens de entrevistas.
+- Se trabalhou sem carteira: mensagens, comprovantes de pagamento, fotos, testemunhas.
+
+## Prazo para agir
+
+A negativa do INSS pode ser contestada por recurso administrativo, no prazo de 30 dias contados da ciência da decisão (art. 305, § 1º, do Decreto 3.048/99), por novo pedido ou na Justiça. Qual caminho é melhor depende do caso. Veja também: [INSS negou o auxílio-doença: o que fazer](https://spiereanorte.adv.br/blog/inss-negou-auxilio-doenca-o-que-fazer/).
+
+## Cada caso precisa ser analisado
+
+"Perda da qualidade de segurado" na carta do INSS é o começo da conversa, e não o fim. Fale com a gente para analisar o seu caso.
+
+Chamar no WhatsApp
+
+Telefones: (54) 3286-7220 e (54) 99987-0786
+
+Fontes oficiais: [Lei 8.213/91 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) | [STJ, Tema 1.352](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1352&cod_tema_final=1352) | [STJ, Tema 1.360](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1360&cod_tema_final=1360) | [TNU, Tema 255](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-255) | [TNU, Tema 338](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-338) | [Súmulas da AGU](https://www.gov.br/agu/pt-br/composicao/cgu/cgu/sumula).
+Conteúdo informativo. Exemplos ilustrativos, com nomes fictícios. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "sumula-26-agu-parou-de-contribuir-doenca-qualidade-de-segurado": `## A doença veio antes do pedido
 
 Muita gente adoece, piora aos poucos, até que não consegue mais trabalhar. Sem trabalho, para de contribuir. Ocupada com o tratamento, não pede nada ao INSS. Quando finalmente pede, às vezes anos depois, recebe a resposta: "perda da qualidade de segurado".
