@@ -133,15 +133,25 @@ Essa pergunta chegou aos tribunais e teve respostas diferentes ao longo dos anos
 
 A Turma Nacional de Uniformização dos Juizados Especiais Federais julgou o [Tema 255](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-255) em 2020. O entendimento foi de que a prorrogação, uma vez conquistada, vale também nas filiações posteriores, independentemente do número de vezes em que for usada.
 
-Há um alerta importante: esse entendimento está **em revisão**, no [Tema 338 da TNU](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-338), porque havia decisões do STJ em sentido diferente. A revisão aguarda justamente o julgamento do STJ.
+Há um alerta importante: esse entendimento está **em revisão**, no [Tema 338 da TNU](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-338), porque havia decisões do STJ em sentido diferente. A revisão aguardava justamente o julgamento do STJ, que agora já tem acórdão publicado (veja abaixo).
 
 ## O julgamento do STJ no Tema 1.352
 
 O Superior Tribunal de Justiça afetou a questão como recurso repetitivo, o [Tema 1.352](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1352&cod_tema_final=1352), para definir se essa prorrogação se incorpora ao patrimônio jurídico do segurado e pode ser usada mais de uma vez, sem novo período de contribuições.
 
-O STJ julgou o tema em **11 de novembro de 2026**. A decisão **ainda será publicada**. Até a publicação do acórdão, não é possível dizer com precisão qual será o texto final da tese nem o seu alcance. Assim que for publicada, atualizaremos este artigo.
+*Atualizado em 20/11/2026.*
 
-Enquanto isso, um ponto prático: a suspensão determinada pelo STJ atingiu apenas os recursos especiais e agravos sobre o tema. Pedidos no INSS e ações em primeira instância seguem tramitando normalmente.
+A 1ª Seção do STJ julgou o tema em **11 de novembro de 2026**, sob relatoria do Ministro Paulo Sérgio Domingues (REsps 2.189.004, 2.188.858, 2.171.338 e 2.188.859/SP). O **acórdão foi publicado em 18 de novembro de 2026**, com a seguinte tese:
+
+> "A prorrogação do período de graça pelo prazo de 24 (vinte e quatro) meses, prevista no artigo 15, "caput", II e § 1º da Lei 8.213/1991, se incorpora ao patrimônio jurídico previdenciário do segurado do RGPS uma vez efetuado o pagamento de mais de 120 (cento e vinte) contribuições mensais sem interrupção que acarrete a perda da qualidade de segurado, admitindo-se sua utilização de forma permanente, sem limitação de reingressos no RGPS e independentemente de novo período contributivo."
+
+**Em linguagem simples:** quem já pagou mais de 120 contribuições sem perder a qualidade de segurado no meio do caminho conquista o direito aos 24 meses de período de graça, e esse direito não se perde. Se a pessoa sair do sistema, voltar a contribuir e sair de novo, poderá usar os 24 meses outra vez, quantas vezes isso acontecer, sem precisar juntar mais 120 contribuições novas.
+
+No exemplo acima, o trabalhador que contribuiu por 12 anos, voltou por dois anos e saiu outra vez continua com os 24 meses na segunda saída, desde que as 120 contribuições iniciais tenham sido pagas sem perda da qualidade de segurado.
+
+Dois cuidados: a decisão **ainda não transitou em julgado**, ou seja, ainda cabem recursos e o texto final pode ser ajustado. E a tese não dispensa a conferência do histórico: é preciso confirmar no CNIS que as mais de 120 contribuições existem e que não houve perda da qualidade de segurado entre elas.
+
+Um ponto prático: durante a tramitação, a suspensão determinada pelo STJ atingiu apenas os recursos especiais e agravos sobre o tema. Pedidos no INSS e ações em primeira instância seguiram tramitando normalmente.
 
 ## Por que isso importa para o auxílio-doença e o auxílio-acidente
 
@@ -158,7 +168,7 @@ Se o CNIS tiver falhas, como vínculos sem data de saída ou salários faltando,
 
 ## Cada caso precisa ser analisado
 
-A conta das 120 contribuições e dos intervalos é técnica, e o tema está em fase de definição nos tribunais. Fale com a gente para analisar o seu caso.
+A conta das 120 contribuições e dos intervalos é técnica, e cada caso depende do que aparece no CNIS. A tese do STJ ajuda, mas não garante o resultado sem essa análise. Fale com a gente para analisar o seu caso.
 
 Chamar no WhatsApp
 
