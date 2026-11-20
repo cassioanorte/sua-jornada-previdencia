@@ -2166,7 +2166,9 @@ Fale com a equipe da Spier & Anorte:
 Chamar no WhatsApp
 
 Telefones: (54) 3286-7220 e (54) 99987-0786`,
-  "auxilio-acidente-quem-tem-direito": `## Recuperado, mas o corpo não voltou a ser o mesmo
+  "auxilio-acidente-quem-tem-direito": `*Atualizado em 20/11/2026.*
+
+## Recuperado, mas o corpo não voltou a ser o mesmo
 
 O Marcelo caiu da moto voltando do trabalho. Fraturou o joelho, passou por cirurgia, ficou meses afastado. Com o tempo, voltou a andar, voltou a trabalhar. Só que o joelho nunca mais foi o mesmo: dói no fim do dia, trava quando ele agacha, não aguenta o ritmo de antes.
 
@@ -2184,7 +2186,7 @@ E não precisa ser acidente de trabalho. Vale para acidente de **qualquer nature
 
 ## Quem tem direito
 
-Para ter direito ao auxílio-acidente, três pontos precisam estar presentes ao mesmo tempo:
+Para ter direito ao auxílio-acidente, é preciso, primeiro, ser segurado empregado (inclusive doméstico), trabalhador avulso ou segurado especial (rural) na data do acidente. Contribuinte individual, como o autônomo e o MEI, e o segurado facultativo não têm direito a esse benefício (Lei 8.213/91, art. 18, § 1º). Além disso, três pontos precisam estar presentes ao mesmo tempo:
 
 - **Lesão consolidada:** a lesão já estabilizou, ou seja, o tratamento chegou no limite do que era possível. Enquanto você ainda está em tratamento e incapaz de trabalhar, o caso é de auxílio-doença, não de auxílio-acidente.
 - **Sequela permanente que reduz a capacidade:** ficou uma limitação que não vai mais melhorar e que atrapalha o seu trabalho. Não precisa impedir de trabalhar, basta reduzir.
@@ -2208,11 +2210,11 @@ O **auxílio-doença** é pago enquanto você está incapaz e afastado do trabal
 
 O **auxílio-acidente** vem depois. É um valor mensal pela sequela que já se consolidou, com você já de volta ao trabalho. Um substitui o salário durante o afastamento, o outro complementa a renda pela limitação que ficou.
 
-## E os valores atrasados?
+## E os valores dos últimos 5 anos?
 
 Muita gente descobre o direito ao auxílio-acidente anos depois do acidente. A boa notícia é que dá para buscar os **valores retroativos**.
 
-A lei permite receber os atrasados de até **5 anos** para trás, por causa da chamada prescrição quinquenal. Ou seja, mesmo que sua sequela já exista há um bom tempo, ainda pode haver um valor acumulado a receber.
+O benefício é devido desde o dia seguinte ao fim do auxílio-doença, mas só dá para receber as parcelas dos últimos **5 anos** (Lei 8.213/91, art. 103, parágrafo único; STJ, Tema 862). Ou seja, mesmo que sua sequela já exista há um bom tempo, ainda pode haver um valor acumulado a receber.
 
 Cada situação é diferente e precisa ser analisada individualmente, mas vale a pena verificar antes de deixar esse direito passar.
 
