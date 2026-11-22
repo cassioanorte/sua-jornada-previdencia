@@ -224,6 +224,22 @@ export const cityExtras: Record<string, CityExtra> = {
         question: "Quanto tempo depois do falecimento posso pedir a pensão por morte?",
         answer: "O pedido pode ser feito a qualquer momento, mas o prazo influencia a data de início do pagamento. Feito em até 90 dias do óbito (ou 180 dias para filhos menores de 16 anos), o benefício é pago desde a data do falecimento; depois disso, a partir da data do pedido.",
       },
+      {
+        question: "Quem é a Spier & Anorte Sociedade de Advogados?",
+        answer: "É uma sociedade de advogados com sede em Gramado/RS e escritório em Nova Petrópolis/RS, registrada na OAB/RS sob o nº 4.809. Atua em Direito Previdenciário desde 2013, com atendimento presencial agendado e online para todo o Brasil.",
+      },
+      {
+        question: "Quais advogados atendem no escritório e qual o registro na OAB?",
+        answer: "Cassio Fraga Anorte (OAB/RS 73.679), Rodrigo Fernando Shoeler Spier (OAB/RS 70.421) e Paloma Nicole Schabarum (OAB/RS 125.105). Os registros podem ser conferidos no Cadastro Nacional dos Advogados, no site da OAB.",
+      },
+      {
+        question: "Em quais áreas o escritório atua?",
+        answer: "Em Direito Previdenciário: aposentadorias (idade, tempo de contribuição, especial, rural e da pessoa com deficiência), auxílio por incapacidade (auxílio-doença), auxílio-acidente, BPC/LOAS, pensão por morte, salário-maternidade, revisões de benefícios do INSS e planejamento previdenciário.",
+      },
+      {
+        question: "Como funciona o atendimento?",
+        answer: "O primeiro contato é feito pelo WhatsApp (54) 99987-0786 ou pelo telefone (54) 3286-7220. O atendimento pode ser presencial, com horário agendado, ou online, com reunião por vídeo e envio de documentos. Cada caso é analisado individualmente, e a análise não garante resultado nem a concessão do benefício.",
+      },
     ],
     neighbors: ["canela", "nova-petropolis", "tres-coroas", "caxias-do-sul", "sao-francisco-de-paula"],
     blog: [

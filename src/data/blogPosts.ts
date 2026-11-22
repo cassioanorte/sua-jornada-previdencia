@@ -1030,7 +1030,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Saiba como se preparar para a perícia médica do INSS, que documentos levar e como aumentar as chances de concessão do benefício.",
     date: "14 de Abril de 2026",
     category: "Benefícios por Incapacidade",
-    author: "Spier & Anorte Advogados"
+    author: "Spier & Anorte Sociedade de Advogados"
   },
   {
     id: "bpc-vs-beneficios-inss",
@@ -1040,7 +1040,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "BPC x benefícios do INSS por incapacidade: diferenças, requisitos e como escolher o melhor caminho.",
     date: "2025-07-15",
     category: "BPC/LOAS",
-    author: "Spier & Anorte Advogados"
+    author: "Spier & Anorte Sociedade de Advogados"
   },
   {
     id: "reabilitacao-profissional-inss",
@@ -1050,7 +1050,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Reabilitação profissional INSS: conheça os direitos, etapas do programa e como solicitar apoio para retornar ao trabalho.",
     date: "2025-07-20",
     category: "Benefícios por Incapacidade",
-    author: "Spier & Anorte Advogados"
+    author: "Spier & Anorte Sociedade de Advogados"
   },
   {
     id: "trf4-amplia-tempo-rural-mantem-atividade-especial",

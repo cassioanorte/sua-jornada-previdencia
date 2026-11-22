@@ -1,9 +1,33 @@
+# Robôs de busca tradicionais
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
+# Robôs de assistentes de IA: acesso liberado de forma explícita
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Redes sociais (pré-visualização de links)
 User-agent: Twitterbot
 Allow: /
 

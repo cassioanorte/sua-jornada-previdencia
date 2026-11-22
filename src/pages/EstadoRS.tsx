@@ -62,7 +62,7 @@ const CityGrid = ({ title, cities }: { title: string; cities: typeof cityPages }
 
 const EstadoRS = () => {
   useEffect(() => {
-    document.title = "Advogado Previdenciário RS | Spier & Anorte Advocacia";
+    document.title = "Advogado Previdenciário RS | Spier & Anorte Sociedade de Advogados";
     const metaDesc = document.querySelector('meta[name="description"]');
     const content = "Advogado previdenciário no Rio Grande do Sul. Escritórios em Gramado e Nova Petrópolis. Atendemos Serra Gaúcha, Vale do Paranhana e Região Metropolitana. Agende um atendimento.";
     if (metaDesc) {

@@ -74,7 +74,7 @@ Chamar no WhatsApp
 Telefones: (54) 3286-7220 e (54) 99987-0786
 
 Fontes oficiais: [Lei 8.213/91 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) | [STJ, Tema 1.352](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1352&cod_tema_final=1352) | [STJ, Tema 1.360](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1360&cod_tema_final=1360) | [TNU, Tema 255](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-255) | [TNU, Tema 338](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-338) | [Súmulas da AGU](https://www.gov.br/agu/pt-br/composicao/cgu/cgu/sumula).
-Conteúdo informativo. Exemplos ilustrativos, com nomes fictícios. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
+Conteúdo informativo. Exemplos ilustrativos, com nomes fictícios. Spier & Anorte Sociedade de Advogados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "sumula-26-agu-parou-de-contribuir-doenca-qualidade-de-segurado": `## A doença veio antes do pedido
 
 Muita gente adoece, piora aos poucos, até que não consegue mais trabalhar. Sem trabalho, para de contribuir. Ocupada com o tratamento, não pede nada ao INSS. Quando finalmente pede, às vezes anos depois, recebe a resposta: "perda da qualidade de segurado".
@@ -126,7 +126,7 @@ Chamar no WhatsApp
 Telefones: (54) 3286-7220 e (54) 99987-0786
 
 Fontes oficiais: [Súmulas da AGU (gov.br)](https://www.gov.br/agu/pt-br/composicao/cgu/cgu/sumula) | [Consolidação no DOU, 31/01/2025](https://www.in.gov.br/en/web/dou/-/sumulas-da-advocacia-geral-da-uniao-610271961) | [Lei 8.213/91 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm).
-Conteúdo informativo. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
+Conteúdo informativo. Spier & Anorte Sociedade de Advogados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "desemprego-involuntario-periodo-de-graca-tema-1360-stj": `## Demitido, sem trabalho, e depois veio o acidente
 
 A situação é comum: a pessoa é dispensada, passa meses procurando emprego, não consegue, e mais de um ano depois sofre um acidente ou fica doente. A primeira ideia é que, sem contribuir há mais de 12 meses, ela já não teria proteção do INSS.
@@ -182,7 +182,7 @@ Telefones: (54) 3286-7220 e (54) 99987-0786
 Leia também: [Parei de contribuir: ainda sou segurado do INSS?](https://spiereanorte.adv.br/blog/qualidade-de-segurado-periodo-de-graca-inss/) | [Mais de 120 contribuições e o Tema 1.352](https://spiereanorte.adv.br/blog/120-contribuicoes-periodo-de-graca-24-meses-tema-1352/)
 
 Fontes oficiais: [Lei 8.213/91 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) | [STJ, Tema 1.360](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1360&cod_tema_final=1360) | [Notícia STJ, 16/07/2026](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16072026-Repetitivo-fixa-tese-sobre-prova-de-desemprego-para-extensao-do-periodo-de-graca-previdenciaria.aspx) | [Notícia STJ, 30/03/2026](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/30032026-Comprovacao-da-situacao-de-desemprego-involuntario-e-o-novo-tema-da-Pagina-de-Repetitivos.aspx).
-Conteúdo informativo. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
+Conteúdo informativo. Spier & Anorte Sociedade de Advogados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "120-contribuicoes-periodo-de-graca-24-meses-tema-1352": `## Dez anos de trabalho contam mais do que parece
 
 Quem trabalhou muitos anos com carteira assinada e depois ficou sem contribuir costuma achar que, depois de um ano parado, perdeu o INSS. Para quem tem um histórico longo, a lei prevê um prazo maior.
@@ -252,7 +252,7 @@ Telefones: (54) 3286-7220 e (54) 99987-0786
 Leia também: [Parei de contribuir: ainda sou segurado do INSS?](https://spiereanorte.adv.br/blog/qualidade-de-segurado-periodo-de-graca-inss/)
 
 Fontes oficiais: [Lei 8.213/91 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) | [STJ, Tema 1.352](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1352&cod_tema_final=1352) | [Informativo STJ 854, afetação](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D021598) | [TNU, Tema 255](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-255) | [TNU, Tema 338](https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/turma-nacional-de-uniformizacao/temas-representativos/tema-338).
-Conteúdo informativo. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
+Conteúdo informativo. Spier & Anorte Sociedade de Advogados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "qualidade-de-segurado-periodo-de-graca-inss": `## "Parei de pagar, então perdi o INSS"
 
 É uma das frases que mais ouvimos no escritório. A pessoa saiu do emprego, ficou um tempo sem contribuir, sofreu um acidente ou adoeceu e nem chegou a pedir o benefício, porque achou que já não era mais segurada.
@@ -312,7 +312,7 @@ Chamar no WhatsApp
 Telefones: (54) 3286-7220 e (54) 99987-0786
 
 Fontes oficiais: [Lei 8.213/91, arts. 15 e 26 (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm).
-Conteúdo informativo. Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
+Conteúdo informativo. Spier & Anorte Sociedade de Advogados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679.`,
   "rpv-precatorio-quanto-tempo-receber-atrasados-inss": `## "Ganhei. E agora, quando cai?"
 
 A Dona Lurdes esperou quase dois anos pela decisão do processo de aposentadoria. Quando o advogado ligou dizendo que a sentença tinha sido favorável e que não cabia mais recurso, a primeira pergunta dela foi direta: "E quando eu recebo?"
@@ -1072,7 +1072,7 @@ Veja o motivo da negativa e reúna o que faltou. Há possibilidade de recurso ad
 
 ## Quer ajuda para organizar o seu pedido?
 
-A equipe da Spier & Anorte Advogados pode olhar os seus documentos e explicar, com clareza e sem promessa de resultado, se há direito e qual o melhor caminho. Cada caso é analisado individualmente.
+A equipe da Spier & Anorte Sociedade de Advogados pode olhar os seus documentos e explicar, com clareza e sem promessa de resultado, se há direito e qual o melhor caminho. Cada caso é analisado individualmente.
 
 Fale com a gente: Chamar no WhatsApp
 
@@ -1150,7 +1150,7 @@ Até a publicação deste texto, não havia data definida.
 
 ## Fale com a Spier & Anorte
 
-Se você trabalhou ou trabalha com eletricidade e quer entender como fica a sua aposentadoria, a equipe da Spier & Anorte Advogados pode analisar os seus documentos e explicar as opções com clareza, sem promessa de resultado.
+Se você trabalhou ou trabalha com eletricidade e quer entender como fica a sua aposentadoria, a equipe da Spier & Anorte Sociedade de Advogados pode analisar os seus documentos e explicar as opções com clareza, sem promessa de resultado.
 
 Fale com a gente: Chamar no WhatsApp
 
@@ -2697,7 +2697,7 @@ Quer saber se seu benefício está em risco ou o que fazer em caso de convocaç�
 
 ---
 
-*Spier & Anorte Advocacia — Especialistas em Direito Previdenciário*
+*Spier & Anorte Sociedade de Advogados: especialistas em Direito Previdenciário*
 `,
   "auxilio-doenca-negado-como-reverter": `## A primeira negativa não é a última palavra
 

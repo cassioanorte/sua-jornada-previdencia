@@ -6,7 +6,7 @@ import { Shield, Heart, Zap, Users, Phone } from "lucide-react";
 import teamImage from "@/assets/team.jpg";
 
 const QuemSomos = () => {
-  useSeo('Quem Somos | Spier & Anorte Advogados Previdenciários', 'Conheça os sócios e a atuação exclusiva em Direito Previdenciário da Spier & Anorte Sociedade de Advogados, com sedes em Gramado e Nova Petrópolis (RS).');
+  useSeo('Quem Somos | Spier & Anorte Sociedade de Advogados', 'Conheça os sócios e a atuação exclusiva em Direito Previdenciário da Spier & Anorte Sociedade de Advogados, com sedes em Gramado e Nova Petrópolis (RS).');
   const handleWhatsApp = () => {
     window.open("https://wa.link/hdn70i", "_blank");
   };
@@ -93,6 +93,36 @@ const QuemSomos = () => {
                 <strong className="text-primary">Mais do que processos, cuidamos de pessoas.</strong> E é isso que nos move todos os dias.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sociedade e advogados (dados factuais) */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-foreground">
+              Sociedade e advogados
+            </h2>
+            <p className="text-lg text-foreground/80 text-center mb-10">
+              Spier &amp; Anorte Sociedade de Advogados, registro da sociedade na OAB/RS nº 4.809, com sede em Gramado (RS) e escritório em Nova Petrópolis (RS).
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[
+                { name: "Cassio Fraga Anorte", role: "Advogado, sócio fundador", oab: "OAB/RS 73.679" },
+                { name: "Rodrigo Fernando Shoeler Spier", role: "Advogado, sócio fundador", oab: "OAB/RS 70.421" },
+                { name: "Paloma Nicole Schabarum", role: "Advogada", oab: "OAB/RS 125.105" },
+              ].map((lawyer) => (
+                <div key={lawyer.name} className="bg-card rounded-xl p-6 card-shadow text-center">
+                  <h3 className="text-lg font-bold mb-1 text-foreground">{lawyer.name}</h3>
+                  <p className="text-sm text-muted-foreground">{lawyer.role}</p>
+                  <p className="text-sm text-muted-foreground">{lawyer.oab}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-sm text-muted-foreground text-center mt-8">
+              Conteúdo informativo. A análise de cada caso é individual e não há promessa de resultado.
+            </p>
           </div>
         </div>
       </section>

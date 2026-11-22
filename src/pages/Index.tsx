@@ -212,7 +212,7 @@ const Index = () => {
             <div className="relative overflow-hidden" style={{ aspectRatio: "21/9" }}>
               <img
                 src={teamImage}
-                alt="Equipe Spier & Anorte Advogados"
+                alt="Equipe da Spier & Anorte Sociedade de Advogados"
                 className="w-full h-full object-cover"
                 style={{ filter: "brightness(0.92) contrast(1.08)", objectPosition: "center top" }}
                 loading="eager"
