@@ -1,5 +1,91 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "salario-maternidade-negado-10-contribuicoes-stf": `## "Faltaram contribuições"
+
+A Camila é manicure e abriu o MEI quando descobriu a gravidez. Pagou o DAS certinho todos os meses até o parto. Quando pediu o salário-maternidade, veio a negativa do INSS: ela não tinha as 10 contribuições exigidas.
+
+Ela guardou a carta numa gaveta e deixou para lá. Achou que tinha errado e que não havia mais o que fazer.
+
+Só que essa exigência, que aparece na carta da Camila, já foi derrubada pelo Supremo Tribunal Federal. E muita mãe que recebeu a mesma resposta não sabe disso.
+
+## O que o STF decidiu
+
+Em 21/03/2024, no julgamento da **ADI 2110**, o Plenário do STF declarou inconstitucional a exigência de carência para o salário-maternidade prevista no art. 25, inciso III, da Lei 8.213/91. Era essa regra que pedia as 10 contribuições mensais.
+
+O fundamento, segundo a ementa da decisão, é que a carência viola a igualdade entre as trabalhadoras, presume má-fé das autônomas e contraria o dever da Constituição de proteger a maternidade e a criança (art. 227).
+
+A decisão já é definitiva e não teve modulação para o salário-maternidade. Você pode conferir o [andamento da ADI 2110 no portal do STF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=1795150) e o [acórdão na pesquisa de jurisprudência do STF](https://jurisprudencia.stf.jus.br/pages/search/sjur503618/false).
+
+Resumindo: desde 2024, o STF decidiu que o salário-maternidade não depende mais de 10 contribuições para autônomas, MEIs, facultativas e trabalhadoras rurais.
+
+## Quem é atingida pela decisão
+
+A exigência das 10 contribuições valia para três grupos de seguradas, e são elas que a decisão alcança:
+
+- **Contribuinte individual**, que trabalha por conta própria, incluindo a **MEI**;
+- **Facultativa**, quem contribui sem ter atividade remunerada, como a dona de casa;
+- **Segurada especial**, a trabalhadora rural que vive da agricultura familiar. O TRF4, tribunal da nossa região, também aplica a decisão a ela.
+
+## O que continua sendo exigido
+
+A decisão do STF tirou a carência, mas não tirou todas as regras. O que importa é estar segurada do INSS na data do parto.
+
+Na prática, isso quer dizer estar contribuindo ou dentro do chamado período de graça, que é o tempo em que a pessoa mantém a proteção do INSS mesmo depois de parar de contribuir.
+
+Para quem é autônoma ou MEI, também é importante ter como mostrar que a atividade existe de verdade, com notas, recibos, CNPJ ativo ou contratos de serviço.
+
+E para a trabalhadora rural, é preciso comprovar o trabalho no campo com documentos. Só o depoimento de testemunhas não é suficiente.
+
+## Por que o INSS ainda nega
+
+Aqui está a confusão. O texto da Lei 8.213/91 não foi alterado: o art. 25, inciso III, continua lá, só com a anotação "Vide ADI 2110" no [texto oficial do Planalto](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm). Quem mudou a regra foi o STF, não o Congresso.
+
+O regulamento também não foi atualizado, e a [página oficial do INSS sobre o salário-maternidade](https://www.gov.br/pt-br/servicos/solicitar-salario-maternidade-urbano) ainda fala em 10 contribuições.
+
+Por isso, o INSS ainda costuma pedir as 10 contribuições na via administrativa. Se negou por isso, essa exigência foi derrubada pelo STF e o caso pode ser revisto. O TRF4 já mandou o INSS [reanalisar um pedido negado por falta de carência](https://eproc-jur.trf4.jus.br/eproc2trf4/externo_controlador.php?acao=jurisprudencia@jurisprudencia/download_inteiro_teor&id_jurisprudencia=41762896323548183183140548189), justamente com base na decisão do Supremo.
+
+## Fui negada. E agora?
+
+O primeiro ponto é o prazo. O pedido de salário-maternidade pode ser feito em até 5 anos depois do parto, conforme a Instrução Normativa INSS nº 128/2022 (art. 357, § 5º). Então, mesmo que o seu filho já tenha alguns anos, ainda pode haver tempo.
+
+Depois, vale organizar:
+
+1. a carta de indeferimento, com o motivo da negativa;
+2. o seu extrato de contribuições (CNIS), que dá para tirar no Meu INSS;
+3. a certidão de nascimento da criança;
+4. documentos da sua atividade, se você é autônoma ou MEI;
+5. documentos do trabalho rural, se for o seu caso.
+
+Com isso em mãos, dá para avaliar qual é o melhor caminho: um novo pedido, um recurso ou, se for o caso, a Justiça. A escolha depende do motivo da negativa e da sua situação na data do parto.
+
+Se você é MEI, o artigo [MEI grávida e o salário-maternidade](/blog/mei-gravida-tem-direito-salario-maternidade/) mostra as regras com mais detalhes. E se você estava sem emprego na época do parto, veja o artigo sobre [mãe desempregada e o período de graça](/blog/mae-desempregada-direito-salario-maternidade/).
+
+## Perguntas rápidas
+
+**Quem tem carteira assinada também é afetada pela decisão?**
+A exigência das 10 contribuições era das autônomas, MEIs, facultativas e trabalhadoras rurais. É para elas que a decisão do STF faz diferença.
+
+**Uma contribuição só resolve?**
+Não existe número mágico. O que precisa ficar demonstrado é a qualidade de segurada na data do parto e, para autônoma e MEI, a atividade de verdade.
+
+**O meu filho nasceu há três anos. Ainda dá tempo?**
+O pedido pode ser feito em até 5 anos depois do parto.
+
+**O INSS vai aprovar agora sem pedir as 10 contribuições?**
+Não dá para contar com isso. O INSS ainda costuma exigir as contribuições na via administrativa.
+
+**Sou trabalhadora rural e não tenho documentos. Posso pedir?**
+É preciso comprovar o trabalho no campo com documentos. Vale reunir tudo o que você tiver e buscar orientação.
+
+## Ficou com dúvida?
+
+Teve o salário-maternidade negado por falta de contribuições? Fale com a equipe da Spier & Anorte pelo WhatsApp (54) 3286-7220 e tire a sua dúvida.
+
+[Chamar no WhatsApp](https://wa.me/555432867220)
+
+Cada caso precisa ser analisado individualmente.
+
+*Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679. Conteúdo informativo.*`,
   "inss-negou-perda-qualidade-de-segurado-o-que-fazer": `## Uma negativa comum, e nem sempre definitiva
 
 Entre os motivos de negativa de auxílio-doença e de auxílio-acidente, um aparece com frequência na carta do INSS: **perda da qualidade de segurado**. Muita gente lê isso e desiste, achando que ficou tempo demais sem contribuir.

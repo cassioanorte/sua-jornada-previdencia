@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "salario-maternidade-negado-10-contribuicoes-stf",
+    image: "/blog/salario-maternidade-negado-10-contribuicoes-stf.jpg",
+    title: "Salário-maternidade negado por falta de 10 contribuições: o que o STF decidiu",
+    excerpt: "Autônoma, MEI, facultativa ou trabalhadora rural e teve o salário-maternidade negado por falta de 10 contribuições? Entenda a decisão do STF na ADI 2110, por que o INSS ainda exige e o prazo para pedir.",
+    date: "23 de novembro de 2026",
+    category: "Maternidade e Família",
+    author: "Equipe Spier & Anorte",
+    cluster: "maternidade"
+  },
+  {
     id: "inss-negou-perda-qualidade-de-segurado-o-que-fazer",
     image: "/blog/inss-negou-perda-qualidade-de-segurado-o-que-fazer.jpg",
     title: "INSS negou por perda da qualidade de segurado? 4 regras para conferir e o que levar",
