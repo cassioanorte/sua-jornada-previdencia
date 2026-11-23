@@ -1013,16 +1013,6 @@ export const blogPosts: BlogPost[] = [
     author: "Equipe Spier & Anorte"
   },
   {
-    id: "aposentadoria-por-invalidez-como-pedir",
-    cluster: "incapacidade" as BlogCluster,
-    image: "/blog/aposentadoria-por-invalidez.jpg",
-    title: "Aposentadoria por invalidez: condições, provas e como requerer ao INSS",
-    excerpt: "Saiba quando pedir aposentadoria por invalidez, quais provas apresentar e como proceder no INSS para garantir seus direitos.",
-    date: "11 de Abril de 2026",
-    category: "Benefícios por Incapacidade",
-    author: "Dra. Fabíola Marques"
-  },
-  {
     id: "pericia-medica-inss-como-preparar",
     cluster: "incapacidade" as BlogCluster,
     image: "/blog/pericia-medica-inss.jpg",

@@ -6897,43 +6897,6 @@ Recurso administrativo e ação judicial são caminhos possíveis diante de deci
 
 Reúna documentação completa e acompanhe prazos. **Precisa de ajuda para organizar seu dossiê ou revisar seu pedido? Entre em contato com nosso escritório para uma análise gratuita e personalizada.**
 `,
-  "aposentadoria-por-invalidez-como-pedir": `## Introdução
-
-A **aposentadoria por invalidez** é devida ao segurado considerado incapaz permanentemente para o trabalho. Entender os critérios e a documentação necessária é essencial para um pedido bem-sucedido.
-
-## Critérios principais
-
-- **Incapacidade total e permanente** para o trabalho.
-- **Qualidade de segurado** e cumprimento de carência (salvo em acidentes de trabalho).
-- A relação entre a doença/incapacidade e a atividade laboral deve estar bem demonstrada.
-
-## Documentos e provas
-
-- Relatórios de especialistas, laudos hospitalares e exames que comprovem a gravidade e permanência.
-- Histórico de tratamentos, terapias e intervenções.
-- Documentação que mostre a impossibilidade de readaptação ao trabalho.
-
-## Procedimento
-
-1. **Requerimento** via Meu INSS ou agendamento de perícia.
-2. **Perícia médica** realizada por peritos do INSS avaliará o grau de incapacidade.
-3. Em caso de **indeferimento**, recurso administrativo e, se necessário, ação judicial com prova pericial independente.
-
-## Dicas estratégicas
-
-- Laudos detalhados e assinados por especialistas aumentam a credibilidade.
-- Considere a necessidade de **perícia judicial** quando houver divergência técnica.
-- Avalie a possibilidade de conversão de auxílio-doença em aposentadoria por invalidez quando a incapacidade se tornar permanente.
-
-## Conclusão
-
-Se a sua condição impede o trabalho de forma permanente, organize a documentação e busque apoio técnico para formular um pedido robusto. **Precisa revisar seu dossiê?** [Solicite avaliação](/contato).
-
----
-
-**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Auxílio-doença: requisitos e passo a passo](/blog/auxilio-doenca-requisitos)
-
-**Hashtags:** #AposentadoriaPorInvalidez #INSS #BenefíciosPorIncapacidade`,
   "pericia-medica-inss-como-preparar": `## Introdução
 
 A perícia médica muitas vezes decide o destino de um pedido de benefício. Chegar bem preparado e com documentação organizada é fundamental para obter a concessão do auxílio-doença, aposentadoria por invalidez ou qualquer outro benefício que dependa de avaliação médica.
@@ -6979,7 +6942,7 @@ Perícia bem-sucedida exige preparo e documentação robusta. **Precisa de um ch
 
 ---
 
-**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Aposentadoria por invalidez: como pedir](/blog/aposentadoria-por-invalidez-como-pedir) | [Auxílio-doença: requisitos e passo a passo](/blog/auxilio-doenca-requisitos)
+**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [Auxílio-doença: requisitos e passo a passo](/blog/auxilio-doenca-requisitos)
 
 **Hashtags:** #PeríciaINSS #AuxílioDoença #DireitoPrevidenciário`,
   "bpc-vs-beneficios-inss": `## Introdução
@@ -7018,7 +6981,7 @@ A decisão sobre pleitear BPC ou benefício do INSS depende do perfil contributi
 
 ---
 
-**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [BPC/LOAS: como solicitar](/blog/bpc-loas-como-solicitar) | [Aposentadoria por invalidez: como pedir](/blog/aposentadoria-por-invalidez-como-pedir)
+**Links relacionados:** [Benefícios por incapacidade no INSS: guia completo](/blog/beneficios-por-incapacidade-no-inss) | [BPC/LOAS: como solicitar](/blog/bpc-loas-como-solicitar)
 
 **Hashtags:** #BPC #LOAS #DireitosSociais`,
 
