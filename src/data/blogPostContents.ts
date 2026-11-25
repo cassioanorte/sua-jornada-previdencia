@@ -1,5 +1,109 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "auxilio-doenca-negado-atestmed-reanalise-10-dias": `## A negativa chegou pelo celular
+
+O Márcio é pedreiro e machucou a coluna carregando saco de cimento. Mandou o atestado pelo Atestmed, a análise do INSS feita só com documentos, sem perícia presencial. Dias depois, veio a resposta: benefício negado. O laudo dele era de uma consulta rápida e não dizia por quanto tempo ele precisava ficar afastado.
+
+Até pouco tempo atrás, quem estava na situação do Márcio tinha dois caminhos: recorrer ao Conselho de Recursos ou esperar para fazer um pedido novo. Desde 06/11/2026, existe mais uma etapa, e ela vem antes das outras: a reanálise.
+
+## O que mudou
+
+A Portaria Conjunta MPS/INSS nº 54, publicada no Diário Oficial da União em 06/11/2026, alterou as regras do Atestmed. Ela criou o pedido de reanálise da documentação médica para quando o auxílio por incapacidade temporária, o antigo auxílio-doença, é negado por parecer técnico na análise documental.
+
+Em palavras simples: se a Perícia Médica Federal olhou os seus documentos e entendeu que eles não mostravam a incapacidade, agora dá para pedir que a documentação seja analisada de novo, antes de partir para o recurso.
+
+Segundo o Ministério da Previdência, a nova análise é feita por um perito diferente daquele que fez a primeira.
+
+A norma completa está no [Diário Oficial da União](https://www.in.gov.br/web/dou/-/portaria-conjunta-mps/inss-n-54-de-5-de-novembro-de-2026-742128744), e a explicação do governo está na [notícia oficial do Ministério da Previdência](https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/segurados-terao-direito-a-segunda-analise-quando-o-beneficio-for-negado-por-atestmed).
+
+## O prazo de 10 dias: de quando ele conta
+
+O pedido de reanálise tem prazo de 10 dias, contados da data em que você tomou ciência da decisão, ou seja, do dia em que foi comunicado da negativa. Não é a data em que o INSS decidiu.
+
+Três detalhes importantes:
+
+- **A portaria não diz se os 10 dias são corridos ou úteis.** Por isso, o mais prudente é não deixar para o último dia.
+- **A regra vale para quem foi comunicado da negativa a partir de 06/11/2026.** Quem tomou ciência antes dessa data não entra na reanálise e segue pelos caminhos que já existiam.
+- **A reanálise é para a negativa por parecer técnico da perícia.** Se o pedido foi negado por outro motivo, como falta de carência ou de qualidade de segurado, a situação é outra e precisa ser olhada com calma.
+
+## Dá para mandar documentos novos
+
+Dá. A portaria permite apresentar novos documentos médicos ou odontológicos no pedido de reanálise. É a oportunidade de completar ou corrigir o que ficou faltando na primeira vez.
+
+O que costuma ajudar o perito a entender a sua situação:
+
+- diagnóstico com o CID;
+- descrição de como a doença ou a lesão afeta o seu trabalho;
+- tempo estimado de afastamento;
+- data, assinatura e número de registro do médico;
+- exames que confirmam o que o laudo diz.
+
+No caso do Márcio, um laudo do ortopedista explicando que ele não consegue carregar peso e indicando o tempo de repouso daria ao perito uma visão bem mais clara do problema.
+
+## O aviso mais importante: não recorra antes de pedir a reanálise
+
+> **Atenção:** se você entrar com recurso no Conselho de Recursos da Previdência Social (CRPS) antes de pedir a reanálise, ainda dentro dos 10 dias, perde essa chance.
+
+A portaria diz que, nesse caso, a pessoa fez a opção pelo recurso e não pode mais pedir a reanálise. Não dá para voltar atrás. Por isso, antes de clicar em qualquer botão, entenda qual caminho faz mais sentido para o seu caso.
+
+## E o recurso de 30 dias?
+
+Continua existindo. O prazo de 30 dias para recorrer ao CRPS não acabou.
+
+O que muda é o momento em que ele começa:
+
+- se você **não** pediu a reanálise, os 30 dias contam da ciência da negativa do benefício;
+- se você **pediu** a reanálise, os 30 dias começam a contar quando sair o resultado dela.
+
+Ou seja, pedir a reanálise não faz você perder o recurso. Ele fica disponível para depois, se for preciso.
+
+## Duas negativas seguidas: o próximo pedido vai para perícia
+
+A mesma portaria mudou outra regra. Depois de duas negativas seguidas pelo Atestmed, o próximo pedido vai obrigatoriamente para perícia presencial, que também pode ser feita por telemedicina quando os requisitos forem cumpridos. Antes, isso só acontecia depois de três negativas.
+
+Repare no detalhe: não é a segunda negativa que vira perícia. É o pedido seguinte, feito depois das duas.
+
+E um cuidado que já existia: depois de uma negativa pelo Atestmed, um novo pedido por análise documental só é aceito a partir de 30 dias da decisão. Fazer outro pedido no dia seguinte não adianta.
+
+## Como pedir, na prática
+
+A portaria não informa um canal específico para o pedido de reanálise. Segundo o Ministério da Previdência, o segurado recebe as informações sobre a segunda análise quando consulta o resultado da perícia no aplicativo Meu INSS. Em caso de dúvida, os canais oficiais do INSS são o Meu INSS e o telefone 135.
+
+Enquanto o procedimento não fica totalmente claro, o mais seguro é:
+
+1. anotar o dia em que você foi comunicado da negativa;
+2. ler com atenção o motivo do indeferimento;
+3. reunir laudos e exames atualizados;
+4. buscar orientação antes de recorrer, para não perder a reanálise por engano.
+
+Se quiser entender o Atestmed desde o começo, veja o nosso artigo sobre [como funciona o Atestmed no auxílio-doença](/blog/atestmed-auxilio-doenca/). E se o seu caso já passou da fase da reanálise, o artigo [INSS negou o auxílio-doença: o que fazer](/blog/inss-negou-auxilio-doenca-o-que-fazer/) explica os outros caminhos.
+
+## Perguntas rápidas
+
+**A reanálise vale para quem teve o pedido negado em outubro?**
+Não. Ela vale para quem tomou ciência da negativa a partir de 06/11/2026.
+
+**Os 10 dias são úteis ou corridos?**
+A portaria não diz. Não conte com dias a mais e faça o pedido o quanto antes.
+
+**Se eu pedir a reanálise, perco o recurso?**
+Não. O prazo de 30 dias para recorrer começa a contar depois do resultado da reanálise.
+
+**Posso recorrer direto e pular a reanálise?**
+Pode, mas quem recorre dentro dos 10 dias sem pedir a reanálise perde essa possibilidade.
+
+**Pedir a reanálise quer dizer que o benefício vai sair?**
+Não. É uma nova avaliação dos documentos, que pode manter ou mudar a decisão.
+
+## Ficou com dúvida?
+
+Recebeu a negativa do Atestmed e não sabe se pede a reanálise ou se recorre? Fale com a equipe da Spier & Anorte pelo WhatsApp (54) 3286-7220 e tire a sua dúvida.
+
+[Chamar no WhatsApp](https://wa.me/555432867220)
+
+Cada caso precisa ser analisado individualmente.
+
+*Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679. Conteúdo informativo.*`,
   "salario-maternidade-negado-10-contribuicoes-stf": `## "Faltaram contribuições"
 
 A Camila é manicure e abriu o MEI quando descobriu a gravidez. Pagou o DAS certinho todos os meses até o parto. Quando pediu o salário-maternidade, veio a negativa do INSS: ela não tinha as 10 contribuições exigidas.

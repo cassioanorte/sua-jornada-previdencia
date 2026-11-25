@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "auxilio-doenca-negado-atestmed-reanalise-10-dias",
+    image: "/blog/auxilio-doenca-negado-atestmed-reanalise-10-dias.jpg",
+    title: "Auxílio-doença negado pelo Atestmed: como pedir a nova análise em 10 dias",
+    excerpt: "Desde 06/11/2026, quem teve o auxílio por incapacidade negado na análise por documentos pode pedir uma reanálise em até 10 dias. Veja de quando conta o prazo, o que juntar e o cuidado com o recurso.",
+    date: "25 de novembro de 2026",
+    category: "Auxílio-Doença",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "salario-maternidade-negado-10-contribuicoes-stf",
     image: "/blog/salario-maternidade-negado-10-contribuicoes-stf.jpg",
     title: "Salário-maternidade negado por falta de 10 contribuições: o que o STF decidiu",
