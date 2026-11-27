@@ -22,6 +22,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "pente-fino-inss-convocado-pericia-o-que-fazer",
+    image: "/blog/pente-fino-inss-convocado-pericia-o-que-fazer.jpg",
+    title: "Pente-fino do INSS: fui convocado para perícia, e agora?",
+    excerpt: "Recebeu convocação do INSS para nova perícia do auxílio-doença? Entenda por que isso acontece, o que levar, o que acontece se faltar e quais caminhos existem se o benefício for encerrado.",
+    date: "27 de novembro de 2026",
+    category: "Benefícios por Incapacidade",
+    author: "Equipe Spier & Anorte",
+    cluster: "incapacidade"
+  },
+  {
     id: "auxilio-doenca-negado-atestmed-reanalise-10-dias",
     image: "/blog/auxilio-doenca-negado-atestmed-reanalise-10-dias.jpg",
     title: "Auxílio-doença negado pelo Atestmed: como pedir a nova análise em 10 dias",

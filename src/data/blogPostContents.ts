@@ -1,5 +1,93 @@
 // Blog post contents - lazy loaded only when viewing individual posts
 const blogPostContents: Record<string, string> = {
+  "pente-fino-inss-convocado-pericia-o-que-fazer": `## O aviso que ninguém gosta de receber
+
+A Rosângela é costureira e recebe auxílio-doença por causa de uma hérnia de disco que ainda não deixa ela ficar sentada por muito tempo. Numa manhã, chegou o aviso: ela foi convocada para uma nova perícia no INSS.
+
+O primeiro sentimento foi medo. Ela já tinha ouvido falar do tal "pente-fino" e ficou pensando se ia perder o benefício, se precisava ir sozinha, o que tinha que levar.
+
+Se você está no lugar da Rosângela, respira. Ser convocado não quer dizer que o benefício vai acabar. Quer dizer que o INSS vai conferir como está a sua saúde hoje. E dá para se preparar bem para isso.
+
+## Por que o INSS chama de novo
+
+O auxílio por incapacidade temporária, o antigo auxílio-doença, é um benefício pensado para durar enquanto a pessoa não consegue trabalhar. Por isso a lei permite que o INSS faça novas avaliações.
+
+Pela Lei 8.213/91 (art. 60, § 10), quem recebe auxílio por incapacidade pode ser chamado pelo INSS a qualquer momento para nova perícia. "Pente-fino" é o nome popular dessas revisões feitas em grande quantidade, que vêm sendo noticiadas pela imprensa especializada nos últimos meses.
+
+A lei completa está no [Planalto, Lei 8.213/91](https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm) (arts. 43, 60, 62 e 101).
+
+## Primeiro passo: confira a convocação nos canais oficiais
+
+Em época de revisão, aparecem também mensagens falsas. Antes de qualquer coisa, confira a sua situação nos canais oficiais do INSS: o Meu INSS e o telefone 135.
+
+O INSS não pede senha, dados bancários nem transferência de dinheiro. Se a mensagem pedir alguma dessas coisas, desconfie e não clique em links desconhecidos.
+
+## Não falte à perícia
+
+Esse é o cuidado mais importante. Pela lei (art. 101 da Lei 8.213/91), quem recebe auxílio por incapacidade é obrigado a passar pelo exame médico do INSS, sob pena de **suspensão** do benefício.
+
+Ou seja, faltar pode fazer o pagamento parar. Por isso, anote a data, o horário e o local, e organize a sua ida com antecedência.
+
+Se você tem dificuldade para se locomover por causa da doença, a lei assegura o atendimento domiciliar e hospitalar pela perícia, nos termos do regulamento. Nesse caso, procure o INSS pelos canais oficiais para informar a situação.
+
+## O que levar
+
+O perito vai avaliar como você está agora, não como estava quando o benefício começou. Então, o que mais ajuda é documentação recente:
+
+- laudos médicos atualizados, de preferência com CID, descrição das limitações e tempo estimado de tratamento;
+- exames recentes;
+- receitas dos remédios que você usa;
+- comprovantes de tratamento, como fisioterapia, consultas e internações;
+- documento oficial com foto.
+
+Na perícia, explique com sinceridade o que você consegue e o que não consegue fazer no dia a dia e no trabalho. Temos um artigo com mais detalhes sobre [como se preparar para a perícia médica do INSS](/blog/pericia-medica-inss-por-que-negam-como-se-preparar/).
+
+## "Tenho mais de 60 anos. Estou dispensado?"
+
+Essa dúvida é muito comum, e aqui mora um erro que circula bastante.
+
+A lei prevê a dispensa do exame em algumas situações, mas ela vale para o **aposentado por incapacidade permanente** e para o **pensionista inválido** que não voltaram a trabalhar, quando completam 60 anos, ou 55 anos com 15 anos de benefício.
+
+**Essa dispensa não vale para quem recebe auxílio-doença.** Quem está no auxílio por incapacidade temporária pode ser convocado mesmo com mais de 60 anos. A exceção, em qualquer idade, são as pessoas com aids, doença de Alzheimer, doença de Parkinson e esclerose lateral amiotrófica, que a lei dispensa dessa reavaliação (Lei 8.213/91, art. 60, § 15, incluído pela Lei 15.157/2025).
+
+E mesmo para o aposentado por incapacidade permanente, a lei mantém exceções em que o exame continua possível, como para avaliar o acréscimo de 25% por necessidade de ajuda permanente de outra pessoa.
+
+## E se o benefício for encerrado e você continua sem condições de trabalhar?
+
+Pode acontecer de a perícia concluir que você já pode voltar ao trabalho, mesmo que você não se sinta assim. Se o benefício foi encerrado e você continua sem condições de trabalhar, existem caminhos. Nenhum deles tem resultado certo, e a escolha depende do seu caso:
+
+- **Pedido de prorrogação.** Se o prazo fixado para o benefício não for suficiente para a sua recuperação, a lei permite pedir a prorrogação. Fique atento às datas e não espere o benefício acabar para se mexer. Explicamos o passo a passo em [auxílio-doença: como pedir a prorrogação](/blog/auxilio-doenca-prorrogacao-como-pedir/).
+- **Recurso ao Conselho de Recursos (CRPS).** O prazo é de 30 dias, e a análise é feita por um perito médico diferente do anterior, conforme a Lei 8.213/91 (art. 60, § 11) e o [Decreto 3.048/99](https://www.planalto.gov.br/ccivil_03/decreto/d3048.htm) (art. 78, § 7º).
+- **Novo pedido.** É possível, mas as regras do INSS preveem prazos mínimos conforme o caso. Por exemplo, se a prorrogação foi negada por parecer desfavorável, um novo pedido por análise documental só é aceito depois de 180 dias da cessação.
+- **Reabilitação profissional.** Quem não consegue voltar à atividade que exercia deve passar pela reabilitação, e a lei prevê que o benefício seja mantido até a reabilitação ou até a aposentadoria por incapacidade permanente (art. 62, § 1º).
+- **Ação na Justiça Federal.** É um caminho que existe quando a via administrativa não resolve. Ele exige uma análise cuidadosa dos laudos e do histórico.
+
+## Perguntas rápidas
+
+**Ser convocado quer dizer que vou perder o benefício?**
+Não. A convocação serve para o INSS avaliar como está a sua saúde hoje.
+
+**Se eu faltar, o benefício é cancelado?**
+A lei fala em suspensão. Mesmo assim, faltar pode fazer o pagamento parar, então o melhor é comparecer.
+
+**Tenho mais de 60 anos e recebo auxílio-doença. Preciso ir?**
+Sim, em regra. A dispensa por idade é do aposentado por incapacidade permanente e do pensionista inválido. Quem recebe auxílio-doença só fica dispensado da reavaliação se tiver aids, Alzheimer, Parkinson ou ELA.
+
+**Onde confiro se fui convocado?**
+Nos canais oficiais do INSS: Meu INSS e telefone 135.
+
+**O benefício foi encerrado, mas continuo doente. O que faço?**
+Existem caminhos, como prorrogação, recurso em 30 dias, novo pedido e, se for o caso, a Justiça. Vale buscar orientação logo.
+
+## Ficou com dúvida?
+
+Foi convocado para a perícia ou teve o benefício encerrado e ainda não consegue trabalhar? Fale com a equipe da Spier & Anorte pelo WhatsApp (54) 3286-7220 e tire a sua dúvida.
+
+[Chamar no WhatsApp](https://wa.me/555432867220)
+
+Cada caso precisa ser analisado individualmente.
+
+*Spier & Anorte Advogados Associados, OAB/RS 4.809. Dr. Cássio Fraga Anorte, OAB/RS 73.679. Conteúdo informativo.*`,
   "auxilio-doenca-negado-atestmed-reanalise-10-dias": `## A negativa chegou pelo celular
 
 O Márcio é pedreiro e machucou a coluna carregando saco de cimento. Mandou o atestado pelo Atestmed, a análise do INSS feita só com documentos, sem perícia presencial. Dias depois, veio a resposta: benefício negado. O laudo dele era de uma consulta rápida e não dizia por quanto tempo ele precisava ficar afastado.
